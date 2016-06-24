@@ -19,13 +19,18 @@ SubHeading1
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-MapReduce
----------
+MongoDB
+-------
 
 ```javascript
 mongod --dbpath D:\dev\mongodb\data
 mongo
+```
 
+MapReduce
+---------
+
+```javascript
 db.words.save({text:'read a book'});
 db.words.save({text:'write a book'});
 db.words.find();
