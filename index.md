@@ -22,7 +22,7 @@ SubHeading1
 MapReduce
 ---------
 
-```
+```javascript
 mongod --dbpath D:\dev\mongodb\data
 mongo
 
