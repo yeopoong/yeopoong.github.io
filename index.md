@@ -1,14 +1,8 @@
-#test
-#test
-#test
-#test
-#test
-
 Heading
 =======
 
-SubHeading
-----------
+SubHeading1
+-----------
 
   * list item 1
   * list item 2
@@ -24,3 +18,25 @@ SubHeading
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+SubHeading2
+-----------
+
+  * list item 1
+  * list item 2
+
+  This is a hyperlink to [Google](http://google.com).
+
+  Images are like hyperlinks, but with an exclamation mark in front of them:
+
+
+
+SubHeading3
+-----------
+
+  * list item 1
+  * list item 2
+
+  This is a hyperlink to [Google](http://google.com).
+
+  Images are like hyperlinks, but with an exclamation mark in front of them:
