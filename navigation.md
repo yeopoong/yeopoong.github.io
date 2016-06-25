@@ -1,6 +1,5 @@
-# Kyun(index.md)
+# Kyun
 
-[Kyun](index.md)
 [About](about.md)
 [Download](download.md)
 [gimmick:themechooser](Choose theme)
