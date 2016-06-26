@@ -12,7 +12,7 @@
 
 [FullStack]()
 
-  * # Node.js
   * [Node.js](nodejs.md)
 
 [gimmick:themechooser](Choose theme)
+[gimmick:theme (inverse: true)](bootstrap)

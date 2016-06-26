@@ -12,12 +12,19 @@ SubHeading1
   Images are like hyperlinks, but with an exclamation mark in front of them:
   ![](http://placekitten.com/g/250/250)
 
+  note: test
+
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+
+[gimmick:googlemaps](Madison Square Garden, NY)
+
+[gimmick:yuml]( [HttpContext]uses -.->[Response] )
 
 MongoDB
 -------
