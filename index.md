@@ -26,6 +26,8 @@ SubHeading1
 
 [gimmick:yuml]( [HttpContext]uses -.->[Response] )
 
+[gimmick:yuml]([User|+Forename+;Surname;+HashedPassword;-Salt|+Login();+Logout()])
+
 MongoDB
 -------
 

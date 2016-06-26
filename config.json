@@ -2,5 +2,6 @@
     "useSideMenu": true,
     "lineBreaks": "gfm",
     "additionalFooterText": "All content and images &copy; by Kyun, ",
-    "anchorCharacter": "&#x2693;"
+    "anchorCharacter": "&#x2693;",
+    "title": "KISS(Keep It Simple & Stupid)"
 }
