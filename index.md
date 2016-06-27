@@ -22,11 +22,11 @@ SubHeading1
 | zebra stripes | are neat      |    $1 |
 
 
-[gimmick:googlemaps](Madison Square Garden, NY)
+[gimmick:googlemaps(maptype: 'satellite', zoom: 17)](Colloseum, Rome, Italy)
 
 [gimmick:yuml]( [HttpContext]uses -.->[Response] )
 
-[gimmick:yuml]([User|+Forename+;Surname;+HashedPassword;-Salt|+Login();+Logout()])
+[gimmick:yuml (type: 'activity', style: 'plain') ]( `Make Coffee´->`want more coffee´ )
 
 MongoDB
 -------
