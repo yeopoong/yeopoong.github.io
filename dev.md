@@ -13,9 +13,9 @@ http://jenkins-ci.org/
 # java -jar jenkins.war --httpPort=5000
 ```
 
-http://호스트:5000/ 
+`http://호스트:5000/`로 접근해서 확인해 보자! 
 
-Example
+SonarQube
 ---------
 
 ```javascript
