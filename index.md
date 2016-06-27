@@ -9,9 +9,6 @@ SubHeading1
 
   This is a hyperlink to [Google](http://google.com).
 
-  Images are like hyperlinks, but with an exclamation mark in front of them:
-  ![](http://placekitten.com/g/250/250)
-
   note: test
 
 
@@ -22,21 +19,12 @@ SubHeading1
 | zebra stripes | are neat      |    $1 |
 
 
-UML
----
-
-[gimmick:googlemaps(maptype: 'satellite', zoom: 17)](Colloseum, Rome, Italy)
-
-[gimmick:yuml]( [HttpContext]uses -.->[Response] )
-
-[gimmick:yuml (type: 'activity', style: 'plain') ]( `Make Coffee´->`want more coffee´ )
-
 ---
 
 SNS
 ---
 
-[gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com)
+[gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com/yeopoong)
 [gimmick:ForkMeOnGitHub](http://www.github.com/Dynalon/mdwiki)
 [gimmick:TwitterFollow](@timodoerr)
   
