@@ -25,6 +25,4 @@ SNS
 ---
 
 [gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com/yeopoong)
-[gimmick:ForkMeOnGitHub](http://www.github.com/Dynalon/mdwiki)
-[gimmick:TwitterFollow](@timodoerr)
   
