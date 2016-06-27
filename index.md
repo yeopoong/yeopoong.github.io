@@ -22,32 +22,20 @@ SubHeading1
 | zebra stripes | are neat      |    $1 |
 
 
+UML
+---
+
 [gimmick:googlemaps(maptype: 'satellite', zoom: 17)](Colloseum, Rome, Italy)
 
 [gimmick:yuml]( [HttpContext]uses -.->[Response] )
 
 [gimmick:yuml (type: 'activity', style: 'plain') ]( `Make Coffee´->`want more coffee´ )
 
-MongoDB
--------
 
-```javascript
-mongod --dbpath D:\dev\mongodb\data
-mongo
-```
+SNS
+---
 
-MapReduce
----------
-
-```javascript
-db.words.save({text:'read a book'});
-db.words.save({text:'write a book'});
-db.words.find();
-
-map = function() { var res = this.text.split(' '); for (var i in res) { key = {word:res[i]}; value = {count:1}; emit(key, value); } }
-reduce = function(key, values) { var totalcount = 0; for (var i in values) { totalcount = values[i].count + totalcount; } return {count:totalcount}; }
-
-db.words.mapReduce(map, reduce, "wordcount");
-db.wordcount.find();
-```
+[gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com)
+[gimmick:ForkMeOnGitHub](http://www.github.com/Dynalon/mdwiki)
+[gimmick:TwitterFollow](@timodoerr)
   
