@@ -16,7 +16,7 @@
   * [개발PC](local.md)
   - - - -
   * # 개발서버환경
-  * [개발환경](dev.md)
+  * [개발서버](dev.md)
 
 [FullStack]()
 
