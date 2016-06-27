@@ -31,6 +31,7 @@ UML
 
 [gimmick:yuml (type: 'activity', style: 'plain') ]( `Make Coffee´->`want more coffee´ )
 
+---
 
 SNS
 ---
