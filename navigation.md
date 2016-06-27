@@ -12,11 +12,11 @@
 
 [DevOps]()
 
-  * # Cloud
-  * [개발환경](dev.md)
+  * # 로컬환경
+  * [개발PC](local.md)
   - - - -
-  * # NOSQL
-  * [MongoDB](mongodb.md)
+  * # 개발서버환경
+  * [개발환경](dev.md)
 
 [FullStack]()
 
