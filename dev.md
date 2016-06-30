@@ -15,6 +15,24 @@ http://jenkins-ci.org/
 
 `http://호스트:5000/`로 접근해서 확인해 보자! 
 
+### 플러그인 설치
+ * Git plugin
+ * Deploy to container Plugin
+ * SonarQube Plugin
+
+### 시스템 설정 
+ * SonarQube servers 
+ >`Name`: SonarQube5.5  
+ >`Server URL`: http://192.168.0.52:9000/
+ * JDK 
+ >`Name`: java1.8  
+ >`JAVA_HOME`: /usr/lib/jvm/jre-1.8.0
+ * Git 
+ >`Path to Git executable`: /usr/bin/git
+ * Maven
+ >`Name`: maven  
+ >`MAVEN_HOME`: /user/share/maven 
+
 
 SonarQube
 ---------
