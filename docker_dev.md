@@ -75,7 +75,7 @@ CMD ["/usr/sbin/sshd","-D"]
 
 >$ docker exec jenkins su - jenkins -c "java -jar jenkins.war --httpPort=5000"
 
-note export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
+note: export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
 
 
 SonarQube
