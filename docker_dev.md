@@ -140,7 +140,6 @@ EXPOSE 22
 EXPOSE 8081
 
 CMD ["/usr/sbin/sshd","-D"]
-CMD ["/home/nexus/nexus/bin/nexus start","-D"]
 ```
 
 >$ docker build -f nexusDockerfile -t nexus .
