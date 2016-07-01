@@ -23,9 +23,9 @@ RUN su - tomcat -c "tar zxvf /home/tomcat/tomcat8.tar.gz"
 RUN su - tomcat -c "mv apache-tomcat-8.0.35 tomcat8"
 RUN su - tomcat -c "rm -f /home/tomcat/tomcat8.tar.gz"
 
-RUN sed -i '/\/tomcat-users/i<role rolename="manager">' /home/tomcat/tomcat8/conf/tomcat-users.xml
-RUN sed -i '/\/tomcat-users/i<user username="tomcat" password="cloud3336" roles="manager"/> ' /home/tomcat/tomcat8/conf/tomcat-users.xml
-RUN sed -i '/\/tomcat-users/i</role>' /home/tomcat/tomcat8/conf/tomcat-users.xml
+RUN sed -i '/\/tomcat-users/i<role rolename="manager-gui"/>' /home/tomcat/tomcat8/conf/tomcat-users.xml
+RUN sed -i '/\/tomcat-users/i<role rolename="manager-script"/>' /home/tomcat/tomcat8/conf/tomcat-users.xml
+RUN sed -i '/\/tomcat-users/i<user username="tomcat" password="cloud3336" roles="manager-gui, manager-script"/> ' /home/tomcat/tomcat8/conf/tomcat-users.xml
 
 EXPOSE 22
 EXPOSE 8080
@@ -52,7 +52,7 @@ Jenkins
 FROM docker.io/centos:latest
 MAINTAINER  kyun <kyun@t3q.com>
 
-RUN yum install -y java-1.8.0-openjdk net-tools wget openssh-server
+RUN yum install -y java-1.8.0-openjdk-devel net-tools wget openssh-server unzip
 RUN ssh-keygen -A
 RUN echo "root:cloud3336" | chpasswd
 
@@ -71,9 +71,11 @@ CMD ["/usr/sbin/sshd","-D"]
 
 ### run
 
->$ docker run -itd --name jenkins -p 5000:5000 jenkins
+>$ docker run -itd --name jenkins -p 5000:5000 --link tomcat:tomcat --link sonar:sonar --link nexus:nexus jenkins
 
 >$ docker exec jenkins su - jenkins -c "java -jar jenkins.war --httpPort=5000"
+
+note export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
 
 
 SonarQube

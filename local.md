@@ -4,40 +4,6 @@
 Nexus 
 -----
 
-Private library repository 를 사용하기 위해서 Nexus를 설정한다.
-
-### Nexus 서버 설정
-* Nexus 서버에 접속한다.
-    * [http://localhost:8080/nexus](http://localhost:8080/nexus/#welcome) 
-* admin/admin123 으로 로그인한다.
-* 좌측 메뉴에서 Repositories를 클릭하고 우측목록화면에서 Central Repository를 선택한다.
-* Configuration 탭에서 Download Remote Indexes를 True로 변경한 후 저장한다.
-
-### Maven repository 설정
-Nexus 서버의 접근권한을 설정하기 위해서 maven 설정파일인 setting.xml에 다음의 내용을 추가한다.
-
-```
-<servers>
-...
-    <server>
-      <id>releases</id>
-      <username>deployment</username>
-      <password>deployment123</password>
-    </server>  
-    <server>
-      <id>snapshots</id>
-      <username>deployment</username>
-      <password>deployment123</password>
-    </server>  
-    <server>
-      <id>thirdparty</id>
-      <username>deployment</username>
-      <password>deployment123</password>
-    </server>
-...
-</servers>
-```
-
 Maven Central 레포지토리 대신에 Nexus 서버를 프록시 서버로 사용하도록 다음의 설정을 pom.xml 에 추가한다.
 
 ```
