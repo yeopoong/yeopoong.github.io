@@ -29,5 +29,9 @@
 
   * [Node.js](nodejs.md)
 
+[Tools]()
+
+  * [Git](git.md)
+
 [gimmick:themechooser](Choose theme)
 [gimmick:theme (inverse: true)](bootstrap)
