@@ -29,9 +29,13 @@
 
   * [Node.js](nodejs.md)
 
+[Language]()
+
+  * [Go](go.md)
+
 [Tools]()
 
   * [Git](git.md)
 
 [gimmick:themechooser](Choose theme)
-[gimmick:theme (inverse: true)](bootstrap)
+[gimmick:theme (inverse: true)](default)
