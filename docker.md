@@ -32,14 +32,22 @@ Docker 명령어
 
 >$ docker pull python:2.7
 
+### run
+
+>$ docker run -i -t ubuntu echo Hello World!
+
 
 ### start
 
->$ docker start [-i] [-a] <contailner>
+>$ docker start [-i] [-a] <container>
 
 ### stop
 
->$ docker stop <contailner>
+>$ docker stop <container>
+
+### exec
+
+>$ docker exec -it <container> bash
 
 
 Build
