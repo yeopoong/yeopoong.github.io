@@ -34,7 +34,11 @@ Docker 명령어
 
 ### run
 
->$ docker run -i -t ubuntu echo Hello World!
+>$ docker run -i -t -d ubuntu echo Hello World!
+
+* -d, --detach : 컨테이너를 백그라운드에서 실행
+* -i, --interactive : 컨테이너가 실행된 이후에도 컨테이너와 연결된 표준 입력을 유지
+* -t, --tty : 가상 터미널을 활성화하며 컨테이너의 터미널로 직접 연결할 때 사용 
 
 
 ### start
