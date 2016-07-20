@@ -81,6 +81,7 @@ The key's randomart image is:
 
 생성된 인증키를 복사한다.
 >$ cat ~/.ssh/id_rsa.pub 
+
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+gWxSuodH7OWay1HRqxG6vdoDuFsb9arRQ4RijdkdlsicisicNNJzz53II7BCNHdLs/5KEBxxdvhghjgtFMcJW1vtBXVT1LLg7HieSTfRiTdNAcR81VbtLNvxaSjhfMgacsnTY4Zc0VMMqIj7QBbDgXDQRUXVsIi8ql8yREVXdCtHngfgZqAjpyGLHPEyR3qSQqsimMpZ65WesLdwmtWbvXo6SRvu/mVc57CRqrA6riT0RfxDGpAkg8j/pkmM+Jdf+l6CPvNNIPSPdqVb9OyWatKtt+/31oFpk/yXZLOo2lkFhW+fwwc0UAy4D6tEB00Q6v2cCSefocHV0J7z5EBv kyun@kyun
 ```
@@ -89,6 +90,7 @@ GitHub 사용자 계정에 접속하여 `New SSH key` 를 클릭한다.
 https://github.com/settings/keys
 
 다음과 같이 `Title` 과 `Key` 정보를 입력하고 `Add SSH key` 버튼을 클릭한다.
+
 ![](image/add_ssh_key.png)
 
 
