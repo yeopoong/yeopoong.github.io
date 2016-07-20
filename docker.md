@@ -53,6 +53,9 @@ Docker 명령어
 
 >$ docker exec -it <container> bash
 
+### rm
+docker rm $(docker ps -a -q)
+
 
 Build
 -----

@@ -52,7 +52,7 @@ Jenkins
 FROM docker.io/centos:latest
 MAINTAINER  kyun <kyun@t3q.com>
 
-RUN yum install -y java-1.8.0-openjdk net-tools wget openssh-server git maven
+RUN yum install -y java-1.8.0-openjdk-devel net-tools wget openssh-server git maven
 RUN ssh-keygen -A
 RUN echo "root:cloud3336" | chpasswd
 
