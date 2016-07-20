@@ -89,7 +89,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+gWxSuodH7OWay1HRqxG6vdoDuFsb9arRQ4Rijdkd
 GitHub 사용자 계정에 접속하여 `New SSH key` 를 클릭한다.
 https://github.com/settings/keys
 
-다음과 같이 `Title` 과 `Key` 정보를 입력하고 `Add SSH key` 버튼을 클릭한다.
+다음과 같이 `Title` 과 `Key` 정보를 입력하고 `Add SSH key` 버튼을 클릭한다.  
 
 ![](image/add_ssh_key.png)
 
