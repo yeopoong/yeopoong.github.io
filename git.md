@@ -4,11 +4,10 @@ Git
 Intro
 -----
 
-### 개념
-  * 로컬저장소
-  * 작업트리
-  * 스테이징
-  * 원격저장소
+### 로컬저장소 구성
+  * Working directory -> 작업트리
+  * Index -> 스테이징
+  * HEAD -> commit
 
 기본명령어 
 ---------
@@ -20,6 +19,8 @@ Intro
 ### 저장소 생성
 
 >$ git init 
+
+>$ git clone git@github.com:yeopoong/yeopoong.github.io.git
 
 ### Indexing 
 
