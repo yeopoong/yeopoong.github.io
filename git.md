@@ -69,8 +69,8 @@ The key's randomart image is:
 |+..  ..+=.       |
 | =ooE..=..    +  |
 |+o+.o+= o.   + . |
-|.+o.oo++..o o    |
-|.o o.oo+S+ o     |
+|.+o.oo++..o +    |
+|.o o.oo+S+ +     |
 |. . o ..+ o      |
 | . . . o . .     |
 |o .   o          |
@@ -92,7 +92,7 @@ https://github.com/settings/keys
 
 >$ ssh -T git@github.com 
 ```
-Hi t3q-kyun! You've successfully authenticated, but GitHub does not provide shell access.
+Hi yeopoong! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 >$ git init
