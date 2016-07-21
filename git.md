@@ -80,6 +80,8 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
+>$ eval $(ssh-agent -s)
+
 생성된 인증키를 복사한다.
 >$ cat ~/.ssh/id_rsa.pub 
 
