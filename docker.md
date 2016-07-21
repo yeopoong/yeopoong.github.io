@@ -39,7 +39,7 @@ Docker 명령어
 * -d, --detach : 컨테이너를 백그라운드에서 실행
 * -i, --interactive : 컨테이너가 실행된 이후에도 컨테이너와 연결된 표준 입력을 유지
 * -t, --tty : 가상 터미널을 활성화하며 컨테이너의 터미널로 직접 연결할 때 사용 
-
+* -rm : 멈춰지면 삭제되는 일시적인 컨테이너를 생성한다. 
 
 ### start
 
@@ -53,14 +53,42 @@ Docker 명령어
 
 >$ docker exec -it <container> bash
 
+### attach
+
+>$ docker attach <container> 
+
+### ps
+
+>$ docker ps -a 
+
 ### rm
-docker rm $(docker ps -a -q)
+
+>$ docker rm $(docker ps -aq)
+
+### rmi
+
+>$ docker rmi -f $(docker images -q)
+>$ docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+>$ docker rmi `docker images -f dangling=true -q`
+
+### logs
+
+>$ docker logs <container> 
+
+### inspect
+
+>$ docker inspect <container> 
+
+### top
+
+>$ docker top <container> 
+
 
 
 Build
 -----
 
-`Dockerfile`
+`Dockerfile` : Docker Domain Specific Language
 ```
 FROM ubuntu:14.04
 MAINTAINER kyun

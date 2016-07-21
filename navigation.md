@@ -35,6 +35,7 @@
 [Language]()
 
   * [Go](go.md)
+  * [Shell](shell.md)
 
 [Tools]()
 

@@ -18,9 +18,9 @@ RUN echo "root:cloud3336" | chpasswd
 RUN adduser tomcat
 RUN echo "tomcat:cloud3336" | chpasswd
 
-RUN su - tomcat -c "wget http://mirror.navercorp.com/apache/tomcat/tomcat-8/v8.0.35/bin/apache-tomcat-8.0.35.tar.gz -O /home/tomcat/tomcat8.tar.gz"
+RUN su - tomcat -c "wget http://mirror.navercorp.com/apache/tomcat/tomcat-8/v8.0.36/bin/apache-tomcat-8.0.36.tar.gz -O /home/tomcat/tomcat8.tar.gz"
 RUN su - tomcat -c "tar zxvf /home/tomcat/tomcat8.tar.gz"
-RUN su - tomcat -c "mv apache-tomcat-8.0.35 tomcat8"
+RUN su - tomcat -c "mv apache-tomcat-8.0.36 tomcat8"
 RUN su - tomcat -c "rm -f /home/tomcat/tomcat8.tar.gz"
 
 RUN sed -i '/\/tomcat-users/i<role rolename="manager-gui"/>' /home/tomcat/tomcat8/conf/tomcat-users.xml
@@ -41,87 +41,6 @@ CMD ["/usr/sbin/sshd","-D"]
 >$ docker run -itd --name tomcat -p 8080:8080 tomcat
 
 >$ docker exec tomcat su - tomcat -c "/home/tomcat/tomcat8/bin/startup.sh"
-
-Jenkins
--------
-
-### build
-
-`Dockerfile`
-```
-FROM docker.io/centos:latest
-MAINTAINER  kyun <kyun@t3q.com>
-
-RUN yum install -y java-1.8.0-openjdk-devel net-tools wget openssh-server git maven
-RUN ssh-keygen -A
-RUN echo "root:cloud3336" | chpasswd
-
-RUN adduser jenkins
-RUN echo "jenkins:clou3336" | chpasswd
-RUN su - jenkins -c "wget http://mirrors.jenkins-ci.org/war-stable/latest/jenkins.war -O /home/jenkins/jenkins.war"
-
-EXPOSE 22
-EXPOSE 5000
-
-CMD ["/usr/sbin/sshd","-D"]
-```
-
->$ docker build -f jenkinsDockerfile -t jenkins .
-
-
-### run
-
->$ docker run -itd --name jenkins -p 5000:5000 --link tomcat:tomcat --link sonar:sonar --link nexus:nexus jenkins
-
->$ docker exec jenkins su - jenkins -c "java -jar jenkins.war --httpPort=5000"
-
-note: export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
-
-### Maven repository 설정
-
-다음 명령으로 jenkins 컨테이너 IP 주소를 확인한다.
->$ docker inspect jenkins
-
-SSH 로 jenkins 컨테이너에 접속한다.
->$ ssh xxx.xxx.xxx.xxx 
-
-Nexus 서버의 접근권한을 설정하기 위해서 maven 설정파일인 `/usr/share/maven/conf/setting.xml`에 다음의 내용을 추가한다.
-
-```
-<servers>
-...
-    <server>
-      <id>releases</id>
-      <username>deployment</username>
-      <password>deployment123</password>
-    </server>  
-    <server>
-      <id>snapshots</id>
-      <username>deployment</username>
-      <password>deployment123</password>
-    </server>  
-    <server>
-      <id>thirdparty</id>
-      <username>deployment</username>
-      <password>deployment123</password>
-    </server>
-...
-</servers>
-```
-
-### 플러그인 설치
- * Git plugin
- * Deploy to container Plugin
-
-### 시스템 설정 
- * JDK 
- >`Name`: java1.8  
- >`JAVA_HOME`: /usr/lib/jvm/java-1.8.0-openjdk
- * Git 
- >`Path to Git executable`: /usr/bin/git
- * Maven
- >`Name`: maven  
- >`MAVEN_HOME`: /user/share/maven 
 
 
 SonarQube
@@ -208,3 +127,85 @@ Private library repository 를 사용하기 위해서 Nexus를 설정한다.
 * admin/admin123 으로 로그인한다.
 * 좌측 메뉴에서 Repositories를 클릭하고 우측목록화면에서 Central Repository를 선택한다.
 * Configuration 탭에서 Download Remote Indexes를 True로 변경한 후 저장한다.
+
+
+Jenkins
+-------
+
+### build
+
+`Dockerfile`  
+```
+FROM docker.io/centos:latest
+MAINTAINER  kyun <kyun@t3q.com>
+
+RUN yum install -y java-1.8.0-openjdk-devel net-tools wget openssh-server git maven
+RUN ssh-keygen -A
+RUN echo "root:cloud3336" | chpasswd
+
+RUN adduser jenkins
+RUN echo "jenkins:clou3336" | chpasswd
+RUN su - jenkins -c "wget http://mirrors.jenkins-ci.org/war-stable/latest/jenkins.war -O /home/jenkins/jenkins.war"
+
+EXPOSE 22
+EXPOSE 5000
+
+CMD ["/usr/sbin/sshd","-D"]
+```
+
+>$ docker build -f jenkinsDockerfile -t jenkins .
+
+
+### run
+
+>$ docker run -itd --name jenkins -p 5000:5000 --link tomcat:tomcat --link sonar:sonar --link nexus:nexus jenkins
+
+>$ docker exec jenkins su - jenkins -c "java -jar jenkins.war --httpPort=5000"
+
+note: export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
+
+### Maven repository 설정
+
+다음 명령으로 jenkins 컨테이너 IP 주소를 확인한다.
+>$ docker inspect jenkins
+
+SSH 로 jenkins 컨테이너에 접속한다.
+>$ ssh xxx.xxx.xxx.xxx 
+
+Nexus 서버의 접근권한을 설정하기 위해서 maven 설정파일인 `/usr/share/maven/conf/setting.xml`에 다음의 내용을 추가한다.
+
+```
+<servers>
+...
+    <server>
+      <id>releases</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+    </server>  
+    <server>
+      <id>snapshots</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+    </server>  
+    <server>
+      <id>thirdparty</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+    </server>
+...
+</servers>
+```
+
+### 플러그인 설치
+ * Git plugin
+ * Deploy to container Plugin
+
+### 시스템 설정 
+ * JDK 
+ >`Name`: java1.8  
+ >`JAVA_HOME`: /usr/lib/jvm/java-1.8.0-openjdk
+ * Git 
+ >`Path to Git executable`: /usr/bin/git
+ * Maven
+ >`Name`: maven  
+ >`MAVEN_HOME`: /user/share/maven 
