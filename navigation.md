@@ -16,6 +16,9 @@
   - - - -
   * # Hadoop
   * [Hadoop](hadoop.md)
+  - - - -
+  * # Infrastructure as Code
+  * [Chef](chef.md)
 
 [DevOps]()
 

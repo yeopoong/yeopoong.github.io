@@ -53,7 +53,7 @@ GitHub
 ### New SSH key
 
 SSH 키를 생성한다.
->$ ssh-keygen
+>$ ssh-keygen -t rsa
 
 ```
 Generating public/private rsa key pair.
