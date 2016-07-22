@@ -4,7 +4,9 @@ Chef Solo
 Chef 설치 
 ---------
 
->$ curl -L http://www.opscode.com/chef/install.sh | sudo bash
+```
+$ curl -L http://www.opscode.com/chef/install.sh | sudo bash`
+```
 
 쿡북 생성
 --------
