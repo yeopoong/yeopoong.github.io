@@ -10,7 +10,9 @@ Amazon Linux
 
 ### EC2 인스턴스 접속
 
-> $ ssh -i ~/.ssh/awskeypair.pem ec2-user@52.78.20.2
+```
+$ ssh -i ~/.ssh/awskeypair.pem ec2-user@52.78.20.2
+```
 
 
 
