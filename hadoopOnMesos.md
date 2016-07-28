@@ -1,31 +1,50 @@
-Apache Mesos
-============
+Hadoop on Mesos
+===============
 
 Install
 -------
 
-### VirtualBox
-
-`https://www.virtualbox.org/wiki/Downloads`
-
 ### Vagrant
 
-`https://www.vagrantup.com/downloads.html`
+```
+$ vagrant init precise32 http://files.vagrantup.com/precise32.box 
+$ vagrant up
+```
+
+### Tools
+
+```
+$ sudo apt-get install unzip
+$ sudo apt-get install curl
+```
+
+### JDK
+
+```
+$ sudo apt-get install software-properties-common
+OR
+$ sudo apt-get install python-software-properties
+$ sudo apt-get update
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+$ java -version 
+$ sudo apt-get install oracle-java8-set-default
+```
 
 ---
 
-Mesos Install
--------------
-
-### Project 
+Build HDFS
+----------
 
 ```
-$ git clone https://github.com/mesosphere/playa-mesos.git 
-$ cd playa-mesos
+$ wget https://github.com/mesosphere/hdfs/archive/0.1.5.tar.gz 
+$ tar zxvf 0.1.5.tar.gz
 ```
 
 ```
-$ bin/test 
+$ cd hdfs-0.1.5
+$ ./bin/build-hdfs
 ```
 
 ```
