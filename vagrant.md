@@ -24,7 +24,8 @@ $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
 ```
 
-note: sudo apt-get install software-properties-common
+note: 
+$ sudo apt-get install software-properties-common
 
 ### init & up
 
