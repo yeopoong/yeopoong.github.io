@@ -43,6 +43,7 @@
 [Language]()
 
   * [Go](go.md)
+  * [Python](https://yeopoong.github.io/python)
   * [Shell](shell.md)
 
 [Tools]()
