@@ -1,4 +1,4 @@
-# Keep It Simple & Stupid
+# Keep It Simple & Small
 
 [About](about.md)
 
