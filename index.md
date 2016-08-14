@@ -1,28 +1,24 @@
-Heading
-=======
+Smart Company
+=============
 
-SubHeading1
------------
+Smart Work
+----------
 
-  * list item 1
-  * list item 2
+* DevOps
+* Cloud
+* Micro Service 
 
-  This is a hyperlink to [Google](http://google.com).
+Smart Way
+---------
 
-  note: test
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
+* Simple
+* Small
+* Speed
 
 ---
 
 SNS
 ---
 
-[gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com/yeopoong)
+[gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com/yeopoong)  
 [gimmick:TwitterFollow](@yeopoong)  
