@@ -1,10 +1,10 @@
 Go
-==
+===
 
 설치 및 환결설정
 ---------------
 
-### install
+### Install
 
 ```
 $ wget https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz  
@@ -27,7 +27,7 @@ $ go env
 export GOROOT=$HOME/go 
 ```
 
-tip: 설치 경로가 /usr/local/go 또는 C:\Go 라면 GOROOT를 설정할 필요가 없다
+Tip: 설치 경로가 /usr/local/go 또는 C:\Go 라면 GOROOT를 설정할 필요가 없다
 
 ### GOPATH 설정
 
