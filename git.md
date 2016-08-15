@@ -14,21 +14,31 @@ Intro
 
 ### 환경설정
 
->$ git config --global --list 
+```
+$ git config --global --list 
+```
 
 ### 저장소 생성
 
->$ git init 
+```
+$ git init 
+```
 
->$ git clone git@github.com:yeopoong/yeopoong.github.io.git
+```
+$ git clone git@github.com:yeopoong/yeopoong.github.io.git
+```
 
 ### Indexing 
 
->$ git add finaname 
+```
+$ git add finaname 
+```
 
 ### Commit 
 
->$ git commit -m "commit message" 
+```
+$ git commit -m "commit message" 
+```
 
 
 원격저장소
@@ -36,15 +46,21 @@ Intro
 
 ### 원격저장소 추가
 
->$ git remote add origin 저장소
+```
+$ git remote add origin 저장소
+```
 
 ### Pull 
 
->$ git pull origin master 
+```
+$ git pull origin master 
+```
 
 ### Push 
 
->$ git push origin master 
+```
+$ git push origin master 
+```
 
 
 GitHub
@@ -53,7 +69,9 @@ GitHub
 ### New SSH key
 
 SSH 키를 생성한다.
->$ ssh-keygen -t rsa
+```
+$ ssh-keygen -t rsa
+```
 
 ```
 Generating public/private rsa key pair.
@@ -80,10 +98,14 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
->$ eval $(ssh-agent -s)
+```
+$ eval $(ssh-agent -s)
+```
 
 생성된 인증키를 복사한다.
->$ cat ~/.ssh/id_rsa.pub 
+```
+$ cat ~/.ssh/id_rsa.pub 
+```
 
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+gWxSuodH7OWay1HRqxG6vdoDuFsb9arRQ4RijdkdlsicisicNNJzz53II7BCNHdLs/5KEBxxdvhghjgtFMcJW1vtBXVT1LLg7HieSTfRiTdNAcR81VbtLNvxaSjhfMgacsnTY4Zc0VMMqIj7QBbDgXDQRUXVsIi8ql8yREVXdCtHngfgZqAjpyGLHPEyR3qSQqsimMpZ65WesLdwmtWbvXo6SRvu/mVc57CRqrA6riT0RfxDGpAkg8j/pkmM+Jdf+l6CPvNNIPSPdqVb9OyWatKtt+/31oFpk/yXZLOo2lkFhW+fwwc0UAy4D6tEB00Q6v2cCSefocHV0J7z5EBv kyun@kyun
@@ -98,15 +120,21 @@ https://github.com/settings/keys
 
 
 터미널에서 다음의 명령으로 정상 동작을 확인한다.
->$ ssh -T git@github.com 
+```
+$ ssh -T git@github.com 
+```
 ```
 Hi yeopoong! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 저장소를 초기화하고 원격저장소를 등록한다.
->$ git init  
->$ git remote add origin git@github.com:yeopoong/basic.git
+```
+$ git init  
+$ git remote add origin git@github.com:yeopoong/basic.git
+```
 
 사용자 정보를 등록한다.
->$ git config user.name "yeopoong"  
->$ git config user.email "yeopoong@gmail.com"
+```
+$ git config user.name "yeopoong"  
+$ git config user.email "yeopoong@gmail.com"
+```
