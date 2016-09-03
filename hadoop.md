@@ -156,7 +156,7 @@ $ ./bin/start-all.sh
 
 하둡 클러스터 노드 확인
 ```
-$ ./bin/hadoop dfsadmin -reporth
+$ ./bin/hadoop dfsadmin -report
 ```
 
 ---
