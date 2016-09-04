@@ -32,6 +32,16 @@ $ vagrant init precise64
   config.vm.network "private_network", ip: "192.168.33.10"
 ```
 
+브리지 모드로 시작하기  
+`Vagrantfile`
+```
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  # config.vm.network "public_network"
+  config.vm.network "public_network", bridge: "eth0"
+```
+
 ### up
 
 ```
