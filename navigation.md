@@ -22,7 +22,11 @@
   * [MongoDB](mongodb.md)
   - - - -
   * # Hadoop
-  * [Hadoop](hadoop.md)
+  * [Hadoop Install](hadoop_install.md)
+  * [Hbase](hbase.md)
+  - - - -
+  * # Hadoop
+  * [Hbase to Hive](hbase_to_hive.md)
 
 [DevOps]()
 
