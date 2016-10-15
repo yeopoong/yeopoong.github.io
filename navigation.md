@@ -1,4 +1,4 @@
-# Keep It Simple & Stupid
+# Keep It Simple & Small
 
 [About](about.md)
 
@@ -9,8 +9,13 @@
   - - - -
   * # Docker
   * [Docker](docker.md)
-  * [개발환경](docker_dev.md)
-  
+  * [Dev Environment](https://yeopoong.github.io/docker)
+  * [Apache Mesos](mesos.md)
+  * [Hadoop on Mesos](hadoopOnMesos.md)
+  - - - -
+  * # Infrastructure as Code
+  * [Chef](chef.md)
+
 [BigData]()
 
   * # NOSQL
@@ -27,8 +32,13 @@
   * # 개발서버환경
   * [개발서버](dev.md)
   - - - -
+  * # Vagrant 
+  * [Vagrant](vagrant.md)
+  - - - -
   * # Chef 
   * [Chef Solo](chef.md)
+  * # Build 
+  * [Maven](maven.md)
 
 [FullStack]()
 
@@ -37,6 +47,8 @@
 [Language]()
 
   * [Go](go.md)
+  * [Python](https://yeopoong.github.io/python)
+  * [Shell](shell.md)
 
 [Tools]()
 
