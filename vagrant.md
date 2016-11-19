@@ -80,6 +80,12 @@ VERSION_ID="12.04"
 $ vagrant box list 
 ```
 
+### halt 
+
+```
+$ vagrant halt
+```
+
 ---
 
 JDK Install 
