@@ -28,8 +28,7 @@ Docker 명령어
 
 >$ docker search python | less
 
-### pull
-
+### pull+-
 >$ docker pull python:2.7
 
 ### run
@@ -42,6 +41,7 @@ Docker 명령어
 * -rm : 멈춰지면 삭제되는 일시적인 컨테이너를 생성한다. 
 
 ### start
+
 
 >$ docker start [-i] [-a] <container>
 
