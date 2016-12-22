@@ -1,12 +1,46 @@
 MongoDB
 =======
 
-설치 및 실행 
------------
+Install MongoDB for Windows. 
+----------------------------
 
-```javascript
-mongod --dbpath D:\dev\mongodb\data
+MongoDB 사이트에서 바이너리 버전을 다운로드 받고 압축을 푼다.
+* http://downloads.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.4.1.zip
+
+
+```
+D:\dev\mongodb
+```
+
+Set up the MongoDB environment.
+------------------------------
+
+데이터 디렉토리를 생성한다.
+
+```
+cd D:\dev\mongodb
+mkdir data\db
+```
+
+Start MongoDB
+-------------
+
+```
+mongod --dbpath D:\dev\mongodb\data --rest
+```
+
+Connect to MongoDB
+------------------
+
+```
 mongo
+```
+
+Connect to Monitoring Web 
+-------------------------
+
+```
+http://localhost:28017/
 ```
 
 MapReduce
