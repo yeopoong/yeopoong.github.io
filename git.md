@@ -138,3 +138,9 @@ $ git remote add origin git@github.com:yeopoong/basic.git
 $ git config user.name "yeopoong"  
 $ git config user.email "yeopoong@gmail.com"
 ```
+
+### 전역설정 
+```
+$ git config --global user.name "yeopoong"  
+$ git config user.email "yeopoong@gmail.com"
+```
