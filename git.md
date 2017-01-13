@@ -44,10 +44,23 @@ $ git commit -m "commit message"
 원격저장소
 ---------
 
-### 원격저장소 추가
+### 원격저장소 보기
+
+```
+$ git remote -v 
+$ git remote show origin 
+```
+
+### 원격저장소 삭제
 
 ```
 $ git remote add origin 저장소
+```
+
+### 원격저장소 삭제
+
+```
+$ git remote rm origin
 ```
 
 ### Pull 
