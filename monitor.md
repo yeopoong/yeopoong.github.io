@@ -7,14 +7,14 @@ Spring MVC
 * jQuery
 * jqGrid
 
+
 Grafana
 -------
 
 * Dashboard
+* 시계열 데이터를 보여주는 데 최적화된 대시보드
+* Angularjs 기반
 
-```
-$ apt-get install ansible 
-```
 
 Redis
 -----
@@ -22,6 +22,7 @@ Redis
 * in-memory data structure store
 
 * Dashboard Data Cache
+
 
 Kafka
 -----
