@@ -58,5 +58,4 @@
 
   * [Git](git.md)
 
-[gimmick:themechooser](Choose theme)
 [gimmick:theme (inverse: true)](cyborg)

@@ -4,7 +4,7 @@ HBase
 HBase Intall 
 ------------
 
-HBase download
+### HBase download
 ```
 $ mkdir hbase-install
 $ cd hbase-install
@@ -13,20 +13,20 @@ $ tar xvfz hbase-0.98.24-hadoop1-bin.tar.gz
 $ ln -s ./hbase-install/hbase-0.98.24-hadoop1 hbase
 ```
 
-HBASE_HOME 설정
+### HBASE_HOME 설정
 ```
 $ export HBASE_HOME=`pwd`/hbase
 $ export PATH=$PATH:$HBASE_HOME/bin
 ```
 
-JAVA_HOME 설정
+### JAVA_HOME 설정
 ```
 $ which java
 $ readlink -f /usr/bin/java
 $ export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 ```
 
-HBase 실행
+### HBase 실행
 ```
 $ start-hbase.sh
 $ hbase shell
@@ -47,12 +47,12 @@ HBase table creation
 HBase table export & import
 ---------------------------
 
-## Export
+### Export
 ```
 $ hbase org.apache.hadoop.hbase.mapreduce.Import "table" /home/ndap/test
 ```
 
-## Import
+### Import
 ```
 $ hbase org.apache.hadoop.hbase.mapreduce.Export "table" /home/ndap/test
 ```
