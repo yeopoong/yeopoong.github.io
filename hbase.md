@@ -32,6 +32,12 @@ $ start-hbase.sh
 $ hbase shell
 ```
 
+### HBase 관리콘솔
+
+```
+http://192.168.33.10:60010
+```
+
 
 HBase table creation
 ---------------------
