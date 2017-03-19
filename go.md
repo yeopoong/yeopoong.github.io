@@ -18,6 +18,7 @@ export PATH=/usr/local/go/bin:$PATH
 
 ```
 $ go env 
+$ go version 
 ```
 
 
