@@ -13,8 +13,13 @@ $ $HADOOP_HOME/bin/start-mapred.sh
 
 ### HDFS 관리 페이지
 
+#### NameNode
 ```
 $ http://52.78.23.190:50070/dfshealth.jsp
+```
+
+#### Hadoop Map/Reduce Administration
+```
 $ http://52.78.23.190:50030/jobtracker.jsp
 ```
 

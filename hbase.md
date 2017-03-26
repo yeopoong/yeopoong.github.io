@@ -26,10 +26,12 @@ $ readlink -f /usr/bin/java
 $ export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 ```
 
-### HBase 실행
+### HBase 설정
+
+`/etc/hbase/conf/`
 ```
-$ start-hbase.sh
-$ hbase shell
+$ hbase-env.sh 
+$ hbase-site.xml 
 ```
 
 ### HBase 관리콘솔
@@ -38,13 +40,20 @@ $ hbase shell
 http://192.168.33.10:60010
 ```
 
+### HBase 실행
+```
+$ start-hbase.sh
+$ hbase shell
+```
+
 
 HBase table creation
 ---------------------
 
 ```
-> list
 > create 'table', 'cf'
+> list
+> describe 'table'
 > put 'table', 'row1', 'cf', 'value1'
 > get 'table', 'row1'
 > scan 'table'
