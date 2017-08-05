@@ -50,6 +50,7 @@
 
 [Language]()
 
+  * [Sclal](scala.md)
   * [Go](go.md)
   * [Python](https://yeopoong.github.io/python)
   * [Shell](shell.md)
@@ -58,4 +59,4 @@
 
   * [Git](git.md)
 
-[gimmick:theme (inverse: true)](cyborg)
+[gimmick:theme (inverse: true)](darkly)
