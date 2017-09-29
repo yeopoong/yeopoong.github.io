@@ -1,8 +1,11 @@
 Vagrant
 =======
 
-Vagrant Install 
+Vagrant Install
 ---------------
+
+### Available Boxes
+* [http://www.vagrantbox.es/](http://www.vagrantbox.es/)
 
 ### install
 
@@ -15,20 +18,22 @@ Vagrant Command
 
 ### init
 
+Make Vagrantfile
+
 #### Ubuntu
+
 ```
 $ vagrant init precise64 http://files.vagrantup.com/precise64.box 
 ```
 OR
 ```
-$ vagrant box add precise64 http://files.vagrantup.com/precise64.box 
 $ vagrant init precise64
 ```
 
 #### Centos
 
 ```
-$ vagrant box add centos/7
+$ vagrant init centos/7
 ```
 
 `Vagrantfile`
@@ -47,6 +52,22 @@ $ vagrant box add centos/7
   # your network.
   # config.vm.network "public_network"
   config.vm.network "public_network", bridge: "eth0"
+```
+
+### Box
+
+Base Image of virtual machine
+
+#### Ubuntu
+
+```
+$ vagrant box add precise64 http://files.vagrantup.com/precise64.box 
+```
+
+#### Centos
+
+```
+$ vagrant box add centos/7
 ```
 
 ### up

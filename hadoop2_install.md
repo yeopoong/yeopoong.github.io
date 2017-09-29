@@ -34,25 +34,29 @@ $ cat id_rsa.pub >> authorized_key
 $ chmod 644 authorized_key
 ```
 
-하둡 환경설정 
------------
+하둡 환경설정
+------------
 
 `/etc/profile`
+
 ```shell
-export JAVA_HOME=/usr/lib/jvm/jre 
+export JAVA_HOME=/usr/lib/jvm/jre
 ```
 
 `hadoop/etc/hadoop/masters`
-```
+
+```shell
 hostname
 ```
 
 `hadoop/etc/hadoop/slaves`
-```
+
+```shell
 hostname
 ```
 
 `core-site.xml`
+
 ```xml
 <configuration>
   <property>
@@ -63,6 +67,7 @@ hostname
 ```
 
 `hdfs-site.xml`
+
 ```xml
 <configuration>
   <property>
