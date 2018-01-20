@@ -59,4 +59,6 @@
 
   * [Git](git.md)
 
+[gimmick:themechooser](bootstrap)
+
 [gimmick:theme (inverse: true)](darkly)
