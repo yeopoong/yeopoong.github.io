@@ -114,6 +114,12 @@ $ vagrant box list
 $ vagrant halt
 ```
 
+### ssh-config 
+
+```
+$ vagrant ssh-config
+```
+
 ---
 
 JDK Install 
