@@ -61,4 +61,4 @@
 
 [gimmick:themechooser](bootstrap)
 
-[gimmick:theme (inverse: true)](darkly)
+[gimmick:theme (inverse: true)](slate)
