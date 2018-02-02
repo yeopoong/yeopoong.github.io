@@ -17,15 +17,15 @@ Log Monitoring Architecture
 ## Lambda Architecture
 > 실시간 분석을 지원하는 빅데이터 아키텍처
 
-![](lambda.png)
+![](image/lambda.png)
 
 > 람다 아키텍처에 대한 솔루션 매핑 사례
 
-![](lambda_solution_mapping.png)
+![](image/lambda_solution_mapping.png)
 
 ## Monitoring Architecture(Reference)
 
-<img src="architecture.png" width="850" height="300">
+<img src="image/architecture.png" width="850" height="300">
 
 ## Tech Stack
 
@@ -103,7 +103,7 @@ Master-Slave architecture
 * 첫번째 복제는 원본과 같은 랙에 있는 노드를 선택
 * 두번째와 세번째는 다른 랙에 보관
 
-![](block.png)
+![](image/block.png)
 
 #### Operations
 
@@ -180,7 +180,7 @@ Found 1 items
 ### Map & Reduce 
 
 #### Apache Hadoop NextGen MapReduce (YARN)
-<img src="yarn_architecture.gif" width="700" height="400">
+<img src="image/yarn_architecture.gif" width="700" height="400">
 
 [출처링크] https://hadoop.apache.org/docs/r2.7.1/hadoop-yarn/hadoop-yarn-site/yarn_architecture.gif
 
@@ -210,7 +210,7 @@ Reduce
 
 ### Column Family
 
-![](column_family.png)
+![](image/column_family.png)
 
 1. 이 테이블은 Customer와 Sales 두 개의 컬럼 패밀리를 가지고 있다.
 1. Customer 컬럼 패밀리는 Name과 City 두 개의 컬럼을 가지고 있다.
@@ -219,7 +219,7 @@ Reduce
 
 ### 특징
 
-![](row-key.png)
+![](image/row-key.png)
 
 1. Sparse: HBase는 sparse matrix(희소행렬)방식으로 데이터를 저장 할 수 있다. 예컨데 굳이 모든 필드에 값을 채울 필요가 없다는 얘기다.
 1. Column Oriented: RDBMS는 row 단위로 데이터를 저장한다. 하지만 HBase는 Sparse하기 때문에, 컬럼 단위로 데이터를 읽고 쓸 수 있다.
@@ -229,7 +229,7 @@ Reduce
 
 ### Architecture
 
-<img src="hbase_architecture.jpg" width="700" height="400">
+<img src="image/hbase_architecture.jpg" width="700" height="400">
 
 [출처링크] http://cfile9.uf.tistory.com/image/226CF93C5888775F364474
 
@@ -246,7 +246,7 @@ Reduce
 ### HBase HMaster
 > 각 테이블의 데이터는 HRegionServer가 관리하며, 전체 클러스터는 HMaster가 관리한다.
 
-![](hbase.png)
+![](image/hbase.png)
 
 * 리전 서버들을 조정
   + 리전의 시작을 관리
@@ -256,14 +256,14 @@ Reduce
 
 ### HBase Catalog Tables
 
-![](hbase_meta.png)
+![](image/hbase_meta.png)
 
 * META 테이블
   + 클러스터에 포함된 리전의 위치정보들을 저장
 
 ### Region Server Components 
 
-![](hbase_region_components.png)
+![](image/hbase_region_components.png)
 
 * WAL(Write Ahead Log)
   + 데이터 저장 실패를 복구하기 위해서 사용
@@ -577,7 +577,7 @@ public class PhoenixExample {
 
 ### ZooKeeper Architecture
 
-![](zkservice.jpg)
+![](image/zkservice.jpg)
 
 [참조링크] https://zookeeper.apache.org/doc/current/images/zkservice.jpg
 
@@ -640,14 +640,14 @@ sync | waits for data to be propagated
 
 ## Storm Architecture
 
-![](storm_architecture.png)
+![](image/storm_architecture.png)
 
 1. Nimbus -> Master Node
 1. Supervisor -> Worker Node
 
 ## Storm Components
 
-![](storm_components.png)
+![](image/storm_components.png)
 
 1. Spout: Spout is the entry point in a storm topology.
 1. Bolt: Bolt contains the actual processing logic.
@@ -657,7 +657,7 @@ sync | waits for data to be propagated
 
 ## Storm Parallelism 
 
-![](storm.png)
+![](image/storm.png)
 
 [참조링크] http://cfile6.uf.tistory.com/image/2504F84354C487E50BB2F8
 
@@ -771,7 +771,7 @@ $ storm jar storm-0.0.1-SNAPSHOT.jar hello.HelloTopology HelloTopology
 
 > A distributed streaming platform
 
-![](kafka_concept.png)
+![](image/kafka_concept.png)
 
 ### First a few concepts:
 
