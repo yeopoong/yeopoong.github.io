@@ -169,6 +169,12 @@ hdfs://hadoop01:9000  112.4 G  200 K    106.2 G    0%
 $ hadoop dfsadmin -report
 ```
 
+### MapReduce Example
+```
+$ cd /home/vagrant/hadoop/share/hadoop/mapreduce
+$ yarn jar *examples*.jar pi 50 100
+```
+
 `http://192.168.33.10:50070`
 
 ### 로컬 테스트 시 winutils.exe 오류 
@@ -536,7 +542,7 @@ $ sudo service grafana-server start
 
 # InfluxDB
 
-## Installation & Configuration
+## Installation
 
 ### 설치
 ```shell
@@ -557,6 +563,8 @@ sudo yum install influxdb
 sudo systemctl start influxdb
 sudo systemctl stop influxdb
 ```
+
+## Configuration
 
 ### 설정파일
 ```
@@ -705,7 +713,35 @@ OK
 "bar"
 ```
 
+# Ambari
 
+## Installation
+
+### Install
+```
+$ sudo wget -nv http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.1.2/ambari.repo -O /etc/yum.repos.d/ambari.repo
+
+or
+
+$ cd /etc/yum.repos.d/
+$ wget http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.1.2/ambari.repo
+
+$ sudo yum install ambari-server
+```
+
+### Setup
+```
+$ ambari-server setup
+```
+
+### Start Ambari Server
+```
+$ ambari-server start
+```
+
+### Deploy Cluster using Ambari Web UI
+http://<ambari-server-host>:8080
+admin/admin
 
 # Java
 
@@ -790,15 +826,12 @@ $ unzip storm.zip -d storm
 # Reference 
 
 1. [Apache HBase Reference Guide][hbase]
+1. [Apache Phoenix Installation](https://phoenix.apache.org/installation.html)
+1. [Phoenix in 15 minutes or less](http://phoenix.apache.org/Phoenix-in-15-minutes-or-less.html)
+1. [Grafana Installing on RPM-based Linux](http://docs.grafana.org/installation/rpm/)
+1. [Redis Quick Start][quickstart] 
+1. [Ambari 설치](http://guruble.com/ambari/)
+
 
 [hbase]: https://hbase.apache.org/book.html#java
-
-2. [Apache Phoenix Installation](https://phoenix.apache.org/installation.html)
-
-2. [Phoenix in 15 minutes or less](http://phoenix.apache.org/Phoenix-in-15-minutes-or-less.html)
-
-2. [Grafana Installing on RPM-based Linux](http://docs.grafana.org/installation/rpm/)
-
-3. [Redis Quick Start][quickstart] 
-
 [quickstart]: https://redis.io/topics/quickstart "Redis Quick Start"

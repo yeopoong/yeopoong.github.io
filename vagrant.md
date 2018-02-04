@@ -134,4 +134,20 @@ $ sudo apt-get install oracle-java8-installer
 note: 
 $ sudo apt-get install software-properties-common
 
+Configuration
+-------------
+
+### VBoxManage Customizations
+```
+config.vm.provider "virtualbox" do |v|
+  v.memory = 1024
+  v.cpus = 2
+end
+```
+
+Reference
+---------
+
+1. [Vagrant](https://www.vagrantup.com/docs/virtualbox/configuration.html)
+
 

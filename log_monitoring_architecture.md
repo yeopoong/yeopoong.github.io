@@ -182,8 +182,6 @@ Found 1 items
 #### Apache Hadoop NextGen MapReduce (YARN)
 <img src="image/yarn_architecture.gif" width="700" height="400">
 
-[출처링크] https://hadoop.apache.org/docs/r2.7.1/hadoop-yarn/hadoop-yarn-site/yarn_architecture.gif
-
 Functional Programming
 
 Map
@@ -230,8 +228,6 @@ Reduce
 ### Architecture
 
 <img src="image/hbase_architecture.jpg" width="700" height="400">
-
-[출처링크] http://cfile9.uf.tistory.com/image/226CF93C5888775F364474
 
 * HMaster
   + RegionServer 와 META 데이터 관리
@@ -507,10 +503,23 @@ table.delete(delete);
 > Phoenix is an open source SQL skin for HBase.  
 > You use the standard JDBC APIs instead of the regular HBase client APIs to create tables, insert data, and query your HBase data.
 
+#### 특징
+* HBase 데이터에 대한 빠른 접근이 가능
+  + MapReduce를 사용하지 않고 SQL 쿼리를 Native HBase 명령어로 컴파일하여 수행
+* 추가적인 서버가 필요하지 않기 때문에 비교적 가벼움
+* 기존에 존재하는 HBase 테이블과의 매핑이 가능
+
+#### 장점
 * JOIN
 * Paging
-* 서브쿼리 제한
-* 중첩 집계 함수 사용 불가능
+  + OFFSET & LIMIT (ex. LIMIT 10 OFFSET 10)
+* Secondary Index
+* Salted Tables
+  + Splitting: pre-split on salt bytes boundaries
+    - ex. new_row_key = (++index % BUCKETS_NUMBER) + original_key
+	![](https://sematext.com/wp-content/uploads/2012/04/hbasewd-pic2.png)
+  + Row Key Ordering: phoenix.query.rowKeyOrderSaltedTable=true
+  + CREATE TABLE table (a_key VARCHAR PRIMARY KEY, a_col VARCHAR) SALT_BUCKETS = 20;
 
 ### Apache Phoenix Java Client Example
 
@@ -567,6 +576,7 @@ public class PhoenixExample {
 ```
 
 
+
 ## 2.3 ZooKeeper
 
 > A Distributed Coordination Service for Distributed Applications
@@ -578,8 +588,6 @@ public class PhoenixExample {
 ### ZooKeeper Architecture
 
 ![](image/zkservice.jpg)
-
-[참조링크] https://zookeeper.apache.org/doc/current/images/zkservice.jpg
 
 ### Desigh Goals
 
@@ -658,8 +666,6 @@ sync | waits for data to be propagated
 ## Storm Parallelism 
 
 ![](image/storm.png)
-
-[참조링크] http://cfile6.uf.tistory.com/image/2504F84354C487E50BB2F8
 
 * Node
   + Nimbus나 Supervisor 프로세스가 기동되는 물리적인 서버
@@ -941,8 +947,6 @@ $ storm jar storm-0.0.1-SNAPSHOT.jar monitor.MonitorTopology MonitorTopology
 * key-value data store
 * value can be a string, list, set, sorted set or hash
 
-### 장점
-
 ### Redis Java Example
 
 `pom.xml`
@@ -1020,7 +1024,7 @@ public class HelloRedis {
 
 * [Spring Data Redis][redis]
 
-[redis]: https://projects.spring.io/spring-data-redis/#quick-start ""
+[redis]: https://projects.spring.io/spring-data-redis/#quick-start "Spring Data Redis"
 
 * <http://lambda-architecture.net/>
 
