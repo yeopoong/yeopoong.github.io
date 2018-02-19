@@ -1,52 +1,46 @@
 About
 =====
 
-DEVELOPER, DEVELOPER, DEVELOPER
--------------------------------
+DEVELOPER, ARCHITECT, INSTRUCTOR
+--------------------------------
 
 Sungkyun Kim is software engineer currently works for T3Q in Seoul, developing server side.
 
-Sungkyun worked as a senior engineer for over ten years in South Korea. During that time, he successfully worked on projects for celebrated clients such as Samsung, SK, and LG. 
+Sungkyun worked as a senior engineer for over ten years in South Korea. During that time, he successfully worked on projects for celebrated clients such as Samsung, LG, KT and SK. 
 
 EXPERIENCE
 ----------
 
 * T3Q, Korea   
-Senior Software Engineer / Feb 2012 - Present  
-Developed backend platform development projects for Korea’s leading mobile service provider KT.  
-  * NDetect, Security Monitoring and Analysis System  
-  * BMON, End-To-End Monitoring System
+Software Engineer / Feb 2012 - Sep 2017  
+Conducted building architecture and framework for enterprise customers.
+  - Build development environments 
+  - Implement common architecture requirements
+  - Build analysis system based big data technologies
 
 * ServerSide, Korea 
-Senior Software Engineer / Sep 2002 - Jan 2012
-Developed a framework solution which is optimized banking system, so it is using by major financial institutions, for example, KEB, IBK, Citi Bank, Hana Card, KBCard in Korea.  
-Platforms developed include;
-  * Electronic Data Processing Engine: parse, send & receive,  logging and monitoring
-  * Service Engine: execute & monitoring for service component 
-  * Framework: MVC Web Framework
-
+Software Engineer / Sep 2002 - Jan 2012  
+Developed framework solutions which are optimized banking system used by major financial institutions in Korea, such as KEB, IBK, Citi bank, Hana Card, KB Card.
+  - Develop data send & receive engine between distributed systems
+  - Develop component invocation engine in distributed env. 
+  - Standardized, automated, and configured frameworks
 
 PROJECTS
 --------
 
-* SMS System / Apr 2017 - Present  
-Performing big data project which monitor and analysis for various security issues in Korea Telecom.  
-  * Backend: Hadoop, Hbase, Hive, MapReduce, Shell, Python 
-  * Frontend: Spring MVC, Birt Report, Spring Data JPA
+* NDetect System, Korea Telecom / May 2016 - Dec 2016  
+Construct a system for detecting fraud transaction 
+  - Backend: Hadoop, Hbase, Hive, MapReduce, Shell, Python 
+  - Frontend: Spring Framework, JQuery 
 
-* End-To-End Monitoring System / Nov 2015 - May 2016  
-Performing big data project which monitor and analysis for various security issues in Korea Telecom.  
-  * Backend: Hadoop, Hbase, Hive, MapReduce, Shell, Python 
-  * Frontend: Spring MVC, Spring Data JPA
+* End-To-End Monitoring System, Korea Telecom / Nov 2015 - May 2016  
+Construct a system for monitoring business transaction statistics.
+  - Backend: Hadoop, HBase, Storm, Kafka 
+  - Frontend: Spring Framework, JQuery 
 
-* NDetect System / May 2016 - Dec 2016  
-Performing big data project which monitor and analysis for various security issues in Korea Telecom.  
-  * Backend: Hadoop, Hbase, Hive, MapReduce, Shell, Python 
-  * Frontend: Spring MVC, Spring Data JPA
-
-* Citi Bank Internet Banking Framework / May 2016 - Dec 2016  
-Developed a framework solution which is optimized banking system, so it is using by major financial institutions in Korea, for example, KEB, IBK, Citi Bank, Hana Card, KBCard.  
-Platforms developed include;
-  * Electronic Data Processing Engine: parse, send & receive,  logging and monitoring
-  * Service Engine: execute & monitoring for service component 
-  * Framework: MVC Web Framework
+* Internet Banking System, Citibank / Sep 2011 – Jan 2012  
+Build a scalable and flexible framework for the online banking system.
+  - Develop interface engine for communication with legacy system
+  - Automatically generates and interprets complex structures of data
+  - Use the following core technology sets  
+  : Java, Network, Thread, EJB, XML, MyBatis

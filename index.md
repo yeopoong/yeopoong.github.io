@@ -1,19 +1,41 @@
-Smart Company
-=============
+Portfolio
+=========
 
-Smart Work
-----------
+Banking Framework Architecture
+------------------------------
 
-* DevOps
-* Cloud
-* Micro Service 
+![](image/E2E_Monitoring_Architecture.png)
 
-Smart Way
----------
+* Tech Stack
+  + Hadoop
+  + HBase
+  + MapReduce
+  + Kafka 
+  + Storm
 
-* Simple
-* Small
-* Speed
+Spring Framework Architecture
+-----------------------------
+
+![](image/Spring_Framework_Architecture.png)
+
+* Tech Stack
+  + Spring MVC
+  + Spring Security
+  + Spring Data JPA
+  + MyBatis
+
+Banking Framework Architecture
+------------------------------
+
+![](image/Banking_Framework_Architecture.png)
+
+* Tech Stack
+  + Java
+  + JavaEE
+  + Network
+  + Thread
+  + EJB
+  + MyBatis
 
 ---
 

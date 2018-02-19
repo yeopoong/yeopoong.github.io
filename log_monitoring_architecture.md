@@ -5,7 +5,7 @@ Log Monitoring Architecture
 ---
 
 1. 모니터링 아키텍처 및 요소기술 
-1. 하둡 아키텍처 및 HBase를 이용한 대용량 테이블 설계
+1. 하둡 아키텍처 및 HBase를 이용한 대용량 테이블
 1. Storm 을 이용한 실시간 데이터 분석
 1. Kafka 및 ~~Redis 활용~~
 1. ~~Grafana 와 InfluxDB를 이용한 대시보드 구성~~
@@ -56,7 +56,7 @@ Log Monitoring Architecture
 
 
 
-# 2. 하둡 & HBase를 이용한 대용량 테이블 설계
+# 2. 하둡 & HBase를 이용한 대용량 테이블
 
 ## 2.1 Hadoop
 > The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
