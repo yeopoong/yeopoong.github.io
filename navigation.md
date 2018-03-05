@@ -30,11 +30,11 @@
 
 [DevOps]()
 
-  * # 로컬환경
-  * [개발PC](local.md)
+  * # Local
+  * [Dev Local](local.md)
   - - - -
-  * # 개발서버환경
-  * [개발서버](dev.md)
+  * # Dev
+  * [Dev Server](dev.md)
   - - - -
   * # Vagrant 
   * [Vagrant](vagrant.md)
@@ -50,7 +50,7 @@
 
 [Language]()
 
-  * [Sclal](scala.md)
+  * [Scala](scala.md)
   * [Go](go.md)
   * [Python](https://yeopoong.github.io/python)
   * [Shell](shell.md)

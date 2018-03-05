@@ -1,8 +1,8 @@
 Portfolio
 =========
 
-Banking Framework Architecture
-------------------------------
+Monitoring Architecture
+-----------------------
 
 ![](image/E2E_Monitoring_Architecture.png)
 
@@ -13,8 +13,8 @@ Banking Framework Architecture
   + Kafka 
   + Storm
 
-Spring Framework Architecture
------------------------------
+Spring Framework
+----------------
 
 ![](image/Spring_Framework_Architecture.png)
 
@@ -24,8 +24,8 @@ Spring Framework Architecture
   + Spring Data JPA
   + MyBatis
 
-Banking Framework Architecture
-------------------------------
+Banking Framework
+-----------------
 
 ![](image/Banking_Framework_Architecture.png)
 
