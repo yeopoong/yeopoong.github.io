@@ -5,14 +5,15 @@ Log Monitoring Architecture
 ---
 
 1. 모니터링 아키텍처 및 요소기술 
-1. 하둡 아키텍처 및 HBase를 이용한 대용량 테이블
+1. 하둡 및 HBase를 이용한 대용량 테이블 설계
 1. Storm 을 이용한 실시간 데이터 분석
 1. Kafka 및 ~~Redis 활용~~
 1. ~~Grafana 와 InfluxDB를 이용한 대시보드 구성~~
 
+---
 
-
-# 1. Monitoring Architecture & Tech Stack
+모니터링 아키텍처 및 요소기술 
+--------------------------
 
 ## Lambda Architecture
 > 실시간 분석을 지원하는 빅데이터 아키텍처
@@ -30,33 +31,34 @@ Log Monitoring Architecture
 ## Tech Stack
 
 1. Distributed Platform: Hadoop
-1. Data Store: HBase
+1. Data Store: **HBase**
 1. Distribute Codinator: Zookeeper
-1. Realtime Analysis: Storm or Spark
+1. Realtime Analysis: **Storm** or Spark
 1. Visualization: Grafana
 1. TSDB: InfluxDB
 1. Collect: Telegraf
-1. Message Queue: Kafka
+1. Message Queue: **Kafka**
 1. In Memory Data Grid: Redis
 
 
 ### Other Hadoop-related projects at Apache include:
 
 * Ambari
-  +  A web-based tool for provisioning, managing, and monitoring Apache Hadoop clusters which includes support for Hadoop HDFS, Hadoop MapReduce, Hive, HCatalog, HBase, ZooKeeper, Oozie, Pig and Sqoop. Ambari also provides a dashboard for viewing cluster health such as heatmaps and ability to view MapReduce, Pig and Hive applications visually alongwith features to diagnose their performance characteristics in a user-friendly manner.
+  +  A web-based tool for provisioning, **managing, and monitoring** Apache Hadoop clusters which includes support for Hadoop HDFS, Hadoop MapReduce, Hive, HCatalog, HBase, ZooKeeper, Oozie, Pig and Sqoop. Ambari also provides a dashboard for viewing cluster health such as heatmaps and ability to view MapReduce, Pig and Hive applications visually alongwith features to diagnose their performance characteristics in a user-friendly manner.
 * Avro
   + A data serialization system
-  + cf. Thrift, Protocol Buffers
+  + cf. **Thrift**, Protocol Buffers
 * Hive
   + A data warehouse infrastructure that provides data summarization and ad hoc querying.
 * Pig
   + A high-level data-flow language and execution framework for parallel computation.
 * Spark
-  + A fast and general compute engine for Hadoop data. Spark provides a simple and expressive programming model that supports a wide range of applications, including ETL, machine learning, stream processing, and graph computation.
+  + **A fast and general compute engine for Hadoop data.** Spark provides a simple and expressive programming model that supports a wide range of applications, including ETL, machine learning, stream processing, and graph computation.
 
+---
 
-
-# 2. 하둡 & HBase를 이용한 대용량 테이블
+하둡 및 HBase를 이용한 대용량 테이블 설계
+--------------------------------------
 
 ## 2.1 Hadoop
 > The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
@@ -97,13 +99,12 @@ Master-Slave architecture
 
 * 여러 데이터 노드에 작은 파일로 나뉜다음 분산되어 저장 
 * 블럭의 기본크기는 64MB, HDFS 설정에 따라서 바꿀 수 있음 
+* 블럭을 보관할 노드의 선택
+  + 첫번째 복제는 원본과 같은 랙에 있는 노드를 선택
+  + 두번째와 세번째는 다른 랙에 보관  
+  ![](image/block.png)
 
-블럭을 보관할 노드의 선택
 
-* 첫번째 복제는 원본과 같은 랙에 있는 노드를 선택
-* 두번째와 세번째는 다른 랙에 보관
-
-![](image/block.png)
 
 #### Operations
 
@@ -190,6 +191,7 @@ Map
 Reduce
 * Merge
 
+---
 
 ## 2.2 HBase
 
@@ -200,10 +202,6 @@ Reduce
 * 가용성과 확장성
   + Region 서버만 추가하여 확장성 및 가용성 확보가 용이
   + 단, 특정 Region 서버에 부하가 집중되면 성능저하가 발생 -> 로우키 설계가 중요
-* CAP: "분산 시스템에서는 다음의 3개 속성을 모두 가지는 것이 불가능하다"
-  + Consistency (V)
-  + **Availability**
-  + Partitions Tolerance (V)
 * Apache Phoenix: Add SQL Layer 
 
 ### Column Family
@@ -252,23 +250,54 @@ Reduce
 
 ### HBase Catalog Tables
 
+![](image/hbase_meta1.png)
+
+* 클라이언트는 주키퍼의 META 테이블을 서비스하는 리전 서버의 호스트 정보를 읽어온다.
+
 ![](image/hbase_meta.png)
 
 * META 테이블
-  + 클러스터에 포함된 리전의 위치정보들을 저장
+  + 클러스터에 포함된 모든 리전정보 저장
+  + -ROOT-, .META.
 
-### Region Server Components 
+#### 데이터를 찾는 방법
+
+* ZooKeeper -> -Root- -> Region Server -> .META. -> Region -> Row
+
+### HBase Region Server
 
 ![](image/hbase_region_components.png)
 
-* WAL(Write Ahead Log)
-  + 데이터 저장 실패를 복구하기 위해서 사용
-* BlockCache 
-  + 읽기 캐시
-* MemStore
-  + 쓰기 캐시
-  + 각 리전의 컬럼 패밀리당 하나
-* HFile
+* 클라이언트와 통신을 하고 데이터 관련 연산을 관리
+* 내부 region의 읽기와 쓰기 요청을 관리
+* Region Server Components 
+  + WAL(Write Ahead Log)
+    - 데이터 저장 실패를 복구하기 위해서 사용
+  + BlockCache 
+    - 읽기 캐시
+  + MemStore
+    - 쓰기 캐시
+    - 각 리전의 컬럼 패밀리당 하나
+  + HFile
+
+### HBase Minor Compaction
+
+![](https://docs.google.com/drawings/d/1bDjntHOyISyw5Vk0dFKJ69AjjozY-I-B_YTyz1OJw-Q/pub?w=690&h=356)
+
+* 데이터를 입력하다 보면 여러 개의 작은 HFile들이 만들어진다. 
+* 파일들이 많아지면 성능이 떨어질 수 있는데, 
+* Minor compaction은 여러 개의 HFile들을 하나의 큰 HFile로 통합 
+* HFile에 저장된 데이터는 정렬되어 있으므로 merge sort를 이용해서 빠르게 합병
+
+### HBase Major Compaction
+
+![](https://docs.google.com/drawings/d/1m73104DlePnvL3dwBywTYiyHMHKDJTD__CfVXt3SdTU/pub?w=690&h=356)
+
+* Major compaction은 리전에 있는 모든 HFiles들을 모아서 컬럼당 하나의 HFile로 만든다.
+* 이 과정에서 필요없는 셀, 시간이 초과된 셀등을 제거해서 전반적인 읽기 성능을 높인다.
+* 대량의 파일들에 대한 읽기/쓰기 작업이 일어나기 때문에 디스크 I/O와 트래픽 증가가 발생
+* Major compaction은 자동으로 실행하도록 예약
+* 서비스에 미치는 영향을 최소화하기 위해서 주말이나 야간으로 스케줄링
 
 ### HBASE vs RDBMS
 
@@ -364,13 +393,54 @@ hbase(main):011:0> drop 'test'
 0 row(s) in 0.1370 seconds
 ```
 
-#### 9. Exit the HBase Shell.
+#### 9. HBase scan option
+> 사용법 : scan "$TABLE_NAME", {$OPTION => $VALUE} (옵션 여러개 가능)
+
+```
+# 1) LIMIT : 출력할 row 수 제한
+scan "$TABLE_NAME", {LIMIT => 10}
+ 
+# 2) STARTROW / STOPROW : 출력할 row 범위 제한
+scan "$TABLE_NAME", {STARTROW => "$START_KEY", STOPROW => "$STOP_KEY"}
+ 
+# 3) COLUMNS : 원하는 column 출력(column은 columnFamily:columnQualifire 형태, CF:CQ)
+scan "$TABLE_NAME", {COLUMNS => "$CF:$CQ"}
+ 
+# 4) TIMERANGE : 특정 타임스탬프 사이의 값 조회
+scan "$TABLE_NAME", {TIMERANGE => [ts1, ts2]}
+ 
+# 5) ROWPREFIXFILTER : 특정 row key를 조회
+scan "$TABLE_NAME", {ROWPREFIXFILTER => "$ROWKEY"}
+```
+
+#### 10. HBase Filters
+> 사용법 : scan "$TABLE_NAME", {FILTER => "$filtername('$value')"}
+
+```
+scan "$TABLE_NAME", {OPTION => VALUE, FILTER => "FILTERNAME('VALUE')"}
+```
+
+#### 11. Exit the HBase Shell.
 
 ```
 hbase(main):006:0> quit 
 ```
 
+`sample.txt`
+```
+create 'test', 'cf'
+list 'test'
+put 'test', 'row1', 'cf:a', 'value1'
+put 'test', 'row2', 'cf:b', 'value2'
+put 'test', 'row3', 'cf:c', 'value3'
+put 'test', 'row4', 'cf:d', 'value4'
+scan 'test'
+get 'test', 'row1'
+disable 'test'
+enable 'test'
+```
 
+---
 
 ### HBase Java Client Example
 
@@ -499,6 +569,8 @@ delete.addColumn(family1.getBytes(), qualifier1);
 table.delete(delete);
 ```
 
+---
+
 ### Apache Phoenix
 > Phoenix is an open source SQL skin for HBase.  
 > You use the standard JDBC APIs instead of the regular HBase client APIs to create tables, insert data, and query your HBase data.
@@ -521,7 +593,7 @@ table.delete(delete);
   + Row Key Ordering: phoenix.query.rowKeyOrderSaltedTable=true
   + CREATE TABLE table (a_key VARCHAR PRIMARY KEY, a_col VARCHAR) SALT_BUCKETS = 20;
 
-### Apache Phoenix Java Client Example
+#### Apache Phoenix Java Client Example
 
 `Phoenix Driver Maven Dependency`
 ```xml
@@ -575,7 +647,7 @@ public class PhoenixExample {
 }
 ```
 
-
+---
 
 ## 2.3 ZooKeeper
 
@@ -583,7 +655,7 @@ public class PhoenixExample {
 
 * 설정 정보 관리
 * 노드 리스트 관리
-* 리더선정
+* 리더선정(쓰기 명령을 총괄)
 
 ### ZooKeeper Architecture
 
@@ -600,6 +672,15 @@ public class PhoenixExample {
 * Zookeeper is fast.
   + It is especially fast in "read-dominant" workloads.
 
+### Data model and the hierarchical namespace
+
+![](https://zookeeper.apache.org/doc/current/images/zknamespace.jpg)
+
+### Nodes and ephemeral nodes
+
+* each node in a ZooKeeper namespace can have data associated with it as well as children.
+* These znodes exists as long as the session that created the znode is active.
+
 ### Simple API
 
 operation | desc
@@ -612,13 +693,76 @@ set data | writes data to a node
 get children | retrieves a list of children of a node
 sync | waits for data to be propagated
 
+### Example
 
-### Programming to ZooKeeper
+`Maven Dependency`
+```xml
+<dependency>
+	<groupId>org.apache.zookeeper</groupId>
+	<artifactId>zookeeper</artifactId>
+	<version>3.4.8</version>
+</dependency>
+```
 
+`ZNodeTest.java`
+```java
+public class ZNodeTest {
 
+    public static void main(String[] args) {
+        int sessionTimeout = 10 * 100;
 
+        // 1. ZooKeeper 서버(클러스터)에 연결
+        ZooKeeper zk = null;
 
-# 3. Storm 을 이용한 실시간 데이터 분석
+        try {
+            zk = new ZooKeeper("demo:2181", sessionTimeout, null);
+
+            // 2. Test01 znode가 존재하지 않으면 /test01, /test02 생성
+            if (zk.exists("/test01", false) == null) {
+                zk.create("/test01", "test01_data".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+                zk.create("/test02", "test02_data".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+            }
+
+            // 3 /test01 노드의 자식 노드로 sub01, sub02 생성
+            zk.create("/test01/sub01", null, Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL);
+            zk.create("/test01/sub02", null, Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL);
+
+            // 4. /test01 노드의 데이터 가져오기
+            byte[] test01Data = zk.getData("/test01", false, null);
+            System.out.println("getData [/test01]: " + new String(test01Data));
+
+            // 5. /test01/sub01 노드의 데이터를 새로운 값으로 설정
+            zk.setData("/test01/sub01", "this new Data".getBytes(), -1);
+            byte[] subData = zk.getData("/test01/sub01", false, null);
+            System.out.println("getData after setData [/test01/sub01]: " + new String(subData));
+
+            // 6. 노드가 존재하는지 확인
+            System.out.println("exist [/test01/sub01]: " + (zk.exists("/test01/sub01", false) != null));
+            System.out.println("exist [/test01/sub03]: " + (zk.exists("/test01/sub03", false) != null));
+
+            // 7. /test01의 자식노드 목록 가져오기
+            List<String> children = zk.getChildren("/test01", false);
+            for (String eachChildren : children) {
+                System.out.println("getChildren [/test01]: " + eachChildren);
+            }
+        } catch (IOException | KeeperException | InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            // 8. zk 죵료
+            try {
+                zk.close();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+```
+
+---
+
+Storm 을 이용한 실시간 데이터 분석
+--------------------------------
 
 > Apache Storm is a free and open source distributed realtime computation system.
 
@@ -675,6 +819,40 @@ sync | waits for data to be propagated
   + Worker내에서 수행되는 자바 쓰레드
 * Task
   + Bolt 및 Spout 객체
+
+### Example of a running topology
+![](http://storm.apache.org/releases/2.0.0-SNAPSHOT/images/example-of-a-running-topology.png)
+
+```java
+Config conf = new Config();
+conf.setNumWorkers(2); // use two worker processes
+
+topologyBuilder.setSpout("blue-spout", new BlueSpout(), 2); // set parallelism hint to 2
+
+topologyBuilder.setBolt("green-bolt", new GreenBolt(), 2)
+               .setNumTasks(4)
+               .shuffleGrouping("blue-spout");
+
+topologyBuilder.setBolt("yellow-bolt", new YellowBolt(), 6)
+               .shuffleGrouping("green-bolt");
+
+StormSubmitter.submitTopology(
+        "mytopology",
+        conf,
+        topologyBuilder.createTopology()
+    );
+```
+
+### Stream groupings
+> 볼트의 작업간에 스트림을 분할하는 방법을 정의 
+
+Storm에는 8 개의 내장 된 스트림 그룹이 있으며 CustomStreamGrouping 인터페이스를 구현하여 사용자 정의 스트림 그룹을 구현할 수 있다.
+
+* Shuffle grouping : 튜플은 각 볼트가 같은 수의 튜플을 확보 할 수 있도록 볼트 작업에 무작위로 분산
+* Fields grouping : 스트림은 그룹화에 지정된 필드로 분할. 예를 들어 스트림이 "user-id"필드로 그룹화 된 경우 동일한 "사용자 ID"를 가진 튜플은 항상 동일한 작업으로 이동하지만 다른 "사용자 ID"가 있는 튜플은 다른 작업으로 갈 수 있다.
+* All grouping : 모든 볼트 작업에서 스트림이 복제
+* Global grouping : 전체 스트림이 볼트 작업 중 하나만 수행. 특히, ID가 가장 낮은 작업으로 이동
+* Direct grouping : 튜플의 제작자가 소비자의 어떤 작업이이 튜플을 수신 할 것인지를 결정 
 
 ## Storm Example
 
@@ -769,9 +947,10 @@ $ mvn clean package -DskipTests=true
 $ storm jar storm-0.0.1-SNAPSHOT.jar hello.HelloTopology HelloTopology
 ```
 
+---
 
-
-# 4. Kafka 및 Redis 활용
+Kafka 및 Redis 활용
+------------------
 
 ## 4.1 Kafka
 
@@ -787,22 +966,42 @@ $ storm jar storm-0.0.1-SNAPSHOT.jar hello.HelloTopology HelloTopology
 
 ### Topics and Logs 
 
+Kafka 클러스터는 다음과 같은 파티션 로그를 유지
+
 ![](http://kafka.apache.org/10/images/log_anatomy.png)
 
-### Producers
+* 보존 기간을 사용하여 레코드를 보유
+* 오프셋은 소비자가 제어
+* 병렬처리의 단위
 
-### Consumers
+### Guarantees
 
+* 생산자가 특정 주제 파티션으로 보낸 메시지는 전송 된 순서대로 추가
+* 소비자 인스턴스는 로그에 저장된 순서대로 레코드를 봄 
+* 복제 인수 N이있는 항목의 경우 로그에 커밋 된 레코드를 손실하지 않고 최대 N-1 개의 서버 오류를 허용
+
+### Kafka as a Storage System
+
+Kafka에 기록 된 데이터는 디스크에 기록되고 내결함성을 위해 복제 
 
 ## 4.2 Kafka-Storm Example
 
 `pom.xml`
 ```xml
 <dependency>
-  <groupId>org.apache.storm</groupId>
-  <artifactId>storm-core</artifactId>
-  <version>1.1.1</version>
-  <scope>provided</scope>
+	<groupId>org.apache.storm</groupId>
+	<artifactId>storm-kafka</artifactId>
+	<version>1.1.1</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.kafka</groupId>
+	<artifactId>kafka-clients</artifactId>
+	<version>0.10.0.1</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.kafka</groupId>
+	<artifactId>kafka_2.11</artifactId>
+	<version>0.10.0.1</version>
 </dependency>
 ```
 
@@ -983,9 +1182,10 @@ public class HelloRedis {
 }
 ```
 
+---
 
-
-# 5. Grafana 와 InfluxDB를 이용한 대시보드 구성
+Grafana 와 InfluxDB를 이용한 대시보드 구성
+----------------------------------------
 
 ## Dashboard Architecture
 
@@ -1006,9 +1206,10 @@ public class HelloRedis {
 
 > Telegraf is the Agent for Collecting & Reporting Metrics & Data 
 
+---
 
-
-# Reference 
+Reference 
+---------
 
 * [Vagrant Getting Started](https://www.vagrantup.com/intro/getting-started/index.html)
 

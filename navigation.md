@@ -41,6 +41,8 @@
   - - - -
   * # Chef 
   * [Chef Solo](chef.md)
+  * # Ansible 
+  * [Ansible](ansible.md)
   * # Build 
   * [Maven](maven.md)
 
@@ -50,6 +52,7 @@
 
 [Language]()
 
+  * [Java](java.md)
   * [Scala](scala.md)
   * [Go](go.md)
   * [Python](https://yeopoong.github.io/python)
