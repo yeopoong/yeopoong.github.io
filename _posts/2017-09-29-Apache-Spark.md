@@ -3,7 +3,7 @@ layout: post
 title: "Apache Spark"
 subtitle: "Apache Spark™ is a fast and general engine for large-scale data processing."
 categories: review
-tags: dev book
+tags: event book
 header-img: "/img/i-am-programmer.jpg"
 ---
 
