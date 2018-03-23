@@ -1,46 +1,50 @@
-About
-=====
+---
+layout: about
+title: About
+menu: true
+order: 10
+---
 
-DEVELOPER, ARCHITECT, INSTRUCTOR
---------------------------------
+## 소개
 
-Sungkyun Kim is software engineer currently works for T3Q in Seoul, developing server side.
+안녕하세요, 저는 김성균입니다. 재밌는 것과 개발을 좋아하는 개발자입니다.
 
-Sungkyun worked as a senior engineer for over ten years in South Korea. During that time, he successfully worked on projects for celebrated clients such as Samsung, LG, KT and SK. 
+다른 사람들에게 영감과 영향을 주고 싶어서 개발자가 되었습니다. 전세계 사람들의 여행을 바꾼 에어비엔비, 일상을 바꾼 페이스북등을 존경합니다.
 
-EXPERIENCE
-----------
+예쁘고 단순한 것을 좋아합니다. 자바를 주로 사용하며 최근엔 빅데이터를 위주로 공부하고 있습니다.
 
-* T3Q, Korea   
-Software Engineer / Feb 2012 - Sep 2017  
-Conducted building architecture and framework for enterprise customers.
-  - Build development environments 
-  - Implement common architecture requirements
-  - Build analysis system based big data technologies
+사람들을 만나는 걸 좋아하고, 그들과 함께 웃는 것을 좋아합니다. 혼자 어디 박혀서 코딩한다거나 뒹굴거리는 시간도 좋아합니다.
 
-* ServerSide, Korea 
-Software Engineer / Sep 2002 - Jan 2012  
-Developed framework solutions which are optimized banking system used by major financial institutions in Korea, such as KEB, IBK, Citi bank, Hana Card, KB Card.
-  - Develop data send & receive engine between distributed systems
-  - Develop component invocation engine in distributed env. 
-  - Standardized, automated, and configured frameworks
+시스템을 상당히 좋아합니다. 서비스의 체계뿐만 아니라, 조직 체계, 운영 체계 등 올바르게 돌아갈 수 있도록 뒷받침해주는 시스템적인 요소를 좋아합니다.
 
-PROJECTS
---------
+CTO가 되는게 가장 큰 직업적 목표입니다.
 
-* NDetect System, Korea Telecom / May 2016 - Dec 2016  
-Construct a system for detecting fraud transaction 
-  - Backend: Hadoop, Hbase, Hive, MapReduce, Shell, Python 
-  - Frontend: Spring Framework, JQuery 
+## 약력
 
-* End-To-End Monitoring System, Korea Telecom / Nov 2015 - May 2016  
-Construct a system for monitoring business transaction statistics.
-  - Backend: Hadoop, HBase, Storm, Kafka 
-  - Frontend: Spring Framework, JQuery 
+- 티쓰리큐에서 아키텍처 컨설턴트로 근무
 
-* Internet Banking System, Citibank / Sep 2011 – Jan 2012  
-Build a scalable and flexible framework for the online banking system.
-  - Develop interface engine for communication with legacy system
-  - Automatically generates and interprets complex structures of data
-  - Use the following core technology sets  
-  : Java, Network, Thread, EJB, XML, MyBatis
+- 서버사이드에서 프레임워크 솔루션 개발
+
+- 인하대학교 공과대학 전자계산공학과 전공
+
+- 남산초/양정중/광성고 졸업
+
+- 서울 출생
+
+## 사이드프로젝트
+
+- [48Wedding](http://48wedding.com) - 웨딩카드 만들기 서비스
+
+## 발표
+
+- [GDG Summer Party 테크니컬 세션 - 자바스크립트 제대로 알기](https://www.slideshare.net/MinPark48/ss-79004233)
+
+## 강의
+
+- [React로 라이브 컴파일러 만들기](https://www.youtube.com/playlist?list=PLBrx45N7b6tkdisu8ZhKs02tEf5wDuk2W)
+
+## 하고싶은 말
+
+다양한 사이드 프로젝트 제안, 친구 제안, 번개 제안 등등 해주시면 좋아합니다.
+
+행복하세요!
