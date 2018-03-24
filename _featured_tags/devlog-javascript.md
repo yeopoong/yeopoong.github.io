@@ -4,6 +4,6 @@ title: JavaScript
 slug: javascript
 category: devlog
 menu: false
-order: 5
+order: 1
 header-img: "/img/js-logo.png"
 ---

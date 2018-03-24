@@ -4,5 +4,5 @@ title: Infra
 slug: infra
 category: devlog
 menu: false
-order: 4
+order: 1
 ---

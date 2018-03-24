@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Event
-slug: event
-category: review
+title: Storm
+slug: storm
+category: devlog
 menu: false
 order: 1
 ---
