@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: React
-slug: react
-category: video
+title: Spark
+slug: spark
+category: lecture
 menu: false
 order: 1
 ---
