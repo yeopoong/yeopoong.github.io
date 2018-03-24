@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Spark
-slug: spark
+title: Lecture
+slug: lecture
 category: lecture
 menu: false
 order: 1
