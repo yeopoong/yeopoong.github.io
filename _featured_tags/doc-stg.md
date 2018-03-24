@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: 48wedding
-slug: 48wedding
+title: Smart Tour Guide
+slug: stg
 category: doc
 menu: false
 order: 1
