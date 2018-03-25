@@ -8,8 +8,8 @@ yeopoong:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    세상에서 가장 게으르기 위해 가장 부지런한 타입.
-    좋은게 좋은거고, 예쁜게 좋은거고, 노는게 좋은거라고 생각한다.
+    단순하고 무식하게 살자! |
+    좋은게 좋은거고, 예쁜게 좋은거고, 노는게 좋은거다.
 
   # This photo will be used in the about section
   picture:
