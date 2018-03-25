@@ -17,8 +17,7 @@ tagline:             Keep It Simple & Stupid
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
-description:         >
-         단순 무식 게발자
+description:         단순 무식 게발자
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
