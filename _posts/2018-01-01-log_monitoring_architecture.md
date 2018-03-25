@@ -26,15 +26,15 @@ Log Monitoring Architecture
 ## Lambda Architecture
 > 실시간 분석을 지원하는 빅데이터 아키텍처
 
-![](image/lambda.png)
+![](/assets/img/lambda.png)
 
 > 람다 아키텍처에 대한 솔루션 매핑 사례
 
-![](image/lambda_solution_mapping.png)
+![](/assets/img/lambda_solution_mapping.png)
 
 ## Monitoring Architecture(Reference)
 
-<img src="image/architecture.png" width="850" height="300">
+<img src="/assets/img/architecture.png" width="850" height="300">
 
 ## Tech Stack
 
@@ -90,7 +90,7 @@ Log Monitoring Architecture
 #### HDFS Architecture
 Master-Slave architecture
 
-![](https://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs/images/hdfsarchitecture.png)
+![](https://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs//assets/imgs/hdfsarchitecture.png)
 
 #### NameNode 
 
@@ -110,7 +110,7 @@ Master-Slave architecture
 * 블럭을 보관할 노드의 선택
   + 첫번째 복제는 원본과 같은 랙에 있는 노드를 선택
   + 두번째와 세번째는 다른 랙에 보관  
-  ![](image/block.png)
+  ![](/assets/img/block.png)
 
 
 
@@ -189,7 +189,7 @@ Found 1 items
 ### Map & Reduce 
 
 #### Apache Hadoop NextGen MapReduce (YARN)
-<img src="image/yarn_architecture.gif" width="700" height="400">
+<img src="/assets/img/yarn_architecture.gif" width="700" height="400">
 
 Functional Programming
 
@@ -214,7 +214,7 @@ Reduce
 
 ### Column Family
 
-![](image/column_family.png)
+![](/assets/img/column_family.png)
 
 1. 이 테이블은 Customer와 Sales 두 개의 컬럼 패밀리를 가지고 있다.
 1. Customer 컬럼 패밀리는 Name과 City 두 개의 컬럼을 가지고 있다.
@@ -223,7 +223,7 @@ Reduce
 
 ### 특징
 
-![](image/row-key.png)
+![](/assets/img/row-key.png)
 
 1. Sparse: HBase는 sparse matrix(희소행렬)방식으로 데이터를 저장 할 수 있다. 예컨데 굳이 모든 필드에 값을 채울 필요가 없다는 얘기다.
 1. Column Oriented: RDBMS는 row 단위로 데이터를 저장한다. 하지만 HBase는 Sparse하기 때문에, 컬럼 단위로 데이터를 읽고 쓸 수 있다.
@@ -233,7 +233,7 @@ Reduce
 
 ### Architecture
 
-<img src="image/hbase_architecture.jpg" width="700" height="400">
+<img src="/assets/img/hbase_architecture.jpg" width="700" height="400">
 
 * HMaster
   + RegionServer 와 META 데이터 관리
@@ -248,7 +248,7 @@ Reduce
 ### HBase HMaster
 > 각 테이블의 데이터는 HRegionServer가 관리하며, 전체 클러스터는 HMaster가 관리한다.
 
-![](image/hbase.png)
+![](/assets/img/hbase.png)
 
 * 리전 서버들을 조정
   + 리전의 시작을 관리
@@ -258,11 +258,11 @@ Reduce
 
 ### HBase Catalog Tables
 
-![](image/hbase_meta1.png)
+![](/assets/img/hbase_meta1.png)
 
 * 클라이언트는 주키퍼의 META 테이블을 서비스하는 리전 서버의 호스트 정보를 읽어온다.
 
-![](image/hbase_meta.png)
+![](/assets/img/hbase_meta.png)
 
 * META 테이블
   + 클러스터에 포함된 모든 리전정보 저장
@@ -274,7 +274,7 @@ Reduce
 
 ### HBase Region Server
 
-![](image/hbase_region_components.png)
+![](/assets/img/hbase_region_components.png)
 
 * 클라이언트와 통신을 하고 데이터 관련 연산을 관리
 * 내부 region의 읽기와 쓰기 요청을 관리
@@ -667,7 +667,7 @@ public class PhoenixExample {
 
 ### ZooKeeper Architecture
 
-![](image/zkservice.jpg)
+![](/assets/img/zkservice.jpg)
 
 ### Desigh Goals
 
@@ -682,7 +682,7 @@ public class PhoenixExample {
 
 ### Data model and the hierarchical namespace
 
-![](https://zookeeper.apache.org/doc/current/images/zknamespace.jpg)
+![](https://zookeeper.apache.org/doc/current//assets/imgs/zknamespace.jpg)
 
 ### Nodes and ephemeral nodes
 
@@ -800,14 +800,14 @@ Storm 을 이용한 실시간 데이터 분석
 
 ## Storm Architecture
 
-![](image/storm_architecture.png)
+![](/assets/img/storm_architecture.png)
 
 1. Nimbus -> Master Node
 1. Supervisor -> Worker Node
 
 ## Storm Components
 
-![](image/storm_components.png)
+![](/assets/img/storm_components.png)
 
 1. Spout: Spout is the entry point in a storm topology.
 1. Bolt: Bolt contains the actual processing logic.
@@ -817,7 +817,7 @@ Storm 을 이용한 실시간 데이터 분석
 
 ## Storm Parallelism 
 
-![](image/storm.png)
+![](/assets/img/storm.png)
 
 * Node
   + Nimbus나 Supervisor 프로세스가 기동되는 물리적인 서버
@@ -829,7 +829,7 @@ Storm 을 이용한 실시간 데이터 분석
   + Bolt 및 Spout 객체
 
 ### Example of a running topology
-![](http://storm.apache.org/releases/2.0.0-SNAPSHOT/images/example-of-a-running-topology.png)
+![](http://storm.apache.org/releases/2.0.0-SNAPSHOT//assets/imgs/example-of-a-running-topology.png)
 
 ```java
 Config conf = new Config();
@@ -964,7 +964,7 @@ Kafka 및 Redis 활용
 
 > A distributed streaming platform
 
-![](image/kafka_concept.png)
+![](/assets/img/kafka_concept.png)
 
 ### First a few concepts:
 
@@ -976,7 +976,7 @@ Kafka 및 Redis 활용
 
 Kafka 클러스터는 다음과 같은 파티션 로그를 유지
 
-![](http://kafka.apache.org/10/images/log_anatomy.png)
+![](http://kafka.apache.org/10//assets/imgs/log_anatomy.png)
 
 * 보존 기간을 사용하여 레코드를 보유
 * 오프셋은 소비자가 제어
