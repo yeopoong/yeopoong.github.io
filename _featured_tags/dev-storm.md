@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Storm
 slug: storm
-category: devlog
+category: dev
 menu: false
 order: 1
 ---

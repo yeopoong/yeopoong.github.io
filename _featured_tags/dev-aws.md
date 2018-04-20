@@ -2,7 +2,7 @@
 layout: tag-blog
 title: AWS
 slug: aws
-category: devlog
+category: dev
 menu: false
 order: 1
 header-img: "/img/aws-logo.png"
