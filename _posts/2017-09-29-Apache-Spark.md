@@ -4,10 +4,9 @@ title: "Apache Spark"
 subtitle: "Apache Spark™ is a fast and general engine for large-scale data processing."
 categories: devlog
 tags: spark
-header-img: "/img/i-am-programmer.jpg"
+header-img: "/img/spark-logo-trademark.png"
 ---
 
-## Spark
 > Apache Spark™ is a fast and general engine for large-scale data processing.
 
 ## 개요
