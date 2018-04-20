@@ -2,7 +2,7 @@
 layout: post
 title: "HBase Backup"
 subtitle: "HBase Backup"
-categories: devlog
+categories: dev
 tags: data
 ---
 

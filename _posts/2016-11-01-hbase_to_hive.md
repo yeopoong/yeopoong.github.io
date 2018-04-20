@@ -2,7 +2,7 @@
 layout: post
 title: "HBase to Hive"
 subtitle: "HBase to Hive"
-categories: devlog
+categories: dev
 tags: data
 ---
 
