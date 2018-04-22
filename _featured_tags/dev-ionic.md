@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Algorithm
-slug: algorithm
+title: Ionic
+slug: ionic
 category: dev
 menu: false
 order: 1
