@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: AWS
-slug: aws
+slug: blockchain
 category: dev
 menu: false
 order: 1
