@@ -5,5 +5,5 @@ slug: blockchain
 category: dev
 menu: false
 order: 1
-header-img: "/img/aws-logo.png"
+header-img: "/img/blockchain-logo.jpg"
 ---
