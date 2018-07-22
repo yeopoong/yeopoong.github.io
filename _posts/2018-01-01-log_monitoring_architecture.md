@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Log Monitoring Architecture"
-subtitle: "Log Monitoring Architecture"
+title: "[빅데이터] Log Monitoring Architecture"
 categories: lecture
-tags: lecture
+tags: bigdata
 ---
 
 목차

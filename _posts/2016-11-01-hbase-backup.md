@@ -1,13 +1,10 @@
 ---
 layout: post
 title: "HBase Backup"
-subtitle: "HBase Backup"
 categories: dev
 tags: bigdata hbase
 ---
 
-HBase Backup 
-============
 > 전체 클러스터를 종료하는 방법과 클러스터에서 백업하는 방법이 있음.
 
 1.Full Shutdown Backup
