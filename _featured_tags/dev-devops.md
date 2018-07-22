@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Tools
-slug: tools
+title: DevOps
+slug: devops
 category: dev
 menu: false
 order: 10 

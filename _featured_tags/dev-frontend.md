@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Ionic
-slug: ionic
+title: Frontend
+slug: frontend
 category: dev
 menu: false
 order: 1

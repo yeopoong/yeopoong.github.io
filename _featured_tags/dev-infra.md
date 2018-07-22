@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: Infra
+title: Infrastructure
 slug: infra
 category: dev
 menu: false
