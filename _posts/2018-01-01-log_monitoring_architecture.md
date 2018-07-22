@@ -6,9 +6,6 @@ categories: lecture
 tags: lecture
 ---
 
-Log Monitoring Architecture
-===========================
-
 목차
 ---
 
