@@ -3,7 +3,7 @@ layout: post
 title: "HBase to Hive"
 subtitle: "HBase to Hive"
 categories: dev
-tags: bigdata, hbase
+tags: bigdata hbase
 ---
 
 HBase to Hive

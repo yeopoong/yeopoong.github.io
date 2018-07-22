@@ -3,7 +3,7 @@ layout: post
 title: "Apache Spark Scala Tutorial For Korean"
 subtitle: "Apache Spark Scala Tutorial For Korean"
 categories: dev
-tags: bigdata, spark
+tags: bigdata spark
 ---
 
 ![Spark](http://spark.apache.org/docs/latest/img/spark-logo-hd.png)
