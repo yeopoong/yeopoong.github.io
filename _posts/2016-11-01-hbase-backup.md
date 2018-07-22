@@ -3,7 +3,7 @@ layout: post
 title: "HBase Backup"
 subtitle: "HBase Backup"
 categories: dev
-tags: data
+tags: bigdata, hbase
 ---
 
 HBase Backup 

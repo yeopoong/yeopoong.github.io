@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Spark
-slug: spark
+title: Big Data
+slug: bigdata
 category: dev
 menu: false
 order: 1

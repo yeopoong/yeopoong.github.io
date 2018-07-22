@@ -2,7 +2,7 @@
 layout: post
 title: "Apache Spark"
 categories: dev
-tags: spark
+tags: bigdata, spark
 header-img: "/img/spark-logo-trademark.png"
 ---
 
