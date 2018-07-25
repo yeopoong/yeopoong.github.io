@@ -51,7 +51,26 @@ Compiling .\contracts\Migrations.sol...
 Writing artifacts to .\build\contracts
 ```
 
+## Ganache
+
+![Ganache](/assets/img/ganache.png)
+
 ## 배포
+
+`truffle.js`
+```
+module.exports = {
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  // to customize your Truffle configuration!
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*" // Match any network id
+    }
+  }
+};
+```
 
 ```
 $ truffle create migration bank
@@ -95,22 +114,56 @@ Saving artifacts...
 
 ## 테스트
 
-`truffle.js`
-```
-module.exports = {
-  // See <http://truffleframework.com/docs/advanced/configuration>
-  // to customize your Truffle configuration!
-  networks: {
-    development: {
-      host: "127.0.0.1",
-      port: 7545,
-      network_id: "*" // Match any network id
-    }
-  }
-};
-```
-
 ```
 $ truffle console
 truffle(development)>
 ```
+
+```
+truffle(development)> Bank.deployed().then(instance => bank = instance)
+```
+
+```
+truffle(development)> bank.owner()
+'0x597193c7db57b66b53f7cea4877f20961a98b0d2'
+```
+
+```
+truffle(development)> bank.deposit({value: web3.toWei(10, 'ether')})
+{ tx: '0xbae00009b4a915c8342ceef64b06d307e99e20d3bc72e0e538770d6224111948',
+  receipt:
+   { transactionHash: '0xbae00009b4a915c8342ceef64b06d307e99e20d3bc72e0e538770d6224111948',
+     transactionIndex: 0,
+     blockHash: '0x4cdaf5ab1ea8df72ac116484771a360214b1b781fb0cc2d3e1f65fcef70dedad',
+     blockNumber: 5,
+     gasUsed: 21453,
+     cumulativeGasUsed: 21453,
+     contractAddress: null,
+     logs: [],
+     status: '0x1',
+     logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' },
+  logs: [] }
+```
+
+참조: http://ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html
+
+![deposit](/assets/img/bank_deposit.png)
+
+```
+truffle(development)> bank.withdraw()
+{ tx: '0x85d78f1db258514b92c76420332ef04faf9a2bc49b08f43ff722ce0358e20680',
+  receipt:
+   { transactionHash: '0x85d78f1db258514b92c76420332ef04faf9a2bc49b08f43ff722ce0358e20680',
+     transactionIndex: 0,
+     blockHash: '0xa2427d52882d9d20b28cb00cae5aed6844cc70c05701014b66c2814a94f234f2',
+     blockNumber: 6,
+     gasUsed: 29826,
+     cumulativeGasUsed: 29826,
+     contractAddress: null,
+     logs: [],
+     status: '0x1',
+     logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' },
+  logs: [] }
+```
+
+![withdraw](/assets/img/bank_withdraw.png)
