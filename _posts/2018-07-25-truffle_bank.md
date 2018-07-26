@@ -5,9 +5,10 @@ categories: dev
 tags: blockchain truffle
 ---
 
-> Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
+> 트러플을 이용하여 이더리움 은행을 스마트 컨트랙트로 개발하고 컴파일과 배포 및 테스트를 실습  
+> 가나슈를 이용하여 블록체인 상태를 모니터링
 
-## 프로젝트 생성
+## 트러플 프로젝트 생성
 
 ```
 $ mkdir bank
@@ -26,7 +27,7 @@ $ truffle create contract Bank
 pragma solidity ^0.4.4;
 
 contract Bank {
-    address public owner;
+    address public owner; //계좌의 소유주
 
     function Bank(address _owner) public {
         owner = _owner;
@@ -43,6 +44,12 @@ contract Bank {
 }
 ```
 
+## Ganache
+
+![Ganache](/assets/img/ganache.png)
+
+## 컴파일
+
 ```
 $ truffle compile
 Compiling .\contracts\Bank.sol...
@@ -50,10 +57,6 @@ Compiling .\contracts\Migrations.sol...
 
 Writing artifacts to .\build\contracts
 ```
-
-## Ganache
-
-![Ganache](/assets/img/ganache.png)
 
 ## 배포
 
@@ -72,9 +75,12 @@ module.exports = {
 };
 ```
 
+### 배포 스크립트 작성
 ```
 $ truffle create migration bank
 ```
+
+타임스탬프 형식으로 Migration Script가 자동 생성된다.
 
 `migrations/1532503784_bank.js`
 ```
@@ -112,6 +118,11 @@ Saving successful migration to network...
 Saving artifacts...
 ```
 
+오류발생 시 
+```
+truffle migrate --reset
+```
+
 ## 테스트
 
 ```
@@ -145,7 +156,7 @@ truffle(development)> bank.deposit({value: web3.toWei(10, 'ether')})
   logs: [] }
 ```
 
-참조: http://ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html
+Note: deposit() 함수는 `payable function` 이기 때문에 송금 로직을 작성하지 않고 이더리움을 전송 할 수 있다.
 
 ![deposit](/assets/img/bank_deposit.png)
 
@@ -165,5 +176,7 @@ truffle(development)> bank.withdraw()
      logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' },
   logs: [] }
 ```
+
+참조: http://ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html
 
 ![withdraw](/assets/img/bank_withdraw.png)
