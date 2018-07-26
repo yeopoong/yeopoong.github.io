@@ -33,16 +33,21 @@ contract Bank {
         owner = _owner;
     }
 
+    //입금
     function deposit() public payable {
         require(msg.value > 0);
     }
 
+    //출금
     function withdraw() public {
         require(msg.sender == owner);
         owner.transfer(address(this).balance);
     }
 }
 ```
+
+### What is a transaction?
+The term “transaction” is used in Ethereum to refer to the signed data package that stores a message to be sent from an externally owned account to another account on the blockchain.
 
 ## Ganache
 
@@ -89,6 +94,7 @@ module.exports = function(deployer) {
 };
 ```
 
+다음과 같이 작성한다.
 ```
 var Bank = artifacts.require("Bank");
 
@@ -123,6 +129,9 @@ Saving artifacts...
 truffle migrate --reset
 ```
 
+배포 후에 다음과 같이 4개의 트랜잭션 블럭이 추가된 것을 확인 할 수 있다.
+![deposit](/assets/img/truffle_migrate.png)
+
 ## 테스트
 
 ```
@@ -130,6 +139,7 @@ $ truffle console
 truffle(development)>
 ```
 
+배포한 컨트랙트의 인스턴스를 `bank` 변수에 저장한다.
 ```
 truffle(development)> Bank.deployed().then(instance => bank = instance)
 ```
