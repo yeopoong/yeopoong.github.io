@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[빅데이터] Log Monitoring Architecture"
+title: "[빅데이터] 로그 모니터링 아키텍처"
 categories: lecture
 tags: bigdata
 ---
