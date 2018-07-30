@@ -2,7 +2,7 @@
 layout: list
 title: Documents
 slug: doc
-menu: true
+menu: false
 submenu: false
 order: 5
 description: >
