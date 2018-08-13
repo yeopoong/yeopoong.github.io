@@ -5,8 +5,7 @@ categories: dev
 tags: blockchain truffle
 ---
 
-> 트러플을 이용하여 이더리움 은행을 스마트 컨트랙트로 개발하고 컴파일과 배포 및 테스트를 실습  
-> 가나슈를 이용하여 블록체인 상태를 모니터링
+> Truffle 과 Ganache를 이용하여 이더리움 은행을 개발
 
 ## 트러플 프로젝트 생성
 
