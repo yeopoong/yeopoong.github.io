@@ -11,7 +11,7 @@ tags: blockchain truffle
 
 ```
 $ mkdir bank
-$ cd sample
+$ cd bank
 $ truffle init
 ```
 
