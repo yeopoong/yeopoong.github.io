@@ -199,13 +199,33 @@ export default App;
 * https://metamask.io
 
 ### Metamask Log in
-![](/assets/image/metamask1.png)
+![](/assets/image/metamask.png)
 
 ### Custom RPC 연결 
 
-Ethereum Network -> http://127.0.0.1:7545
+Ethereum Network -> http://127.0.0.1:8545
 
 ![](/assets/image/metamask2.png)
 
 ### MetaMast에 계정 추가
 
+* Ganache 에서 첫번째 계정의 Private Key 복사
+* MetaMask 에서 Import Account > Private Key 붙여넣고 `IMPORT` 버튼 클릭
+
+![](/assets/image/metamask3.png)
+
+* `IMPORTED` 계정이 생성됨
+
+![](/assets/image/metamask1.png)
+
+## 테스트
+
+```
+$ npm run start
+```
+
+http://localhost:3000 에 접속 후 구매하기와 판매하기 테스트
+
+## 참고
+
+* https://steemit.com/ethereum/@dangen/truffle-react-js-dapp-1-2
