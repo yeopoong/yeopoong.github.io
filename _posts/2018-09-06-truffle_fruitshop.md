@@ -15,7 +15,7 @@ $ npm install -g truffle
 
 ## 프로젝트 생성
 
-Truffle Boxe를 이용하여 프로젝트를 생성
+Truffle Boxes를 이용하여 프로젝트를 생성
 
 ```
 $ mkdir fruitshop
