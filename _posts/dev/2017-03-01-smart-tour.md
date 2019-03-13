@@ -14,6 +14,13 @@ tags: dev
 ### 1.1.1 개발환경 설치 및 디렉토리 구조 
 smart-tour.zip 파일을 다음의 경로에 압축 해제한다.
 
+- Lombok
+https://projectlombok.org/download
+
+```
+$ java -jar lombok.jar
+```
+
 * C:\smart-tour
   * apache-maven-3.3.9
   * eclipse 
