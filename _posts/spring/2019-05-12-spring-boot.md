@@ -9,3 +9,10 @@ tags: spring
 ## Common Spring Boot Properties
 
 `https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html`
+
+## Logging
+
+```
+logging.level.root=INFO
+logging.level.org.springframework=DEBUG
+```
