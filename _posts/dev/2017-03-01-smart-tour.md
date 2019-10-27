@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "[Dev] "
+title: "[Dev] 스마트투어 개발 가이드"
 categories: dev
 tags: dev 
 ---
