@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "[리액트] React 기본"
 categories: dev
 tags: frontend react
