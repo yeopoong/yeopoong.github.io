@@ -1,0 +1,26 @@
+---
+layout: post
+title: "SPRING BOOT"
+categories: dev
+tags: springboot 
+---
+
+Amazon Linux
+------------
+
+  * Amazon Linux는 CentOS를 기반으로 하고 있는 배포판이다.
+  * CentOS 는 Red Hat Enterprise Linux를 무료로 사용할 수 있도록 만든 배포판이다.
+
+
+### EC2 인스턴스 접속
+
+```
+$ ssh -i ~/.ssh/awskeypair.pem ec2-user@52.78.20.2
+```
+
+### 비용
+
+* 무료
+ - 인바운드 데이터 전송
+ - 같은 리전 내 서비스 간 데이터 전송 
+
