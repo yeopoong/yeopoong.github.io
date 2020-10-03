@@ -170,7 +170,7 @@ sudo grep 'temporary password' /var/log/mysqld.log
 2020-03-03T22:06:33.144755Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: .K#-y*00Mp11
 ```
 
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'Single1!';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'xxxx';
 SET GLOBAL validate_password.policy = 0;
 SET GLOBAL sql_mode='NO_ENGINE_SUBSTITUTION';
 
@@ -178,7 +178,7 @@ sudo mysqld_safe --skip-grant-tables --skip-networking
 mysql -u root
 sudo mysqladmin shutdown
 
-CREATE USER 'root'@'%' IDENTIFIED BY 'Single1!';
+CREATE USER 'root'@'%' IDENTIFIED BY 'xxxx';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 
 ```
@@ -288,11 +288,11 @@ DESCRIBE professor;
 
 ## Grafana
 
-http://127.0.0.1:8099/?orgId=1
+http://127.0.0.1:8080/?orgId=1
 
 ### Installing on Windows
 
-admin/admin1!
+admin/admin
 
 Go into the conf directory and copy sample.ini to custom.ini.
 
@@ -301,7 +301,7 @@ Go into the conf directory and copy sample.ini to custom.ini.
 http_port = 3000
 ```
 
-Default login and password admin/ admin / admin1!
+Default login and password admin/ admin / admin
 
 Start Grafana by executing grafana-server.exe, located in the bin directory.
 
@@ -413,13 +413,6 @@ set -o vi
 
 ```
 $ sudo visudo
-```
-
-## MVN
-
-```
-mvn install:install-file -Dfile=sdp-mysingle-2.1.0.jar -DgroupId=sdp -DartifactId=mySingle -Dversion=2.1.0 -Dpackaging=jar
-mvn install:install-file -Dfile=sdp-common-2.1.0.jar -DgroupId=sdp -DartifactId=common -Dversion=2.1.0 -Dpackaging=jar
 ```
 
 ## Dev Env
