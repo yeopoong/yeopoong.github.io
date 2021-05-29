@@ -8,7 +8,7 @@ tags: spring spring-boot
 Simple Architecture with spring boot
 ------------
 
-  * Spring Boot, React 를 이용한 초간단 마이크로서비스 아키텍처 구축하기
+  * Building simple microservices architecture using Spring Boot and React
 
 ## AWS
 
