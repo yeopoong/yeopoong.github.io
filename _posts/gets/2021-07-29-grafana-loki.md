@@ -14,13 +14,6 @@ $ unzip loki-linux-amd64.zip
 $ wget https://raw.githubusercontent.com/grafana/loki/master/cmd/loki/loki-local-config.yaml
 ```
 
-### Setup
-`/usr/lib/systemd/system/loki.service`
-```
-[Service]
-ExecStart=/home/ec2-user/lib/loki/loki-linux-amd64 -config.file /home/ec2-user/lib/loki/loki-local-config.yaml
-```
-
 ### Run
 ```
 chmod +x loki-linux-amd64
@@ -29,6 +22,10 @@ or
 nohup ./loki-linux-amd64 -config.file=loki-local-config.yaml > /dev/null &
 ```
 
+### Test
+
+curl -XGET http://localhost:3100/metrics
+
 ## Promtail
 
 ### Download
@@ -36,6 +33,30 @@ nohup ./loki-linux-amd64 -config.file=loki-local-config.yaml > /dev/null &
 $ wget https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-amd64.zip
 $ unzip promtail-linux-amd64.zip
 $ wget https://raw.githubusercontent.com/grafana/loki/main/clients/cmd/promtail/promtail-local-config.yaml
+```
+
+### Config
+
+`promtail-local-config.yaml`
+```
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: http://localhost:3100/loki/api/v1/push
+
+scrape_configs:
+- job_name: system
+  static_configs:
+  - targets:
+      - localhost
+    labels:
+      job: varlogs
+      __path__: /home/cr2/cr2-api/logs/*log
 ```
 
 ### Run
