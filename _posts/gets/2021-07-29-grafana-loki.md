@@ -18,7 +18,7 @@ $ wget https://raw.githubusercontent.com/grafana/loki/master/cmd/loki/loki-local
 `/usr/lib/systemd/system/loki.service`
 ```
 [Service]
-ExecStart=/home/cr2/lib/loki/loki-linux-amd64 -config.file /home/cr2/lib/loki/loki-local-config.yaml
+ExecStart=/home/ec2-user/lib/loki/loki-linux-amd64 -config.file /home/ec2-user/lib/loki/loki-local-config.yaml
 ```
 
 ### Run
