@@ -71,10 +71,6 @@ alias gosmart='cd ~/smart-api'
 $ yum install git-core
 ```
 
-## Swagger
-
-https://www.programmersought.com/article/6509169151/
-
 ## Redis
 
 ```
@@ -90,10 +86,6 @@ redis-cli --scan --pattern "holiday:*202007*" | xargs redis-cli del
 redis-cli flushall
 ```
 
-RedisDeskManager
-
-https://redisdesktop.com/pricing
-
 ## Jenkins
 
 ```
@@ -103,7 +95,7 @@ Defaults:jenkins !requiretty
 jenkins ALL=(smart)       NOPASSWD: ALL
 ```
 
-- http://127.0.0:8080/
+- http://127.0.0.0:8080/
 
 - Unlock Jenkins
 cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -138,12 +130,6 @@ Plugin
 ```
 ren *.jpi *.hpi
 ```
-
-## Amazon SES (Simple Email Service)
-
-https://aws.amazon.com/ko/ses/
-https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/quick-start.html
-https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html
 
 ## MySQL
 
@@ -397,39 +383,3 @@ mount -a
 //127.0.0.1/img /home/smart/smart-api/img cifs uid=500,gid=500,user='smart',password='xxxx',iocharset=utf8 0 0
 //127.0.0.1/img /home/smart/smart-api/img cifs uid=1001,gid=1001,vers=2.1,credentials=/home/smart/.smb,iocharset=utf8 0 0
 ```
-
-## unzip
-
-```
-$ unzip filename -d folder
-```
-
-## bash_profile
-```
-set -o vi
-```
-
-## Sudo
-
-```
-$ sudo visudo
-```
-
-## Dev Env
-
-Change p2 path
-```
-Relative to Eclipse install dir:
-
-configuration/org.eclipse.equinox.source/source.info
-configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
-configuration/config.ini
-eclipse.ini
-```
-
-npm install --save jwt-decode
-npm install --save @types/jwt-decode
-
-https://nodejs.org/dist/v10.15.1/
-https://github.com/yarnpkg/yarn/releases/tag/v1.9.4
-yarn config set "strict-ssl" false -g

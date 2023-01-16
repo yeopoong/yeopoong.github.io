@@ -4,7 +4,7 @@ About
 DEVELOPER, ARCHITECT, INSTRUCTOR
 --------------------------------
 
-Sungkyun Kim is software engineer currently works for T3Q in Seoul, developing server side.
+Sungkyun Kim is software engineer currently works for SDSA, developing server side.
 
 Sungkyun worked as a senior engineer for over ten years in South Korea. During that time, he successfully worked on projects for celebrated clients such as Samsung, LG, KT and SK. 
 
