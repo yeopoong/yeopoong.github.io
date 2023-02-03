@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "[Interview] Top 7 Coding Interview Concepts (Data Structures & Algorithms)"
 categories: interview
 tags: interview 
