@@ -6,27 +6,31 @@ categories: interview
 tags: interview 
 ---
 
+# Top 7 Coding Interview Concepts
+> 코딩 인터뷰 문제는 연관된 개념들을 묶어서 준비해야 한다.
+
 ## Top 7 Coding Interview Question Data Structure
 
 1. String
-1. Arrays
-1. Stack
-1. Linked List
-1. Trees
-1. Graphs
-1. Tries
+2. Array
+3. Stack
+4. Linked List
+5. Tree
+6. Graph
+7. Trie
 
 ## Top 7 Coding Interview Question Patterns
 
 1. Heaps
-1. Sliding Window
-1. TWo Pointers
-1. Binary Search
-1. DFS & BFS
-1. Recursion
-1. HashMap
+2. Sliding Window
+3. TWo Pointers
+4. Binary Search
+5. DFS & BFS
+6. Recursion
+7. HashMap
 
 ## Advanced Coding Interview Question
 1. Greedy
-1. Backtracking
-1. Dynamic Programming
+2. Backtracking
+3. Dynamic Programming
+4. Priority Queue
