@@ -6,16 +6,6 @@ categories: interview
 tags: interview 
 ---
 
-## Top 7 Coding Interview Question Patterns
-
-1. Heaps
-1. Sliding Window
-1. TWo Pointers
-1. Binary Search
-1. DFS & BFS
-1. Recursion
-1. HashMap
-
 ## Top 7 Coding Interview Question Data Structure
 
 1. String
@@ -25,6 +15,16 @@ tags: interview
 1. Trees
 1. Graphs
 1. Tries
+
+## Top 7 Coding Interview Question Patterns
+
+1. Heaps
+1. Sliding Window
+1. TWo Pointers
+1. Binary Search
+1. DFS & BFS
+1. Recursion
+1. HashMap
 
 ## Advanced Coding Interview Question
 1. Greedy
