@@ -42,7 +42,7 @@ order: 10
 
 ## 강의
 
-- [이더리움으로 스마트컨트랙트 만들기](https://www.youtube.com/playlist?list=)
+- [로그 모니터링 아키텍처](https://www.slideshare.net/yeopoong/logmonitoringarchitecturepdf)
 
 ## 하고싶은 말
 
