@@ -23,3 +23,44 @@ tags: interview
 ## Pseudo code
 ## Code solution
 ## Debug skill
+
+
+## Code Spat
+
+SWAP
+
+- Array
+```java
+t = a, a = b, b = t;
+```
+
+- List
+```java
+p -> c -> n (이전: p, 현재: c, 다음: n)
+n = c.next, c.next = p;
+p = c, c = n;
+```
+
+- Tree
+```
+```
+
+
+Binary Search
+```java
+// 이진검색
+int left = 0, right = arr.length - 1;
+
+while (left <= right) {
+    int pivot = left + (right - left) / 2;
+    if (arr[pivot] > target) {
+        right = pivot - 1;
+    } else if (arr[pivot] < target) {
+        left = pivot + 1;
+    } else {
+        return true;
+    }
+}
+```
+
+Tree Travesal
