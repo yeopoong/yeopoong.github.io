@@ -15,5 +15,6 @@ tags: interview
 5. Remove Duplicates from Sorted List
 6. Reorder List
 7. Maximum Product Subarray
-- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
 
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
