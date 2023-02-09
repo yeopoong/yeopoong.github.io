@@ -24,4 +24,5 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 [Problem]
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
+- [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 - [198. House Robber](https://leetcode.com/problems/house-robber)
