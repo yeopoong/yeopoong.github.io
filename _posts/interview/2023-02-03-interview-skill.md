@@ -27,6 +27,13 @@ tags: interview
 
 ## Code Spat
 
+Length
+```
+left = 3, right = 1 (0,1,2,3)
+len = right - left + 1;
+```
+
+
 SWAP
 
 - Array
