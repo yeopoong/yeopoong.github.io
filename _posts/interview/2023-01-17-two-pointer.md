@@ -8,13 +8,8 @@ tags: interview
 
 ## Two Pointer
 
-1. Two Sum
-2. Container With Most Water
-3. 3Sum
-4. Minimum Window Substring
-5. Remove Duplicates from Sorted List
-6. Reorder List
-7. Maximum Product Subarray
-
+- [15. 3Sum](https://leetcode.com/problems/3sum/)
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [148. Sort List](https://leetcode.com/problems/sort-list/)
