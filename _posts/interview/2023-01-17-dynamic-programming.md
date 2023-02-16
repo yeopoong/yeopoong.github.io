@@ -7,6 +7,7 @@ tags: interview
 ---
 
 ## Dynamic Programming
+> 서브문제로 
 
 [Recursion]
 재귀함수로 구현할 경우 반복해서 계산되는 부분이 존재하면 효율성이 떨어진다.
