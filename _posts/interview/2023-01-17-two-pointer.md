@@ -8,6 +8,9 @@ tags: interview
 
 ## Two Pointer
 
+[Easy]
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
