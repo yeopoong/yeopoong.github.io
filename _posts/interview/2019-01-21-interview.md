@@ -15,20 +15,20 @@ tags: interview
 1. String
 2. Array
 3. Stack
-4. Linked List
-5. Tree
-6. Graph
-7. Trie
+4. HashMap
+5. Linked List
+6. Tree
+7. Graph
 
 ## Top 7 Coding Interview Question with Patterns
 
-1. Heaps
+1. TWo Pointers
 2. Sliding Window
-3. TWo Pointers
-4. Binary Search
-5. DFS & BFS
-6. Recursion
-7. HashMap
+3. Binary Search
+4. DFS & BFS
+5. Recursion
+6. Subset
+7. Heaps
 
 ## Advanced Coding Interview Question
 1. Greedy

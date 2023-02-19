@@ -30,21 +30,26 @@ tags: interview
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 5. Tree
+- [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 6. Graph
-7. Trie
+- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
+7. HashMap
+
 
 ## Top 7 Coding Interview Question with Patterns
 
-1. Heaps
+1. TWo Pointers
 2. Sliding Window
-3. TWo Pointers
-4. Binary Search
-5. DFS & BFS
-6. Recursion
-7. HashMap
+3. Binary Search
+4. DFS & BFS
+5. Recursion
+6. Subset
+7. Heaps
 
 ## Advanced Coding Interview Question
+
 1. Greedy
 2. Backtracking
 3. Dynamic Programming
