@@ -15,6 +15,8 @@ tags: interview
 - Time Complexity
 - Space Complexity
 
+---
+
 ## Top 7 Coding Interview Question with Data Structure
 
 1. String
@@ -36,21 +38,43 @@ tags: interview
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 7. HashMap
+- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
+---
 
 ## Top 7 Coding Interview Question with Patterns
 
 1. TWo Pointers
+- [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+
 2. Sliding Window
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
 3. Binary Search
+- [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
 4. DFS & BFS
+- [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+
 5. Recursion
+- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+
 6. Subset
+- [78. Subsets](https://leetcode.com/problems/subsets/)
+
 7. Heaps
+- [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
+
+---
 
 ## Advanced Coding Interview Question
 
 1. Greedy
+- [55. Jump Game](https://leetcode.com/problems/jump-game/)
+
 2. Backtracking
+- [46. Permutations](https://leetcode.com/problems/permutations/solution/)
+
 3. Dynamic Programming
-4. Priority Queue
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
