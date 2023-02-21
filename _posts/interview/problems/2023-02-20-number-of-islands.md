@@ -10,4 +10,4 @@ tags: interview graph
 
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
-<script src="https://gist.github.com/yeopoong/21d417106be0c104c3ec1f61ac396736.js"></script>
+<script src="https://gist.github.com/yeopoong/21d417106be0c104c3ec1f61ac396736.js" defer></script>
