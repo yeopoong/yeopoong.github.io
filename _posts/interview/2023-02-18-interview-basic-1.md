@@ -1,12 +1,23 @@
 ---
 layout: post
 published: true
-title: "Top 7 Coding Interview Data Structure"
+title: "Top 7 Coding Interview Concepts (Data Structures & Algorithms) - Basic I"
 categories: interview
 tags: interview 
 ---
 
-# Top 7 Coding Interview Data Structure
+# Top 7 Coding Interview Concepts
+> - 코딩 인터뷰는 연관된 개념들을 묶어서 효율적으로 준비해야 한다.
+> - 인터뷰어가 체크하려고 하는 것을 파악하고 대응할 수 있어야 한다.
+
+## Complexity
+- Big O: O(n)
+- Time Complexity
+- Space Complexity
+
+---
+
+## Top 7 Coding Interview Data Structure
 
 1. String
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
@@ -29,3 +40,4 @@ tags: interview
 7. HashMap
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
+---

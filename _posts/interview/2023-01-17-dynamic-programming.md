@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Dynamic Programming"
 categories: interview
-tags: interview 
+tags: interview dynamic-programming
 ---
 
 ## Dynamic Programming
@@ -27,6 +27,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
 [Medium]
+- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 - [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
