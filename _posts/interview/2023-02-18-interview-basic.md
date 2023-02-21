@@ -17,7 +17,7 @@ tags: interview
 
 ---
 
-## Top 7 Coding Interview Question with Data Structure
+## Top 7 Coding Interview Data Structure
 
 1. String
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
@@ -42,7 +42,7 @@ tags: interview
 
 ---
 
-## Top 7 Coding Interview Question with Patterns
+## Top 7 Coding Interview Patterns
 
 1. TWo Pointers
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
@@ -68,7 +68,7 @@ tags: interview
 
 ---
 
-## Advanced Coding Interview Question
+## Advanced Coding Interview Patterns
 
 1. Greedy
 - [55. Jump Game](https://leetcode.com/problems/jump-game/)
