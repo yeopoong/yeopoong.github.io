@@ -14,10 +14,12 @@ tags: interview
 
 1. String
 2. Array
-3. Stack
+3. Stack & Queue
+- [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 4. HashMap
 5. Linked List
 6. Tree
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 7. Graph
 
 ## Top 7 Coding Interview Patterns
@@ -32,6 +34,7 @@ tags: interview
 
 ## Advanced Coding Interview Patterns
 1. Greedy
+- [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
 2. Backtracking
 3. Dynamic Programming
 4. Priority Queue
