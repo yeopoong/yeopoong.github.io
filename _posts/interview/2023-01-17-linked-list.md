@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Linked List"
 categories: interview
-tags: interview 
+tags: interview linked-list
 ---
 
 ## Linked List
@@ -15,5 +15,6 @@ tags: interview
 
 [Medium]
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 - [148. Sort List](https://leetcode.com/problems/sort-list/)
 - [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)

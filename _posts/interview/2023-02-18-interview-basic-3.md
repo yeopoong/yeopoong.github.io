@@ -16,3 +16,6 @@ tags: interview
 
 3. Dynamic Programming
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
+4. Design
+- [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
