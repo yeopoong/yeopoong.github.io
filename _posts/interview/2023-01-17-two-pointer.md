@@ -21,6 +21,7 @@ tags: interview two-pointer
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - [281. Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)
 - [1229. Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)
+- [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 [Hard]
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)

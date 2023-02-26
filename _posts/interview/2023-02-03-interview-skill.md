@@ -125,3 +125,19 @@ boolean isPalindrome(String s, int low, int high) {
     return true;
 }
 ```
+
+Graph DFS
+```java
+// 연결된 모든 네크워크를 방문처리 한다.
+int dfs(int c, List<Integer>[] graph, boolean[] visited) {
+    if (visited[c]) return 0;
+    
+    visited[c] = true;
+    
+    for (int v : graph[c]) {
+        dfs(v, graph, visited);
+    }
+    
+    return 1;
+}
+```
