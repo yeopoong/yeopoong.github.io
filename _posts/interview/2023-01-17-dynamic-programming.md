@@ -23,15 +23,15 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 상향식 방법으로 구현할 수 있다.
 
 [Easy]
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 - [198. House Robber](https://leetcode.com/problems/house-robber)
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 
 [Medium]
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
-- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 - [322. Coin Change](https://leetcode.com/problems/coin-change/)
-- [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
