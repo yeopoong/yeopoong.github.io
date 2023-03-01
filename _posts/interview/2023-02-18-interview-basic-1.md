@@ -8,7 +8,8 @@ tags: interview
 
 ## How to prepare for the coding interview
 > - 코딩 인터뷰는 연관된 개념들을 묶어서 효율적으로 준비해야 한다.
-> - 인터뷰어가 체크하려고 하는 것을 파악하고 대응할 수 있어야 한다.
+> - 문제의 정답 보다 문제의 패턴에 집중한다.
+> - 인터뷰어가 체크하려고 하는 것을 인식하고 대응할 수 있어야 한다.
 
 ## Complexity
 - Big-O Notation: O(n)
@@ -20,11 +21,11 @@ tags: interview
 
 ## Top 7 Coding Interview Data Structure
 
-1. String
-- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-
-2. Array
+1. Array
 - [1. Two Sum](https://leetcode.com/problems/two-sum/)
+
+2. String
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 3. Stack
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)

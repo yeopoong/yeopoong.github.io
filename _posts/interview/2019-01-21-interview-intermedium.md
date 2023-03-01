@@ -12,8 +12,8 @@ tags: interview
 
 ## Top 7 Coding Interview Data Structure
 
-1. String
-2. Array
+1. Array
+2. String
 3. Stack & Queue
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 4. HashMap
