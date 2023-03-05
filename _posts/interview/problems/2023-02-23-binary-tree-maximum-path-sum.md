@@ -11,3 +11,5 @@ tags: interview dfs tree
 - [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 <script type="module" src="https://gist.github.com/yeopoong/70f16fa9e221e1203af76af7672a893a.js"></script>
+
+[LABEL](https://gist.github.com/yeopoong/a7f6c98070ce19ca6dcf18c26ad61594':include :type=code')
