@@ -11,11 +11,11 @@ tags: interview linked-list
 Merge List
 ```java
 private ListNode merge(ListNode l1, ListNode l2) {
-    ListNode dummy = new ListNode(0);
+    ListNode dummy = new ListNode();
     ListNode curr = dummy;
 
     while (l1 != null && l2 != null) {
-        if (l1.val <= l2.val) {
+        if (l1.val < l2.val) {
             curr.next = l1;
             l1 = l1.next;
         } else {
@@ -38,6 +38,7 @@ private ListNode merge(ListNode l1, ListNode l2) {
 
 
 [Easy]
+- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
