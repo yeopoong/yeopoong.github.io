@@ -32,3 +32,13 @@ layout: compress
 <body onload="script();">
   {% include body.html %}
 </body>
+
+<script>
+  document.querySelectorAll('iframe').forEach(ifr => {
+    // use onload property because we need to get the height
+    // after all content is fully loaded
+    ifr.onload = function () {
+      ifr.style.height = ifr.contentWindow.document.body.scrollHeight + 'px';
+    };
+  });
+</script>
