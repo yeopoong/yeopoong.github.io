@@ -26,6 +26,14 @@ Second, we need a way to transition between states, such as dp[5] and dp[7]. Thi
 
 The third component is the simplest: we need a base case. For this problem, we can initialize every element of dp to 1, since every element on its own is technically an increasing subsequence.
 
+Usually, solving and fully understanding a dynamic programming problem is a 4 step process:
+
+1. Start with the recursive backtracking solution
+2. Optimize by using a memoization table (top-down[2] dynamic programming)
+3. Remove the need for recursion (bottom-up dynamic programming)
+4. Apply final tricks to reduce the time / memory complexity
+All solutions presented below produce the correct result, but they differ in run time and memory requirements.
+
 [Recursion]
 재귀함수로 구현할 경우 반복해서 계산되는 부분이 존재하면 효율성이 떨어진다.
 
@@ -51,6 +59,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [198. House Robber](https://leetcode.com/problems/house-robber)
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) : 
+- [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 - [322. Coin Change](https://leetcode.com/problems/coin-change/)
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
