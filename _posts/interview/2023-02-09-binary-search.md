@@ -7,7 +7,9 @@ tags: interview binary-search
 ---
 
 ## Binary Search
+
 T: O(log n)
+Every time you see a problem that involves a sorted array, you should consider binary search.
 
 ```java
 public int search(int[] nums, int target) {
