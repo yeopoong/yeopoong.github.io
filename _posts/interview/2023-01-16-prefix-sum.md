@@ -9,6 +9,7 @@ tags: interview prefix-sum
 ## Prefix Sum
 
 [Easy]
+- [1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
 
 [Medium]
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
