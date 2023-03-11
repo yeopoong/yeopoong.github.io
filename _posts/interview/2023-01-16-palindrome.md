@@ -7,9 +7,11 @@ tags: interview palindrome
 ---
 
 ## Palindrome
+- 중복되지 않는 문자는 중간에 한번만 나올 수 있다.
 
 [Easy]
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 [Medium]
 - [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
