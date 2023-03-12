@@ -8,6 +8,7 @@ tags: interview palindrome
 
 ## Palindrome
 - 중복되지 않는 문자는 중간에 한번만 나올 수 있다.
+- 센터에서 확장
 
 [Easy]
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
