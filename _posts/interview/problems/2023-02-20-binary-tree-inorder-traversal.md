@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "94. Binary Tree Inorder Traversal"
 categories: interview
-tags: interview tree
+tags: problems interview tree
 ---
 
 [Easy]

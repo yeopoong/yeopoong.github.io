@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "49. Group Anagrams"
 categories: interview
-tags: interview hashmap
+tags: problems interview hashmap
 ---
 
 [Easy]

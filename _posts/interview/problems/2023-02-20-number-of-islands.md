@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "200. Number of Islands"
 categories: interview
-tags: interview graph
+tags: problems interview graph
 ---
 
 [Easy]

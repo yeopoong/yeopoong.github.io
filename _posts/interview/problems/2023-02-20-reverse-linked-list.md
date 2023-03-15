@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "206. Reverse Linked List"
 categories: interview
-tags: interview linkedlist
+tags: problems interview linkedlist
 ---
 
 [Easy]
