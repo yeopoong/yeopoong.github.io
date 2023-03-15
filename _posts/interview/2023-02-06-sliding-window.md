@@ -55,4 +55,5 @@ class Solution {
 - [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 
 [Hard]
+- [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)

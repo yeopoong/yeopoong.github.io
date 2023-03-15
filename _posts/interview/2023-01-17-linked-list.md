@@ -8,6 +8,12 @@ tags: interview linked-list
 
 ## Linked List
 
+연결 리스트의 통합은 세가지 조건을 체크해서 처리한다(>, <, ==)
+
+Sentinel Head
+
+To handle the last use case, one needs so called Sentinel Node. Sentinel nodes are widely used for trees and linked lists as pseudo-heads, pseudo-tails, etc. They are purely functional, and usually don't hold any data. Their main purpose is to standardize the situation to avoid edge case handling.
+
 Merge List
 ```java
 private ListNode merge(ListNode l1, ListNode l2) {
@@ -35,7 +41,6 @@ private ListNode merge(ListNode l1, ListNode l2) {
     return dummy.next;
 }
 ```
-
 
 [Easy]
 - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
