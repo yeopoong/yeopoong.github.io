@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "125. Valid Palindrome"
 categories: interview
-tags: interview 
+tags: problems string 
 ---
 
 [Easy]

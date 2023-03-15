@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "20. Valid Parentheses"
 categories: interview
-tags: interview 
+tags: problems stack 
 ---
 
 [Easy]
