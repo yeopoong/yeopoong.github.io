@@ -49,7 +49,9 @@ private ListNode merge(ListNode l1, ListNode l2) {
 
 [Medium]
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)
+- [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 - [148. Sort List](https://leetcode.com/problems/sort-list/)
 - [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
