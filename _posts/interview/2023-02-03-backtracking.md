@@ -11,6 +11,7 @@ tags: interview backtracking
 > Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.
 
 [Medium]
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 - [78. Subsets](https://leetcode.com/problems/subsets/)
  -[79. Word Search](https://leetcode.com/problems/word-search/)
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
