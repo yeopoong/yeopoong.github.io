@@ -10,4 +10,4 @@ tags: problems hashmap
 
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
-{{ "{% gist yeopoong/14a09b648766ba4177a46e55c81c2121" }} %}
+{% gist yeopoong/14a09b648766ba4177a46e55c81c2121 %}
