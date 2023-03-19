@@ -8,6 +8,11 @@ tags: interview recursion
 
 ## Recursion
 
+```
+// 1. 종료조건
+// 2. 재귀호출
+```
+
 점화식(Recurrence relation): F(n) = F(n-1) + F(n-2)
 Memoization
 
