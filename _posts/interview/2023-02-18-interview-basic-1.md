@@ -10,6 +10,7 @@ tags: interview
 > - 코딩 인터뷰는 연관된 개념들을 묶어서 효율적으로 준비한다.
 > - 문제의 정답 보다 문제의 패턴에 집중한다.
 > - 인터뷰어가 체크하려고 하는 사항을 파악하고 대응한다.
+> - You should confirm with your interviewer about the scope and those edge cases.
 
 ## Complexity
 - Big-O Notation: O(n)
