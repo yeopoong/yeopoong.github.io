@@ -42,6 +42,43 @@ private ListNode merge(ListNode l1, ListNode l2) {
 }
 ```
 
+```java
+// remove node from list
+private void remove(Node node) {
+    Node prev = node.prev;
+    Node next = node.next;
+
+    prev.next = next;
+    next.prev = prev;
+}
+
+// insert node at right
+private void insert(Node node) {
+    Node prev = this.right.prev;
+    Node next = this.right;
+
+    prev.next = node;
+    next.prev = node;
+
+    node.next = next;
+    node.prev = prev;
+}
+
+private class Node {
+
+    private int key;
+    private int val;
+
+    Node next;
+    Node prev;
+
+    public Node(int key, int val) {
+        this.key = key;
+        this.val = val;
+    }
+}
+```
+
 [Easy]
 - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
@@ -52,6 +89,7 @@ private ListNode merge(ListNode l1, ListNode l2) {
 - [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 - [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+- [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [148. Sort List](https://leetcode.com/problems/sort-list/)
 - [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
