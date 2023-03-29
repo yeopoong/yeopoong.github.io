@@ -169,3 +169,30 @@ Merge List
     return dummy.next;
 }
 ```
+
+Merge Array
+```java
+ private int[] merge(int[] nums1, int[] nums2) {
+    int[] merge = new int[nums1.length + nums2.length];
+    
+    int n1 = 0, n2 = 0;
+    int p = 0;
+
+    // 작은 노드를 P 노드에 연결 시킨다.
+    while (n1 < nums1.length  && n2 < nums2.length) {
+        if (nums1[n1] < nums2[n2]) {
+            merge[p] = nums1[n1];
+            n1++;
+        } else {
+            merge[p] = nums2[n2];
+            n2++;
+        }
+        p++;
+    }
+    
+    for (; n1 < nums1.length; n1++) merge[p++] = nums1[n1];
+    for (; n2 < nums2.length; n2++) merge[p++] = nums2[n2];
+
+    return merge; 
+}
+```
