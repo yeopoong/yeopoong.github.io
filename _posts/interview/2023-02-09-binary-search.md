@@ -30,7 +30,7 @@ public int search(int[] nums, int target) {
 
 [Easy]
 - [704. Binary Search](https://leetcode.com/problems/binary-search/)
-- [060. Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)
+- [1060. Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)
 
 [Medium]
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
