@@ -6,7 +6,7 @@ categories: interview
 tags: problems hashmap
 ---
 
-[Easy]
+[Medium]
 
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
@@ -14,6 +14,7 @@ tags: problems hashmap
 class Solution {
     // 아나그램 그룹핑
     // T: O(nklogk), n is the length of strs, k is the maximum length of string in strs.
+    // S: O(nm)
     public List<List<String>> groupAnagrams(String[] strs) {
         // 그룹핑 하기위해서 맵자료 구조를 사용
         Map<String, List<String>> map = new HashMap<>();
