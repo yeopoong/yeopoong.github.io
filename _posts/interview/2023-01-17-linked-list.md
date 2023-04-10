@@ -79,6 +79,21 @@ private class Node {
 }
 ```
 
+Get length
+```java
+public int getLength(ListNode head) {
+    int length = 1;
+    
+    ListNode tail = head;
+    while (tail.next != null) {
+        tail = tail.next;
+        length += 1;
+    }
+    
+    return length;
+}
+```
+
 [Easy]
 - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
