@@ -12,6 +12,11 @@ tags: interview
 > - 인터뷰어가 체크하려고 하는 사항을 파악하고 대응한다.
 > - You should confirm with your interviewer about the scope and those edge cases.
 
+## Edge Case
+An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter.  
+For example, a stereo speaker might noticeably distort audio when played at maximum volume, even in the absence of any other extreme setting or condition.  
+An edge case can be expected or unexpected.
+
 ## Complexity
 - Big-O Notation: O(n)
   - Time Complexity
