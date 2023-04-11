@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "128. Longest Consecutive Sequence"
 categories: interview
-tags: interview hashmap
+tags: problems hashmap
 ---
 
 [Easy]

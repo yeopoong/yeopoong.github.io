@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "3. Longest Substring Without Repeating Characters"
 categories: interview
-tags: interview sliding-window
+tags: problems sliding-window
 ---
 
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)

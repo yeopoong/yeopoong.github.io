@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "70. Climbing Stairs"
 categories: interview
-tags: interview dynamic-programming
+tags: problems dynamic-programming
 ---
 
 [Easy]

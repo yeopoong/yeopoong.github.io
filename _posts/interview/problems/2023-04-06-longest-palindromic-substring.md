@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "5. Longest Palindromic Substring"
 categories: interview
-tags: interview two-pointer
+tags: problems two-pointer
 ---
 
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)

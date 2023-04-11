@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "33. Search in Rotated Sorted Array"
 categories: interview
-tags: interview binary-search
+tags: problems binary-search
 ---
 
 [Easy]

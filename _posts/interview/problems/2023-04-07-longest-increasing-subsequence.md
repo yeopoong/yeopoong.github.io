@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "300. Longest Increasing Subsequence"
 categories: interview
-tags: interview two-pointer
+tags: problems two-pointer
 ---
 
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)

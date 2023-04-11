@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "409. Longest Palindrome"
 categories: interview
-tags: interview hashmap
+tags: problems hashmap
 ---
 
 - [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)

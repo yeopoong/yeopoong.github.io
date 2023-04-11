@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "787. Cheapest Flights Within K Stops"
 categories: interview
-tags: interview graph
+tags: problems graph
 ---
 
 - [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)

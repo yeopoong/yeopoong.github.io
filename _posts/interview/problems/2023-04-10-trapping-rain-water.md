@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "42. Trapping Rain Water"
 categories: interview
-tags: interview two-pointer
+tags: problems two-pointer
 ---
 
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)

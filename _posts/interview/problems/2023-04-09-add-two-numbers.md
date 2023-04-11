@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "2. Add Two Numbers"
 categories: interview
-tags: interview linked-list
+tags: problems linked-list
 ---
 
 [Easy]

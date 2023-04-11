@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "215. Kth Largest Element in an Array"
 categories: interview
-tags: interview heaps
+tags: problems heaps
 ---
 
 [Easy]

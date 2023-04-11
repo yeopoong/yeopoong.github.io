@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "53. Maximum Subarray"
 categories: interview
-tags: interview dynamic-programming
+tags: problems dynamic-programming
 ---
 
 [Easy]

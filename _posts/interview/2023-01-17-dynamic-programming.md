@@ -38,6 +38,21 @@ All solutions presented below produce the correct result, but they differ in run
 재귀함수로 구현할 경우 반복해서 계산되는 부분이 존재하면 효율성이 떨어진다.
 
 점화식(Recurrence relation): F(n) = F(n-1) + F(n-2)
+```java
+public int fib(int n) {
+    int a = 0, b = 1;
+    int t;
+    
+    // A값을 리턴하는 것을 전제로한 조건
+    while (n-- > 0) {
+        t = a + b; // 앞 두수의 합
+        a = b;
+        b = t;
+    }
+    
+    return a;
+}
+```
 
 [Memoization]
 반복되는 부분을 캐슁(해서 실행속도를 증가시킬 수 있다.

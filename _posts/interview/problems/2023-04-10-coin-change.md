@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "322. Coin Change"
 categories: interview
-tags: interview dynamic-programming 
+tags: problems dynamic-programming 
 ---
 
 - [322. Coin Change](https://leetcode.com/problems/coin-change/)

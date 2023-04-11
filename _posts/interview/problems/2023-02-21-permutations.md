@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "46. Permutations"
 categories: interview
-tags: interview backtracking
+tags: problems backtracking
 ---
 
 [Easy]

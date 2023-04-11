@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "1602. Find Nearest Right Node in Binary Tree"
 categories: interview
-tags: interview tree bfs
+tags: problems tree bfs
 ---
 
 - [1602. Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)

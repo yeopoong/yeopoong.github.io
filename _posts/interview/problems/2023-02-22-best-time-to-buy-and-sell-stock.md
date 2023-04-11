@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "121. Best Time to Buy and Sell Stock"
 categories: interview
-tags: interview two-pointer
+tags: problems two-pointer
 ---
 
 [Easy]

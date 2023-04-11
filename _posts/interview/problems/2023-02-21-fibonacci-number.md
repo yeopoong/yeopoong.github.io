@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "509. Fibonacci Number"
 categories: interview
-tags: interview recursion memoization
+tags: problems recursion memoization
 ---
 
 [Easy]

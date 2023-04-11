@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "76. Minimum Window Substring"
 categories: interview
-tags: interview sliding-window
+tags: problems sliding-window
 ---
 
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)

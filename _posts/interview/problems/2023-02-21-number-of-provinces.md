@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "547. Number of Provinces"
 categories: interview
-tags: interview dfs bfs
+tags: problems dfs bfs
 ---
 
 [Easy]

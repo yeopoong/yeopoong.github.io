@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "23. Merge k Sorted Lists"
 categories: interview
-tags: interview linked-list
+tags: problems linked-list
 ---
 
 [Easy]

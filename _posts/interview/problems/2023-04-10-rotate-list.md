@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "61. Rotate List"
 categories: interview
-tags: interview linked-list
+tags: problems linked-list
 ---
 
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)

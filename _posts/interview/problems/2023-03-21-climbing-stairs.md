@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "70. Climbing Stairs"
 categories: interview
-tags: interview dynamic-programming
+tags: problems dynamic-programming
 ---
 
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)

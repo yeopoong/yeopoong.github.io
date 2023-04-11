@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "88. Merge Sorted Array"
 categories: interview
-tags: interview two-pointer
+tags: problems two-pointer
 ---
 
 [Easy]

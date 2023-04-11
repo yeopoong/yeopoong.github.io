@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "162. Find Peak Element"
 categories: interview
-tags: interview binary-search
+tags: problems binary-search
 ---
 
 [Easy]
