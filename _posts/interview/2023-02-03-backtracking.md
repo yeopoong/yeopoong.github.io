@@ -12,6 +12,7 @@ tags: interview backtracking
 
 [Medium]
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [46. Permutations](https://leetcode.com/problems/permutations/)
 - [78. Subsets](https://leetcode.com/problems/subsets/)
  -[79. Word Search](https://leetcode.com/problems/word-search/)
 - [90. Subsets II](https://leetcode.com/problems/subsets-ii/)

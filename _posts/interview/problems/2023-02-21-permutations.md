@@ -6,8 +6,37 @@ categories: interview
 tags: problems backtracking
 ---
 
-[Easy]
+> 개별 정수의 배열 숫자가 주어지면 가능한 모든 순열을 반환
 
 - [46. Permutations](https://leetcode.com/problems/permutations/solution/)
 
-<script src="https://gist.github.com/yeopoong/0862aafb2265e9589d8c7403d3bdc19b.js"></script>
+```java
+class Solution {
+    
+    List<List<Integer>> list = new ArrayList<>();
+    List<Integer> temp = new LinkedList<>();
+    
+    // 순열: Backtracking
+    // Time complexity : O(n!)
+    public List<List<Integer>> permute(int[] nums) {
+       backtrack(nums, 0);
+        
+       return list;
+    }
+
+    private void backtrack(int[] nums, int i) {
+    
+        if (i == nums.length) {
+            list.add(new ArrayList(temp));
+            return;
+        }
+
+        //Insert elements in the array by increasing index
+        for (int j = 0; j <= i; j++) {
+            temp.add(j, nums[i]);
+            backtrack(nums, i + 1);
+            temp.remove(j);
+        }
+    }
+}
+```
