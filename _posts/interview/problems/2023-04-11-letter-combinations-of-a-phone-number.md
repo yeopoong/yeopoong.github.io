@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "1229. Meeting Scheduler"
+title: "17. Letter Combinations of a Phone Number"
 categories: interview
 tags: problems backtracking
 ---
