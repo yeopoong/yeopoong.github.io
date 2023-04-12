@@ -8,6 +8,8 @@ tags: interview linked-list
 
 ## Linked List
 
+The entry point into a linked list is called the head of the list.
+
 연결 리스트의 통합은 세가지 조건을 체크해서 처리한다(>, <, ==)
 
 Sentinel Head
