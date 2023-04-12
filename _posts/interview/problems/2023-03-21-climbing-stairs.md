@@ -6,6 +6,9 @@ categories: interview
 tags: problems dynamic-programming
 ---
 
+> 당신은 계단을 오르고 있습니다. 정상에 도달하려면 n걸음이 걸립니다.  
+> 얼마나 많은 독특한 방법으로 정상에 오를 수 있습니까?
+
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 ```java

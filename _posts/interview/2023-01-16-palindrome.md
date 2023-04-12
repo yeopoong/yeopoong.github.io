@@ -34,6 +34,7 @@ public void getPalindrome(String s, int left, int right) {
 [Easy]
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 [Medium]
 - [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
