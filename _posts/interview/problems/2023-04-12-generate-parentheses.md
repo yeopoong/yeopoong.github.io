@@ -23,17 +23,20 @@ class Solution {
     }
 
     public void backtrack(int open, int close, int n) {
+        // 종료조건(open == close)
         if (cur.length() == n * 2) {
             ans.add(cur.toString());
             return;
         }
 
+        // only add open parenthesis if open < n
         if (open < n) {
             cur.append("(");
             backtrack(open + 1, close, n);
             cur.deleteCharAt(cur.length() - 1);  // 가장 마지막 문자를 지운다.
         }
         
+        // only add a closing paranthesis if close < open
         if (close < open) {
             cur.append(")");
             backtrack(open, close + 1, n);
