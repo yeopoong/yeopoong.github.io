@@ -7,8 +7,11 @@ tags: interview palindrome
 ---
 
 ## Palindrome
+
+> A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
 - 중복되지 않는 문자는 중간에 한번만 나올 수 있다.
-- 센터에서 확장
+- 센터에서 확장하면서 처리한다.
 
 ```java
 String result;
