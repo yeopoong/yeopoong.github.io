@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "104. Maximum Depth of Binary Tree"
 categories: interview
-tags: problems tree dfs maximun
+tags: problems tree dfs maximum
 ---
 
 > 이진 트리의 최대 깊이
