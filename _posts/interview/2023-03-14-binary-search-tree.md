@@ -12,3 +12,4 @@ tags: interview binary-search-tree
 
 [Medium]
 - [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+- [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
