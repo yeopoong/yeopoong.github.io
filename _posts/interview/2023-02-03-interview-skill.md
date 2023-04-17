@@ -92,6 +92,12 @@ n = c.next, c.next = p;
 p = c, c = n;
 ```
 
+List to Array
+```java
+List<int[]> list;
+list.toArray(new int[list.size()][]);
+```
+
 - Tree
 ```
 ```

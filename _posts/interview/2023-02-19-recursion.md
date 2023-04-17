@@ -21,6 +21,7 @@ Memoization
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
 [Medium]
+- [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
 - [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
 - [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
