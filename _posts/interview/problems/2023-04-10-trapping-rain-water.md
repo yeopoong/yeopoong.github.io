@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "42. Trapping Rain Water"
 categories: interview
-tags: problems two-pointer
+tags: problems two-pointers
 ---
 
 > 각 막대의 너비가 1인 고도 지도를 나타내는 n개의 음이 아닌 정수가 주어지면 비가 내린 후 얼마나 많은 물을 가둘 수 있는지 계산

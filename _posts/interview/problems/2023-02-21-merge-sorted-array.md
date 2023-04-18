@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "88. Merge Sorted Array"
 categories: interview
-tags: problems two-pointer
+tags: problems two-pointers
 ---
 
 > 정렬된 두 배열을 머지하면서 오름차순으로 정렬

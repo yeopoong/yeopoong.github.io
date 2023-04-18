@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Two Pointer
-slug: two-pointer
+title: Two Pointers
+slug: two-pointers
 category: interview
 menu: false
 order: 1

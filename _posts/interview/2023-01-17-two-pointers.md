@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Two Pointer"
 categories: interview
-tags: interview two-pointer
+tags: interview two-pointers
 ---
 
 ## Two Pointer
@@ -14,6 +14,7 @@ tags: interview two-pointer
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
