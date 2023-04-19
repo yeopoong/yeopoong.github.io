@@ -6,7 +6,8 @@ categories: interview
 tags: problems stack array
 ---
 
-> 더 따뜻한 온도를 얻기 위해 기다려야 하는 일수
+> 더 따뜻한 온도를 얻기 위해 기다려야 하는 일수  
+> A monotonic stack is simply a stack where the elements are always in sorted order. 
 
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
@@ -14,6 +15,7 @@ tags: problems stack array
 class Solution {
     
     // 더 따뜻한 온도를 얻기 위해 기다려야 하는 일수
+    // Monotonic Stack:  A monotonic stack is simply a stack where the elements are always in sorted order. 
     // O(n)
     public int[] dailyTemperatures(int[] temperatures) {
         int[] ans = new int[temperatures.length];
