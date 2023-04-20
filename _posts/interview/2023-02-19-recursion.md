@@ -19,6 +19,7 @@ Memoization
 
 [Easy]
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)
 
 [Medium]
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
