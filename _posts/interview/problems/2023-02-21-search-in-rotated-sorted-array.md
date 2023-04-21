@@ -6,8 +6,65 @@ categories: interview
 tags: problems binary-search
 ---
 
-[Easy]
+> 가능한 회전 후의 배열 숫자와 정수 대상이 주어지면 대상의 인덱스가 숫자이면 대상의 인덱스를 반환하고 숫자가 아니면 -1을 반환
 
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
-<script src="https://gist.github.com/yeopoong/13be9075a47c70db9d45c42eba640c9f.js"></script>
+```java
+class Solution {
+    
+    // 회전된 정렬 배열에서 검색
+    // O(log n)
+    public int search(int[] nums, int target) {
+
+        int left = 0, right = nums.length - 1;
+        
+        // 1. 시작지점을 찾는다.
+        int start = findStart(nums);
+        //System.out.format("start=%d", start);
+
+        // 2. 시작지점보다 크면 오른쪽에서 찾아야 한다. 
+        if (nums[start] <= target && target <= nums[right]) {
+            left = start;
+        } else {
+            right = start;
+        }
+
+        // 3. 이진검색으로 값 찾기 
+        return search(nums, left, right, target);
+    }
+    
+    public int search(int[] nums, int left, int right, int target) {
+        int mid ;
+
+        // 원소가 홀수 일 경우 때문에 = 조건이 포함되야 한다.
+        while (left <= right) {
+            mid = left + (right - left) / 2;
+            if (nums[mid] < target) left = mid + 1;
+            else if (nums[mid] > target) right = mid - 1;
+            else return mid; 
+        }
+
+        return -1;
+    }
+    
+    // 시작지점 찾기
+    public int findStart(int[] nums) {
+        int left = 0, right = nums.length - 1;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            // 중간값이 가장 오른쪽 값보다 크면 회전구간이 존재하므로 시작점은 더 오른쪽에 있다. 
+            if (nums[mid] > nums[right]) {
+                left = mid + 1;
+            // 중간값이 가장 오른쪽 값보다 작으면 시작점은 더 왼쪽에 있다.
+            } else {
+                right = mid;
+            }
+        }
+        
+        return left;
+    }
+}
+```

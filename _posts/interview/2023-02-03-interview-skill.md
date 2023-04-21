@@ -98,6 +98,19 @@ List<int[]> list;
 list.toArray(new int[list.size()][]);
 ```
 
+```java
+int[] num = new int[list.size()];
+
+for (int i = 0 ; i < list.size(); i ++) {
+    num[i] = list.get(i);
+}       
+```
+
+```java
+// ArrayList to Array Conversion
+int[] arr = list.stream().mapToInt(i -> i).toArray();
+```
+
 - Tree
 ```
 ```

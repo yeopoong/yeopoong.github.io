@@ -13,15 +13,16 @@ Every time you see a problem that involves a sorted array, you should consider b
 
 ```java
 public int search(int[] nums, int target) {
-    int pivot;
+    int mid;
+    
     int left = 0, right = nums.length - 1;
     
     // 원소가 홀수 일 경우 때문에 = 조건이 포함되야 한다.
     while (left <= right) {
-        pivot = left + (right - left) / 2;
-        if (target < nums[pivot]) right = pivot - 1;
-        else if (target > nums[pivot]) left = pivot + 1;
-        else return pivot; 
+        mid = left + (right - left) / 2;
+        if (nums[mid] < target) left = mid + 1;
+        else if (nums[mid] > target) right = mid - 1;
+        else return mid;
     }
     
     return -1;
