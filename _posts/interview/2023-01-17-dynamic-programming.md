@@ -64,6 +64,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 
 [Easy]
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
+- [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 

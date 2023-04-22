@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "139. Word Break"
+title: "79. Word Search"
 categories: interview
 tags: problems backtracking
 ---
