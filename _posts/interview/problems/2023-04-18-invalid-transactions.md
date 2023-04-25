@@ -79,6 +79,7 @@ class Solution {
 			return invalidAmount() || differentCity(city, time);
 		}
 
+        // 다른 도시에서 같은 이름의 거래가 60분 이내에 발생했는지 검사
 		private boolean differentCity(String city, int time) {
 			return !this.city.equals(city) && Math.abs(this.time - time) <= 60;
 		}

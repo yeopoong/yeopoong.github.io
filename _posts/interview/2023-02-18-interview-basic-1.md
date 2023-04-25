@@ -12,6 +12,13 @@ tags: interview
 > - 인터뷰어가 체크하려고 하는 사항을 파악하고 대응한다.
 > - You should confirm with your interviewer about the scope and those edge cases.
 
+## 문제에 접근하는 방법
+- 문제를 명확히 이해하고 푸는 방법을 제시할 수 있는가?
+- 최선의 솔루션을 도출해 낼 수 있는가?
+- 엣지 케이스를 생각하고 테스트도 정확하게 할 수 있는가?
+- 생각한 솔루션을 얼마나 빨리 그리고 클린 코드를 작성하는가?
+- 이 때 커뮤케이션은 잘 하는가?
+
 ## Edge Case
 An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter.  
 For example, a stereo speaker might noticeably distort audio when played at maximum volume, even in the absence of any other extreme setting or condition.  
@@ -24,6 +31,9 @@ An edge case can be expected or unexpected.
 - O(1) > O(log n) > O(n) > O(n log n) > O(n^2) > O(2^n) > O(n!)
 ![Big-O Complexity Chart](https://hanamon.kr/%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98-time-complexity-%ec%8b%9c%ea%b0%84-%eb%b3%b5%ec%9e%a1%eb%8f%84/big-o-complexity-chart/)
 
+## ETC
+https://www.youtube.com/watch?v=xF554Tlzo-c&t=1s
+https://leetcode.com/problem-list/top-interview-questions/?page=1
 
 ## Top 7 Coding Interview Data Structure
 
