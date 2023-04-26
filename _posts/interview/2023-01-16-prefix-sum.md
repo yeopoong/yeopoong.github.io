@@ -14,5 +14,6 @@ tags: interview prefix-sum
 [Medium]
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+- [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
 
 [Hard]
