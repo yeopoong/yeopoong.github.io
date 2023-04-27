@@ -6,7 +6,7 @@ categories: interview
 tags: problems hashmap
 ---
 
-[Medium]
+> 문자열의 배열이 주어지면 아나그램을 함께 그룹화
 
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
