@@ -15,6 +15,7 @@ tags: interview two-pointers
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+- [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
