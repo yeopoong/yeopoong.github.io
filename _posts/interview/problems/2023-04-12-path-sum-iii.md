@@ -6,7 +6,9 @@ categories: interview
 tags: problems dfs tree
 ---
 
-> 이진 트리의 루트와 정수 targetSum이 주어지면 경로를 따라 값의 합이 targetSum과 같은 경로의 수를 반환합니다.
+> 이진 트리의 루트와 정수 targetSum이 주어지면 경로를 따라 값의 합이 targetSum과 같은 경로의 수를 반환
+
+![](https://assets.leetcode.com/uploads/2021/04/09/pathsum3-1-tree.jpg)
 
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 

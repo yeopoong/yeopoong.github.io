@@ -6,9 +6,12 @@ categories: interview
 tags: problems linked-list
 ---
 
-[Easy]
+> 두 개의 음수가 아닌 정수를 나타내는 두 개의 비어 있지 않은 연결 목록이 제공됩니다. 숫자는 역순으로 저장되며 각 노드에는 단일 숫자가 포함됩니다.
+> 두 숫자를 더하고 합계를 연결된 목록으로 반환
 
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+![](https://assets.leetcode.com/uploads/2020/10/02/addtwonumber1.jpg)
 
 ```java
 class Solution {
