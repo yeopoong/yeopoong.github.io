@@ -3,17 +3,19 @@ layout: post
 published: true
 title: "162. Find Peak Element"
 categories: interview
-tags: problems binary-search
+tags: problems binary-search array
 ---
 
-[Easy]
+> 인덱스가 0인 정수 배열에서 피크 요소를 찾고 해당 인덱스를 반환
 
 - [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 ```java
 class Solution {
     
-    // O(log n), O(1)
+    // 피크 요소 찾기
+    // T: O(log n)
+    // S: O(1)
     public int findPeakElement(int[] nums) {
         int left = 0, right = nums.length - 1;
         
