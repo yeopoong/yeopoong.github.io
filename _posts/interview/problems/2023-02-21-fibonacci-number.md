@@ -6,7 +6,9 @@ categories: interview
 tags: problems recursion memoization
 ---
 
-[Easy]
+> Fibonacci numbers: 각 숫자는 0과 1부터 시작하여 앞의 두 숫자의 합  
+> F(0) = 0, F(1) = 1  
+> F(n) = F(n - 1) + F(n - 2), for n > 1.  
 
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 

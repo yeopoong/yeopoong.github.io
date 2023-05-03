@@ -3,8 +3,10 @@ layout: post
 published: true
 title: "3. Longest Substring Without Repeating Characters"
 categories: interview
-tags: problems sliding-window
+tags: problems sliding-window hashmap
 ---
+
+> 문자열 s가 주어지면 최대 2개의 개별 문자를 포함하는 가장 긴 하위 문자열의 길이를 반환
 
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
