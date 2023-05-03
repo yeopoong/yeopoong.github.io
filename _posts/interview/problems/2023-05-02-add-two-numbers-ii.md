@@ -14,32 +14,89 @@ tags: problems linked-list
 ![](https://assets.leetcode.com/uploads/2021/04/09/sumii-linked-list.jpg)
 
 ```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    List<List<Integer>> list = new ArrayList<>();
-    List<Integer> temp = new ArrayList<>();
     
-    // Backtracking
-    // O(n*2^n)
-    public List<List<Integer>> subsetsWithDup(int[] nums) {
-        // 중복 데이터가 존재하므로 중복체크를 하기 위해서 정렬한다.
-        Arrays.sort(nums);
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        // find the length of both lists
+        int n1 = 0, n2 = 0;
         
-        backtraking(nums, 0);
+        ListNode curr1 = l1, curr2 = l2;
         
-        return list;
-    }
-    
-    public void backtraking(int[] nums, int start) {
-        list.add(new ArrayList<>(temp));
-        
-        for (int i = start; i < nums.length; i++) {
-            //두번째 이후로 중복여부를 체크한다.
-            if (i > start && nums[i] == nums[i - 1]) continue;
-            
-            temp.add(nums[i]);
-            backtraking(nums, i + 1);     
-            temp.remove(temp.size() - 1);
+        while (curr1 != null) {
+            curr1 = curr1.next; 
+            ++n1;    
         }
+        
+        while (curr2 != null) {
+            curr2 = curr2.next; 
+            ++n2;    
+        }
+            
+        // parse both lists
+        // and sum the corresponding positions 
+        // without taking carry into account
+        // 3->3->3 + 7->7 --> 3->10->10--> 10->10->3
+        curr1 = l1; 
+        curr2 = l2;
+        ListNode head = null;
+        
+        while (n1 > 0 && n2 > 0) {
+            int val = 0;
+            if (n1 >= n2) {
+                val += curr1.val; 
+                curr1 = curr1.next; 
+                --n1;    
+            }
+            if (n1 < n2) {
+                val += curr2.val; 
+                curr2 = curr2.next;
+                --n2;    
+            }
+                
+            // update the result: add to front
+            ListNode curr = new ListNode(val);
+            curr.next = head;
+            head = curr;    
+        }
+
+        // take the carry into account
+        // to have all elements to be less than 10
+        // 10->10->3 --> 0->1->4 --> 4->1->0
+        curr1 = head;
+        head = null;
+        int carry = 0;
+        while (curr1 != null) {
+            // current sum and carry
+            int val = (curr1.val + carry) % 10;
+            carry = (curr1.val + carry) / 10;
+            
+            // update the result: add to front
+            ListNode curr = new ListNode(val);
+            curr.next = head;
+            head = curr;
+
+            // move to the next elements in the list
+            curr1 = curr1.next;    
+        }
+        
+        // add the last carry
+        if (carry != 0) {
+            ListNode curr = new ListNode(carry);
+            curr.next = head;
+            head = curr;    
+        }
+
+        return head;
     }
 }
 ```

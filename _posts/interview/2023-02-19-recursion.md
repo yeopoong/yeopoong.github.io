@@ -27,6 +27,7 @@ Memoization
 - [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
 - [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
 - [394. Decode String](https://leetcode.com/problems/decode-string/)
+- [390. Elimination Game](https://leetcode.com/problems/elimination-game/)
 
 [Hard]
 - [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
