@@ -30,27 +30,30 @@ tags: problems tree hashmap
  */
 class Solution {
     
-    List<TreeNode> res = new LinkedList<>();
-    Map<String, Integer> map = new HashMap<>();
+    TreeNode xParent = null, yParent = null;
+    int xDepth = -1, yDepth = -2;
     
-    public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
-        postorder(root);
-        return res;
+    // T: O(n)
+    public boolean isCousins(TreeNode root, int x, int y) {
+        dfs(root, null, x, y, 0);
+        return xDepth == yDepth && xParent != yParent;
     }
-
-    public String postorder(TreeNode cur) {
-        if (cur == null) {
-            return "#";  
+    
+    void dfs(TreeNode root, TreeNode parent, int x, int y, int depth) {
+        if (root == null) return;
+        
+        if (x == root.val) {
+            xParent = parent;
+            xDepth = depth;
+        } else if (y == root.val) {
+            yParent = parent;
+            yDepth = depth;
+        } else {
+            // if we found x node or found y node then we don't need to dfs deeper
+            // because x and y must be the same depth
+            dfs(root.left, root, x, y, depth + 1);
+            dfs(root.right, root, x, y, depth + 1);
         }
-        
-        String serial = cur.val + "," + postorder(cur.left) + "," + postorder(cur.right);
-        map.put(serial, map.getOrDefault(serial, 0) + 1);
-        
-        if (map.get(serial) == 2) {
-            res.add(cur);
-        }
-        
-        return serial;
     }
 }
 ```
