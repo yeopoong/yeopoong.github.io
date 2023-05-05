@@ -3,10 +3,14 @@ layout: post
 published: true
 title: "61. Rotate List"
 categories: interview
-tags: problems linked-list
+tags: problems linked-list two-pointers
 ---
 
+> 연결된 목록의 헤드가 주어지면 목록을 오른쪽으로 k만큼 회전
+
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)
+
+![](https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg)
 
 ```java
 /**
@@ -38,10 +42,10 @@ class Solution {
             curr = curr.next;
         } 
         
-        // 피봇노드의 다음노드가 시작노드가 된다.
+        // 1. 피봇노드의 다음노드가 시작노드가 된다.
         head = curr.next;
         
-        // 피봇노드를 마지막 노드로 만든다.
+        // 2. 피봇노드를 마지막 노드로 만든다.
         curr.next = null;
         
         return head;
@@ -57,7 +61,7 @@ class Solution {
             length += 1;
         }
         
-        // Tail to the front
+        // 3. Tail to the front
         tail.next = head;
         
         return length;

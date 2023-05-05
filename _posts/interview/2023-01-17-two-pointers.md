@@ -20,6 +20,7 @@ tags: interview two-pointers
 
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
+- [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
