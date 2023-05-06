@@ -7,9 +7,11 @@ tags: problems bfs tree hashmap
 ---
 
 > 루트 트리 구조를 형성하는 n개의 프로세스에서 죽이려는 프로세스의 ID를 나타내는 정수 kill이 주어지면 죽일 프로세스의 ID 목록을 반환  
-> HashMap + Breadth First Search
+> HashMap + BFS(Breadth First Search)
 
 - [582. Kill Process](https://leetcode.com/problems/kill-process/)
+
+![](https://assets.leetcode.com/uploads/2021/02/24/ptree.jpg)
 
 ```java
 class Solution {

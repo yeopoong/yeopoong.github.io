@@ -6,11 +6,14 @@ categories: interview
 tags: problems dfs tree
 ---
 
-> 이진 트리의 루트와 정수 targetSum이 주어지면 경로를 따라 값의 합이 targetSum과 같은 경로의 수를 반환
+> 이진 트리의 루트와 정수 targetSum이 주어지면 경로를 따라 값의 합이 targetSum과 같은 경로의 수를 반환  
+> - 경로는 아래쪽으로만 가능
 
 ![](https://assets.leetcode.com/uploads/2021/04/09/pathsum3-1-tree.jpg)
 
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+
+1. 합이 존재하는지 체크하는 문제는 보수값을 맵에 저장해 두고 그값이 존재하는지를 체크한다.
 
 ```java
 /**

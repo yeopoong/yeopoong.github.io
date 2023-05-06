@@ -6,9 +6,11 @@ categories: interview
 tags: problems tree recursion
 ---
 
-> 부모 노드의 유일한 자식 노드 찾기
+> 이진트리에서 부모 노드의 유일한 자식 노드 찾기
 
 - [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)
+
+![](https://assets.leetcode.com/uploads/2020/06/03/e2.png)
 
 ```java
 /**
