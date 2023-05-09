@@ -6,7 +6,7 @@ categories: interview
 tags: problems string two-pointers
 ---
 
-> 두 개의 문자열 needle과 haystack이 주어지면 haystack에서 needle이 처음 나타나는 인덱스를 반환하거나, needle이 haystack의 일부가 아니면 -1을 반환합니다.
+> 문자열에서 처음 나타나는 인덱스 찾기
 
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 

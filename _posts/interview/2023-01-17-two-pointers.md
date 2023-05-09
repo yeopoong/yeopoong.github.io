@@ -20,6 +20,7 @@ tags: interview two-pointers
 
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
+- [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
