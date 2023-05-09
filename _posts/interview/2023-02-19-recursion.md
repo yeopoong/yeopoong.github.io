@@ -22,6 +22,7 @@ Memoization
 - [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)
 
 [Medium]
+- [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
 - [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
