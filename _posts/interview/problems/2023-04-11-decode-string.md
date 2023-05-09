@@ -6,14 +6,14 @@ categories: interview
 tags: problems stack recursion
 ---
 
-> 문자열 디코딩
+> 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환 
 
 - [394. Decode String](https://leetcode.com/problems/decode-string/)
 
 ```java
 class Solution {
     
-    // 문자열 디코딩
+    // 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환 
     // Using Stack
     // T: O(maxk*n), maxk는 최대숫자, n is the lengthof a given string s
     public String decodeString(String s) {

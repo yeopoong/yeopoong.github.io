@@ -11,6 +11,8 @@ tags: problems string sliding-window hashmap
 
 - [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
+![](https://assets.leetcode.com/uploads/2021/05/03/width1-tree.jpg)
+
 ```java
 /**
  * Definition for a binary tree node.

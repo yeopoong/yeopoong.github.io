@@ -112,6 +112,7 @@ public int getLength(ListNode head) {
 - [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 - [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 - [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
+- [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)
 
 [Hard]
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
