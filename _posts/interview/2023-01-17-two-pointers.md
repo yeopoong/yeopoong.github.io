@@ -35,6 +35,7 @@ tags: interview two-pointers
 - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 [Hard]
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
