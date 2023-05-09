@@ -10,6 +10,8 @@ tags: problems graph dfs
 
 - [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
+![](https://assets.leetcode.com/uploads/2020/01/02/sample_1_1677.png)
+
 ```java
 class Solution {
     
@@ -17,6 +19,7 @@ class Solution {
     // n computers: 0 to n - 1
     // T: O(n+m)
     public int makeConnected(int n, int[][] connections) {
+        // 연결되지 않은 컴퓨터 그룹의 개수
         int components = 0;
         
         if (connections.length < n - 1) return -1; // To connect all nodes need at least n-1 edges

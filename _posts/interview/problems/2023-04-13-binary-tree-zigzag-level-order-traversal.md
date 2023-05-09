@@ -3,12 +3,15 @@ layout: post
 published: true
 title: "103. Binary Tree Zigzag Level Order Traversal"
 categories: interview
-tags: problems tree
+tags: problems tree dfs
 ---
 
 > 이진 트리의 루트가 주어지면 해당 노드 값의 지그재그 수준 순회를 반환
 
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
+![](https://assets.leetcode.com/uploads/2021/02/19/tree1.jpg)
+![](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/Figures/103/103_DFS.png)
 
 ```java
 /**

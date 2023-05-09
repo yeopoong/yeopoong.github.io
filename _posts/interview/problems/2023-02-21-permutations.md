@@ -6,7 +6,8 @@ categories: interview
 tags: problems backtracking
 ---
 
-> 개별 정수의 배열 숫자가 주어지면 가능한 모든 순열을 반환
+> 개별 정수의 배열 숫자가 주어지면 가능한 모든 순열을 반환  
+> - 정수 배열의 순열은 멤버를 시퀀스 또는 선형 순서로 배열
 
 - [46. Permutations](https://leetcode.com/problems/permutations/solution/)
 
