@@ -30,3 +30,26 @@ class Solution {
     }
 }
 ```
+
+```java
+class Solution {
+    // 누락된 숫자의 수가 k보다 작거나 같도록 가장 왼쪽 요소를 찾는다.
+    // O(logn)
+    public int missingElement(int[] nums, int k) {
+        int n = nums.length;
+        int left = 0, right = n - 1;
+        
+        while (left < right) {
+            int mid = right - (right - left) / 2;
+            if (nums[mid] - nums[0] - mid < k) {
+                left = mid;
+            } else{
+                right = mid - 1;
+            }
+        }
+        
+        return nums[0] + k + left;
+    }
+}
+
+```
