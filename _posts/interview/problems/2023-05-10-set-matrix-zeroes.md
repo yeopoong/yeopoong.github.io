@@ -1,0 +1,42 @@
+---
+layout: post
+published: true
+title: "73. Set Matrix Zeroes"
+categories: interview
+tags: problems array hashmap matrix
+---
+
+> 4개의 정수 배열 nums1, nums2, nums3 및 nums4가 모두 길이 n인 경우 다음과 같은 튜플(i, j, k, l)의 수를 반환  
+> - 0 <= i, j, k, l < n  
+> - nums1[i] + nums2[j] + nums3[k] + nums4[l] == 0  
+
+- [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+
+```java
+class Solution {
+    
+    // a + b = -(c + d)
+    // T: O(n^2), S: O(n^2)
+    public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
+        int count = 0;
+        
+        Map<Integer, Integer> map = new HashMap<>();
+        
+        // If a + b exists in the hashmap, increment the value.
+        for (int a : nums1) {
+            for (int b : nums2) {
+                map.put(a + b, map.getOrDefault(a + b, 0) + 1);
+            }
+        }
+        
+        // Lookup key -(c + d) in the hashmap.
+        for (int c : nums3) {
+            for (int d : nums4) {
+                count += map.getOrDefault(-(c + d), 0);
+            }
+        }
+        
+        return count;
+    }
+}
+```

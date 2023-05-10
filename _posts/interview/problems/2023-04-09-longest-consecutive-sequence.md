@@ -3,10 +3,10 @@ layout: post
 published: true
 title: "128. Longest Consecutive Sequence"
 categories: interview
-tags: problems hashmap
+tags: problems hashmap array
 ---
 
-[Easy]
+> 정수 nums의 정렬되지 않은 배열이 주어지면 가장 긴 연속 요소 시퀀스의 길이를 반환
 
 - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 

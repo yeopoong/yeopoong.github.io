@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "978. Longest Turbulent Subarray"
 categories: interview
-tags: problems array longest
+tags: problems array longest sliding-window
 ---
 
 > 정수 배열 arr이 주어지면 arr의 최대 크기 난류 하위 배열의 길이를 반환
@@ -13,6 +13,10 @@ tags: problems array longest
 
 ```java
 class Solution {
+    
+    // 정수 배열 arr이 주어지면 arr의 최대 크기 난류 하위 배열의 길이를 반환
+    // Sliding Window
+    // T: O(n)
     public int maxTurbulenceSize(int[] arr) {
         int ans = 1;
         
@@ -22,8 +26,11 @@ class Solution {
             int c = Integer.compare(arr[i-1], arr[i]);
             if (c == 0) {
                 anchor = i;
-            } else if (i == arr.length-1 || c * Integer.compare(arr[i], arr[i+1]) != -1) {
+            // 마지막 인덱스 이거나 비교부호가 뒤집히지 않았으면: 
+            } else if (i == arr.length - 1 || c * Integer.compare(arr[i], arr[i+1]) != -1) { 
+                // 최대크기를 비교해서 갱신한다.
                 ans = Math.max(ans, i - anchor + 1);
+                // 최대크기를 초기화 한다.
                 anchor = i;
             }
         }

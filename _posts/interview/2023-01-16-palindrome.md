@@ -13,6 +13,24 @@ tags: interview palindrome
 - 중복되지 않는 문자는 중간에 한번만 나올 수 있다.
 - 센터에서 확장하면서 처리한다.
 
+Two Pointers
+```java
+ public boolean isPalindrome(String s) {
+    int i = 0, j = s.length() - 1;
+    
+    while (i < j) {
+        if (s.charAt(i) == s.charAt(j)) {
+            i++; 
+            j--;
+        } else {
+            return false;
+        }
+    }
+    
+    return true;
+}
+```
+
 ```java
 String result;
 int maxLen;

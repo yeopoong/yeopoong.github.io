@@ -17,6 +17,7 @@ tags: interview
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 - [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+- [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)
 
 [Hard]
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
