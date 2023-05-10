@@ -30,6 +30,7 @@ public int search(int[] nums, int target) {
 ```
 
 [Easy]
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/)
 - [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [1060. Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)
