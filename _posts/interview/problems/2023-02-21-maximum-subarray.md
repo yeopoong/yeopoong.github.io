@@ -3,13 +3,14 @@ layout: post
 published: true
 title: "53. Maximum Subarray"
 categories: interview
-tags: problems dynamic-programming
+tags: problems array dynamic-programming
 ---
 
 > 합이 가장 큰 하위 배열을 찾아 그 합을 반환
 
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
+Dynamic Programming, Kadane's Algorithm
 ```java
 import java.util.Collections;
 

@@ -1,13 +1,12 @@
 ---
 layout: post
-published: false
+published: true
 title: "Sliding Window"
 categories: interview
-tags: interview 
+tags: interview sliding-window
 ---
 
-## Sliding Window
-윈도우를 진행시키면서 필요한 데이터의 최소/최대 개수를 체크한다.
+> 윈도우를 진행시키면서 필요한 데이터의 최소/최대 개수를 체크한다.
 
 [Medium]
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)

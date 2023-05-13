@@ -17,6 +17,7 @@ tags: interview two-pointers
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 - [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 - [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+- [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
@@ -36,6 +37,7 @@ tags: interview two-pointers
 - [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [723. Candy Crush](https://leetcode.com/problems/candy-crush/)
 
 [Hard]
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
