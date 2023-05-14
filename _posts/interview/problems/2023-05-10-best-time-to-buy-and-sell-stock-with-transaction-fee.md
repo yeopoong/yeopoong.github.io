@@ -6,7 +6,7 @@ categories: interview
 tags: problems array greedy
 ---
 
-> 달성할 수 있는 최대 이익을 찾으십시오. 원하는 만큼 거래를 완료할 수 있지만 각 거래에 대해 거래 수수료를 지불해야 합니다.
+> 달성할 수 있는 최대 이익을 찾기. 원하는 만큼 거래를 완료할 수 있지만 각 거래에 대해 거래 수수료를 지불
 
 - [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 

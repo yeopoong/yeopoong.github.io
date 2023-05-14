@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Best Time to Buy and Sell Stock"
 categories: interview
-tags: interview dynamic-programming array
+tags: dynamic-programming array
 ---
 
 > You are given an array prices where prices[i] is the price of a given stock on the ith day.
