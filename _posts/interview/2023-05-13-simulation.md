@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Simulation"
 categories: interview
-tags: interview simulation
+tags: simulation
 ---
 
 [Medium]
