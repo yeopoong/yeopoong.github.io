@@ -12,3 +12,4 @@ tags: interview monotonic-stack
 
 [Medium]
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
