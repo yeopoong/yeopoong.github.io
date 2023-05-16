@@ -38,6 +38,7 @@ tags: interview two-pointers
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [723. Candy Crush](https://leetcode.com/problems/candy-crush/)
+- [443. String Compression](https://leetcode.com/problems/string-compression/)
 
 [Hard]
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)

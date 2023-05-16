@@ -6,10 +6,12 @@ categories: interview
 tags: problems stack recursion
 ---
 
-> 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환 
+> 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환  
+> - k[encode_sting]
 
 - [394. Decode String](https://leetcode.com/problems/decode-string/)
 
+Stack Solution
 ```java
 class Solution {
     
@@ -49,6 +51,46 @@ class Solution {
         }
         
         return res;
+    }
+}
+```
+
+Recursive Solution
+```java
+class Solution {
+    
+    private int pos = 0;
+    
+    // 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환 
+    // Recursion
+    // T: O(maxk*n), maxk는 최대숫자, n is the lengthof a given string s
+    public String decodeString(String s) {
+        return helper(s);
+    }
+    
+    public String helper(String s) {
+        StringBuilder sb = new StringBuilder();
+        
+        int k = 0;
+        for (; pos < s.length(); pos++) {
+            char c = s.charAt(pos);
+            // 문자열을 숫자로 컨버젼
+            if (Character.isDigit(c)) {
+                k = k * 10 + (c - '0');
+            } else if (c == '[') {
+                // 문자열을 구한다.
+                ++pos;
+                String sub = helper(s);
+                // K번 반복해서 추가한다.
+                for (; k > 0; k--) sb.append(sub); 
+            } else if (c == ']') {
+                break;
+            } else { // letters
+                sb.append(c);
+            }
+        }
+        
+        return sb.toString();
     }
 }
 ```
