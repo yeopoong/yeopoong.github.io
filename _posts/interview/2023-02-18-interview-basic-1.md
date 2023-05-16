@@ -14,10 +14,10 @@ tags: interview
 
 ## 문제에 접근하는 방법
 - 문제를 명확히 이해하고 푸는 방법을 제시할 수 있는가?
-- 최선의 솔루션을 도출해 낼 수 있는가?
 - 엣지 케이스를 생각하고 테스트도 정확하게 할 수 있는가?
-- 생각한 솔루션을 얼마나 빨리 그리고 클린 코드를 작성하는가?
 - 이 때 커뮤케이션은 잘 하는가?
+- 최선의 솔루션을 도출해 낼 수 있는가?
+- 생각한 솔루션을 얼마나 빨리 그리고 클린 코드를 작성하는가?
 
 ## Edge Case
 An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter.  

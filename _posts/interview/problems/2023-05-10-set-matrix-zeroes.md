@@ -6,37 +6,54 @@ categories: interview
 tags: problems array hashmap matrix
 ---
 
-> 4개의 정수 배열 nums1, nums2, nums3 및 nums4가 모두 길이 n인 경우 다음과 같은 튜플(i, j, k, l)의 수를 반환  
-> - 0 <= i, j, k, l < n  
-> - nums1[i] + nums2[j] + nums3[k] + nums4[l] == 0  
+> m x n 정수 행렬이 주어지면 요소가 0이면 전체 행과 열을 0으로 설정
 
 - [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+
+![](https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg)
 
 ```java
 class Solution {
     
-    // a + b = -(c + d)
-    // T: O(n^2), S: O(n^2)
-    public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
-        int count = 0;
+    // m x n 정수 행렬이 주어지면 요소가 0이면 전체 행과 열을 0으로 설정
+    public void setZeroes(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
         
-        Map<Integer, Integer> map = new HashMap<>();
-        
-        // If a + b exists in the hashmap, increment the value.
-        for (int a : nums1) {
-            for (int b : nums2) {
-                map.put(a + b, map.getOrDefault(a + b, 0) + 1);
+        boolean firstRow = false;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (matrix[i][j] == 0) {
+                    matrix[0][j] = 0;
+                    if (i == 0) {
+                        firstRow = true;
+                    } else {
+                        matrix[i][0] = 0;
+                    }
+                }
             }
         }
-        
-        // Lookup key -(c + d) in the hashmap.
-        for (int c : nums3) {
-            for (int d : nums4) {
-                count += map.getOrDefault(-(c + d), 0);
+
+        for (int i = 1; i < rows; i++) {
+            for (int j = 1; j < cols; j++) {
+                if (matrix[0][j] == 0 || matrix[i][0] == 0) {
+                    matrix[i][j] = 0;
+                }
             }
         }
-        
-        return count;
+
+        if (matrix[0][0] == 0) {
+            for (int i = 0; i < rows; i++) {
+                matrix[i][0] = 0;
+            }
+        }
+
+        if (firstRow) {
+            for (int j = 0; j < cols; j++) {
+                matrix[0][j] = 0;
+            }
+        }
     }
 }
 ```
