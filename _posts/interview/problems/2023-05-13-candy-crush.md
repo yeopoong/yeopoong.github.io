@@ -15,6 +15,8 @@ tags: problems array two-pointers simulation
 
 - [723. Candy Crush](https://leetcode.com/problems/candy-crush/)
 
+![](https://assets.leetcode.com/uploads/2018/10/12/candy_crush_example_2.png)
+
 ```java
 class Solution {
     

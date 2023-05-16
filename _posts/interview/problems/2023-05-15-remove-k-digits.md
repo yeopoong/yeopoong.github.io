@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "4. Median of Two Sorted Arrays"
+title: "402. Remove K Digits"
 categories: interview
 tags: problems array
 ---
