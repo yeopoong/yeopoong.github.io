@@ -6,7 +6,12 @@ categories: interview
 tags: problems tree bfs
 ---
 
+> 이진 트리의 루트와 트리의 노드 u가 주어지면 u의 오른쪽에 있는 동일한 수준에서 가장 가까운 노드를 반환  
+> - 큐를 이용한 트리노드의 BFS 탐색
+
 - [1602. Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)
+
+![](https://assets.leetcode.com/uploads/2020/09/24/p3.png)
 
 ```java
 /**
