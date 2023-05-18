@@ -10,6 +10,8 @@ tags: problems backtracking
 
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
+![](https://assets.leetcode.com/uploads/2022/03/15/1200px-telephone-keypad2svg.png)
+
 ```java
 class Solution {
     private static final String[] KEYS = { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };

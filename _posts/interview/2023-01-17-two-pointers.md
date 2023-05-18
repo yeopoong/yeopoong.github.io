@@ -18,6 +18,7 @@ tags: interview two-pointers
 - [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 - [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+- [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 
 [Medium]
 - [15. 3Sum](https://leetcode.com/problems/3sum/)
