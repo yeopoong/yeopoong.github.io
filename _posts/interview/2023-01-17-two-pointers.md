@@ -12,6 +12,7 @@ tags: interview two-pointers
 
 [Easy]
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
@@ -40,6 +41,7 @@ tags: interview two-pointers
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [723. Candy Crush](https://leetcode.com/problems/candy-crush/)
 - [443. String Compression](https://leetcode.com/problems/string-compression/)
+- [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 [Hard]
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
