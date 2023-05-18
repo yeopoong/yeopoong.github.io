@@ -3,12 +3,14 @@ layout: post
 published: true
 title: "79. Word Search"
 categories: interview
-tags: problems backtracking
+tags: problems backtracking matrix
 ---
 
 > 문자 보드의 m x n 그리드와 문자열 단어가 주어지면 단어가 그리드에 있으면 true를 반환
 
--[79. Word Search](https://leetcode.com/problems/word-search/)
+- [79. Word Search](https://leetcode.com/problems/word-search/)
+
+![](https://assets.leetcode.com/uploads/2020/11/04/word2.jpg)
 
 ```java
 class Solution {

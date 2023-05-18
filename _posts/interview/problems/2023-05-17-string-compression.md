@@ -23,13 +23,16 @@ class Solution {
             char currentChar = chars[index];
             int count = 0;
             
+            // 다음 문자가 같은 문자이면 포인터와 개수 증가시킨다.
             while (index < chars.length && chars[index] == currentChar) {
                 index++;
                 count++;
             }
             
+            // 현재 문자 저장
             chars[indexAns++] = currentChar;
             
+            // 두자리 숫자이면 개별 문자로 저장
             if (count != 1) {
                 for (char c : Integer.toString(count).toCharArray()) {
                     chars[indexAns++] = c;

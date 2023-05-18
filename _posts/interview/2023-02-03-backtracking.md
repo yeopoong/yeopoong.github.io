@@ -21,3 +21,6 @@ tags: interview backtracking
 - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)
+
+[Hard]
+- [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
