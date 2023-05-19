@@ -3,8 +3,10 @@ layout: post
 published: false
 title: "300. Longest Increasing Subsequence"
 categories: interview
-tags: problems two-pointers
+tags: problems array longest dynamic-programming dfs
 ---
+
+> 정수 배열 nums가 주어지면 가장 긴 엄격하게 증가하는 하위 시퀀스의 길이를 반환
 
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 

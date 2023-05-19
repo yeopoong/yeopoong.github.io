@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1143. Longest Common Subsequence"
 categories: interview
-tags: problems tree design dfs
+tags: problems string dynamic-programming
 ---
 
 > 두 개의 문자열 text1과 text2가 주어지면 가장 긴 공통 하위 시퀀스의 길이를 반환   
