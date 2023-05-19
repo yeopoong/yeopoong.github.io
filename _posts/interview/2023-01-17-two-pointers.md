@@ -42,6 +42,7 @@ tags: interview two-pointers
 - [723. Candy Crush](https://leetcode.com/problems/candy-crush/)
 - [443. String Compression](https://leetcode.com/problems/string-compression/)
 - [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 [Hard]
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
