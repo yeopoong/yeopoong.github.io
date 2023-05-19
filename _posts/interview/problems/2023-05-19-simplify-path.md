@@ -20,6 +20,7 @@ The canonical path should have the following format:
 <br>
 <details>
 <summary> [Solution - 펼치기👇] 71. Simplify Path </summary>
+
 ```java
 class Solution {
     
