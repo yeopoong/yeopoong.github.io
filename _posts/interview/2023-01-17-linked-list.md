@@ -44,6 +44,20 @@ private ListNode merge(ListNode l1, ListNode l2) {
 }
 ```
 
+Swap List
+```java
+ListNode reverse(ListNode prev, ListNode node) {
+    // 더 이상 다음노드가 없으면 종료(헤드노드가 된다.)
+    if (node == null) return prev;
+
+    ListNode next = node.next;
+    node.next = prev;
+
+    return reverse(node, next);
+}
+```
+
+
 ```java
 // remove node from list
 private void remove(Node node) {
@@ -113,6 +127,7 @@ public int getLength(ListNode head) {
 - [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 - [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
 - [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)
+- [label](problems/2023-05-20-reverse-linked-list-ii.md)
 
 [Hard]
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
