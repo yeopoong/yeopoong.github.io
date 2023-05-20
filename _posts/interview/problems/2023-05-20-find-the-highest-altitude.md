@@ -10,9 +10,6 @@ tags: problems array prefix-sum
 
 - [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
 
-<details>
-<summary> [Solution - 펼치기👇] 1732. Find the Highest Altitude </summary>
-
 ```java
 class Solution {
     
@@ -35,5 +32,3 @@ class Solution {
     }
 }
 ```
-
-</details>
