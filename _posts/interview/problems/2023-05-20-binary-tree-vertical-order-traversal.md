@@ -1,0 +1,75 @@
+---
+layout: post
+published: true
+title: "314. Binary Tree Vertical Order Traversal"
+categories: interview
+tags: problems tree stack
+---
+
+> 이진 트리의 루트가 주어지면 해당 노드 값의 수직 순회를 반환(즉, 위에서 아래로, 열별로)
+
+- [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+
+![](https://assets.leetcode.com/uploads/2021/01/28/vtree1.jpg)
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    
+    // 이진 트리 수직 순회
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        
+        List<List<Integer>> output = new ArrayList();
+        if (root == null) {
+          return output;
+        }
+
+        Map<Integer, ArrayList> columnTable = new HashMap();
+        // Pair of node and its column offset
+        Queue<Pair<TreeNode, Integer>> queue = new ArrayDeque();
+        int column = 0;
+        queue.offer(new Pair(root, column));
+
+        int minColumn = 0, maxColumn = 0;
+
+        while (!queue.isEmpty()) {
+          Pair<TreeNode, Integer> p = queue.poll();
+          root = p.getKey();
+          column = p.getValue();
+
+          if (root != null) {
+            if (!columnTable.containsKey(column)) {
+              columnTable.put(column, new ArrayList<Integer>());
+            }
+              
+            columnTable.get(column).add(root.val);
+            minColumn = Math.min(minColumn, column);
+            maxColumn = Math.max(maxColumn, column);
+
+            queue.offer(new Pair(root.left, column - 1));
+            queue.offer(new Pair(root.right, column + 1));
+          }
+        }
+
+        for (int i = minColumn; i < maxColumn + 1; ++i) {
+          output.add(columnTable.get(i));
+        }
+
+        return output;
+    }
+}
+```
