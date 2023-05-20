@@ -10,6 +10,7 @@ tags: interview prefix-sum
 
 [Easy]
 - [1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
+- [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
 
 [Medium]
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)

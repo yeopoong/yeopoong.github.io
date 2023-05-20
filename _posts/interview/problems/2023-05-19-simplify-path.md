@@ -17,7 +17,6 @@ The canonical path should have the following format:
 - The path does not end with a trailing '/'.
 - The path only contains the directories on the path from the root directory to the target file or directory (i.e., no period '.' or double period '..')
 
-<br>
 <details>
 <summary> [Solution - 펼치기👇] 71. Simplify Path </summary>
 
@@ -62,4 +61,3 @@ class Solution {
 ```
 
 </details>
-<br><br>
