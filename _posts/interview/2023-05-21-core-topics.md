@@ -14,86 +14,80 @@ tags: interview
 > - 솔루션의 시간복잡도와 공간 복잡도를 확인한다.
 > - 테스트 케이스를 정의한다.
 
-Array
+## Data Structure
+
+1. Array
 - swap
-- binary search
 - sum
 - maximum
 - subarray
 - longest
 - sort
 
-String
+2. String
 - anagram
 - palindrome
 - longest
 - reverse
 - remove
 
-Linked List
+3. Linked List
 - reverse
 - swap
 - rotate
 - merge
 
-HashMap
+4. HashMap & Set
 - find fast
 - grouping: key & value
 - count
-
-Set
 - duplicate check
 
-Stack
+5. Stack & Queue
 - Order
 - Valid check
 - Monotinic
 
-Queue
-
-Tree
+6. Tree
 - Traverse
 - path sum
 - level
 
-Heap
+7. Graph
+
+8. Heap
 - smallest
 
-Graph
+## Algorithm
 
-DFS
-- 
-
-BFS
+1. DFS & BFS
 - Level order traversal
 
-Backtracking
+2. Backtracking & Recursion
 - subsets
 
-Recursion
-
-Two Pointers
+3. Two Pointers
 - handle two data set
 
-Sliding Window
+4. Sliding Window
 - section
 - maximum
 - subarray
 
-Sorting
+5. Sorting
 
-Binary Search
+6. Binary Search
 - find element
 - rotated
 
-Design
+7. Design
 - insert & delete & update & randome access
 
-Interval
+8. Interval
 
-Greedy
+9. Greedy
 - minimum
 
-Dynamic Programming
+10. Dynamic Programming
 - subsequence
 - longest
