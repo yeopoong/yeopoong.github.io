@@ -29,7 +29,7 @@ tags: interview two-pointers
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
-- [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
+- [658. Find K Closest Elements](problems/2023-05-21-find-k-closest-elements.md)
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - [148. Sort List](https://leetcode.com/problems/sort-list/)
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)

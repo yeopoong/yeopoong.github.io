@@ -73,10 +73,12 @@ Backtracking
 Recursion
 
 Two Pointers
+- handle two data set
 
 Sliding Window
 - section
 - maximum
+- subarray
 
 Sorting
 

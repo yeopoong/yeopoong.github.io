@@ -8,6 +8,9 @@ tags: interview sliding-window
 
 > 윈도우를 진행시키면서 필요한 데이터의 최소/최대 개수를 체크한다.
 
+[Easy]
+- [643. Maximum Average Subarray I](problems/2023-05-17-maximum-average-subarray-i.md)
+
 [Medium]
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
