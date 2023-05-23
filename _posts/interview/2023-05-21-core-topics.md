@@ -46,7 +46,7 @@ tags: interview
 5. Stack & Queue
 - Order
 - Valid check
-- Monotinic
+- Monotonic
 
 6. Tree
 - Traverse
