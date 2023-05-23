@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "1236. Web Crawler"
+title: "323. Number of Connected Components in an Undirected Graph"
 categories: interview
 tags: problems graph dfs
 ---
