@@ -20,6 +20,7 @@ tags: interview two-pointers
 - [392. Is Subsequence](/interview/2023/05/21/is-subsequence/)
 - [1768. Merge Strings Alternately](/interview/2023/05/21/merge-strings-alternately/)
 - [643. Maximum Average Subarray I](/interview/2023/05/21/maximum-average-subarray-i/)
+- [345. Reverse Vowels of a String](/interview/2023/05/22/reverse-vowels-of-a-string/)
 
 [Medium]
 - [15. 3Sum](/interview/2023/05/21/3sum/)
