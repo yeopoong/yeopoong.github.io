@@ -23,6 +23,7 @@ tags: interview
 - subarray
 - longest
 - sort
+- prefix sum
 
 2. String
 - anagram

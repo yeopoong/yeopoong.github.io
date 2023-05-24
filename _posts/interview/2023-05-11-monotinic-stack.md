@@ -11,6 +11,7 @@ tags: interview monotonic-stack
 - Monotonic Stack: A monotonic stack is simply a stack where the elements are always in sorted order.
 
 [Medium]
-- [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
-- [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
-- [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
+- [739. Daily Temperatures](/interview/2023/05/21/daily-temperatures/)
+- [456. 132 Pattern](/interview/2023/05/21/132-pattern/)
+- [402. Remove K Digits](/interview/2023/05/21/remove-k-digits/)
+- [901. Online Stock Span](/interview/2023/05/23/online-stock-span/)
