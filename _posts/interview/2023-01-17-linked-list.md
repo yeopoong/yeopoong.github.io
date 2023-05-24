@@ -111,23 +111,23 @@ public int getLength(ListNode head) {
 ```
 
 [Easy]
-- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
-- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [21. Merge Two Sorted Lists](/interview/2023/04/26/merge-two-sorted-lists/)
+- [160. Intersection of Two Linked Lists](/interview/2023/04/26/intersection-of-two-linked-lists/)
+- [206. Reverse Linked List](/interview/2023/04/26/reverse-linked-list/)
+- [141. Linked List Cycle](/interview/2023/04/26/linked-list-cycle/)
 
 [Medium]
-- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
-- [61. Rotate List](https://leetcode.com/problems/rotate-list/)
-- [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
-- [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
-- [148. Sort List](https://leetcode.com/problems/sort-list/)
-- [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
-- [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
-- [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
-- [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)
+- [2. Add Two Numbers](/interview/2023/04/26/add-two-numbers/)
+- [24. Swap Nodes in Pairs](/interview/2023/04/26/swap-nodes-in-pairs/)
+- [61. Rotate List](/interview/2023/04/26/rotate-list/)
+- [138. Copy List with Random Pointer](/interview/2023/04/26/copy-list-with-random-pointer/)
+- [146. LRU Cache](/interview/2023/04/26/lru-cache/)
+- [148. Sort List](/interview/2023/04/26/sort-list/)
+- [328. Odd Even Linked List](/interview/2023/04/26/odd-even-linked-list/)
+- [430. Flatten a Multilevel Doubly Linked List](/interview/2023/04/26/flatten-a-multilevel-doubly-linked-list/)
+- [445. Add Two Numbers II](/interview/2023/04/26/add-two-numbers-ii/)
+- [369. Plus One Linked List](/interview/2023/04/26/plus-one-linked-list/)
 - [label](problems/2023-05-20-reverse-linked-list-ii.md)
 
 [Hard]
-- [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [23. Merge k Sorted Lists](/interview/2023/04/26/merge-k-sorted-lists/)
