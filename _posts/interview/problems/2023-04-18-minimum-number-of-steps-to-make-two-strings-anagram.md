@@ -3,15 +3,19 @@ layout: post
 published: true
 title: "1347. Minimum Number of Steps to Make Two Strings Anagram"
 categories: interview
-tags: problems hashmap
+tags: problems string hashmap
 ---
 
-> t를 s의 애너그램으로 만들기 위한 최소 단계 수를 반환
+> t를 s의 아나그램으로 만들기 위한 최소 단계 수를 반환
 
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
 
+문자열에서 각 문자별 개수 카운트해서 비교한다.
+
 ```java
 class Solution {
+    // 두 문자열 아나그램을 만들기 위한 최소 단계 수
+    // T: O(n)
     public int minSteps(String s, String t) {
         int steps = 0;
         

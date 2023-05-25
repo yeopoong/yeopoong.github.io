@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "430. Flatten a Multilevel Doubly Linked List"
 categories: interview
-tags: problems linked-list dfs
+tags: problems linked-list dfs stack
 ---
 
 > 다단계 이중 연결 리스트를 평면화하고 병합된 리스트의 헤드를 반환
@@ -12,6 +12,7 @@ tags: problems linked-list dfs
 
 ![](https://assets.leetcode.com/uploads/2021/11/09/flatten11.jpg)
 
+DFS by Recursion
 ```java
 /*
 // Definition for a Node.
@@ -63,6 +64,50 @@ class Solution {
         }
         
         return head; 
+    }
+}
+```
+
+DFS by Stack
+```java
+/*
+// Definition for a Node.
+class Node {
+    public int val;
+    public Node prev;
+    public Node next;
+    public Node child;
+};
+*/
+
+class Solution {
+    
+    // 다단계 이중 연결 목록 평면화
+    // DFS by Stack
+    // T: O(n)
+    public Node flatten(Node head) {
+        Stack<Node> stack = new Stack<>();
+        Node p = head;
+        
+        while (p != null || !stack.isEmpty()) {
+            // 자식노드가 존재하면 처리한다.
+            if (p.child != null) {
+                if (p.next != null) stack.push(p.next);
+                p.next = p.child;
+                p.next.prev = p;
+                p.child = null;
+            } else {
+                if (p.next == null && !stack.isEmpty()) {
+                    p.next = stack.pop();
+                    p.next.prev = p;
+                }
+            }
+            
+            // 다음노드로 이동
+            p = p.next;
+        }
+        
+        return head;
     }
 }
 ```
