@@ -11,16 +11,16 @@ tags: interview backtracking
 > Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.
 
 [Medium]
-- [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-- [46. Permutations](https://leetcode.com/problems/permutations/)
-- [78. Subsets](https://leetcode.com/problems/subsets/)
- -[79. Word Search](https://leetcode.com/problems/word-search/)
-- [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-- [254. Factor Combinations](https://leetcode.com/problems/factor-combinations/)
-- [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)
+- [22. Generate Parentheses](/interview/2023/05/21/generate-parentheses/)
+- [39. Combination Sum](/interview/2023/05/21/combination-sum/)
+- [46. Permutations](/interview/2023/05/21/permutations/)
+- [78. Subsets](/interview/2023/05/21/subsets/)
+ -[79. Word Search](/interview/2023/05/21/word-search/)
+- [90. Subsets II](/interview/2023/05/01/subsets-ii/)
+- [254. Factor Combinations](/interview/2023/05/21/factor-combinations/)
+- [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
+- [17. Letter Combinations of a Phone Number](/interview/2023/05/21/letter-combinations-of-a-phone-number/)
+- [967. Numbers With Same Consecutive Differences](/interview/2023/05/21/numbers-with-same-consecutive-differences/)
 
 [Hard]
-- [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [212. Word Search II](/interview/2023/05/21/word-search-ii/)
