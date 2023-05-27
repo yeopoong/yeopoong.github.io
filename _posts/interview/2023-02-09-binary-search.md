@@ -44,3 +44,4 @@ public int search(int[] nums, int target) {
 - [378. Kth Smallest Element in a Sorted Matrix](/interview/2023/05/23/kth-smallest-element-in-a-sorted-matrix/)
 - [528. Random Pick with Weight](/interview/2023/05/23/random-pick-with-weight/)
 - [875. Koko Eating Bananas](/interview/2023/05/23/koko-eating-bananas/)
+- [1182. Shortest Distance to Target Color](/interview/2023/05/27/shortest-distance-to-target-color/)
