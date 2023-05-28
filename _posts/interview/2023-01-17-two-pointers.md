@@ -13,7 +13,7 @@ tags: interview two-pointers
 [Easy]
 - [125. Valid Palindrome](/interview/2023/05/21/valid-palindrome/)
 - [26. Remove Duplicates from Sorted Array](/interview/2023/05/21/remove-duplicates-from-sorted-array/)
-- [28. Find the Index of the First Occurrence in a String](/interview/2023/05/21/find-the-index-of-the-first-occurrence-in-a-string/)
+- [28. Find the Index of the First Occurrence in a String](/interview/2023/05/01/find-the-index-of-the-first-occurrence-in-a-string/)
 - [121. Best Time to Buy and Sell Stock](/interview/2023/05/21/best-time-to-buy-and-sell-stock/)
 - [283. Move Zeroes](/interview/2023/05/21/move-zeroes/)
 - [344. Reverse String](/interview/2023/05/21/reverse-string/)

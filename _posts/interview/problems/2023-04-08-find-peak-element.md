@@ -6,7 +6,8 @@ categories: interview
 tags: problems binary-search array
 ---
 
-> 인덱스가 0인 정수 배열에서 피크 요소를 찾고 해당 인덱스를 반환
+> 배열에서 피크 요소를 찾고 해당 인덱스를 반환  
+> - A peak element is an element that is strictly greater than its neighbors.
 
 - [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
