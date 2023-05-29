@@ -27,7 +27,7 @@ tags: interview two-pointers
 - [16. 3Sum Closest](/interview/2023/05/21/3sum-closest/)
 - [31. Next Permutation](/interview/2023/05/08/next-permutation/)
 - [61. Rotate List](/interview/2023/05/21/rotate-list/)
-- [287. Find the Duplicate Number](/interview/2023/05/21/find-the-duplicate-number/)
+- [287. Find the Duplicate Number](/interview/2023/05/01/find-the-duplicate-number/)
 - [11. Container With Most Water](/interview/2023/05/21/container-with-most-water/)
 - [5. Longest Palindromic Substring](/interview/2023/05/21/longest-palindromic-substring)
 - [658. Find K Closest Elements](problems/2023-05-21-find-k-closest-elements.md)
