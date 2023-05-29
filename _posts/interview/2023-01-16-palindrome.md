@@ -53,12 +53,12 @@ public void getPalindrome(String s, int left, int right) {
 ```
 
 [Easy]
-- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
-- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [125. Valid Palindrome](/interview/2023/05/21/valid-palindrome/)
+- [409. Longest Palindrome](/interview/2023/05/21/longest-palindrome/)
+- [9. Palindrome Number](/interview/2023/05/21/palindrome-number/)
 
 [Medium]
-- [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
-- [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-- [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
+- [647. Palindromic Substrings](/interview/2023/05/21/palindromic-substrings/)
+- [5. Longest Palindromic Substring](/interview/2023/05/21/longest-palindromic-substring)
+- [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
+- [214. Shortest Palindrome](/interview/2023/05/21/shortest-palindrome/)

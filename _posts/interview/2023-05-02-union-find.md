@@ -7,5 +7,5 @@ tags: interview union-find
 ---
 
 [Medium]
-- [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
-- [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [721. Accounts Merge](/interview/2023/05/21/accounts-merge/)
+- [1584. Min Cost to Connect All Points](/interview/2023/05/21/min-cost-to-connect-all-points/)

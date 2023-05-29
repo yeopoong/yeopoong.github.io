@@ -25,4 +25,4 @@ tags: interview union-find
 - 서로 중복되지 않는 부분 집합들로 나눠진 원소들에 대한 정보를 저장하고 조작하는 자료구조
 
 [Medium]
-- [1101. The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
+- [1101. The Earliest Moment When Everyone Become Friends](/interview/2023/05/21/the-earliest-moment-when-everyone-become-friends/)
