@@ -37,7 +37,7 @@ tags: interview two-pointers
 - [281. Zigzag Iterator](/interview/2023/05/21/zigzag-iterator/)
 - [1229. Meeting Scheduler](/interview/2023/05/21/meeting-scheduler/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
-- [253. Meeting Rooms II](/interview/2023/05/21/meeting-rooms-ii/)
+- [253. Meeting Rooms II](/interview/2023/04/18/meeting-rooms-ii/)
 - [209. Minimum Size Subarray Sum](/interview/2023/05/21/minimum-size-subarray-sum/)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](/interview/2023/05/21/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [723. Candy Crush](/interview/2023/05/21/candy-crush/)

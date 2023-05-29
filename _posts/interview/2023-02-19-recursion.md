@@ -18,18 +18,19 @@ tags: interview recursion
 Memoization
 
 [Easy]
-- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
-- [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)
+- [509. Fibonacci Number](/interview/2023/05/21/fibonacci-number/)
+- [1469. Find All The Lonely Nodes](/interview/2023/05/21/find-all-the-lonely-nodes/)
 
 [Medium]
-- [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
-- [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-- [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)
-- [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
-- [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
-- [394. Decode String](https://leetcode.com/problems/decode-string/)
-- [390. Elimination Game](https://leetcode.com/problems/elimination-game/)
+- [50. Pow(x, n)](/interview/2023/05/21/powx-n/)
+- [98. Validate Binary Search Tree](/interview/2023/05/21/validate-binary-search-tree/)
+- [337. House Robber III](/interview/2023/05/21/house-robber-iii/)
+- [1522. Diameter of N-Ary Tree](/interview/2023/05/21/diameter-of-n-ary-tree/)
+- [1325. Delete Leaves With a Given Value](/interview/2023/05/21/delete-leaves-with-a-given-value/)
+- [394. Decode String](/interview/2023/05/21/decode-string/)
+- [390. Elimination Game](/interview/2023/05/21/elimination-game/)
+- [24. Swap Nodes in Pairs](/interview/2023/05/06/swap-nodes-in-pairs/)
 
 [Hard]
-- [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
-- [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+- [44. Wildcard Matching](/interview/2023/05/21/wildcard-matching/)
+- [10. Regular Expression Matching](/interview/2023/05/21/regular-expression-matching/)

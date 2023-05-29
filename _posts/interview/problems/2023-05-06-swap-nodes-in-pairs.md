@@ -1,18 +1,18 @@
 ---
 layout: post
 published: true
-title: "1029. Two City Scheduling"
+title: "24. Swap Nodes in Pairs"
 categories: interview
-tags: problems linked-list
+tags: problems linked-list recursion
 ---
 
 > 연결 목록이 주어지면 인접한 두 노드마다 교환하고 헤드를 반환
 
 - [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
-~[](https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg)
+![](https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg)
 
-
+Iterative
 ```java
 /**
  * Definition for singly-linked list.
@@ -52,6 +52,39 @@ class Solution {
         }
 
         return dummy.next;
+    }
+}
+```
+
+Recursive
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    
+    // 연결 목록이 주어지면 인접한 두 노드마다 교환하고 헤드를 반환합니다.
+    // T: O(n)
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) return head;
+
+        // Nodes to be swapped
+        ListNode swap1 = head;
+        ListNode swap2 = head.next;
+
+        // 두 노드를 스왑한다.
+        swap1.next = swapPairs(swap2.next); 
+        swap2.next = swap1;
+
+        // Return the new head node
+        return swap2;
     }
 }
 ```

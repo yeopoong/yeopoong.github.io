@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "253. Meeting Rooms II"
 categories: interview
-tags: problems two-pointers
+tags: problems array two-pointers
 ---
 
 > 미팅 시간이 겹치지 않도록 필요한 최소 회의실 수
@@ -39,11 +39,12 @@ class Solution {
             if (startTime[s] < endTime[e]) {
                 s++;
                 room++;
+                maxRoom = Math.max(maxRoom, room);
+            // 미팅이 종료되었으므로 미팅룸을 감소한다.
             } else {
                 e++;
                 room--;
             }
-            maxRoom = Math.max(maxRoom, room);
         }
 
         return maxRoom;
