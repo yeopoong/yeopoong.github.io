@@ -45,6 +45,7 @@ tags: interview two-pointers
 - [80. Remove Duplicates from Sorted Array II](/interview/2023/05/21/remove-duplicates-from-sorted-array-ii/)
 - [167. Two Sum II - Input Array Is Sorted](/interview/2023/05/21/two-sum-ii-input-array-is-sorted/)
 - [2095. Delete the Middle Node of a Linked List](/interview/2023/05/27/linked-list-cycle/)
+- [1868. Product of Two Run-Length Encoded Arrays](/interview/2023/05/29/product-of-two-run-length-encoded-arrays/)
 
 [Hard]
 - [42. Trapping Rain Water](/interview/2023/05/21/trapping-rain-water)
