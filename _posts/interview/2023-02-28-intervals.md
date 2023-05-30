@@ -15,7 +15,7 @@ tags: interview interval
 
 [Medium]
 - [253. Meeting Rooms II](/interview/2023/05/21/meeting-rooms-ii/)
-- [729. My Calendar I](/interview/2023/05/21/my-calendar-i/)
+- [729. My Calendar I](/interview/2023/04/30/my-calendar-i/)
 - [1229. Meeting Scheduler](/interview/2023/05/21/meeting-scheduler/)
 
 [Hard]

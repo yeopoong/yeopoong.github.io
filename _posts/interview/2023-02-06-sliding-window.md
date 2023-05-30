@@ -19,7 +19,7 @@ tags: interview sliding-window
 - [1004. Max Consecutive Ones III](/interview/2023/05/21/max-consecutive-ones-iii/)
 - [3. Longest Substring Without Repeating Characters](/interview/2023/05/21/longest-substring-without-repeating-characters/)
 - [340. Longest Substring with At Most K Distinct Characters](/interview/2023/05/21/longest-substring-with-at-most-k-distinct-characters/)
-- [159. Longest Substring with At Most Two Distinct Characters](/interview/2023/05/21/longest-substring-with-at-most-two-distinct-characters/)
+- [159. Longest Substring with At Most Two Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-two-distinct-characters/)
 - [978. Longest Turbulent Subarray](/interview/2023/05/21/longest-turbulent-subarray/)
 
 [Hard]

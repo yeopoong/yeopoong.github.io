@@ -6,7 +6,7 @@ categories: interview
 tags: problems design interval
 ---
 
-> 달력으로 사용할 프로그램을 구현하고 있습니다. 이벤트를 추가해도 이중 예약이 발생하지 않는 경우 새 이벤트를 추가
+> 달력에 새 이벤트를 추가해도 이중 예약이 발생하지 않도록 구현
 
 - [729. My Calendar I](https://leetcode.com/problems/my-calendar-i/)
 
