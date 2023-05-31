@@ -16,6 +16,19 @@ Sentinel Head
 
 To handle the last use case, one needs so called Sentinel Node. Sentinel nodes are widely used for trees and linked lists as pseudo-heads, pseudo-tails, etc. They are purely functional, and usually don't hold any data. Their main purpose is to standardize the situation to avoid edge case handling.
 
+```java
+// 처음에 어떤 노드가 될지 모르므로 더미 노드를 생성한다.
+ListNode dumy = new ListNode();
+
+// 헤드 포인터를 리턴해야 하므로 작업 포인트 노드 변수를 선언한다.
+ListNode p = dumy;
+
+//...
+
+// 헤드 리턴
+return dumy.next;
+```
+
 Merge List
 ```java
 private ListNode merge(ListNode l1, ListNode l2) {
@@ -117,7 +130,7 @@ public int getLength(ListNode head) {
 
 
 [Medium]
-- [2. Add Two Numbers](/interview/2023/04/26/add-two-numbers/)
+- [2. Add Two Numbers](/interview/2023/04/09/add-two-numbers/)
 - [24. Swap Nodes in Pairs](/interview/2023/04/26/swap-nodes-in-pairs/)
 - [61. Rotate List](/interview/2023/04/26/rotate-list/)
 - [138. Copy List with Random Pointer](/interview/2023/04/26/copy-list-with-random-pointer/)

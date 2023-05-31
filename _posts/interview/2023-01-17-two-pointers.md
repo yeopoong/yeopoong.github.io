@@ -23,8 +23,8 @@ tags: interview two-pointers
 - [345. Reverse Vowels of a String](/interview/2023/05/22/reverse-vowels-of-a-string/)
 
 [Medium]
-- [15. 3Sum](/interview/2023/05/21/3sum/)
-- [16. 3Sum Closest](/interview/2023/05/21/3sum-closest/)
+- [15. 3Sum](/interview/2023/04/05/3sum/)
+- [16. 3Sum Closest](/interview/2023/05/08/3sum-closest/)
 - [31. Next Permutation](/interview/2023/05/08/next-permutation/)
 - [61. Rotate List](/interview/2023/05/21/rotate-list/)
 - [287. Find the Duplicate Number](/interview/2023/05/01/find-the-duplicate-number/)

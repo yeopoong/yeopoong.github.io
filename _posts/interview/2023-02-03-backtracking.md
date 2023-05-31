@@ -19,7 +19,7 @@ tags: interview backtracking
 - [90. Subsets II](/interview/2023/05/01/subsets-ii/)
 - [254. Factor Combinations](/interview/2023/05/21/factor-combinations/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
-- [17. Letter Combinations of a Phone Number](/interview/2023/05/21/letter-combinations-of-a-phone-number/)
+- [17. Letter Combinations of a Phone Number](/interview/2023/05/30/letter-combinations-of-a-phone-number/)
 - [967. Numbers With Same Consecutive Differences](/interview/2023/05/21/numbers-with-same-consecutive-differences/)
 
 [Hard]

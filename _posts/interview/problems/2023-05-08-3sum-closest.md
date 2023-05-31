@@ -10,6 +10,7 @@ tags: problems array two-pointers
 
 - [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
+배열에서 3개의 숫자를 처리해야 하는 경우 정렬 후에 처음부터 루프를 돌면서 두개의 숫자를 Two Pointers 로 증감시키면서 처리한다.
 
 ```java
 class Solution {

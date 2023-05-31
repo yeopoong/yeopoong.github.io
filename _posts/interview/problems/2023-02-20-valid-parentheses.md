@@ -8,12 +8,12 @@ tags: problems stack
 
 > 입력 문자열(괄호)이 유효한지 확인 
 
-- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-Edge Case
+Edge Case  
 닫힌 괄호를 만났을때 
 1. 스택이 공백이거나 
-2. 최상위값이 문자와 매치되지 않으면 
+2. 최상위값이 문자와 매치되지 않으면  
 유효하지 않은거다.
 
 ```java
