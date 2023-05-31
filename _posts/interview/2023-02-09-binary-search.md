@@ -36,7 +36,7 @@ public int search(int[] nums, int target) {
 - [1060. Missing Element in Sorted Array](/interview/2023/05/23/missing-element-in-sorted-array/)
 
 [Medium]
-- [33. Search in Rotated Sorted Array](/interview/2023/05/23/search-in-rotated-sorted-array/)
+- [33. Search in Rotated Sorted Array](/interview/2023/02/21/search-in-rotated-sorted-array/)
 - [81. Search in Rotated Sorted Array II](/interview/2023/05/23/search-in-rotated-sorted-array-ii/)
 - [153. Find Minimum in Rotated Sorted Array](/interview/2023/05/23/find-minimum-in-rotated-sorted-array)
 - [162. Find Peak Element](/interview/2023/05/23/find-peak-element/)
