@@ -7,6 +7,7 @@ tags: problems linked-list two-pointers
 ---
 
 > 연결된 목록의 헤드가 주어지면 목록을 오른쪽으로 k만큼 회전
+> - 리스트의 전체 길이를 구한 후 K(피봇노드) 를 기준으로 시작노드와 마지막 노드를 변경한다.
 
 - [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 

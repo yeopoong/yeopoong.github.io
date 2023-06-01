@@ -84,6 +84,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 - [122. Best Time to Buy and Sell Stock II](/interview/2023/05/21/best-time-to-buy-and-sell-stock-ii/)
 - [416. Partition Equal Subset Sum](/interview/2023/05/21/partition-equal-subset-sum/)
 - [97. Interleaving String](/interview/2023/05/21/interleaving-string/)
+- [740. Delete and Earn](/interview/2023/05/31/delete-and-earn/)
 
 [Hard]
 - [42. Trapping Rain Water](/interview/2023/05/21/trapping-rain-water/)
