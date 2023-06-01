@@ -3,10 +3,10 @@ layout: post
 published: true
 title: "33. Search in Rotated Sorted Array"
 categories: interview
-tags: problems binary-search
+tags: problems binary-search array
 ---
 
-> 가능한 회전 후의 배열 숫자와 정수 대상이 주어지면 대상의 인덱스가 숫자이면 대상의 인덱스를 반환하고 숫자가 아니면 -1을 반환
+> 오름차순으로 정렬된 배열을 회전 후, 주어진 정수값의 인덱스를 찾는 문제
 
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
