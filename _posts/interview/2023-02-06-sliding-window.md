@@ -8,6 +8,10 @@ tags: interview sliding-window
 
 > 윈도우를 진행시키면서 필요한 데이터의 최소/최대 개수를 체크한다.
 
+- Longest
+- Maximum
+- Minimum
+
 [Easy]
 - [643. Maximum Average Subarray I](/interview/2023/05/17/maximum-average-subarray-i)
 
@@ -21,6 +25,7 @@ tags: interview sliding-window
 - [340. Longest Substring with At Most K Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-k-distinct-characters/)
 - [159. Longest Substring with At Most Two Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-two-distinct-characters/)
 - [978. Longest Turbulent Subarray](/interview/2023/05/21/longest-turbulent-subarray/)
+- [1493. Longest Subarray of 1's After Deleting One Element](/interview/2023/05/31/longest-subarray-of-1s-after-deleting-one-element/)
 
 [Hard]
 - [76. Minimum Window Substring](/interview/2023/05/21/minimum-window-substring/)
