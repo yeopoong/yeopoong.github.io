@@ -9,7 +9,7 @@ tags: interview prefix-sum
 ## Prefix Sum
 
 [Easy]
-- [1588. Sum of All Odd Length Subarrays](/interview/2023/05/21/sum-of-all-odd-length-subarrays/)
+- [1588. Sum of All Odd Length Subarrays](/interview/2023/05/04/sum-of-all-odd-length-subarrays/)
 - [1732. Find the Highest Altitude](/interview/2023/05/21/find-the-highest-altitude/)
 - [724. Find Pivot Index](/interview/2023/05/23/find-pivot-index/)
 
