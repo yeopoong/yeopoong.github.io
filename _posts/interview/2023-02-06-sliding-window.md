@@ -19,7 +19,7 @@ tags: interview sliding-window
 - [53. Maximum Subarray](/interview/2023/05/21/maximum-subarray/)
 - [209. Minimum Size Subarray Sum](/interview/2023/05/21/minimum-size-subarray-sum/)
 - [325. Maximum Size Subarray Sum Equals k](/interview/2023/05/21/maximum-size-subarray-sum-equals-k/)
-- [1151. Minimum Swaps to Group All 1's Together](/interview/2023/05/21/minimum-swaps-to-group-all-1s-together/)
+- [1151. Minimum Swaps to Group All 1's Together](/interview/2023/05/08/minimum-swaps-to-group-all-1s-together/)
 - [1004. Max Consecutive Ones III](/interview/2023/05/21/max-consecutive-ones-iii/)
 - [3. Longest Substring Without Repeating Characters](/interview/2023/05/21/longest-substring-without-repeating-characters/)
 - [340. Longest Substring with At Most K Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-k-distinct-characters/)

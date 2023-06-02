@@ -14,7 +14,7 @@ tags: interview backtracking
 
 [Medium]
 - [22. Generate Parentheses](/interview/2023/04/12/generate-parentheses/)
-- [39. Combination Sum](/interview/2023/05/21/combination-sum/)
+- [39. Combination Sum](/interview/2023/04/11/combination-sum/)
 - [46. Permutations](/interview/2023/05/21/permutations/)
 - [78. Subsets](/interview/2023/05/21/subsets/)
  -[79. Word Search](/interview/2023/05/21/word-search/)
