@@ -3,11 +3,11 @@ layout: post
 published: true
 title: "662. Maximum Width of Binary Tree"
 categories: interview
-tags: problems string sliding-window hashmap
+tags: problems tree dfs
 ---
 
-> 이진 트리의 최대 너비: 
-> 트리의 최대 너비(가장 왼쪽 및 가장 오른쪽의 null이 아닌 노드 사이의 길이)
+> 이진 트리의 최대 너비 구하기  
+> - 트리의 최대 너비(가장 왼쪽 및 가장 오른쪽의 null이 아닌 노드 사이의 길이)
 
 - [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
@@ -31,7 +31,7 @@ tags: problems string sliding-window hashmap
  */
 class Solution {
 
-    private Integer maxWidth = 0;
+    private int maxWidth = 0;
     
     // map contains the first col_index for each level
     private HashMap<Integer, Integer> map = new HashMap<>();
@@ -43,7 +43,7 @@ class Solution {
         return this.maxWidth;
     }
 
-    protected void dfs(TreeNode node, Integer depth, Integer colIndex) {
+    protected void dfs(TreeNode node, int depth, int colIndex) {
         if (node == null) return;
         
         // initialize the value, for the first seen colIndex per level
@@ -51,7 +51,7 @@ class Solution {
             map.put(depth, colIndex);
         }
         
-        Integer firstColIndex = map.get(depth);
+        int firstColIndex = map.get(depth);
 
         maxWidth = Math.max(maxWidth, colIndex - firstColIndex + 1);
 
