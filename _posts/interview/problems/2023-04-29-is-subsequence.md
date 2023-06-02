@@ -6,9 +6,11 @@ categories: interview
 tags: problems string two-pointers
 ---
 
-> 두 문자열 s와 t가 주어지면 s가 t의 하위 시퀀스이면 true를 반환하고 그렇지 않으면 false를 반환
+> 두 문자열 s와 t가 주어지면 s가 t의 하위 시퀀스이면 true를 반환하고 그렇지 않으면 false를 반환  
+> - 문자열의 하위 시퀀스는 나머지 문자의 상대적 위치를 방해하지 않고 일부 문자(없을 수 있음)를 삭제하여 원래 문자열에서 형성되는 새 문자열
 
 - [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+
 
 ```java
 class Solution {

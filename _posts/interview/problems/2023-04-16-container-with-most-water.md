@@ -10,6 +10,8 @@ tags: problems two-pointers array
 
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
+
 ```java
 class Solution {
     

@@ -25,7 +25,7 @@ class Solution {
             // 왼쪽 값보다 크면 이익이 발생하므로 최대이익을 비교
             if (prices[left] < prices[right]) {
                 maxProfit = Math.max(maxProfit, prices[right] - prices[left]);
-            // 왼쪽 값보다 작으면 최소가격이므로 왼쪽포인터를 이동
+            // * 왼쪽 값보다 작으면 최소가격이므로 왼쪽포인터를 이동
             } else {
                 left = right;
             }

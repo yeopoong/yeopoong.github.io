@@ -14,7 +14,7 @@ tags: interview prefix-sum
 - [724. Find Pivot Index](/interview/2023/05/23/find-pivot-index/)
 
 [Medium]
-- [209. Minimum Size Subarray Sum](/interview/2023/05/21/minimum-size-subarray-sum/)
+- [209. Minimum Size Subarray Sum](/interview/2023/06/02/minimum-size-subarray-sum/)
 - [325. Maximum Size Subarray Sum Equals k](/interview/2023/05/21/maximum-size-subarray-sum-equals-k/)
 - [528. Random Pick with Weight](/interview/2023/05/21/random-pick-with-weight/)
 - [560. Subarray Sum Equals K](/interview/2023/05/21/subarray-sum-equals-k/)

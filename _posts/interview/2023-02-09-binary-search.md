@@ -30,6 +30,7 @@ public int search(int[] nums, int target) {
 ```
 
 [Easy]
+- [35. Search Insert Position](/interview/2023/06/02/search-insert-position/)
 - [69. Sqrt(x)](/interview/2023/05/23/sqrtx/)
 - [704. Binary Search](/interview/2023/05/23/binary-search/)
 - [268. Missing Number](/interview/2023/05/23/missing-number/)
@@ -39,7 +40,7 @@ public int search(int[] nums, int target) {
 - [33. Search in Rotated Sorted Array](/interview/2023/02/21/search-in-rotated-sorted-array/)
 - [81. Search in Rotated Sorted Array II](/interview/2023/05/23/search-in-rotated-sorted-array-ii/)
 - [153. Find Minimum in Rotated Sorted Array](/interview/2023/05/23/find-minimum-in-rotated-sorted-array)
-- [162. Find Peak Element](/interview/2023/05/23/find-peak-element/)
+- [162. Find Peak Element](/interview/2023/04/08/find-peak-element/)
 - [1901. Find a Peak Element II](/interview/2023/05/28/find-a-peak-element-ii/)
 - [378. Kth Smallest Element in a Sorted Matrix](/interview/2023/05/23/kth-smallest-element-in-a-sorted-matrix/)
 - [528. Random Pick with Weight](/interview/2023/05/23/random-pick-with-weight/)

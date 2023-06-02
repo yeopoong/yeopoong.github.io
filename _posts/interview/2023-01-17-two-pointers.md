@@ -10,11 +10,24 @@ tags: interview two-pointers
 
 배열이 정렬되어 있으면 고려한다.
 
+reverse array
+```java
+public void reverse(int[] nums, int start, int end) {
+    while (start < end) {
+        int temp = nums[start];
+        nums[start] = nums[end];
+        nums[end] = temp;
+        start++;
+        end--;
+    }
+}
+```
+
 [Easy]
-- [125. Valid Palindrome](/interview/2023/05/21/valid-palindrome/)
+- [125. Valid Palindrome](/interview/2023/02/20/valid-palindrome/)
 - [26. Remove Duplicates from Sorted Array](/interview/2023/05/21/remove-duplicates-from-sorted-array/)
 - [28. Find the Index of the First Occurrence in a String](/interview/2023/05/01/find-the-index-of-the-first-occurrence-in-a-string/)
-- [121. Best Time to Buy and Sell Stock](/interview/2023/05/21/best-time-to-buy-and-sell-stock/)
+- [121. Best Time to Buy and Sell Stock](/interview/2023/02/22/best-time-to-buy-and-sell-stock/)
 - [283. Move Zeroes](/interview/2023/05/21/move-zeroes/)
 - [344. Reverse String](/interview/2023/05/21/reverse-string/)
 - [392. Is Subsequence](/interview/2023/05/21/is-subsequence/)
@@ -43,7 +56,7 @@ tags: interview two-pointers
 - [723. Candy Crush](/interview/2023/05/21/candy-crush/)
 - [443. String Compression](/interview/2023/05/21/string-compression/)
 - [80. Remove Duplicates from Sorted Array II](/interview/2023/05/21/remove-duplicates-from-sorted-array-ii/)
-- [167. Two Sum II - Input Array Is Sorted](/interview/2023/05/21/two-sum-ii-input-array-is-sorted/)
+- [167. Two Sum II - Input Array Is Sorted](/interview/2023/05/18/two-sum-ii-input-array-is-sorted/)
 - [2095. Delete the Middle Node of a Linked List](/interview/2023/05/27/linked-list-cycle/)
 - [1868. Product of Two Run-Length Encoded Arrays](/interview/2023/05/29/product-of-two-run-length-encoded-arrays/)
 

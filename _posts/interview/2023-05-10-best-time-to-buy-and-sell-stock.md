@@ -9,7 +9,7 @@ tags: dynamic-programming array
 > You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
 [Easy]
-- [121. Best Time to Buy and Sell Stock](/interview/2023/05/21/best-time-to-buy-and-sell-stock/)
+- [121. Best Time to Buy and Sell Stock](/interview/2023/02/22/best-time-to-buy-and-sell-stock/)
 
 [Medium]
 - [122. Best Time to Buy and Sell Stock II](/interview/2023/05/21/best-time-to-buy-and-sell-stock-ii/)
