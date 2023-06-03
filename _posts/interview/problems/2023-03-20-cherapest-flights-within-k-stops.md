@@ -6,7 +6,13 @@ categories: interview
 tags: problems graph
 ---
 
+> 최대 k 스톱으로 src에서 dst로 가는 가장 저렴한 가격을 반환
+
 - [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+
+![](https://assets.leetcode.com/uploads/2022/03/18/cheapest-flights-within-k-stops-3drawio.png)
+
+Bellman Ford' algorithm: 소스 노드에서 가중 그래프의 다른 모든 정점까지의 최단 경로를 찾는 데 사용
 
 ```java
 class Solution {

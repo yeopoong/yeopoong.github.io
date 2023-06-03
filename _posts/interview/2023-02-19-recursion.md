@@ -19,7 +19,7 @@ Memoization
 
 [Easy]
 - [509. Fibonacci Number](/interview/2023/05/21/fibonacci-number/)
-- [1469. Find All The Lonely Nodes](/interview/2023/05/21/find-all-the-lonely-nodes/)
+- [1469. Find All The Lonely Nodes](/interview/2023/04/19/find-all-the-lonely-nodes/)
 
 [Medium]
 - [50. Pow(x, n)](/interview/2023/05/21/powx-n/)
