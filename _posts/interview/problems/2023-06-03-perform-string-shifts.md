@@ -6,8 +6,8 @@ categories: interview
 tags: problems string
 ---
 
-> 다음 연산의 리스트에 따라서 문자열 이동한 결과를 리턴
-> shift[i] = [direction, amount]
+> 다음 연산의 리스트에 따라서 문자열 이동한 결과를 리턴  
+> - shift[i] = [direction, amount]
 
 - [1427. Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)
 
