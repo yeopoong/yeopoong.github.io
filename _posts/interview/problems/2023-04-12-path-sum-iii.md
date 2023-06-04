@@ -13,7 +13,7 @@ tags: problems dfs tree
 
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
-1. 합이 존재하는지 체크하는 문제는 보수값을 맵에 저장해 두고 그값이 존재하는지를 체크한다.
+1. 합이 존재하는지 체크하는 문제는 보수값을 맵에 저장해 두고 그 값이 존재하는지를 체크한다.
 
 ```java
 /**

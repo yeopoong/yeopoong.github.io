@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "325. Maximum Size Subarray Sum Equals k"
 categories: interview
-tags: problems array  hashmap prefix-sum
+tags: problems array hashmap prefix-sum
 ---
 
 > 정수 배열 nums와 정수 k가 주어지면 합계가 k인 하위 배열의 최대 길이를 반환

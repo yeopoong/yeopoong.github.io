@@ -19,23 +19,27 @@ class Solution {
     public int minSwaps(int[] data) {
         int totalOne = Arrays.stream(data).sum();
         
-        // 최소 스왑을 구해야 하므로 최대 1의 개수를 알면 된다.
+        // 최소 스왑을 구해야 하므로 윈도우 사이즈에서 최대 1의 개수를 알면 된다.
         int maxOne = 0;
         int curOne = 0;
         
         int left = 0, right = 0;
         while (right < data.length) {
             // updating the number of 1's by adding the new element
-            curOne += data[right++];
+            curOne += data[right];
+            
+            System.out.println(left + ":" + right + ":" + curOne);
             
             // 윈도우 사이즈가 총 1의 개수보다 크면 왼쪽 포인터를 이동하고 1의 개수를 감소시킨다.
-            if (right - left > totalOne) {
+            if (right - left + 1 > totalOne) {
                 // updating the number of 1's by removing the oldest element
                 curOne -= data[left++];
             }
             
             // record the maximum number of 1's in the window
             maxOne = Math.max(maxOne, curOne);
+            
+            right++;
         }
         
         return totalOne - maxOne;
