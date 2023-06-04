@@ -40,6 +40,7 @@ public void reverse(int[] nums, int start, int end) {
 - [16. 3Sum Closest](/interview/2023/05/08/3sum-closest/)
 - [31. Next Permutation](/interview/2023/05/08/next-permutation/)
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
+- [75. Sort Colors](/interview/2023/04/16/sort-colors/)
 - [287. Find the Duplicate Number](/interview/2023/05/01/find-the-duplicate-number/)
 - [11. Container With Most Water](/interview/2023/05/21/container-with-most-water/)
 - [5. Longest Palindromic Substring](/interview/2023/05/21/longest-palindromic-substring)
