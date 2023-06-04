@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "250. Count Univalue Subtrees"
 categories: interview
-tags: problems tree dfs
+tags: tree dfs
 ---
 
 > 이진 트리의 루트가 주어지면 단일 값 하위 트리의 수를 반환

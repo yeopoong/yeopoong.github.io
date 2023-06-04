@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "162. Find Peak Element"
 categories: interview
-tags: problems binary-search array
+tags: binary-search array
 ---
 
 > 배열에서 피크 요소를 찾고 해당 인덱스를 반환  

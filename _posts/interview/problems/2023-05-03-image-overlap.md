@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "835. Image Overlap"
 categories: interview
-tags: problems array matrix
+tags: array matrix
 ---
 
 > 정수 배열 arr이 주어지면 arr의 최대 크기 난류 하위 배열의 길이를 반환

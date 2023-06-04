@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1114. Print in Order"
 categories: interview
-tags: problems concurrency design
+tags: concurrency design
 ---
 
 > first() 다음에 second()가 실행되고 second() 다음에 third()가 실행되도록 메커니즘을 설계하고 프로그램을 수정  

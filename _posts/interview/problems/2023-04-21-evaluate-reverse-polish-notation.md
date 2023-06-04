@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "150. Evaluate Reverse Polish Notation"
 categories: interview
-tags: problems stack
+tags: stack
 ---
 
 > 표현식을 평가하고 표현식의 값을 나타내는 정수를 반환

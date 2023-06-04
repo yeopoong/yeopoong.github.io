@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "73. Set Matrix Zeroes"
 categories: interview
-tags: problems array hashmap matrix
+tags: array hashmap matrix
 ---
 
 > m x n 정수 행렬이 주어지면 요소가 0이면 전체 행과 열을 0으로 설정

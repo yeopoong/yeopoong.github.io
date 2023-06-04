@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "239. Sliding Window Maximum"
 categories: interview
-tags: problems array sliding-window queue
+tags: array sliding-window queue
 ---
 
 > 사이즈 K인 슬라이딩 윈도우의 최대값 리스트

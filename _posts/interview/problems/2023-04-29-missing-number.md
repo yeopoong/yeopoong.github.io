@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "268. Missing Number"
 categories: interview
-tags: problems array hashmap
+tags: array hashmap
 ---
 
 > 범위 [0, n]에서 n개의 고유한 숫자를 포함하는 배열 nums가 주어지면 범위에서 배열에서 누락된 유일한 숫자를 반환

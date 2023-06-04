@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "933. Number of Recent Calls"
 categories: interview
-tags: problems design queue
+tags: design queue
 ---
 
 > 특정 시간 프레임 내의 최근 요청 수를 계산하는 RecentCounter 클래스 구현

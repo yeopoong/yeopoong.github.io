@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "212. Word Search II"
 categories: interview
-tags: problems backtracking matrix
+tags: backtracking matrix
 ---
 
 > m x n 문자 보드와 문자열 단어 목록이 주어지면 보드의 모든 단어를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "863. All Nodes Distance K in Binary Tree"
 categories: interview
-tags: problems monotonic-stack design
+tags: monotonic-stack design
 ---
 
 > 이진 트리의 노드에서 거리가 k인 모든 노드의 값 배열을 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "624. Maximum Distance in Arrays"
 categories: interview
-tags: problems array greedy
+tags: array greedy
 ---
 
 > 각 배열이 오름차순으로 정렬된 m개의 배열에서 두 요소의 최대 절대값 구하기

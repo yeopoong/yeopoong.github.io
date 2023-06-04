@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1427. Perform String Shifts"
 categories: interview
-tags: problems string
+tags: string
 ---
 
 > 다음 연산의 리스트에 따라서 문자열 이동한 결과를 리턴  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1858. Longest Word With All Prefixes"
 categories: interview
-tags: problems dfs trie
+tags: dfs trie
 ---
 
 > 문자열 단어의 배열이 주어지면 모든 접두사가 단어에 포함되도록 단어에서 가장 긴 문자열을 찾습니다.

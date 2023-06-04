@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1498. Number of Subsequences That Satisfy the Given Sum Condition"
 categories: interview
-tags: problems array
+tags: array
 ---
 
 > 최소 및 최대 요소의 합이 target보다 작거나 같도록 nums의 비어 있지 않은 하위 시퀀스의 수를 반환

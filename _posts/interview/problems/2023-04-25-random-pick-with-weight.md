@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "528. Random Pick with Weight"
 categories: interview
-tags: problems array binary-search prefix-sum
+tags: array binary-search prefix-sum
 ---
 
 > [0, w.length - 1] 범위의 인덱스를 임의로 선택하여 반환하는 pickIndex() 함수를 구현

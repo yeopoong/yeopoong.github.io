@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "658. Find K Closest Elements"
 categories: interview
-tags: problems two-pointers
+tags: two-pointers
 ---
 
 > 정렬된 정수 배열 arr, 두 정수 k 및 x가 주어지면 배열에서 x에 가장 가까운 k개의 정수를 반환

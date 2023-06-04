@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "92. Reverse Linked List II"
 categories: interview
-tags: problems linked-list
+tags: linked-list
 ---
 
 > 단일 연결 리스트의 헤드와 왼쪽 <= 오른쪽인 두 개의 정수 왼쪽과 오른쪽이 주어지면 목록의 노드를 왼쪽 위치에서 오른쪽 위치로 반전하고 반전된 목록을 반환

@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "787. Cheapest Flights Within K Stops"
 categories: interview
-tags: problems graph
+tags: graph
 ---
 
 > 최대 k 스톱으로 src에서 dst로 가는 가장 저렴한 가격을 반환

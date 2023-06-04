@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1244. Design A Leaderboard"
 categories: interview
-tags: problems design hashmap
+tags: design hashmap
 ---
 
 > 3가지 기능이 있는 Leaderboard 클래스를 설계

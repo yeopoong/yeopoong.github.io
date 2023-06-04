@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "637. Average of Levels in Binary Tree"
 categories: interview
-tags: problems tree bfs
+tags: tree bfs
 ---
 
 > 이진 트리의 루트가 주어지면 각 수준의 노드 평균값을 배열 형태로 반환

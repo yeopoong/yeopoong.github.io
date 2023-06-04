@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "532. K-diff Pairs in an Array"
 categories: interview
-tags: problems array two-pointer
+tags: array two-pointer
 ---
 
 > 정수 nums와 정수 k의 배열이 주어지면 배열에서 고유한 k-diff 쌍의 수를 반환

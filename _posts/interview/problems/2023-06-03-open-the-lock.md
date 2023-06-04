@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "752. Open the Lock"
 categories: interview
-tags: problems bfs
+tags: bfs
 ---
 
 > 자물쇠를 여는 바퀴의 값을 나타내는 코드가 주어지면 자물쇠를 여는 데 필요한 최소 총 회전 수를 반환

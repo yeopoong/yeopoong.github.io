@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "323. Number of Connected Components in an Undirected Graph"
 categories: interview
-tags: problems graph dfs
+tags: graph dfs
 ---
 
 > 무방향 그래프의 연결된 구성 요소 수를 반환

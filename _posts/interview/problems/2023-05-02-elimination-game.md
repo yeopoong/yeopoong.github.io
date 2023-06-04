@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "390. Elimination Game"
 categories: interview
-tags: problems linked-list
+tags: linked-list
 ---
 
 > 정수 n이 주어지면 배열에 남아 있는 마지막 숫자를 반환

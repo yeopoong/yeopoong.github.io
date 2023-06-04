@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "2390. Removing Stars From a String"
 categories: interview
-tags: problems array greedy
+tags: array greedy
 ---
 
 > 모든 작업을 완료하기 위한 최소 라운드

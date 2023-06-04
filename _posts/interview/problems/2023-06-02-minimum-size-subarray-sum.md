@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "209. Minimum Size Subarray Sum"
 categories: interview
-tags: problems array sliding-window prefix-sum
+tags: array sliding-window prefix-sum
 ---
 
 > 합계가 target보다 크거나 같은 하위 배열의 최소 길이를 반환

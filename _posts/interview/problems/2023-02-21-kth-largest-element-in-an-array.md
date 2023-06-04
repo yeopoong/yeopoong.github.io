@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "215. Kth Largest Element in an Array"
 categories: interview
-tags: problems heaps
+tags: heaps
 ---
 
 > 정수 배열 nums와 정수 k가 주어지면 배열에서 k번째로 큰 요소를 반환

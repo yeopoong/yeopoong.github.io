@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "451. Sort Characters By Frequency"
 categories: interview
-tags: problems union-find graph dfs
+tags: union-find graph dfs
 ---
 
 > 이름과 이메일로 구성된 계정 정보 리스트에서 두 계정에 공통 이메일이 존재하는 계정을 병합

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1756. Design Most Recently Used Queue"
 categories: interview
-tags: problems design binary-search
+tags: design binary-search
 ---
 
 > 가장 최근에 사용한 요소를 대기열의 끝으로 이동시키는 데이터 구조를 설계

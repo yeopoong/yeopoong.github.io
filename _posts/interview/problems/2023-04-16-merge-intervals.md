@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "56. Merge Intervals"
 categories: interview
-tags: problems sort
+tags: sort
 ---
 
 > intervals[i] = [starti, endi]인 간격 배열이 주어지면, 모든 겹치는 간격을 병합하고 입력의 모든 간격을 포함하는 겹치지 않는 간격의 배열을 반환

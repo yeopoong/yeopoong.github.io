@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "16. 3Sum Closest"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 타겟에 가장 가까운 세 정수의 합

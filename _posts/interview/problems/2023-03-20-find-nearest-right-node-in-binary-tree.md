@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "1602. Find Nearest Right Node in Binary Tree"
 categories: interview
-tags: problems tree bfs
+tags: tree bfs
 ---
 
 > 이진 트리의 루트와 트리의 노드 u가 주어지면 u의 오른쪽에 있는 동일한 수준에서 가장 가까운 노드를 반환  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "340. Longest Substring with At Most K Distinct Characters"
 categories: interview
-tags: problems string sliding-window hashmap
+tags: string sliding-window hashmap
 ---
 
 > 문자열 s와 정수 k가 주어지면 최대 k개의 개별 문자를 포함하는 s의 가장 긴 하위 문자열의 길이를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "260. Single Number III"
 categories: interview
-tags: problems array bit-manipulation
+tags: array bit-manipulation
 ---
 
 > 정확히 두 개의 요소가 한 번만 나타나고 다른 모든 요소는 정확히 두 번 나타나는 정수 배열 nums에서 한 번만 나타나는 두 요소 찾기

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "35. Search Insert Position"
 categories: interview
-tags: problems array binary-search
+tags: array binary-search
 ---
 
 > 개별 정수의 정렬된 배열과 대상 값이 주어지면 대상이 발견되면 인덱스를 반환  

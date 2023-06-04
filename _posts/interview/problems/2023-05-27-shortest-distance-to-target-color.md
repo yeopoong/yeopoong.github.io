@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1182. Shortest Distance to Target Color"
 categories: interview
-tags: problems linked-list two-pointers
+tags: linked-list two-pointers
 ---
 
 > 1, 2, 3의 세 가지 색상이 있는 배열에서 주어진 인덱스 i와 대상 색상 c 사이의 최단 거리를 반환

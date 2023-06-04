@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "451. Sort Characters By Frequency"
 categories: interview
-tags: problems string hashmap heap
+tags: string hashmap heap
 ---
 
 > 문자열 s가 주어지면 문자 빈도에 따라 내림차순으로 정렬

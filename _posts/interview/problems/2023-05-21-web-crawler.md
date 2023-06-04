@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1236. Web Crawler"
 categories: interview
-tags: problems string bfs
+tags: string bfs
 ---
 
 > URL startUrl 및 인터페이스 HtmlParser가 있는 경우 웹 크롤러를 구현하여 startUrl과 동일한 호스트 이름에 있는 모든 링크를 크롤링

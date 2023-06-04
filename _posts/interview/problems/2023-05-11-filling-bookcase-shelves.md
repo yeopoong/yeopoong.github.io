@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1105. Filling Bookcase Shelves"
 categories: interview
-tags: problems array
+tags: array
 ---
 
 > 선반을 배치한 후 전체 책장이 될 수 있는 최소 높이를 반환

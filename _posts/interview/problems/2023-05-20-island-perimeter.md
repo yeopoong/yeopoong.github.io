@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "463. Island Perimeter"
 categories: interview
-tags: problems graph matrix
+tags: graph matrix
 ---
 
 > 섬의 둘레를 결정

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "39. Combination Sum"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > 배열에서 합이 타겟이 되는 조합 구하기: 같은 숫자가 여러번 선택될 수 있다.

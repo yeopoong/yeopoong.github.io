@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "98. Validate Binary Search Tree"
 categories: interview
-tags: problems tree binary-search-tree recursion
+tags: tree binary-search-tree recursion
 ---
 
 > 이진 트리의 루트가 주어지면 유효한 이진 검색 트리(BST)인지 확인

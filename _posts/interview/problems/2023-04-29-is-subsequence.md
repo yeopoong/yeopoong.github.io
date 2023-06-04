@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "392. Is Subsequence"
 categories: interview
-tags: problems string two-pointers
+tags: string two-pointers
 ---
 
 > 두 문자열 s와 t가 주어지면 s가 t의 하위 시퀀스이면 true를 반환하고 그렇지 않으면 false를 반환  

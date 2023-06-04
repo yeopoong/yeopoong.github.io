@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "53. Maximum Subarray"
 categories: interview
-tags: problems array dynamic-programming
+tags: array dynamic-programming
 ---
 
 > 합이 가장 큰 하위 배열을 찾아 그 합을 반환

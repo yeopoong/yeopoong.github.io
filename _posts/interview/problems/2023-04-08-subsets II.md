@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "90. Subsets II"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 [Easy]

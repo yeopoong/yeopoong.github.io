@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "159. Longest Substring with At Most Two Distinct Characters"
 categories: interview
-tags: problems string sliding-window hashmap
+tags: string sliding-window hashmap
 ---
 
 > 문자열 s가 주어지면 최대 2개의 개별 문자를 포함하는 가장 긴 하위 문자열의 길이를 반환

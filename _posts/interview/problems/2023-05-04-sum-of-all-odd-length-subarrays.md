@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "239. Sliding Window Maximum"
 categories: interview
-tags: problems array prefix-sum
+tags: array prefix-sum
 ---
 
 > 양의 정수 배열이 주어지면 가능한 모든 홀수 길이 하위 배열의 합을 반환

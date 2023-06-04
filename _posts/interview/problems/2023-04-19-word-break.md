@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "139. Word Break"
 categories: interview
-tags: problems string dynamic-programming
+tags: string dynamic-programming
 ---
 
 > s가 공백으로 구분된 하나 이상의 사전 단어 시퀀스로 분할될 수 있는 경우 true를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1169. Invalid Transactions"
 categories: interview
-tags: problems hashmap
+tags: hashmap
 ---
 
 > 유효하지 않을 가능성이 있는 트랜잭션 목록을 반환

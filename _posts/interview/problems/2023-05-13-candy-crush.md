@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "723. Candy Crush"
 categories: interview
-tags: problems array two-pointers simulation
+tags: array two-pointers simulation
 ---
 
 > Candy Crush의 기본 제거 알고리즘 구현  

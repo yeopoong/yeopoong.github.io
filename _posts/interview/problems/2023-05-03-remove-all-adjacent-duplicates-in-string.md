@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1047. Remove All Adjacent Duplicates In String"
 categories: interview
-tags: problems string stack
+tags: string stack
 ---
 
 > 영문 소문자로 구성된 문자열에서 두 개의 인접한 동일한 문자를 반복적으로 제거

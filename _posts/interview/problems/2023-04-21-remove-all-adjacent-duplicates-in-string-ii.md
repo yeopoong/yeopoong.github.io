@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1209. Remove All Adjacent Duplicates in String II"
 categories: interview
-tags: problems stack string
+tags: stack string
 ---
 
 > 인접한 K개의 중복 문자를 제거하고 더 이상 K 중복 문자가 없으면 최종 문자열을 반환

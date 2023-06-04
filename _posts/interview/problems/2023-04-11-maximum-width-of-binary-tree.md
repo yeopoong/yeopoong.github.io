@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "662. Maximum Width of Binary Tree"
 categories: interview
-tags: problems tree dfs
+tags: tree dfs
 ---
 
 > 이진 트리의 최대 너비 구하기  

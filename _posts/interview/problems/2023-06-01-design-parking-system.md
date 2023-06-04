@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1603. Design Parking System"
 categories: interview
-tags: problems design
+tags: design
 ---
 
 > 결과 배열에 1만 포함된 비어 있지 않은 가장 긴 하위 배열의 크기를 반환

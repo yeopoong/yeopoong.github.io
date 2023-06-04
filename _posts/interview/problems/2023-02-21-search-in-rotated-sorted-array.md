@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "33. Search in Rotated Sorted Array"
 categories: interview
-tags: problems binary-search array
+tags: binary-search array
 ---
 
 > 회전 된 오름차순으로 정렬된 배열에서 주어진 정수값의 인덱스를 찾는 문제

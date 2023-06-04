@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "543. Diameter of Binary Tree"
 categories: interview
-tags: problems tree dfs
+tags: tree dfs
 ---
 
 > 이진 트리의 루트가 주어지면 트리 지름(두 노드간의 가장 긴 경로)의 길이를 반환합니다.

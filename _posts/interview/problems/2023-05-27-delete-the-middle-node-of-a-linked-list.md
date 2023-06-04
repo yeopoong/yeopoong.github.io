@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "2095. Delete the Middle Node of a Linked List"
 categories: interview
-tags: problems linked-list two-pointers
+tags: linked-list two-pointers
 ---
 
 > 연결된 목록의 헤드가 주어집니다. 중간 노드를 삭제하고 수정된 연결 목록의 헤드를 반환

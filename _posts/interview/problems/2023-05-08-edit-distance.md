@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "72. Edit Distance"
 categories: interview
-tags: problems string dynamic-programming
+tags: string dynamic-programming
 ---
 
 > word1을 word2로 변환하는 데 필요한 최소 작업 수

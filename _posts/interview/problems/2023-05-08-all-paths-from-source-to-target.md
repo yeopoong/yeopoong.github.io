@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "797. All Paths From Source to Target"
 categories: interview
-tags: problems graph
+tags: graph
 ---
 
 > 0에서 n - 1까지 레이블이 지정된 n 노드의 방향성 비순환 그래프(DAG)가 주어지면 노드 0에서 노드 n - 1까지 가능한 모든 경로를 찾아 임의의 순서로 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "729. My Calendar I"
 categories: interview
-tags: problems design interval
+tags: design interval
 ---
 
 > 달력에 새 이벤트를 추가해도 이중 예약이 발생하지 않도록 구현

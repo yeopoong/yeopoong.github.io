@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "509. Fibonacci Number"
 categories: interview
-tags: problems recursion memoization
+tags: recursion memoization
 ---
 
 > Fibonacci numbers: 각 숫자는 0과 1부터 시작하여 앞의 두 숫자의 합  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "167. Two Sum II - Input Array Is Sorted"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 정렬된 배열의 투썸: Two Pointer

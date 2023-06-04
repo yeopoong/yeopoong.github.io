@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "70. Climbing Stairs"
 categories: interview
-tags: problems dynamic-programming
+tags: dynamic-programming
 ---
 
 > 당신은 계단을 오르고 있습니다. 정상에 도달하려면 n걸음이 걸립니다.  

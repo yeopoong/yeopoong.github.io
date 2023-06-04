@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "97. Interleaving String"
 categories: interview
-tags: problems dynamic-programming string
+tags: dynamic-programming string
 ---
 
 > 문자열 s1, s2 및 s3이 주어지면 s3이 s1 및 s2의 인터리빙에 의해 형성되는지 확인

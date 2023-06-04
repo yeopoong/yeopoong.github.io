@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "967. Numbers With Same Consecutive Differences"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > 두 개의 정수 n과 k가 주어지면 연속되는 두 자릿수 사이의 차이가 k이고 길이가 n인 모든 정수의 배열을 반환

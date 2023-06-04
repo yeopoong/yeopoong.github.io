@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "740. Delete and Earn"
 categories: interview
-tags: problems dynamic-programming
+tags: dynamic-programming
 ---
 
 > 정수 배열에서 다음 연산을 몇 번 적용하여 얻을 수 있는 최대 포인트 수를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "344. Reverse String"
 categories: interview
-tags: problems string two-pointers
+tags: string two-pointers
 ---
 
 > 문자열을 반전시키는 함수를 작성  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "993. Cousins in Binary Tree"
 categories: interview
-tags: problems tree hashmap
+tags: tree hashmap
 ---
 
 > 고유한 값을 가진 이진 트리의 루트와 트리 x 및 y의 서로 다른 두 노드 값이 주어지면, 트리의 값 x 및 y에 해당하는 노드가 사촌이면 true를 반환하고 그렇지 않으면 false를 반환  

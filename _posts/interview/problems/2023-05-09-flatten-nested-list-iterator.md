@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "341. Flatten Nested List Iterator"
 categories: interview
-tags: problems tree
+tags: tree
 ---
 
 > 정수의 중첩 목록이 제공됩니다. 각 요소는 정수이거나 그 요소가 정수나 다른 목록일 수도 있는 목록입니다. 반복자를 구현하여 평면화하십시오.

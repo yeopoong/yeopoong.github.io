@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "32. Longest Valid Parentheses"
 categories: interview
-tags: problems stack longest 
+tags: stack longest 
 ---
 
 > 문자 '(' 및 ')'만 포함하는 문자열이 주어지면 가장 긴 유효한(올바른 형식의) 괄호 하위 문자열의 길이를 반환

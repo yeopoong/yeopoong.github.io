@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "105. Construct Binary Tree from Preorder and Inorder Traversal"
 categories: interview
-tags: problems tree recursion
+tags: tree recursion
 ---
 
 > 두 개의 정수 배열 preorder 및 inorder가 주어지면 이진 트리를 구성하고 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "547. Number of Provinces"
 categories: interview
-tags: problems dfs bfs graph
+tags: dfs bfs graph
 ---
 
 > 연결된 도시 정보가 주어질때 직접 또는 간접적으로 연결된 도시 그룹의 수를 구하기

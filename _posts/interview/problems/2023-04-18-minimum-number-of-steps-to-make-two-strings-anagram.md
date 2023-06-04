@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1347. Minimum Number of Steps to Make Two Strings Anagram"
 categories: interview
-tags: problems string hashmap
+tags: string hashmap
 ---
 
 > t를 s의 아나그램으로 만들기 위한 최소 단계 수를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "611. Valid Triangle Number"
 categories: interview
-tags: problems array
+tags: array
 ---
 
 > 정수 배열 nums가 주어지면, 삼각형을 만들 수 있는 배열에서 선택한 삼중 항의 수를 반환

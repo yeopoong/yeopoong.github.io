@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "530. Minimum Absolute Difference in BST"
 categories: interview
-tags: problems binary-search-tree
+tags: binary-search-tree
 ---
 
 > 이진 검색 트리(BST)의 루트가 주어지면 트리에 있는 두 개의 다른 노드 값 사이의 최소 절대 차이를 반환

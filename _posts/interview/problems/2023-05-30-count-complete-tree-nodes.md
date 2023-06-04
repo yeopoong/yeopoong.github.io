@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "222. Count Complete Tree Nodes"
 categories: interview
-tags: problems tree binary-search
+tags: tree binary-search
 ---
 
 > 완전한 이진 트리의 루트가 주어지면 트리의 노드 수를 반환합니다.

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "26. Remove Duplicates from Sorted Array"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 정렬된 배열에서 중복 제거하고 재배치 한 후 고유한 요소의 수를 반환

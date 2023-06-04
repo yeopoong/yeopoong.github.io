@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "189. Rotate Array"
 categories: interview
-tags: problems array
+tags: array
 ---
 
 > 정수 배열 nums가 주어지면 배열을 k 단계만큼 오른쪽으로 회전

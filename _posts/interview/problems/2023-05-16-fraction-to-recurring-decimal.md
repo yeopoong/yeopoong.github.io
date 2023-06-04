@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "166. Fraction to Recurring Decimal"
 categories: interview
-tags: problems string math
+tags: string math
 ---
 
 > 분수의 분자와 분모를 나타내는 두 개의 정수가 주어지면 분수를 문자열 형식으로 반환

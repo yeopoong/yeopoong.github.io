@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "169. Majority Element"
 categories: interview
-tags: problems design
+tags: design
 ---
 
 > 크기 n의 배열 숫자가 주어지면 다수 요소를 반환

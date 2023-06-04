@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "394. Decode String"
 categories: interview
-tags: problems stack recursion
+tags: stack recursion
 ---
 
 > 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환  

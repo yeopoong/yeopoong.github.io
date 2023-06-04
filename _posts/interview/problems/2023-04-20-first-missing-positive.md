@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "41. First Missing Positive"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > 정렬되지 않은 정수 배열 nums가 주어지면 누락된 가장 작은 양의 정수를 반환

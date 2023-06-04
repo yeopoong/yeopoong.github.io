@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "378. Kth Smallest Element in a Sorted Matrix"
 categories: interview
-tags: problems array matrix heap binary-search
+tags: array matrix heap binary-search
 ---
 
 > 각 행과 열이 오름차순으로 정렬된 n x n 행렬이 주어지면 행렬에서 k번째로 작은 요소를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "74. Search a 2D Matrix"
 categories: interview
-tags: problems array binary-search
+tags: array binary-search
 ---
 
 > 정수 대상이 주어지면 대상이 행렬에 있으면 true를 반환하고 그렇지 않으면 false를 반환

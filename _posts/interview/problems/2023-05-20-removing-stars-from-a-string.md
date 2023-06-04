@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "2390. Removing Stars From a String"
 categories: interview
-tags: problems string stack
+tags: string stack
 ---
 
 > 가장 높은 고도 찾기

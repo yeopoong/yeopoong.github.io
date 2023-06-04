@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "125. Valid Palindrome"
 categories: interview
-tags: problems string two-pointers 
+tags: string two-pointers 
 ---
 
 > 문자열 s가 주어지면 회문이면 true를 반환하고 그렇지 않으면 false를 반환

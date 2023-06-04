@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "114. Flatten Binary Tree to Linked List"
 categories: interview
-tags: problems tree
+tags: tree
 ---
 
 > 이진 트리의 루트가 주어지면 트리를 "연결된 목록"으로 병합

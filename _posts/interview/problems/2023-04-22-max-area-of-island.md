@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "695. Max Area of Island"
 categories: interview
-tags: problems array dfs
+tags: array dfs
 ---
 
 > 그리드에서 섬의 ​​최대 면적을 반환

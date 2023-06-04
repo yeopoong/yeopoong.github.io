@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "652. Find Duplicate Subtrees"
 categories: interview
-tags: problems tree hashmap
+tags: tree hashmap
 ---
 
 > 이진 트리의 루트가 주어지면 모든 중복 하위 트리를 반환  

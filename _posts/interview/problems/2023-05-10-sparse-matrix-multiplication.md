@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "311. Sparse Matrix Multiplication"
 categories: interview
-tags: problems array hashmap matrix
+tags: array hashmap matrix
 ---
 
 > 크기 m x k의 두 희소 행렬 mat1과 크기 k x n의 mat2가 주어지면 mat1 x mat2의 결과를 반환  

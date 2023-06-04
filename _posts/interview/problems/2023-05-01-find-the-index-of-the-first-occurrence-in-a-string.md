@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "28. Find the Index of the First Occurrence in a String"
 categories: interview
-tags: problems string two-pointers
+tags: string two-pointers
 ---
 
 > 문자열에서 처음 나타나는 인덱스 찾기

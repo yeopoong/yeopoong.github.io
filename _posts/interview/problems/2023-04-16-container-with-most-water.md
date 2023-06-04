@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "11. Container With Most Water"
 categories: interview
-tags: problems two-pointers array
+tags: two-pointers array
 ---
 
 > 용기가 저장할 수 있는 최대 물의 양을 반환

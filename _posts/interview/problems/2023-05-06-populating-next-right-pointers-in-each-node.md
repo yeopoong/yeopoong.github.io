@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "116. Populating Next Right Pointers in Each Node"
 categories: interview
-tags: problems tree bfs
+tags: tree bfs
 ---
 
 > 각 노드에서 다음 오른쪽 포인터 채우기

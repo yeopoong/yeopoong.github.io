@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1151. Minimum Swaps to Group All 1's Together"
 categories: interview
-tags: problems array sliding-window
+tags: array sliding-window
 ---
 
 > 바이너리 배열 데이터가 주어지면 배열의 모든 위치에서 배열에 있는 모든 1을 함께 그룹화하는 데 필요한 최소 스왑 수를 반환

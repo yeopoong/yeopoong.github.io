@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "402. Remove K Digits"
 categories: interview
-tags: problems array
+tags: array
 ---
 
 > 음수가 아닌 정수 num을 나타내는 문자열 num과 정수 k가 주어지면 num에서 k 자리를 제거한 후 가능한 가장 작은 정수를 반환  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "387. First Unique Character in a String"
 categories: interview
-tags: problems string hashmap
+tags: string hashmap
 ---
 
 > 문자열이 주어지면 그 안에서 반복되지 않는 첫 번째 문자를 찾고 해당 인덱스를 반환

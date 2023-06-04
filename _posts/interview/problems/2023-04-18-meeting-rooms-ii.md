@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "253. Meeting Rooms II"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 미팅 시간이 겹치지 않도록 필요한 최소 회의실 수

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1614. Maximum Nesting Depth of the Parentheses"
 categories: interview
-tags: problems string stack
+tags: string stack
 ---
 
 > 괄호의 최대 중첩 깊이

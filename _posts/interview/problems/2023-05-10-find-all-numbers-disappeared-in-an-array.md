@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "448. Find All Numbers Disappeared in an Array"
 categories: interview
-tags: problems array hashmap
+tags: array hashmap
 ---
 
 > nums[i]가 [1, n] 범위에 있는 n 정수의 배열 nums가 주어지면 [1, n] 범위에서 nums에 나타나지 않는 모든 정수의 배열을 반환

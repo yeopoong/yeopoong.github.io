@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "12. Integer to Roman"
 categories: interview
-tags: problems math hashmap
+tags: math hashmap
 ---
 
 > 정수가 주어지면 로마 숫자로 변환하십시오.

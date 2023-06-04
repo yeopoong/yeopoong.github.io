@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "102. Binary Tree Level Order Traversal"
 categories: interview
-tags: problems tree bfs
+tags: tree bfs
 ---
 
 > 이진 트리의 루트가 주어지면 해당 노드 값의 레벨 순회를 반환 (즉, 왼쪽에서 오른쪽으로, 레벨별로)

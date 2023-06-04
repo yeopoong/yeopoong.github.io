@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "44. Wildcard Matching"
 categories: interview
-tags: problems dfs recursion string
+tags: dfs recursion string
 ---
 
 > ?' and '*' 를 지원하는 와일드카드 패턴 일치 구현

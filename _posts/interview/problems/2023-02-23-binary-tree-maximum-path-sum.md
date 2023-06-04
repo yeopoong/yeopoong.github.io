@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "124. Binary Tree Maximum Path Sum"
 categories: interview
-tags: problems dfs tree
+tags: dfs tree
 ---
 
 > 이진 트리의 최대 경로 합계 구하기: DFS

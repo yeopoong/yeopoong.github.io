@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "136. Single Number"
 categories: interview
-tags: problems array bit-manipulation
+tags: array bit-manipulation
 ---
 
 > 정수 배열이 주어지면 모든 원소 중에서 한번만 존재하는 원소 찾기

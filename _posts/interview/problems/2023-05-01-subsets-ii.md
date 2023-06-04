@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "90. Subsets II"
 categories: interview
-tags: problems array backtracking
+tags: array backtracking
 ---
 
 > 중복을 포함할 수 있는 정수 배열에서 가능한 모든 하위 집합을 반환

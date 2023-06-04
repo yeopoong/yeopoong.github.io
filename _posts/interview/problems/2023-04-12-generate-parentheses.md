@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "22. Generate Parentheses"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > n 쌍의 괄호가 주어지면 올바른 형식의 괄호 조합을 모두 생성하는 함수를 작성

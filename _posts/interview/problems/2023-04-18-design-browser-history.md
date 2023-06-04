@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1472. Design Browser History"
 categories: interview
-tags: problems greedy
+tags: greedy
 ---
 
 > Design Browser History

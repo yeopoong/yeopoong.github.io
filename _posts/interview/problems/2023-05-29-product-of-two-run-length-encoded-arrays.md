@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1868. Product of Two Run-Length Encoded Arrays"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 인코딩된 두 배열 encoding1과 encoding2의 곱을 반환

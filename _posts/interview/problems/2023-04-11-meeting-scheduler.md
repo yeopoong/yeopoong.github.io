@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1229. Meeting Scheduler"
 categories: interview
-tags: problems two-pointers
+tags: two-pointers
 ---
 
 > duration 동안 지속 가능한 가장 빠른 시간 슬롯을 반환

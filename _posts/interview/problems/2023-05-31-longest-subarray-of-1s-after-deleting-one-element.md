@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1493. Longest Subarray of 1's After Deleting One Element"
 categories: interview
-tags: problems sliding-window longest
+tags: sliding-window longest
 ---
 
 > 결과 배열에 1만 포함된 비어 있지 않은 가장 긴 하위 배열의 크기를 반환

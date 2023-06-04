@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1207. Unique Number of Occurrences"
 categories: interview
-tags: problems array hashmap
+tags: array hashmap
 ---
 
 > 정수 배열이 주어지면 배열의 각 값의 발생 횟수가 고유하면 true를 반환하고 그렇지 않으면 false를 반환

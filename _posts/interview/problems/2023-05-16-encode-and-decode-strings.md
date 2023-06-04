@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "271. Encode and Decode Strings"
 categories: interview
-tags: problems string design
+tags: string design
 ---
 
 > 문자열 목록을 문자열로 인코딩하는 알고리즘을 설계  

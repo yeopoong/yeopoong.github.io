@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "140. Word Break II"
 categories: interview
-tags: problems backtracking matrix
+tags: backtracking matrix
 ---
 
 > 문자열 s와 문자열 wordDict의 사전이 주어지면 s에 공백을 추가하여 각 단어가 유효한 사전 단어인 문장을 구성

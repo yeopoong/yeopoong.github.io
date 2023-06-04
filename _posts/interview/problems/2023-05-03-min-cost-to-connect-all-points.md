@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1584. Min Cost to Connect All Points"
 categories: interview
-tags: problems union-find graph array
+tags: union-find graph array
 ---
 
 > 모든 포인트를 연결하기 위한 최소 비용을 반환, 두 점 사이에 단순 경로가 정확히 하나만 있으면 모든 점이 연결됨  

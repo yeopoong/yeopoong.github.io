@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "643. Maximum Average Subarray I"
 categories: interview
-tags: problems array sliding-window
+tags: array sliding-window
 ---
 
 > 길이가 k와 같고 평균값이 최대인 연속된 하위 배열을 찾아 이 값을 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "242. Valid Anagram"
 categories: interview
-tags: problems string 
+tags: string 
 ---
 
 > 두 문자열 s와 t가 주어지면 t가 s의 애너그램이면 true를 반환하고 그렇지 않으면 false를 반환

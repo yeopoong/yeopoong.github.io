@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1004. Max Consecutive Ones III"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 이진 배열 nums와 정수 k가 주어지면 최대 k개의 0을 뒤집을 수 있는 경우 배열에서 연속된 1의 최대 개수를 반환

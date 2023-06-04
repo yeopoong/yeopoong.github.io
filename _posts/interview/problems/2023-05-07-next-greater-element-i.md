@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "496. Next Greater Element I"
 categories: interview
-tags: problems array stack
+tags: array stack
 ---
 
 > ans[i]가 다음으로 큰 요소가 되도록 길이 nums1.length의 배열 ans를 반환

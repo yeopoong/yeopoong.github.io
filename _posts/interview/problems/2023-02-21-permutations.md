@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "46. Permutations"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > 개별 정수의 배열 숫자가 주어지면 가능한 모든 순열을 반환  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "724. Find Pivot Index"
 categories: interview
-tags: problems array prefix-sum
+tags: array prefix-sum
 ---
 
 > 정수 nums의 배열이 주어지면 이 배열의 피벗 인덱스를 계산합니다.

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "694. Number of Distinct Islands"
 categories: interview
-tags: problems graph dfs
+tags: graph dfs
 ---
 
 > 개별 섬의 수를 반환

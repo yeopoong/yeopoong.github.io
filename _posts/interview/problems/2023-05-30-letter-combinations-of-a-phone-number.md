@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "17. Letter Combinations of a Phone Number"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > 2-9까지의 숫자를 포함하는 문자열이 주어지면 숫자가 나타낼 수 있는 모든 가능한 문자 조합을 반환

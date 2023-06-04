@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "173. Binary Search Tree Iterator"
 categories: interview
-tags: problems tree binary-search-tree design
+tags: tree binary-search-tree design
 ---
 
 > BST(이진 검색 트리)의 순회에 대한 반복자를 나타내는 BSTIterator 클래스를 구현

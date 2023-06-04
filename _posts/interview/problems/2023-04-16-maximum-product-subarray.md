@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "152. Maximum Product Subarray"
 categories: interview
-tags: problems maximum array dynamic-programming
+tags: maximum array dynamic-programming
 ---
 
 > 가장 큰 곱을 갖는 하위 배열을 찾고 그 곱을 반환

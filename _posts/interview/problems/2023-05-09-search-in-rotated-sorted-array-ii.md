@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "81. Search in Rotated Sorted Array II"
 categories: interview
-tags: problems array binary-search
+tags: array binary-search
 ---
 
 > 회전 후 배열 숫자와 정수 대상이 주어지면 대상이 숫자이면 true를 반환하고 숫자가 아니면 false를 반환

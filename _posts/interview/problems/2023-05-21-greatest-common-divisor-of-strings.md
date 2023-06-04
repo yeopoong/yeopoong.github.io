@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1071. Greatest Common Divisor of Strings"
 categories: interview
-tags: problems string math
+tags: string math
 ---
 
 > 두 개의 문자열 str1과 str2가 주어지면 x가 str1과 str2를 모두 나누는 가장 큰 문자열 x를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "133. Clone Graph"
 categories: interview
-tags: problems graph dfs
+tags: graph dfs
 ---
 
 > 그래프의 딥 카피(클론)를 반환

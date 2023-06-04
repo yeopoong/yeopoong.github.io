@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "369. Plus One Linked List"
 categories: interview
-tags: problems linked-list
+tags: linked-list
 ---
 
 > 연결된 숫자 목록으로 표시되는 음이 아닌 정수에 1을 더하기

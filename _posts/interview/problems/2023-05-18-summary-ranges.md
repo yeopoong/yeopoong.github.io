@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "228. Summary Ranges"
 categories: interview
-tags: problems array
+tags: array
 ---
 
 > 정렬된 배열의 모든 숫자를 정확히 포함하는 범위의 가장 작은 정렬 목록을 반환

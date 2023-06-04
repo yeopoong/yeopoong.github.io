@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "430. Flatten a Multilevel Doubly Linked List"
 categories: interview
-tags: problems linked-list dfs stack
+tags: linked-list dfs stack
 ---
 
 > 다단계 이중 연결 리스트를 평면화하고 병합된 리스트의 헤드를 반환

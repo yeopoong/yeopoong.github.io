@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "328. Odd Even Linked List"
 categories: interview
-tags: problems linked-list
+tags: linked-list
 ---
 
 > 단일 연결 리스트의 헤드가 주어지면 홀수 인덱스를 가진 모든 노드와 짝수 인덱스를 가진 노드를 함께 그룹화하고 재정렬된 리스트를 반환

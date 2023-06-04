@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "714. Best Time to Buy and Sell Stock with Transaction Fee"
 categories: interview
-tags: problems array greedy
+tags: array greedy
 ---
 
 > 달성할 수 있는 최대 이익을 찾기. 원하는 만큼 거래를 완료할 수 있지만 각 거래에 대해 거래 수수료를 지불

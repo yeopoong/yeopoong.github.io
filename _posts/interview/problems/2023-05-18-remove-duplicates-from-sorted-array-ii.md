@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "80. Remove Duplicates from Sorted Array II"
 categories: interview
-tags: problems array two-pointers
+tags: array two-pointers
 ---
 
 > 정렬된 배열에서 2개 이상의 중복을 제거하고 nums의 첫 번째 k 슬롯에 최종 결과를 배치한 후 k를 반환

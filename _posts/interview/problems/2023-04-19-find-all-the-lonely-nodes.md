@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1469. Find All The Lonely Nodes"
 categories: interview
-tags: problems tree recursion
+tags: tree recursion
 ---
 
 > 이진트리에서 부모 노드의 유일한 자식 노드 찾기

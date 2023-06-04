@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "785. Is Graph Bipartite?"
 categories: interview
-tags: problems graph dfs
+tags: graph dfs
 ---
 
 > 모든 사람을 두 그룹으로 나눌 수 있으면 true를 반환

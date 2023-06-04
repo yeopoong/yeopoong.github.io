@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "121. Best Time to Buy and Sell Stock"
 categories: interview
-tags: problems two-pointers
+tags: two-pointers
 ---
 
 > 주식을 사고 팔기 가장 좋은 시기: the maximum profit

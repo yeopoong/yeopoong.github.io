@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "252. Meeting Rooms"
 categories: interview
-tags: problems sort array
+tags: sort array
 ---
 
 > intervals[i] = [starti, endi]인 일련의 회의 시간 간격이 주어지면 한 사람이 모든 회의에 참석할 수 있는지 확인

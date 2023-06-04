@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "118. Pascal's Triangle"
 categories: interview
-tags: problems array dynamic-programming
+tags: array dynamic-programming
 ---
 
 > 정수 numRows가 주어지면 파스칼 삼각형의 첫 번째 numRows를 반환

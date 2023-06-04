@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "345. Reverse Vowels of a String"
 categories: interview
-tags: problems string two-pointers
+tags: string two-pointers
 ---
 
 > 문자열 s가 주어지면 문자열의 모든 모음만 반전시켜 반환

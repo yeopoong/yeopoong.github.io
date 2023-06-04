@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "171. Excel Sheet Column Number"
 categories: interview
-tags: problems string math
+tags: string math
 ---
 
 > Excel 시트에 표시되는 열 제목을 나타내는 문자열 columnTitle이 주어지면 해당 열 번호를 반환

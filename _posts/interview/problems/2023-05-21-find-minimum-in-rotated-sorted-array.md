@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "153. Find Minimum in Rotated Sorted Array"
 categories: interview
-tags: problems array binary-search
+tags: array binary-search
 ---
 
 > 고유 요소의 정렬된 회전 배열 숫자가 주어지면 이 배열의 최소 요소를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "17. Letter Combinations of a Phone Number"
 categories: interview
-tags: problems backtracking
+tags: backtracking
 ---
 
 > 전화번호의 숫자가 나타낼 수 있는 가능한 모든 문자 조합을 반환

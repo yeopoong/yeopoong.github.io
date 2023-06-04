@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "128. Longest Consecutive Sequence"
 categories: interview
-tags: problems hashmap array
+tags: hashmap array
 ---
 
 > 정렬되지 않은 정수 배열이 주어지면 가장 긴 연속 시퀀스의 길이를 반환

@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "214. Shortest Palindrome"
 categories: interview
-tags: problems palindrome
+tags: palindrome
 ---
 
 - [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)

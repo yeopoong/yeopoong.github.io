@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "24. Swap Nodes in Pairs"
 categories: interview
-tags: problems linked-list recursion
+tags: linked-list recursion
 ---
 
 > 연결 목록이 주어지면 인접한 두 노드마다 교환하고 헤드를 반환

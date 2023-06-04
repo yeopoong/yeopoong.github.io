@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "314. Binary Tree Vertical Order Traversal"
 categories: interview
-tags: problems tree stack
+tags: tree stack
 ---
 
 > 이진 트리의 루트가 주어지면 해당 노드 값의 수직 순회를 반환(즉, 위에서 아래로, 열별로)

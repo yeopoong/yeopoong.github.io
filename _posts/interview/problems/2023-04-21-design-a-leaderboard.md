@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1209. Remove All Adjacent Duplicates in String II"
 categories: interview
-tags: problems stack string
+tags: stack string
 ---
 
 > 3가지 기능이 있는 Leaderboard 클래스를 설계합니다. 

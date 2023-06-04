@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "443. String Compression"
 categories: interview
-tags: problems string two-pointers
+tags: string two-pointers
 ---
 
 > 문자 배열이 주어지면 다음 알고리즘을 사용하여 압축  

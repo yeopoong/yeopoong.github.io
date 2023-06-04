@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "134. Gas Station"
 categories: interview
-tags: problems array greedy
+tags: array greedy
 ---
 
 > 두 개의 정수 배열 가스와 비용이 주어지면 시계 방향으로 한 바퀴를 돌 수 있으면 시작 주유소의 인덱스를 반환하고 그렇지 않으면 -1을 반환

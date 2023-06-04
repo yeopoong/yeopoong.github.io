@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "122. Best Time to Buy and Sell Stock II"
 categories: interview
-tags: problems array 
+tags: array 
 ---
 
 > 달성할 수 있는 최대 이익을 찾아 반환

@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "409. Longest Palindrome"
 categories: interview
-tags: problems hashmap string palindrome
+tags: hashmap string palindrome
 ---
 
 > 소문자 또는 대문자로 구성된 문자열 s가 주어지면 해당 문자로 만들 수 있는 가장 긴 회문의 길이를 반환

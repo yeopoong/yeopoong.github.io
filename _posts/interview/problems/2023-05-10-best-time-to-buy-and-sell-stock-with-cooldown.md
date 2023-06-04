@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "309. Best Time to Buy and Sell Stock with Cooldown"
 categories: interview
-tags: problems array greedy
+tags: array greedy
 ---
 
 > 달성할 수 있는 최대 이익을 찾으십시오. 다음 제한 사항과 함께 원하는 만큼 거래를 완료할 수 있습니다(즉, 주식의 한 주식을 여러 번 매수하고 매도).  

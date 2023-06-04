@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "10. Regular Expression Matching"
 categories: interview
-tags: problems dfs recursion string
+tags: dfs recursion string
 ---
 
 > 입력 문자열 s와 패턴 p가 주어지면 '.'을 지원하는 정규식 일치를 구현  

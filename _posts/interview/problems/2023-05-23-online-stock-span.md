@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "901. Online Stock Span"
 categories: interview
-tags: problems monotonic-stack design
+tags: monotonic-stack design
 ---
 
 > 일부 주식에 대한 일일 가격 시세를 수집하고 현재 날짜의 해당 주식 가격 범위를 반환하는 알고리즘을 설계합니다.  

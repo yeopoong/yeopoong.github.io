@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "430. Flatten a Multilevel Doubly Linked List"
 categories: interview
-tags: problems design
+tags: design
 ---
 
 > 정렬된 스트림 설계

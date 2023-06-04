@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "61. Rotate List"
 categories: interview
-tags: problems linked-list two-pointers
+tags: linked-list two-pointers
 ---
 
 > 연결된 목록의 헤드가 주어지면 목록을 오른쪽으로 k만큼 회전

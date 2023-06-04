@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "287. Find the Duplicate Number"
 categories: interview
-tags: problems array two-pointers sort
+tags: array two-pointers sort
 ---
 
 > 정수 배열에서 반복되는 숫자를 반환

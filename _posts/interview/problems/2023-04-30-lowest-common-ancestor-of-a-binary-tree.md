@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "236. Lowest Common Ancestor of a Binary Tree"
 categories: interview
-tags: problems tree
+tags: tree
 ---
 
 > 이진 트리의 가장 작은 공통 조상 

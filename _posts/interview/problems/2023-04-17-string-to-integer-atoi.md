@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "8. String to Integer (atoi)"
 categories: interview
-tags: problems string
+tags: string
 ---
 
 > 문자열을 부호 있는 32비트 정수로 변환하는 myAtoi(string s) 함수를 구현

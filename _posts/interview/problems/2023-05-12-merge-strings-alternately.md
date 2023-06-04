@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1768. Merge Strings Alternately"
 categories: interview
-tags: problems string two-pointers
+tags: string two-pointers
 ---
 
 > 두 개의 문자열 word1과 word2가 주어지면, word1부터 번갈아 가며 문자를 추가하여 문자열을 병합  

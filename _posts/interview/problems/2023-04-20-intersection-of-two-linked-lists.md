@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "160. Intersection of Two Linked Lists"
 categories: interview
-tags: problems linked-list two-pointers
+tags: linked-list two-pointers
 ---
 
 > 두 단일 연결 리스트 headA와 headB의 헤드가 주어지면 두 리스트가 교차하는 노드를 반환  

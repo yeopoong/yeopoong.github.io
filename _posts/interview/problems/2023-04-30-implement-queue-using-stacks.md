@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "232. Implement Queue using Stacks"
 categories: interview
-tags: problems design stack queue
+tags: design stack queue
 ---
 
 > 스택을 이용해서 큐 구현하기 (입출력 스택으로 순서를 뒤집을 수 있다)

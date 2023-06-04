@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "179. Largest Number"
 categories: interview
-tags: problems sort array
+tags: sort array
 ---
 
 > 음이 아닌 정수 목록에서 가장 큰 수를 형성하도록 배열

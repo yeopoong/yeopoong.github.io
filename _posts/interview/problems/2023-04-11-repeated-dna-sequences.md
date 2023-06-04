@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "187. Repeated DNA Sequences"
 categories: interview
-tags: problems string sliding-window hashmap
+tags: string sliding-window hashmap
 ---
 
 > 두 번 이상 발생하는 모든 10자 길이의 시퀀스(하위 문자열)를 반환

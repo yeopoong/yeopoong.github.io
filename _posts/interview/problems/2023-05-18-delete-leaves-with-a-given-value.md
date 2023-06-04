@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1325. Delete Leaves With a Given Value"
 categories: interview
-tags: problems tree dfs
+tags: tree dfs
 ---
 
 > 이진 트리 루트와 정수 대상이 주어지면 대상 값이 있는 모든 리프 노드를 삭제

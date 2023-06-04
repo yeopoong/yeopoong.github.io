@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "21. Merge Two Sorted Lists"
 categories: interview
-tags: problems linked-list
+tags: linked-list
 ---
 
 > 두 개의 정렬된 연결 목록을 하나의 정렬된 목록으로 병합

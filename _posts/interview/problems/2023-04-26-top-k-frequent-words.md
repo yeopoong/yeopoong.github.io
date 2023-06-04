@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "692. Top K Frequent Words"
 categories: interview
-tags: problems heap hashamp
+tags: heap hashamp
 ---
 
 > 문자열 단어의 배열과 정수 k가 주어지면 가장 자주 사용되는 k개의 문자열을 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "199. Binary Tree Right Side View"
 categories: interview
-tags: problems tree dfs
+tags: tree dfs
 ---
 
 > 이진 트리의 루트가 주어지면 오른쪽에 서 있는 자신을 상상하고 위에서 아래로 정렬된 노드의 값을 반환

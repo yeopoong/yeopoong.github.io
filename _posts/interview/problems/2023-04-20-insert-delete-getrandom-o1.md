@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "380. Insert Delete GetRandom O(1)"
 categories: interview
-tags: problems hashmap design
+tags: hashmap design
 ---
 
 > RandomizedSet 클래스를 구현: 각 함수가 평균 O(1) 시간 복잡도에서 작동하도록 클래스의 함수를 구현 

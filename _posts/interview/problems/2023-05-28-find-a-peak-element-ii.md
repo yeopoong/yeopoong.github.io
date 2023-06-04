@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1901. Find a Peak Element II"
 categories: interview
-tags: problems binary-search array matrix
+tags: binary-search array matrix
 ---
 
 > 2개의 인접한 셀이 같지 않은 m x n 행렬 mat가 주어지면 임의의 피크 요소 mat[i][j]를 찾아 길이 배열 [i,j]를 반환

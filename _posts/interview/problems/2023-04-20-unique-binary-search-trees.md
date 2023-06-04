@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "96. Unique Binary Search Trees"
 categories: interview
-tags: problems tree binary-search-tree dynamic-programming
+tags: tree binary-search-tree dynamic-programming
 ---
 
 > 정수 n이 주어지면 1에서 n까지 고유한 값의 정확히 n개의 노드를 갖는 구조적으로 고유한 BST(이진 검색 트리)의 수를 반환

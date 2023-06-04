@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "605. Can Place Flowers"
 categories: interview
-tags: problems array greedy
+tags: array greedy
 ---
 
 > 0과 1을 포함하는 정수 배열 화단이 주어지면 0은 비어 있음을 의미하고 1은 비어 있지 않음을 의미  

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "13. Roman to Integer"
 categories: interview
-tags: problems hashmap
+tags: hashmap
 ---
 
 > 로마 숫자가 주어지면 정수로 변환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1823. Find the Winner of the Circular Game"
 categories: interview
-tags: problems queue simulation
+tags: queue simulation
 ---
 
 > 친구의 수 n과 정수 k가 주어지면 게임의 승자를 반환

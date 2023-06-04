@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "295. Find Median from Data Stream"
 categories: interview
-tags: problems design heap
+tags: design heap
 ---
 
 > MedianFinder 클래스를 구현

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "746. Min Cost Climbing Stairs"
 categories: interview
-tags: problems dynamic-programming
+tags: dynamic-programming
 ---
 
 > cost[i]가 계단에서 i번째 단계의 비용인 정수 배열 비용이 주어집니다. 비용을 지불하면 한 단계 또는 두 단계를 오를 수 있습니다.  

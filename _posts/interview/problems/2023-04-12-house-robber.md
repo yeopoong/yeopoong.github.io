@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "198. House Robber"
 categories: interview
-tags: problems array dynamic-programming
+tags: array dynamic-programming
 ---
 
 > 각 주택의 금액을 나타내는 정수 배열 nums가 주어지면, 경찰에 알리지 않고 오늘 밤 훔칠 수 있는 최대 금액을 반환

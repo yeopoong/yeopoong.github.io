@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1732. Find the Highest Altitude"
 categories: interview
-tags: problems array prefix-sum
+tags: array prefix-sum
 ---
 
 > 가장 높은 고도 찾기

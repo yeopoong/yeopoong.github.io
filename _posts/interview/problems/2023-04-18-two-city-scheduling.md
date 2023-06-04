@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1029. Two City Scheduling"
 categories: interview
-tags: problems array sort greedy
+tags: array sort greedy
 ---
 
 > 정확히 n명이 각 도시에 도착하도록 모든 사람을 도시로 보내는 데 드는 최소 비용을 반환

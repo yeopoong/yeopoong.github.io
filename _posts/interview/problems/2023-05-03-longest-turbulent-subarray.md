@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "978. Longest Turbulent Subarray"
 categories: interview
-tags: problems array longest sliding-window
+tags: array longest sliding-window
 ---
 
 > 정수 배열 arr이 주어지면 arr의 최대 크기 난류 하위 배열의 길이를 반환

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "390. Elimination Game"
 categories: interview
-tags: problems math recursion
+tags: math recursion
 ---
 
 > 증가하는 순서로 정렬된 [1, n] 범위의 모든 정수 목록에서 하나의 숫자가 남을 때까지 왼쪽에서 오른쪽으로, 오른쪽에서 왼쪽으로 번갈아 가며 삭제
