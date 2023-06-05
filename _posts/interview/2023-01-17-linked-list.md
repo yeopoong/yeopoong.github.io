@@ -6,14 +6,14 @@ categories: interview
 tags: interview linked-list
 ---
 
-## Linked List
+## Approach
 
 The entry point into a linked list is called the head of the list.
 
 연결 리스트의 통합은 세가지 조건을 체크해서 처리한다(>, <, ==)
 
-Sentinel Head
 
+## Sentinel Head
 To handle the last use case, one needs so called Sentinel Node. Sentinel nodes are widely used for trees and linked lists as pseudo-heads, pseudo-tails, etc. They are purely functional, and usually don't hold any data. Their main purpose is to standardize the situation to avoid edge case handling.
 
 ```java
@@ -28,6 +28,8 @@ ListNode p = dumy;
 // 헤드 리턴
 return dumy.next;
 ```
+
+## 리스트 주요 연산
 
 Merge List
 ```java
@@ -122,6 +124,9 @@ public int getLength(ListNode head) {
     return length;
 }
 ```
+
+## Questions
+
 [Easy]
 - [21. Merge Two Sorted Lists](/interview/2023/04/12/merge-two-sorted-lists/)
 - [160. Intersection of Two Linked Lists](/interview/2023/04/26/intersection-of-two-linked-lists/)
