@@ -17,7 +17,7 @@ tags: interview backtracking
 - [39. Combination Sum](/interview/2023/04/11/combination-sum/)
 - [46. Permutations](/interview/2023/05/21/permutations/)
 - [78. Subsets](/interview/2023/05/21/subsets/)
- -[79. Word Search](/interview/2023/05/21/word-search/)
+- [79. Word Search](/interview/2023/04/20/word-search/)
 - [90. Subsets II](/interview/2023/05/01/subsets-ii/)
 - [254. Factor Combinations](/interview/2023/05/21/factor-combinations/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)

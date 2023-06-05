@@ -6,13 +6,16 @@ categories: interview
 tags: interview
 ---
 
-> - 문제를 꼼꼼하게 파악하고 문제를 제대로 이해했는지 확인한다.
-> - 문제의 핵심 사항을 파악한다.
-> - 문제의 입력과 출력을 확인한다.
-> - 문제의 Edge Case 를 도출해 낸다.
-> - 문제를 해결하기 위해서 필요한 데이터 구조와 알고리즘을 파악한다.
-> - 솔루션의 시간복잡도와 공간 복잡도를 확인한다.
-> - 테스트 케이스를 정의한다.
+## How to process in coding interview
+
+- 문제를 꼼꼼하게 파악하고 문제를 제대로 이해했는지 확인한다.
+- 문제의 핵심 사항을 파악한다.
+- 문제의 입력과 출력을 확인한다.
+- 문제의 Edge Case 를 도출해 낸다.
+- 문제를 해결하기 위해서 필요한 데이터 구조와 알고리즘을 파악한다.
+- 솔루션의 시간복잡도와 공간 복잡도를 확인한다.
+- 테스트 케이스를 정의한다.
+- Breaks down code
 
 ## Data Structure
 
@@ -31,6 +34,7 @@ tags: interview
 - longest
 - reverse
 - remove
+- swap
 
 3. Linked List
 - reverse

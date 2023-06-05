@@ -31,6 +31,16 @@ An edge case can be expected or unexpected.
 - O(1) > O(log n) > O(n) > O(n log n) > O(n^2) > O(2^n) > O(n!)
 ![Big-O Complexity Chart](https://hanamon.kr/%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98-time-complexity-%ec%8b%9c%ea%b0%84-%eb%b3%b5%ec%9e%a1%eb%8f%84/big-o-complexity-chart/)
 
+## Tips
+Try to communicate as much as you can.
+Be sure that you and interviewer are on the same page.
+Think out loud.
+DO NOT TRY TO SOLVE PROBLEM WITHOUT INITIAL ANALISYS (even if problem seems easy)
+Use helper functions if possible (breaks down code)
+Debug your solution on the way using your examples
+Check your code (typos/possible bugs/compile bugs) before "submitting"
+Do not panic if you are failing to find a solution, it is ok to get hints, when interviewer steps up focus on them and listen carefully
+
 ## ETC
 https://www.youtube.com/watch?v=xF554Tlzo-c&t=1s
 https://leetcode.com/problem-list/top-interview-questions/?page=1
