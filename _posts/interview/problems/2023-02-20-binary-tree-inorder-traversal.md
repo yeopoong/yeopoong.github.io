@@ -10,6 +10,7 @@ tags: tree
 
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
+iterative inorder traversal
 ```java
 /**
  * Definition for a binary tree node.
@@ -52,8 +53,12 @@ class Solution {
         
         return result;
     }
-    
-    /*
+}
+```
+
+recursive inorder traversal
+```java
+class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         helper(root);
         return result;
@@ -66,7 +71,5 @@ class Solution {
             helper(root.right);
         }
     }
-    */
 }
 ```
-{% gist 46c3c64be0e75dd8b212ff938dee3ac9 %}

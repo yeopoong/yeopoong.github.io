@@ -3,10 +3,8 @@ layout: post
 published: false
 title: "Binary Search Tree"
 categories: interview
-tags: interview binary-search-tree
+tags: binary-search-tree
 ---
-
-## Binary Search Tree
 
 
 ```java
@@ -26,5 +24,7 @@ void inorderTraversal(TreeNode node) {
 - [530. Minimum Absolute Difference in BST](/interview/2023/05/29/minimum-absolute-difference-in-bst/)
 
 [Medium]
-- [96. Unique Binary Search Trees](/interview/2023/05/21/unique-binary-search-trees/)
+- [96. Unique Binary Search Trees](/interview/2023/05/22/unique-binary-search-trees/)
+- [98. Validate Binary Search Tree](/interview/2023/04/16/validate-binary-search-tree/)
 - [173. Binary Search Tree Iterator](/interview/2023/05/21/binary-search-tree-iterator/)
+- [230. Kth Smallest Element in a BST](/interview/2023/06/05/kth-smallest-element-in-a-bst/)
