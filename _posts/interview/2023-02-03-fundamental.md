@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Fundamental"
 categories: interview
-tags: interview 
+tags: topics 
 ---
 
 ## Fundamental

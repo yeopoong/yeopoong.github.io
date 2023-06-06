@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Dynamic Programming"
 categories: interview
-tags: interview dynamic-programming
+tags: topics dynamic-programming
 ---
 
 ## Dynamic Programming

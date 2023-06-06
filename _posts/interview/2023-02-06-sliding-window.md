@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Sliding Window"
 categories: interview
-tags: interview sliding-window
+tags: topics sliding-window
 ---
 
 > 윈도우를 진행시키면서 필요한 데이터의 최소/최대 개수를 체크한다.

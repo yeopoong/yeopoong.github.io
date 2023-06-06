@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Two Pointer"
 categories: interview
-tags: interview two-pointers
+tags: topics two-pointers
 ---
 
 ## Two Pointer

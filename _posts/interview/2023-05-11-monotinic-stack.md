@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Monotonic Stack"
 categories: interview
-tags: interview monotonic-stack
+tags: topics monotonic-stack
 ---
 
 ## Monotonic Stack

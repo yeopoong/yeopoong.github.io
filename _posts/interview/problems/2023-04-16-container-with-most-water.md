@@ -8,7 +8,7 @@ tags: two-pointers array
 
 > 용기가 저장할 수 있는 최대 물의 양을 반환
 
-- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
 

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Top 7 Coding Interview Data Structure"
 categories: interview
-tags: interview 
+tags: topics 
 ---
 
 # Top 7 Coding Interview Data Structure

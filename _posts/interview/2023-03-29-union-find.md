@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Union Find"
 categories: interview
-tags: interview union-find
+tags: topics union-find
 ---
 
 ## Union Find

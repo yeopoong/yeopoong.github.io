@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Palindrome"
 categories: interview
-tags: interview palindrome
+tags: topics palindrome
 ---
 
 ## Palindrome

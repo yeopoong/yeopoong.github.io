@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Binary Search"
 categories: interview
-tags: interview binary-search
+tags: topics binary-search
 ---
 
 ## Approach

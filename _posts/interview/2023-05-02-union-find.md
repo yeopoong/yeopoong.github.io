@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Union Find"
 categories: interview
-tags: interview union-find
+tags: topics union-find
 ---
 
 [Medium]

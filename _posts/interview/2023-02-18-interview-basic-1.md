@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Top 7 Coding Interview Concepts (Data Structures & Algorithms) - Basic I"
 categories: interview
-tags: interview 
+tags: topics 
 ---
 
 ## How to prepare for the coding interview

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Top 7 Coding Interview Concepts (Data Structures & Algorithms) - Basic II"
 categories: interview
-tags: interview 
+tags: topics 
 ---
 
 ## Top 7 Coding Interview Patterns

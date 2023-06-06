@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Intervals"
 categories: interview
-tags: interview interval
+tags: topics interval
 ---
 
 ## Intervals

@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Linked List"
 categories: interview
-tags: interview linked-list
+tags: topics linked-list
 ---
 
 ## Approach

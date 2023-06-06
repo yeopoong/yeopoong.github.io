@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Prefix Sum"
 categories: interview
-tags: interview prefix-sum
+tags: topics prefix-sum
 ---
 
 ## Prefix Sum

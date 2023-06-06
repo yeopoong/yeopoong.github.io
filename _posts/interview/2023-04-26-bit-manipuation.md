@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Bit Manipulation"
 categories: interview
-tags: interview bit-manipulation
+tags: topics bit-manipulation
 ---
 
 > 비트 조작  

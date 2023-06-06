@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Backtracking"
 categories: interview
-tags: interview backtracking
+tags: topics backtracking
 ---
 
 ## Backtracking

@@ -3,7 +3,7 @@ layout: post
 published: false
 title: "Core Topics"
 categories: interview
-tags: interview
+tags: topics
 ---
 
 ## How to process in coding interview
