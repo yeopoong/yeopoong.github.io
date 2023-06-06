@@ -144,7 +144,7 @@ public int getLength(ListNode head) {
 - [328. Odd Even Linked List](/interview/2023/04/26/odd-even-linked-list/)
 - [430. Flatten a Multilevel Doubly Linked List](/interview/2023/04/26/flatten-a-multilevel-doubly-linked-list/)
 - [445. Add Two Numbers II](/interview/2023/04/26/add-two-numbers-ii/)
-- [369. Plus One Linked List](/interview/2023/04/26/plus-one-linked-list/)
+- [369. Plus One Linked List](/interview/2023/05/08/plus-one-linked-list/)
 - [92. Reverse Linked List II](/interview/2023/05/20/reverse-linked-list-ii.md)
 - [2095. Delete the Middle Node of a Linked List](/interview/2023/05/27/linked-list-cycle/)
 

@@ -64,7 +64,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 
 [Easy]
 - [70. Climbing Stairs](/interview/2023/05/21/climbing-stairs)
-- [118. Pascal's Triangle](/interview/2023/05/21/pascals-triangle/)
+- [118. Pascal's Triangle](/interview/2023/04/22/pascals-triangle/)
 - [509. Fibonacci Number](/interview/2023/05/21/fibonacci-number/)
 - [746. Min Cost Climbing Stairs](/interview/2023/05/21/min-cost-climbing-stairs)
 

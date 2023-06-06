@@ -8,9 +8,9 @@ tags: array dynamic-programming
 
 > 정수 numRows가 주어지면 파스칼 삼각형의 첫 번째 numRows를 반환
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+[118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
-- [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
 ```java
 class Solution {

@@ -3,13 +3,13 @@ layout: post
 published: true
 title: "394. Decode String"
 categories: interview
-tags: stack recursion
+tags: stack recursion string
 ---
 
 > 인코딩된 문자열이 주어지면 디코딩된 문자열을 반환  
 > - k[encode_sting]
 
-- [394. Decode String](https://leetcode.com/problems/decode-string/)
+[394. Decode String](https://leetcode.com/problems/decode-string/)
 
 Stack Solution
 ```java

@@ -8,7 +8,9 @@ tags: tree
 
 > 이진 트리의 가장 작은 공통 조상 
 
-- [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+![](https://assets.leetcode.com/uploads/2018/12/14/binarytree.png)
 
 ```java
 /**

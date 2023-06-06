@@ -3,12 +3,13 @@ layout: post
 published: true
 title: "133. Clone Graph"
 categories: interview
-tags: graph dfs
+tags: graph dfs hashmap
 ---
 
-> 그래프의 딥 카피(클론)를 반환
+> 무방향 그래프의 딥 카피(클론)를 반환
+> - 그래프의 각 노드에는 값(int)과 이웃의 목록(List[Node])이 포함
 
-- [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+[133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 
 ![](https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png)
 

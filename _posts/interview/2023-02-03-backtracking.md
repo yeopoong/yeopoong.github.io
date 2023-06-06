@@ -19,7 +19,7 @@ tags: topics backtracking
 - [78. Subsets](/interview/2023/05/21/subsets/)
 - [79. Word Search](/interview/2023/04/20/word-search/)
 - [90. Subsets II](/interview/2023/05/01/subsets-ii/)
-- [254. Factor Combinations](/interview/2023/05/21/factor-combinations/)
+- [254. Factor Combinations](/interview/2023/06/06/factor-combinations/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
 - [17. Letter Combinations of a Phone Number](/interview/2023/05/30/letter-combinations-of-a-phone-number/)
 - [967. Numbers With Same Consecutive Differences](/interview/2023/05/21/numbers-with-same-consecutive-differences/)
