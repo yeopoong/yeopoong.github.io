@@ -6,9 +6,9 @@ categories: interview
 tags: two-pointers
 ---
 
-> 주식을 사고 팔기 가장 좋은 시기: the maximum profit
+> 주식을 사고 파는 트랜잭션으로 얻을 수 있는 최대 이익을 반환
 
-- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ```java
 class Solution {
