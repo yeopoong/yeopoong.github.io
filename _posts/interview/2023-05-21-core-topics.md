@@ -54,7 +54,8 @@ tags: topics
 - Monotonic
 
 6. Tree
-- Traverse
+- Binary Search Tree
+- Inorder Traverse: order by asc
 - path sum
 - level
 

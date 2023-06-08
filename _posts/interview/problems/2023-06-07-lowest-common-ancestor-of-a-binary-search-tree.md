@@ -7,7 +7,7 @@ tags: tree
 ---
 
 > 이진 검색 트리(BST)에서 주어진 두 노드 중 가장 낮은 공통 조상(LCA) 노드를 검색  
-. - "가장 낮은 공통 조상은 두 노드 p와 q 사이에서 p와 q를 모두 자손으로 갖는 T의 가장 낮은 노드로 정의(여기서 노드는 자신의 자손이 될 수 있다)."
+> - 가장 낮은 공통 조상은 두 노드 p와 q 사이에서 p와 q를 모두 자손으로 갖는 T의 가장 낮은 노드로 정의(여기서 노드는 자신의 자손이 될 수 있다)."
 
 [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
