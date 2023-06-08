@@ -129,23 +129,22 @@ public int getLength(ListNode head) {
 
 [Easy]
 - [21. Merge Two Sorted Lists](/interview/2023/04/12/merge-two-sorted-lists/)
+- [141. Linked List Cycle](/interview/2023/04/26/linked-list-cycle/)
 - [160. Intersection of Two Linked Lists](/interview/2023/04/26/intersection-of-two-linked-lists/)
 - [206. Reverse Linked List](/interview/2023/04/26/reverse-linked-list/)
-- [141. Linked List Cycle](/interview/2023/04/26/linked-list-cycle/)
-
 
 [Medium]
 - [2. Add Two Numbers](/interview/2023/04/09/add-two-numbers/)
 - [24. Swap Nodes in Pairs](/interview/2023/04/26/swap-nodes-in-pairs/)
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
-- [138. Copy List with Random Pointer](/interview/2023/04/26/copy-list-with-random-pointer/)
+- [92. Reverse Linked List II](/interview/2023/05/20/reverse-linked-list-ii.md)
+- [138. Copy List with Random Pointer](/interview/2023/04/13/copy-list-with-random-pointer/)
 - [146. LRU Cache](/interview/2023/04/26/lru-cache/)
 - [148. Sort List](/interview/2023/04/26/sort-list/)
 - [328. Odd Even Linked List](/interview/2023/04/26/odd-even-linked-list/)
+- [369. Plus One Linked List](/interview/2023/05/08/plus-one-linked-list/)
 - [430. Flatten a Multilevel Doubly Linked List](/interview/2023/04/26/flatten-a-multilevel-doubly-linked-list/)
 - [445. Add Two Numbers II](/interview/2023/04/26/add-two-numbers-ii/)
-- [369. Plus One Linked List](/interview/2023/05/08/plus-one-linked-list/)
-- [92. Reverse Linked List II](/interview/2023/05/20/reverse-linked-list-ii.md)
 - [2095. Delete the Middle Node of a Linked List](/interview/2023/05/27/linked-list-cycle/)
 
 [Hard]

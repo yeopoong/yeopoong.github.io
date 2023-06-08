@@ -9,7 +9,7 @@ tags: binary-search array
 > 배열에서 피크 요소를 찾고 해당 인덱스를 반환  
 > - A peak element is an element that is strictly greater than its neighbors.
 
-- [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 ```java
 class Solution {

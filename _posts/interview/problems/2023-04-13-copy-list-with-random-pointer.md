@@ -8,7 +8,7 @@ tags: linked-list hashmap
 
 > 목록의 전체 복사본을 구성: 새 목록의 어떤 포인터도 원래 목록의 노드를 가리켜서는 안됨
 
-- [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 ![](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
 
