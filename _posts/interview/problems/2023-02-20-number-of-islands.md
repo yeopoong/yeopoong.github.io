@@ -3,13 +3,14 @@ layout: post
 published: true
 title: "200. Number of Islands"
 categories: interview
-tags: graph
+tags: graph dfs bfs
 ---
 
-[Easy]
+> '1'(땅)과 '0'(물)의 지도를 나타내는 m x n 2D 이진 그리드가 주어지면 섬의 수를 반환
 
-- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
+DFS Solution
 ```java
 class Solution {
     char[][] g;
@@ -21,7 +22,43 @@ class Solution {
         g = grid;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
-                //count += dfs(i, j);
+                count += dfs(i, j);
+            }
+        }
+        
+        return count;
+    }
+    
+    private int dfs(int i, int j) {
+        if (i < 0 || i == g.length || j < 0 || j == g[i].length || g[i][j] == '0') {
+            return 0;
+        }
+        
+        g[i][j] = '0';
+        
+        // 인접한 상하좌우 모든 셀을 방문처리
+        dfs(i+1,   j); 
+        dfs(i-1,   j); 
+        dfs(i,   j+1); 
+        dfs(i,   j-1);
+        
+        return 1;
+    }
+}
+```
+
+BFS Solution
+```java
+class Solution {
+    char[][] g;
+    
+    // O(m*n)
+    public int numIslands(char[][] grid) {
+        int count = 0;
+        
+        g = grid;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
                 if (grid[i][j] == '1') {
                     bfs(i, j);
                     count++;
@@ -53,22 +90,6 @@ class Solution {
                 g[x][y] = '0';
             }
         }
-    }
-    
-    private int dfs(int i, int j) {
-        if (i < 0 || i == g.length || j < 0 || j == g[i].length || g[i][j] == '0') {
-            return 0;
-        }
-        
-        g[i][j] = '0';
-        
-        // 인접한 상하좌우 모든 셀을 방문처리
-        dfs(i+1,   j); 
-        dfs(i-1,   j); 
-        dfs(i,   j+1); 
-        dfs(i,   j-1);
-        
-        return 1;
     }
 }
 ```

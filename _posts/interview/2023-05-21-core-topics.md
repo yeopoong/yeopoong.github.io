@@ -66,7 +66,7 @@ tags: topics
 ## Algorithm
 
 1. DFS & BFS
-- Level order traversal
+- Level order traversal: BFS
 
 2. Backtracking & Recursion
 - subsets
