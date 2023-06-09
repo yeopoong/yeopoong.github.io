@@ -8,9 +8,11 @@ tags: linked-list two-pointers
 
 > 연결된 목록의 헤드가 주어집니다. 중간 노드를 삭제하고 수정된 연결 목록의 헤드를 반환
 
-- [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+[2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 
 ![](https://assets.leetcode.com/uploads/2021/11/16/eg1drawio.png)
+
+Two Pointer 로 중간 노드를 찾아서 다음 다음노드로 연결 시킨다.
 
 ```java
 /**
