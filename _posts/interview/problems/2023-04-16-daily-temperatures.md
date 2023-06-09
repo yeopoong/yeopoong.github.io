@@ -15,12 +15,12 @@ tags: stack array monotonic-stack
 class Solution {
     
     // 더 따뜻한 온도를 얻기 위해 기다려야 하는 일수
-    // Monotonic Stack:  A monotonic stack is simply a stack where the elements are always in sorted order. 
+    // Monotonic Stack
     // O(n)
     public int[] dailyTemperatures(int[] temperatures) {
         int[] ans = new int[temperatures.length];
 
-        // * 반복을 한번만 하기위해서 날짜값을 저장해 둔다(가장 최근일자 저장)
+        // * 반복을 한번만 하기위해서 날짜값(인덱스)을 저장해 둔다(가장 최근일자 저장)
         Stack<Integer> stack = new Stack<>();
 
         for (int currDay = 0, prevDay = 0; currDay < temperatures.length; currDay++) {
