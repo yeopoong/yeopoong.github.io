@@ -32,7 +32,7 @@ class Solution {
             } else if (c == '[') {
                 stack.push(']');
                 
-            // 닫힌 괄호를 만났을때 스택이 공백이거나 최상위 값이 문자와 매치되지 않으면 유효하지 않은거다.
+            // * 닫힌 괄호를 만났을때 스택이 공백이거나 최상위 값이 문자와 매치되지 않으면 유효하지 않은거다.
             } else if (stack.isEmpty() || stack.pop() != c) {
                 return false;
             }
