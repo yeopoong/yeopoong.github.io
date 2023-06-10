@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "283. Move Zeroes"
 categories: interview
-tags: two-pointers array
+tags: easy two-pointers array
 ---
 
 > 정수 배열 nums가 주어지면 0이 아닌 요소의 상대적인 순서를 유지하면서 모든 0을 끝으로 이동
 
-- [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
 ```java
 class Solution {
