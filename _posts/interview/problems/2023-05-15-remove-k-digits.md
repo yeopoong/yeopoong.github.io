@@ -9,7 +9,7 @@ tags: monotonic-stack
 > 음수가 아닌 정수 num을 나타내는 문자열 num과 정수 k가 주어지면 num에서 k 자리를 제거한 후 가능한 가장 작은 정수를 반환  
 > - 큰 숫자순으로 선택해서 제거해야 하므로 스택에 큰숫자 순서로 저장한다: Monotonic Increasing Stack
 
-- [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
+[402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
 
 ```java
 class Solution {

@@ -3,12 +3,14 @@ layout: post
 published: true
 title: "206. Reverse Linked List"
 categories: interview
-tags: linked-list 
+tags: linked-list easy
 ---
 
 > 단일 연결 목록의 헤드가 주어지면 목록을 뒤집고 반전된 목록을 반환
 
-- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+![](https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg)
 
 Recursive
 ```java
