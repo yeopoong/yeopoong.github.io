@@ -6,7 +6,6 @@ categories: interview
 tags: topics dynamic-programming
 ---
 
-## Dynamic Programming
 > 서브문제로 나눌 수 있으면 동적 프로그래밍으로 해결 가능하다.
 
 Realizing a Dynamic Programming Problem  
@@ -70,24 +69,24 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 
 [Medium]
 - [53. Maximum Subarray](/interview/2023/05/21/maximum-subarray/)
-- [64. Minimum Path Sum](/interview/2023/05/21/minimum-path-sum/)
+- [64. Minimum Path Sum](/interview/2023/06/09/minimum-path-sum/)
+- [97. Interleaving String](/interview/2023/05/21/interleaving-string/)
+- [122. Best Time to Buy and Sell Stock II](/interview/2023/05/21/best-time-to-buy-and-sell-stock-ii/)
 - [139. Word Break](/interview/2023/05/21/word-break/)
 - [152. Maximum Product Subarray](/interview/2023/05/21/maximum-product-subarray/)
 - [198. House Robber](/interview/2023/05/21/house-robber)
 - [213. House Robber II](/interview/2023/05/21/house-robber-ii/)
-- [337. House Robber III](/interview/2023/05/21/house-robber-iii/)
 - [300. Longest Increasing Subsequence](/interview/2023/05/21/longest-increasing-subsequence/) : 
-- [673. Number of Longest Increasing Subsequence](/interview/2023/05/21/number-of-longest-increasing-subsequence/)
-- [322. Coin Change](/interview/2023/05/21/coin-change/)
-- [1143. Longest Common Subsequence](/interview/2023/05/21/longest-common-subsequence/)
 - [309. Best Time to Buy and Sell Stock with Cooldown](/interview/2023/05/21/best-time-to-buy-and-sell-stock-with-cooldown/)
-- [122. Best Time to Buy and Sell Stock II](/interview/2023/05/21/best-time-to-buy-and-sell-stock-ii/)
+- [337. House Robber III](/interview/2023/05/21/house-robber-iii/)
+- [322. Coin Change](/interview/2023/05/21/coin-change/)
 - [416. Partition Equal Subset Sum](/interview/2023/05/21/partition-equal-subset-sum/)
-- [97. Interleaving String](/interview/2023/05/21/interleaving-string/)
+- [673. Number of Longest Increasing Subsequence](/interview/2023/05/21/number-of-longest-increasing-subsequence/)
 - [740. Delete and Earn](/interview/2023/05/31/delete-and-earn/)
+- [1143. Longest Common Subsequence](/interview/2023/05/21/longest-common-subsequence/)
 
 [Hard]
-- [42. Trapping Rain Water](/interview/2023/05/21/trapping-rain-water/)
 - [10. Regular Expression Matching](/interview/2023/05/21/regular-expression-matching/)
+- [42. Trapping Rain Water](/interview/2023/05/21/trapping-rain-water/)
 - [44. Wildcard Matching](/interview/2023/05/21/wildcard-matching/)
 - [72. Edit Distance](/interview/2023/05/21/edit-distance/)
