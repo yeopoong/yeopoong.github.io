@@ -74,7 +74,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 - [122. Best Time to Buy and Sell Stock II](/interview/2023/05/21/best-time-to-buy-and-sell-stock-ii/)
 - [139. Word Break](/interview/2023/05/21/word-break/)
 - [152. Maximum Product Subarray](/interview/2023/05/21/maximum-product-subarray/)
-- [198. House Robber](/interview/2023/05/21/house-robber)
+- [198. House Robber](/interview/2023/04/12/house-robber)
 - [213. House Robber II](/interview/2023/05/21/house-robber-ii/)
 - [300. Longest Increasing Subsequence](/interview/2023/05/21/longest-increasing-subsequence/) : 
 - [309. Best Time to Buy and Sell Stock with Cooldown](/interview/2023/05/21/best-time-to-buy-and-sell-stock-with-cooldown/)

@@ -8,7 +8,7 @@ tags: hashmap array
 
 > 정렬되지 않은 정수 배열이 주어지면 가장 긴 연속 시퀀스의 길이를 반환
 
-- [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ```java
 class Solution {

@@ -8,7 +8,7 @@ tags: array bit-manipulation
 
 > 정수 배열이 주어지면 모든 원소 중에서 한번만 존재하는 원소 찾기
 
-- [136. Single Number](https://leetcode.com/problems/single-number/)
+[136. Single Number](https://leetcode.com/problems/single-number/)
 
 ```java
 class Solution {

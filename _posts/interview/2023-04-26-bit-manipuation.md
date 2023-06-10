@@ -19,7 +19,7 @@ for (int num : nums) bitmask ^= num;
 ```
 
 [Easy]
-- [136. Single Number](/interview/2023/05/21/single-number/)
+- [136. Single Number](/interview/2023/04/26/single-number/)
 
 [Medium]
 - [260. Single Number III](/interview/2023/05/21/single-number-iii/)
