@@ -3,12 +3,35 @@ layout: post
 published: true
 title: "198. House Robber"
 categories: interview
-tags: array dynamic-programming
+tags: dynamic-programming
 ---
 
 > 각 주택의 금액을 나타내는 정수 배열 nums가 주어지면, 경찰에 알리지 않고 오늘 밤 훔칠 수 있는 최대 금액을 반환
 
-- [198. House Robber](https://leetcode.com/problems/house-robber)
+[198. House Robber](https://leetcode.com/problems/house-robber)
+
+동적프로그래밍: 하향식 방법으로 반복을 이용해서 구현
+- recurrence relation: rob = max(arr[0] + rob[2:n], rob[1:n])
+
+```java
+class Solution {
+    
+    public int rob(int[] nums) {
+        int[] dp = new int[nums.length];
+        
+        if (nums.length == 1) return nums[0];
+
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+
+        for (int i = 2; i < nums.length; i++) {
+            dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
+        }
+        
+        return dp[nums.length - 1];
+    }
+}
+```
 
 ```java
 class Solution {
