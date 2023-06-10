@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "253. Meeting Rooms II"
 categories: interview
-tags: array two-pointers
+tags: medium array two-pointers
 ---
 
 > 미팅 시간이 겹치지 않도록 필요한 최소 회의실 수
 
-- [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 
 ```java
 class Solution {

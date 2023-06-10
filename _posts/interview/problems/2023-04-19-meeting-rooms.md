@@ -3,17 +3,19 @@ layout: post
 published: true
 title: "252. Meeting Rooms"
 categories: interview
-tags: sort array
+tags: easy sort array
 ---
 
 > intervals[i] = [starti, endi]인 일련의 회의 시간 간격이 주어지면 한 사람이 모든 회의에 참석할 수 있는지 확인
 
-- [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+[252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
 
+중첩된 회의 시간이 존재하는지 체크하는 문제
+
+Brute Force
 ```java
 class Solution {
         
-    // Brute Force    
     // T: O(n^2)
     public boolean canAttendMeetings(int[][] intervals) {
         for (int i = 0; i < intervals.length; i++) {
@@ -33,6 +35,7 @@ class Solution {
 }
 ```
 
+Sort
 ```java
 class Solution {
         
