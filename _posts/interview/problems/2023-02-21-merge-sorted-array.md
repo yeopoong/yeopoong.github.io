@@ -3,16 +3,15 @@ layout: post
 published: true
 title: "88. Merge Sorted Array"
 categories: interview
-tags: two-pointers
+tags: easy two-pointers
 ---
 
-> 정렬된 두 배열을 머지하면서 오름차순으로 정렬
+> 정렬된 두 배열을 병합하면서 오름차순으로 정렬
 
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 ```java
 class Solution {
-    // 정렬된 두 배열을 머지하면서 오름차순으로 정렬
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         // * 뒤에서 부터 큰 숫자 순서로 넣는다(둘 중에 하나라도 처리할 값이 없으면 중지한다).
         while (m > 0 && n > 0) {

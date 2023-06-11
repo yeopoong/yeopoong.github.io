@@ -6,10 +6,9 @@ categories: interview
 tags: string two-pointers
 ---
 
-> 문자열을 반전시키는 함수를 작성  
-> 입력 문자열은 문자 배열로 제공
+> 문자 배열로 주어진 문자열을 반전시키는 함수를 작성
 
-- [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+[344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
 ```java
 class Solution {

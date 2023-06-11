@@ -22,6 +22,7 @@ tags: topics
 1. Array
 - swap
 - sum
+- merge
 - maximum
 - subarray
 - longest
