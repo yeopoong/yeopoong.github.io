@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "64. Minimum Path Sum"
 categories: interview
-tags: array matrix dynamic-programming
+tags: medium array matrix dynamic-programming
 ---
 
 > 음수가 아닌 숫자로 채워진 m x n 그리드가 주어지면 왼쪽 위에서 오른쪽 아래로 경로를 따라 모든 숫자의 합을 최소화하는 경로를 찾습니다.

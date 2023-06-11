@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "1060. Missing Element in Sorted Array"
 categories: interview
-tags: array binary-search
+tags: medium array binary-search
 ---
 
 > 오름차순으로 정렬된 정수 배열 nums 가 주어지면 배열의 가장 왼쪽 숫자부터 시작하여 k번째 누락된 숫자를 반환  
 
-- [1060. Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)
+[1060. Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)
 
  ```java
 class Solution {

@@ -3,17 +3,16 @@ layout: post
 published: true
 title: "1209. Remove All Adjacent Duplicates in String II"
 categories: interview
-tags: stack string
+tags: medium string
 ---
 
 > 인접한 K개의 중복 문자를 제거하고 더 이상 K 중복 문자가 없으면 최종 문자열을 반환
 
-- [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+[1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
+Stack
 ```java
 class Solution {
-    // 인접한 K개의 중복 문자를 제거하고 더 이상 K 중복 문자가 없으면 최종 문자열을 반환
-    // Stack
     // T: O(n)
     public String removeDuplicates(String s, int k) {
         StringBuilder sb = new StringBuilder(s);
@@ -38,10 +37,9 @@ class Solution {
 }
 ```
 
+ Brute Force
 ```java
 class Solution {
-    // 인접한 K개의 중복 문자를 제거하고 더 이상 K 중복 문자가 없으면 최종 문자열을 반환
-    // Brute Force
     // T: O(n^2)
     public String removeDuplicates(String s, int k) {
         StringBuilder sb = new StringBuilder(s);

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1047. Remove All Adjacent Duplicates In String"
 categories: interview
-tags: string stack
+tags: easy string stack
 ---
 
 > 영문 소문자로 구성된 문자열에서 두 개의 인접한 동일한 문자를 반복적으로 제거
@@ -13,20 +13,23 @@ tags: string stack
 ```java
 class Solution {
     
+    // 문자열에서 인접한 모든 중복 항목 제거
     public String removeDuplicates(String s) {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder result = new StringBuilder();
         
-        int sbLength = 0;
-        for (char character : s.toCharArray()) {
-            if (sbLength != 0 && character == sb.charAt(sbLength - 1)) {
-                sb.deleteCharAt(sbLength-- - 1);
+        int index = 0;
+        for (char c : s.toCharArray()) {
+            // 앞에 문자와 같으면 앞문자 삭제
+            if (index != 0 && c == result.charAt(index - 1)) {
+                result.deleteCharAt(index - 1);
+                index--;
             } else {
-                sb.append(character);
-                sbLength++;
+                result.append(c);
+                index++;
             }
         }
         
-        return sb.toString();
+        return result.toString();
     }
 }
 ```
