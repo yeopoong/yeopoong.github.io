@@ -146,6 +146,7 @@ public int getLength(ListNode head) {
 - [430. Flatten a Multilevel Doubly Linked List](/interview/2023/04/26/flatten-a-multilevel-doubly-linked-list/)
 - [445. Add Two Numbers II](/interview/2023/04/26/add-two-numbers-ii/)
 - [2095. Delete the Middle Node of a Linked List](/interview/2023/05/27/linked-list-cycle/)
+- [2130. Maximum Twin Sum of a Linked List](/interview/2023/06/11/maximum-twin-sum-of-a-linked-list/)
 
 [Hard]
 - [23. Merge k Sorted Lists](/interview/2023/04/26/merge-k-sorted-lists/)
