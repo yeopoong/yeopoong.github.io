@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "202. Happy Number"
 categories: interview
-tags: hashmap math
+tags: easy hashmap math
 ---
 
 > Happy Number: 자릿수 제곱의 합이 1 이 되는 수

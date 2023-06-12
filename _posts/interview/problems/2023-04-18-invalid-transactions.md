@@ -3,12 +3,14 @@ layout: post
 published: true
 title: "1169. Invalid Transactions"
 categories: interview
-tags: hashmap
+tags: medium hashmap
 ---
 
-> 유효하지 않을 가능성이 있는 트랜잭션 목록을 반환
+> 유효하지 않을 가능성이 있는 트랜잭션 목록을 반환  
+> - 금액이 $1000를 초과하거나
+> - 다른 도시에서 동일한 이름으로 다른 거래가 발생한 후 60분 이내에 발생하는 경우  
 
-- [1169. Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)
+[1169. Invalid Transactions](https://leetcode.com/problems/invalid-transactions/)
 
 ```java
 class Solution {

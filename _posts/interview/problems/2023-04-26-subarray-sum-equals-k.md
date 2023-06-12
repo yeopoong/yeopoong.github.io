@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "560. Subarray Sum Equals K"
 categories: interview
-tags: array hashmap prefix-sum
+tags: medium array hashmap prefix-sum
 ---
 
-> 정수 nums와 정수 k의 배열이 주어지면 합계가 k인 하위 배열의 총 개수를 반환
+> 정수 nums 배열과 정수 k가 주어지면 합계가 k인 하위 배열의 총 개수를 반환
 
-- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ```java
 class Solution {
