@@ -25,8 +25,10 @@ class Solution {
         int sum = 0;
         for (int num: nums) {
             sum += num;
-            // 보수값을 맵에서 찾아서 그 경우의 수 만큼 더한다.
-            count += map.getOrDefault(sum - k, 0); 
+            // 보수값이 존재하면 그 경우의 수 만큼 더한다.
+            if (map.containsKey(sum -k)) {
+                count += map.get(sum - k); 
+            }
             // 현재합을 맵에 추가한다.
             map.put(sum, map.getOrDefault(sum, 0) + 1); 
         }
