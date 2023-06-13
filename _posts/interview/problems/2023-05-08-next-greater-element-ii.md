@@ -8,7 +8,7 @@ tags: medium array stack
 
 > 순환 정수 배열 nums가 주어지면(즉, nums[nums.length - 1]의 다음 요소는 nums[0]임) nums의 모든 요소에 대해 다음으로 큰 숫자를 반환
 
-- [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
+[503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
 
 Brute Force
 ```java
