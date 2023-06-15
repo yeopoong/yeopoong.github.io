@@ -11,7 +11,7 @@ tags: tree dfs
 > - 모든 리프 노드를 제거  
 > - 트리가 비워질 때까지 반복  
 
-- [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+[366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)
 
 ![](https://assets.leetcode.com/uploads/2021/03/16/remleaves-tree.jpg)
 
