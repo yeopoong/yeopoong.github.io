@@ -21,7 +21,7 @@ tags: topics
 - [547. Number of Provinces](/interview/2023/05/21/number-of-provinces/)
 
 5. Recursion
-- [509. Fibonacci Number](/interview/2023/05/21/fibonacci-number/)
+- [509. Fibonacci Number](/interview/2023/02/21/fibonacci-number/)
 
 6. Subset
 - [78. Subsets](/interview/2023/05/21/subsets/)

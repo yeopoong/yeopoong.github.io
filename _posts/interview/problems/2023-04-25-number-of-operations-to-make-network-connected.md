@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "1319. Number of Operations to Make Network Connected"
 categories: interview
-tags: graph dfs
+tags: medium graph dfs
 ---
 
 > 모든 네트워크를 연결하기 위한 작업 수: 연결된 그룹의 개수를 카운트 한다.
 
-- [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
 ![](https://assets.leetcode.com/uploads/2020/01/02/sample_1_1677.png)
 

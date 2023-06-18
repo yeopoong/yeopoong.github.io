@@ -10,27 +10,18 @@ tags: recursion memoization
 > F(0) = 0, F(1) = 1  
 > F(n) = F(n - 1) + F(n - 2), for n > 1.  
 
-- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+[509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
-## Dynamic Programming
+## Recursion
 ```java
-class Solution {
+public class Solution {
     // 점화식(Recurrence relation): F(n) = F(n-1) + F(n-2)
-    // Bottom-up
-    // T: O(n)
-    // S: O(1)
+    // T: O(2^n)
     public int fib(int n) {
-        int a = 0, b = 1;
-        int t;
-        
-        // A값을 리턴하는 것을 전제로한 조건
-        while (n-- > 0) {
-            t = a + b; // 앞 두수의 합
-            a = b;
-            b = t;
+        if (n <= 1) {
+            return n;
         }
-        
-        return a;
+        return fib(n - 1) + fib(n - 2);
     }
 }
 ```
@@ -58,6 +49,29 @@ class Solution {
         
         // 결과리턴
         return cache.get(n);
+    }
+}
+```
+
+## Dynamic Programming
+```java
+class Solution {
+    // 점화식(Recurrence relation): F(n) = F(n-1) + F(n-2)
+    // Bottom-up
+    // T: O(n)
+    // S: O(1)
+    public int fib(int n) {
+        int a = 0, b = 1;
+        int t;
+        
+        // A값을 리턴하는 것을 전제로한 조건
+        while (n-- > 0) {
+            t = a + b; // 앞 두수의 합
+            a = b;
+            b = t;
+        }
+        
+        return a;
     }
 }
 ```
