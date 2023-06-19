@@ -129,7 +129,7 @@ public int getLength(ListNode head) {
 
 [Easy]
 - [21. Merge Two Sorted Lists](/interview/2023/04/12/merge-two-sorted-lists/)
-- [141. Linked List Cycle](/interview/2023/04/26/linked-list-cycle/)
+- [141. Linked List Cycle](/interview/2023/06/16/linked-list-cycle/)
 - [160. Intersection of Two Linked Lists](/interview/2023/04/26/intersection-of-two-linked-lists/)
 - [206. Reverse Linked List](/interview/2023/04/26/reverse-linked-list/)
 
