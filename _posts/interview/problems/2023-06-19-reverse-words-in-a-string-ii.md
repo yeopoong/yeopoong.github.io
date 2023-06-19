@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "186. Reverse Words in a String II"
 categories: interview
-tags: easy linked-list two-pointers
+tags: medium two-pointers
 ---
 
 > 문자 배열 s가 주어지면 단어의 순서를 반대로 바꿉다.
