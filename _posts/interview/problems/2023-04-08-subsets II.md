@@ -6,12 +6,13 @@ categories: interview
 tags: backtracking
 ---
 
-[Easy]
+> 중복을 포함할 수 있는 정수 배열 nums가 주어지면 가능한 모든 하위 집합을 반환
 
-- [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+[90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
 ```java
 class Solution {
+    
     List<List<Integer>> list = new ArrayList<>();
     List<Integer> temp = new ArrayList<>();
     
