@@ -37,7 +37,7 @@ public void reverse(int[] nums, int start, int end) {
 - [1768. Merge Strings Alternately](/interview/2023/05/21/merge-strings-alternately/)
 
 [Medium]
-- [5. Longest Palindromic Substring](/interview/2023/05/21/longest-palindromic-substring)
+- [5. Longest Palindromic Substring](/interview/2023/04/06/longest-palindromic-substring)
 - [11. Container With Most Water](/interview/2023/05/21/container-with-most-water/)
 - [15. 3Sum](/interview/2023/04/05/3sum/)
 - [16. 3Sum Closest](/interview/2023/05/08/3sum-closest/)

@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "28. Find the Index of the First Occurrence in a String"
 categories: interview
-tags: string two-pointers
+tags: easy string two-pointers
 ---
 
 > 문자열에서 처음 나타나는 인덱스 찾기
 
-- [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+[28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 ```java
 class Solution {

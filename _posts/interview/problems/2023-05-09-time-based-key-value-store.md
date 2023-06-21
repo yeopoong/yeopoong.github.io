@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "981. Time Based Key-Value Store"
 categories: interview
-tags: array hashmap
+tags: medium array hashmap
 ---
 
 > 서로 다른 타임스탬프에서 동일한 키에 대한 여러 값을 저장하고 특정 타임스탬프에서 키 값을 검색할 수 있는 시간 기반 키-값 데이터 구조를 설계  
 
-- [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 
 ![](https://leetcode.com/problems/time-based-key-value-store/Figures/981/slides/Slide1.png)
 

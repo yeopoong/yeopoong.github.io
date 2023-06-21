@@ -3,12 +3,12 @@ layout: post
 published: false
 title: "5. Longest Palindromic Substring"
 categories: interview
-tags: two-pointers string longest dynamic-programming
+tags: medium two-pointers string longest
 ---
 
 > 문자열 s가 주어지면 s에서 가장 긴 회문 부분 문자열을 반환
 
-- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ```java
 class Solution {

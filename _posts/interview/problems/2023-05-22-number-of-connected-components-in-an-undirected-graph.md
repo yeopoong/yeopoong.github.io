@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "323. Number of Connected Components in an Undirected Graph"
 categories: interview
-tags: graph dfs
+tags: medium graph dfs
 ---
 
 > 무방향 그래프의 연결된 구성 요소 수를 반환
 
-- [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
 ![](https://assets.leetcode.com/uploads/2021/03/14/conn1-graph.jpg)
 
