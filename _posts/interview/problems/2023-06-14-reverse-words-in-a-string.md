@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "151. Reverse Words in a String"
 categories: interview
-tags: easy string
+tags: medium string
 ---
 
 > 단일 공백으로 연결된 단어의 문자열을 역순으로 반환
