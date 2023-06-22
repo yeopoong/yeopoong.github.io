@@ -41,6 +41,7 @@ public void reverse(int[] nums, int start, int end) {
 - [11. Container With Most Water](/interview/2023/05/21/container-with-most-water/)
 - [15. 3Sum](/interview/2023/04/05/3sum/)
 - [16. 3Sum Closest](/interview/2023/05/08/3sum-closest/)
+- [19. Remove Nth Node From End of List](/interview/2023/06/22/remove-nth-node-from-end-of-list/)
 - [28. Find the Index of the First Occurrence in a String](/interview/2023/05/21/find-the-index-of-the-first-occurrence-in-a-string/)
 - [31. Next Permutation](/interview/2023/05/08/next-permutation/)
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
