@@ -139,6 +139,7 @@ public int getLength(ListNode head) {
 - [24. Swap Nodes in Pairs](/interview/2023/04/26/swap-nodes-in-pairs/)
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
 - [82. Remove Duplicates from Sorted List II](/interview/2023/06/22/remove-duplicates-from-sorted-list-ii/)
+- [86. Partition List](/interview/2023/06/23//partition-list/)
 - [92. Reverse Linked List II](/interview/2023/05/20/reverse-linked-list-ii.md)
 - [138. Copy List with Random Pointer](/interview/2023/04/13/copy-list-with-random-pointer/)
 - [146. LRU Cache](/interview/2023/04/26/lru-cache/)

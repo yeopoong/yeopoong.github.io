@@ -47,6 +47,7 @@ public void reverse(int[] nums, int start, int end) {
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
 - [75. Sort Colors](/interview/2023/04/16/sort-colors/)
 - [80. Remove Duplicates from Sorted Array II](/interview/2023/05/21/remove-duplicates-from-sorted-array-ii/)
+- [86. Partition List](/interview/2023/06/23//partition-list/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
 - [148. Sort List](/interview/2023/05/21/sort-list/)
 - [167. Two Sum II - Input Array Is Sorted](/interview/2023/05/18/two-sum-ii-input-array-is-sorted/)

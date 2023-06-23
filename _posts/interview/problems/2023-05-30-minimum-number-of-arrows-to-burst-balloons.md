@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "452. Minimum Number of Arrows to Burst Balloons"
 categories: interview
-tags: array greedy
+tags: medium greedy intervals
 ---
 
 > 배열 포인트가 주어지면 모든 풍선을 터뜨리기 위해 발사해야 하는 최소 화살 수를 반환
