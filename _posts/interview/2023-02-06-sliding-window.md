@@ -16,15 +16,16 @@ tags: topics sliding-window
 - [643. Maximum Average Subarray I](/interview/2023/05/17/maximum-average-subarray-i)
 
 [Medium]
+- [3. Longest Substring Without Repeating Characters](/interview/2023/02/21/longest-substring-without-repeating-characters/)
 - [53. Maximum Subarray](/interview/2023/05/21/maximum-subarray/)
+- [159. Longest Substring with At Most Two Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-two-distinct-characters/)
 - [209. Minimum Size Subarray Sum](/interview/2023/06/02/minimum-size-subarray-sum/)
 - [325. Maximum Size Subarray Sum Equals k](/interview/2023/05/21/maximum-size-subarray-sum-equals-k/)
-- [1151. Minimum Swaps to Group All 1's Together](/interview/2023/05/08/minimum-swaps-to-group-all-1s-together/)
-- [1004. Max Consecutive Ones III](/interview/2023/05/21/max-consecutive-ones-iii/)
-- [3. Longest Substring Without Repeating Characters](/interview/2023/02/21/longest-substring-without-repeating-characters/)
 - [340. Longest Substring with At Most K Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-k-distinct-characters/)
-- [159. Longest Substring with At Most Two Distinct Characters](/interview/2023/05/29/longest-substring-with-at-most-two-distinct-characters/)
+- [487. Max Consecutive Ones II](/interview/2023/06/23//max-consecutive-ones-ii/)
 - [978. Longest Turbulent Subarray](/interview/2023/05/21/longest-turbulent-subarray/)
+- [1004. Max Consecutive Ones III](/interview/2023/05/21/max-consecutive-ones-iii/)
+- [1151. Minimum Swaps to Group All 1's Together](/interview/2023/05/08/minimum-swaps-to-group-all-1s-together/)
 - [1493. Longest Subarray of 1's After Deleting One Element](/interview/2023/05/31/longest-subarray-of-1s-after-deleting-one-element/)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](/interview/2023/06/05/maximum-number-of-vowels-in-a-substring-of-given-length/)
 
