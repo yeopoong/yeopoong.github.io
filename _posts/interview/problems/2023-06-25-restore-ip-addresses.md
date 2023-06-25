@@ -6,7 +6,7 @@ categories: interview
 tags: medium backtracking
 ---
 
-> 숫자만 포함된 문자열 s가 주어지면 s에 점을 삽입하여 형성할 수 있는 가능한 모든 유효한 IP 주소를 반환
+> m x n 행렬이 주어지면 행렬의 모든 요소를 ​​나선 순서로 반환
 
 [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
@@ -42,6 +42,5 @@ class Solution {
             restoreIp(ip, idx + i, restored + s + (count == 3 ? "" : "."), count + 1);
         }
     }
-}
 }
 ```
