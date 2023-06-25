@@ -19,6 +19,7 @@ tags: topics backtracking
 - [78. Subsets](/interview/2023/05/21/subsets/)
 - [79. Word Search](/interview/2023/04/20/word-search/)
 - [90. Subsets II](/interview/2023/05/01/subsets-ii/)
+- [93. Restore IP Addresses](/interview/2023/06/25/restore-ip-addresses/)
 - [254. Factor Combinations](/interview/2023/06/06/factor-combinations/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
 - [17. Letter Combinations of a Phone Number](/interview/2023/05/30/letter-combinations-of-a-phone-number/)
