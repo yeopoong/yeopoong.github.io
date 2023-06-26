@@ -8,7 +8,9 @@ tags: hashmap string
 
 > 문자열의 배열이 주어지면 아나그램을 함께 그룹화
 
-- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+문자열을 정렬해서 그룹의 키값으로 사용하여 맵을 이용해서 그룹핑한다.
 
 ```java
 class Solution {

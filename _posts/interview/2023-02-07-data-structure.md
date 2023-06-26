@@ -6,26 +6,24 @@ categories: interview
 tags: topics 
 ---
 
-# Top 7 Coding Interview Data Structure
+1. Array
+- [1. Two Sum](/interview/2023/02/20/two-sum/)
 
-1. String
-- [125. Valid Palindrome](/interview/2023/05/21/valid-palindrome/)
-
-2. Array
-- [1. Two Sum](/interview/2023/05/21/two-sum/)
+2. String
+- [125. Valid Palindrome](/interview/2023/02/20/valid-palindrome/)
 
 3. Stack
-- [20. Valid Parentheses](/interview/2023/05/21/valid-parentheses/)
+- [20. Valid Parentheses](/interview/2023/02/20/valid-parentheses/)
 
 4. Linked List
-- [206. Reverse Linked List](/interview/2023/05/21/reverse-linked-list/)
+- [206. Reverse Linked List](/interview/2023/02/20/reverse-linked-list/)
 
 5. Tree
-- [94. Binary Tree Inorder Traversal](/interview/2023/05/21/binary-tree-inorder-traversal/)
+- [94. Binary Tree Inorder Traversal](/interview/2023/02/20/binary-tree-inorder-traversal/)
 
 6. Graph
-- [200. Number of Islands](/interview/2023/05/21/number-of-islands/)
+- [200. Number of Islands](/interview/2023/02/20/number-of-islands/)
 
 7. HashMap
-- [49. Group Anagrams](/interview/2023/05/21/group-anagrams/)
+- [49. Group Anagrams](/interview/2023/02/20/group-anagrams/)
 

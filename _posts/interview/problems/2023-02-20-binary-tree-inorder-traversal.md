@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "94. Binary Tree Inorder Traversal"
 categories: interview
-tags: tree
+tags: easy tree
 ---
 
-[Easy]
+[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
-- [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+스택을 이용해서 왼쪽자식, 중앙값, 오른쪽 자식순으로 리프노드 나올때까지 쌓으면서 역순으로 처리한다.
 
 iterative inorder traversal
 ```java

@@ -12,6 +12,8 @@ tags: string two-pointers
 
 ![](/assets/img/valid-palindrome.jpg)
 
+두개의 포인터를 문자열의 시작과 끝위치로 설정하고 두 문자를 비교하면서 체크한다.
+
 ```java
 class Solution {
     

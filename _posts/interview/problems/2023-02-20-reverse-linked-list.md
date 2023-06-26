@@ -12,6 +12,8 @@ tags: linked-list easy
 
 ![](https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg)
 
+연결 리스트의 이전노드, 현재노드, 다음노드의 포인터를 반전시키면서 마지막 노드까지 처리한다.
+
 Recursive
 ```java
 class Solution {

@@ -3,12 +3,14 @@ layout: post
 published: true
 title: "200. Number of Islands"
 categories: interview
-tags: graph dfs bfs
+tags: medium graph dfs bfs
 ---
 
 > '1'(땅)과 '0'(물)의 지도를 나타내는 m x n 2D 이진 그리드가 주어지면 섬의 수를 반환
 
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
+각 셀을 순차적으로 방문하면서 땅일 경우 인접한 상하좌우셀을 모두 방문하고 방문처리한다.
 
 DFS Solution
 ```java
