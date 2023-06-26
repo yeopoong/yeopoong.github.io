@@ -1,12 +1,10 @@
 ---
 layout: post
 published: true
-title: "Top 7 Coding Interview Concepts (Data Structures & Algorithms) - Basic II"
+title: "Top 7 Coding Interview Patterns"
 categories: interview
 tags: topics 
 ---
-
-## Top 7 Coding Interview Patterns
 
 1. TWo Pointers
 - [88. Merge Sorted Array](/interview/2023/05/21/merge-sorted-array/)

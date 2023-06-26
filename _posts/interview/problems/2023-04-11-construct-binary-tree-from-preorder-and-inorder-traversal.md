@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "105. Construct Binary Tree from Preorder and Inorder Traversal"
 categories: interview
-tags: tree recursion
+tags: medium tree recursion
 ---
 
 > 두 개의 정수 배열 preorder 및 inorder가 주어지면 이진 트리를 구성하고 반환
 
-- [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 ![](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
 

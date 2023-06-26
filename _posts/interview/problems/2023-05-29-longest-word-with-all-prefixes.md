@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "1858. Longest Word With All Prefixes"
 categories: interview
-tags: dfs trie
+tags: medium dfs trie
 ---
 
 > 문자열 단어의 배열이 주어지면 모든 접두사가 단어에 포함되도록 단어에서 가장 긴 문자열을 찾습니다.
 
-- [1858. Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)
+[1858. Longest Word With All Prefixes](https://leetcode.com/problems/longest-word-with-all-prefixes/)
 
 ```java
 class Solution {
