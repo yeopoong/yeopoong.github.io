@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "430. Flatten a Multilevel Doubly Linked List"
 categories: interview
-tags: linked-list dfs stack
+tags: medium linked-list dfs
 ---
 
 > 다단계 이중 연결 리스트를 평면화하고 병합된 리스트의 헤드를 반환
 
-- [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+[430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
 ![](https://assets.leetcode.com/uploads/2021/11/09/flatten11.jpg)
 
