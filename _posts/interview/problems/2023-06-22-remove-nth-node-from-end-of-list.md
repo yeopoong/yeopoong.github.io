@@ -12,6 +12,8 @@ tags: medium linked-list two-pointers
 
 ![](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
 
+두개의 노드를 선언하고 하나의 노드를 N 노드 만큼 앞서가게 만들어서 해당 노드가 마지막 노드에 도달하면 정상 노드의 포인터를 한칸 건너뛰게 만든다.
+
 ```java
 /**
  * Definition for singly-linked list.
@@ -52,4 +54,28 @@ class Solution {
         return start.next;
     }
 }
+```
+
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode(0, head)
+        slow = fast = dummy
+        
+        # let the fast pointer move n steps ahead of the slow pointer
+        for _ in range(n + 1): 
+            fast = fast.next
+        
+        while fast:
+            fast = fast.next
+            slow = slow.next
+            
+        slow.next = slow.next.next
+        
+        return dummy.next
 ```

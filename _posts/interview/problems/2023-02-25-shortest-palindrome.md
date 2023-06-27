@@ -1,13 +1,14 @@
 ---
 layout: post
-published: false
+published: true
 title: "214. Shortest Palindrome"
 categories: interview
-tags: palindrome
+tags: hard palindrome
 ---
 
-- [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
-<script src="https://gist.github.com/yeopoong/a7f6c98070ce19ca6dcf18c26ad61594.js"></script>
+> 문자열에 문자를 추가하여 찾을 수 있는 가장 짧은 회문을 반환
+
+[214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
 
 ```java
 class Solution {

@@ -35,6 +35,7 @@ public void reverse(int[] nums, int start, int end) {
 - [392. Is Subsequence](/interview/2023/05/21/is-subsequence/)
 - [557. Reverse Words in a String III](/interview/2023/06/24/reverse-words-in-a-string-iii/)
 - [643. Maximum Average Subarray I](/interview/2023/05/21/maximum-average-subarray-i/)
+- [876. Middle of the Linked List](/interview/2023/06/26/middle-of-the-linked-list/)
 - [1768. Merge Strings Alternately](/interview/2023/05/21/merge-strings-alternately/)
 
 [Medium]
