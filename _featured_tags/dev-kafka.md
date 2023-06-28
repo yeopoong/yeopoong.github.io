@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: Kafka
-slug: Kafka
+slug: kafka
 category: dev
 menu: false
 order: 1
