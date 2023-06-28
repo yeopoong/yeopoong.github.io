@@ -3,14 +3,14 @@ layout: post
 published: true
 title: "695. Max Area of Island"
 categories: interview
-tags: array dfs
+tags: medium dfs
 ---
 
-> 그리드에서 섬의 ​​최대 면적을 반환
+> 그리드에서 섬의 ​​최대 면적을 반환: 섬의 면적은 섬에서 값이 1인 셀의 수
+
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 
 ![](https://assets.leetcode.com/uploads/2021/05/01/maxarea1-grid.jpg)
-
-- [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 
 ```java
 class Solution {
