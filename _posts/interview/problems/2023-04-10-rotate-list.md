@@ -7,11 +7,12 @@ tags: medium linked-list two-pointers
 ---
 
 > 연결된 목록의 헤드가 주어지면 목록을 오른쪽으로 k만큼 회전
-> - 리스트의 전체 길이를 구한 후 K(피봇노드) 를 기준으로 시작노드와 마지막 노드를 변경한다.
 
-- [61. Rotate List](https://leetcode.com/problems/rotate-list/)
+[61. Rotate List](https://leetcode.com/problems/rotate-list/)
 
 ![](https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg)
+
+리스트의 전체 길이를 구한 후 K(피봇노드) 를 기준으로 시작노드와 마지막 노드를 변경한다.
 
 ```java
 /**
@@ -43,10 +44,10 @@ class Solution {
             curr = curr.next;
         } 
         
-        // 1. 피봇노드의 다음노드가 시작노드가 된다.
+        // 2. 피봇노드의 다음노드가 시작노드가 된다.
         head = curr.next;
         
-        // 2. 피봇노드를 마지막 노드로 만든다.
+        // 3. 피봇노드를 마지막 노드로 만든다.
         curr.next = null;
         
         return head;
@@ -62,7 +63,7 @@ class Solution {
             length += 1;
         }
         
-        // 3. Tail to the front
+        // 1. Tail to the front
         tail.next = head;
         
         return length;
