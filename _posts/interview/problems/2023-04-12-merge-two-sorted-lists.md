@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "21. Merge Two Sorted Lists"
 categories: interview
-tags: linked-list
+tags: easy linked-list
 ---
 
 > 두 개의 정렬된 연결 목록을 하나의 정렬된 목록으로 병합
 
-- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ```java
 /**

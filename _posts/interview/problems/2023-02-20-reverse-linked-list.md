@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "206. Reverse Linked List"
 categories: interview
-tags: linked-list easy
+tags: easy linked-list recursion
 ---
 
 > 단일 연결 목록의 헤드가 주어지면 목록을 뒤집고 반전된 목록을 반환
@@ -17,11 +17,14 @@ tags: linked-list easy
 Recursive
 ```java
 class Solution {
+    // T: O(n)
+    // S: O(n)
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
 
+        // 뒤에서부터 꺼꾸로 작업한다.
         ListNode p = reverseList(head.next);
         head.next.next = head;
         head.next = null;
@@ -45,6 +48,8 @@ Iterative
  */
 class Solution {
     // 현재노드, 이전노드, 다음노드를 이동하면서 마지막 노드까지 진행한다.
+    // T: O(n)
+    // S: O(1)
     public ListNode reverseList(ListNode head) {
         ListNode node = head;
         ListNode prev = null;
