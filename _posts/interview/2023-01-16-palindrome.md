@@ -53,7 +53,7 @@ public void getPalindrome(String s, int left, int right) {
 ```
 
 [Easy]
-- [9. Palindrome Number](/interview/2023/05/21/palindrome-number/)
+- [9. Palindrome Number](/interview/2023/04/11/palindrome-number/)
 - [125. Valid Palindrome](/interview/2023/02/20/valid-palindrome/)
 - [266. Palindrome Permutation](/interview/2023/06/26/palindrome-permutation/)
 - [409. Longest Palindrome](/interview/2023/04/09/longest-palindrome/)
