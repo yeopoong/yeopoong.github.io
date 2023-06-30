@@ -133,6 +133,7 @@ public int getLength(ListNode head) {
 - [160. Intersection of Two Linked Lists](/interview/2023/04/26/intersection-of-two-linked-lists/)
 - [206. Reverse Linked List](/interview/2023/04/26/reverse-linked-list/)
 - [876. Middle of the Linked List](/interview/2023/06/26/middle-of-the-linked-list/)
+- [1474. Delete N Nodes After M Nodes of a Linked List](/interview/2023/06/30/delete-n-nodes-after-m-nodes-of-a-linked-list/)
 
 [Medium]
 - [2. Add Two Numbers](/interview/2023/04/09/add-two-numbers/)
