@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "11. Container With Most Water"
 categories: interview
-tags: two-pointers array
+tags: medium two-pointers
 ---
 
 > 용기가 저장할 수 있는 최대 물의 양을 반환
@@ -12,6 +12,7 @@ tags: two-pointers array
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
 
+Brute Force
 ```java
 class Solution {
     
@@ -32,6 +33,7 @@ class Solution {
 }
 ```
 
+Two Pointer
 ```java
 class Solution {
     
@@ -56,6 +58,29 @@ class Solution {
         }
                     
         return maxWater;
+    }
+}
+```
+
+```scala
+object Solution {
+    def maxArea(height: Array[Int]): Int = {
+        var water = 0
+        
+        var left = 0
+        var right = height.length - 1
+        
+        while (left < right) {
+            var curr_water = (right - left) * Math.min(height(left), height(right))
+            water = Math.max(water, curr_water)
+            if (height(left) < height(right)) {
+                left += 1
+            } else {
+                right -= 1
+            }
+        } 
+        
+        water
     }
 }
 ```
