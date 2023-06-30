@@ -3,12 +3,14 @@ layout: post
 published: true
 title: "121. Best Time to Buy and Sell Stock"
 categories: interview
-tags: two-pointers
+tags: easy two-pointers
 ---
 
 > 주식을 사고 파는 트랜잭션으로 얻을 수 있는 최대 이익을 반환
 
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+최소가격과 현재가격에 대한 두객의 포인터를 이동하면서 현재 이익을 최대 이익과 비교한다.
 
 ```java
 class Solution {
