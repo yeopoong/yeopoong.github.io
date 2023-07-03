@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "739. Daily Temperatures"
 categories: interview
-tags: stack array monotonic-stack
+tags: medium monotonic-stack
 ---
 
 > 더 따뜻한 온도를 얻기 위해 기다려야 하는 일수  
