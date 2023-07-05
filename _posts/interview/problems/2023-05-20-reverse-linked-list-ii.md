@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "92. Reverse Linked List II"
 categories: interview
-tags: linked-list
+tags: medium linked-list
 ---
 
 > 단일 연결 리스트의 헤드와 왼쪽 <= 오른쪽인 두 개의 정수 왼쪽과 오른쪽이 주어지면 목록의 노드를 왼쪽 위치에서 오른쪽 위치로 반전하고 반전된 목록을 반환
 
-- [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 
 ![](https://assets.leetcode.com/uploads/2021/02/19/rev2ex2.jpg)
 

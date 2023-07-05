@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "13. Roman to Integer"
 categories: interview
-tags: hashmap
+tags: easy hashmap
 ---
 
 > 로마 숫자가 주어지면 정수로 변환
 
-- [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ```java
 class Solution {

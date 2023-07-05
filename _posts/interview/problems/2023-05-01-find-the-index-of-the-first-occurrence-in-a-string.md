@@ -6,7 +6,7 @@ categories: interview
 tags: easy string two-pointers
 ---
 
-> 문자열에서 처음 나타나는 인덱스 찾기
+> 두 문자열에서 하나의 문자열이 처음 나타나는 인덱스 찾기
 
 [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 

@@ -3,17 +3,18 @@ layout: post
 published: true
 title: "128. Longest Consecutive Sequence"
 categories: interview
-tags: hashmap array
+tags: medium hashmap array
 ---
 
 > 정렬되지 않은 정수 배열이 주어지면 가장 긴 연속 시퀀스의 길이를 반환
 
 [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
+Set에 모든값을 저장하고 이전값과 다음값이 존재하는지 체크하면서 최대길이를 체크한다.
+
 ```java
 class Solution {
     // 가장 긴 연속 시퀀스
-    // 맵에서 이전값과 다음값이 존재하는지 체크하면서 최대길이를 증가 시킨다.
     // T: O(n), S: O(n)
     public int longestConsecutive(int[] nums) {
         int longest = 0;
