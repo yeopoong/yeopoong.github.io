@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "33. Search in Rotated Sorted Array"
 categories: interview
-tags: binary-search array
+tags: medium binary-search
 ---
 
 > 회전 된 오름차순으로 정렬된 배열에서 주어진 정수값의 인덱스를 찾는 문제
 
-- [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ```java
 class Solution {
