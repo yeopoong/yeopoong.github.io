@@ -9,9 +9,11 @@ tags: tree dfs
 > 이진 트리의 최대 너비 구하기  
 > - 트리의 최대 너비(가장 왼쪽 및 가장 오른쪽의 null이 아닌 노드 사이의 길이)
 
-- [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+[662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 
 ![](https://assets.leetcode.com/uploads/2021/05/03/width1-tree.jpg)
+
+트리의 레벨별로 최초 인덱스를 맵에 저장해 두고 왼쪽/오른쪽 노드를 DFS 탐색하면서 최대간격을 비교한다.
 
 ```java
 /**

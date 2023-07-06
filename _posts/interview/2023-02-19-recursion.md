@@ -18,6 +18,7 @@ tags: topics recursion
 Memoization
 
 [Easy]
+- [101. Symmetric Tree](/interview/2023/07/05/symmetric-tree/)
 - [206. Reverse Linked List](/interview/2023/06/29/reverse-linked-list/)
 - [509. Fibonacci Number](/interview/2023/05/21/fibonacci-number/)
 - [1469. Find All The Lonely Nodes](/interview/2023/04/19/find-all-the-lonely-nodes/)
