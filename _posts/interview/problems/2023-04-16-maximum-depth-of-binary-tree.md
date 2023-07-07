@@ -3,13 +3,16 @@ layout: post
 published: true
 title: "104. Maximum Depth of Binary Tree"
 categories: interview
-tags: tree dfs maximum
+tags: easy tree dfs maximum
 ---
 
 > 이진 트리의 최대 깊이
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
+![](https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg)
+
+Recursive DFS
 ```java
 /**
  * Definition for a binary tree node.
@@ -34,10 +37,11 @@ class Solution {
 }
 ```
 
+BFS
 ```java
 class Solution {
     public int maxDepth(TreeNode root) {
-        int level = 0;
+        int depth = 0;
         
         if (root == null) return 0;
         
@@ -62,10 +66,10 @@ class Solution {
                 }
             }
             // 깊이가 하나 증가한다.
-            level++;
+            depth++;
         }
         
-        return level;
+        return depth;
     }
 }
 ```
