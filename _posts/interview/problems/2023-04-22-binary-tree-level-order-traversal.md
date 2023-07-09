@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "102. Binary Tree Level Order Traversal"
 categories: interview
-tags: tree bfs
+tags: medium tree bfs
 ---
 
 > 이진 트리의 루트가 주어지면 해당 노드 값의 레벨 순회를 반환 (즉, 왼쪽에서 오른쪽으로, 레벨별로)
 
-- [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ```java
 /**

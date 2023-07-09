@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "20. Valid Parentheses"
 categories: interview
-tags: stack 
+tags: easy stack 
 ---
 
 > 입력 문자열(괄호)이 유효한지 확인 

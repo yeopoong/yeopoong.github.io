@@ -8,7 +8,7 @@ tags: easy tree dfs maximum
 
 > 이진 트리의 최대 깊이
 
-- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 ![](https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg)
 
