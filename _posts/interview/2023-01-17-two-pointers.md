@@ -65,6 +65,7 @@ public void reverse(int[] nums, int start, int end) {
 - [532. K-diff Pairs in an Array](/interview/2023/05/11/k-diff-pairs-in-an-array/)
 - [658. Find K Closest Elements](problems/2023-05-21-find-k-closest-elements.md)
 - [723. Candy Crush](/interview/2023/05/21/candy-crush/)
+- [986. Interval List Intersections](/interview/2023/07/09/interval-list-intersections/)
 - [1004. Max Consecutive Ones III](/interview/2023/05/21/max-consecutive-ones-iii/)
 - [1229. Meeting Scheduler](/interview/2023/05/21/meeting-scheduler/)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](/interview/2023/05/21/number-of-subsequences-that-satisfy-the-given-sum-condition/)
