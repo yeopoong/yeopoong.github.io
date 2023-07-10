@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "547. Number of Provinces"
 categories: interview
-tags: dfs bfs graph
+tags: medium dfs bfs graph
 ---
 
 > 연결된 도시 정보가 주어질때 직접 또는 간접적으로 연결된 도시 그룹의 수를 구하기
 
-- [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+[547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 
 ![](https://assets.leetcode.com/uploads/2020/12/24/graph1.jpg)
 
