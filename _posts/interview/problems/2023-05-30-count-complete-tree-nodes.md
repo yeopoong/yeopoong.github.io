@@ -3,12 +3,14 @@ layout: post
 published: true
 title: "222. Count Complete Tree Nodes"
 categories: interview
-tags: tree binary-search
+tags: medium tree binary-search
 ---
 
 > 완전한 이진 트리의 루트가 주어지면 트리의 노드 수를 반환합니다.
 
-- [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+[222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+
+![](https://assets.leetcode.com/uploads/2021/01/14/complete.jpg)
 
 O(n) time complexity
 ```java

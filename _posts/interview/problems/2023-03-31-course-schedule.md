@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "207. Course Schedule"
 categories: interview
-tags: interview graph dfs
+tags: graph dfs
 ---
 
 > 수강해야 하는 총 numCourses 과정이 있으며 0에서 numCourses - 1까지 레이블이 지정
