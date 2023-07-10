@@ -42,7 +42,7 @@ public void reverse(int[] nums, int start, int end) {
 
 [Medium]
 - [5. Longest Palindromic Substring](/interview/2023/04/06/longest-palindromic-substring)
-- [11. Container With Most Water](/interview/2023/05/21/container-with-most-water/)
+- [11. Container With Most Water](/interview/2023/04/16/container-with-most-water/)
 - [15. 3Sum](/interview/2023/04/05/3sum/)
 - [16. 3Sum Closest](/interview/2023/05/08/3sum-closest/)
 - [19. Remove Nth Node From End of List](/interview/2023/06/22/remove-nth-node-from-end-of-list/)
@@ -51,6 +51,7 @@ public void reverse(int[] nums, int start, int end) {
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
 - [75. Sort Colors](/interview/2023/04/16/sort-colors/)
 - [80. Remove Duplicates from Sorted Array II](/interview/2023/05/21/remove-duplicates-from-sorted-array-ii/)
+- [82. Remove Duplicates from Sorted List II](/interview/2023/06/22/remove-duplicates-from-sorted-list-ii/)
 - [86. Partition List](/interview/2023/06/23//partition-list/)
 - [131. Palindrome Partitioning](/interview/2023/05/21/palindrome-partitioning/)
 - [148. Sort List](/interview/2023/05/21/sort-list/)

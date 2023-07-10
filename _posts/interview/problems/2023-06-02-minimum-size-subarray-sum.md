@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "209. Minimum Size Subarray Sum"
 categories: interview
-tags: array sliding-window prefix-sum
+tags: medium sliding-window prefix-sum
 ---
 
 > 합계가 target보다 크거나 같은 하위 배열의 최소 길이를 반환
 
-- [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+[209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 ```java
 class Solution {

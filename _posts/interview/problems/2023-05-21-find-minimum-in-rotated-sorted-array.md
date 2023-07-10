@@ -8,7 +8,7 @@ tags: array binary-search
 
 > 고유 요소의 정렬된 회전 배열 숫자가 주어지면 이 배열의 최소 요소를 반환
 
-- [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ```java
 class Solution {

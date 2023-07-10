@@ -44,7 +44,7 @@ public int search(int[] nums, int target) {
 - [33. Search in Rotated Sorted Array](/interview/2023/02/21/search-in-rotated-sorted-array/)
 - [34. Find First and Last Position of Element in Sorted Array](/interview/2023/07/04/find-first-and-last-position-of-element-in-sorted-array/)
 - [81. Search in Rotated Sorted Array II](/interview/2023/05/09/search-in-rotated-sorted-array-ii/)
-- [153. Find Minimum in Rotated Sorted Array](/interview/2023/05/23/find-minimum-in-rotated-sorted-array)
+- [153. Find Minimum in Rotated Sorted Array](/interview/2023/05/21/find-minimum-in-rotated-sorted-array)
 - [162. Find Peak Element](/interview/2023/04/08/find-peak-element/)
 - [378. Kth Smallest Element in a Sorted Matrix](/interview/2023/05/23/kth-smallest-element-in-a-sorted-matrix/)
 - [528. Random Pick with Weight](/interview/2023/05/23/random-pick-with-weight/)
