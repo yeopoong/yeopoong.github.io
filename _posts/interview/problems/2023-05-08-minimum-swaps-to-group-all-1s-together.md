@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "1151. Minimum Swaps to Group All 1's Together"
 categories: interview
-tags: array sliding-window
+tags: medium array sliding-window
 ---
 
 > 바이너리 배열 데이터가 주어지면 배열의 모든 위치에서 배열에 있는 모든 1을 함께 그룹화하는 데 필요한 최소 스왑 수를 반환
 
-- [1151. Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)
+[1151. Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)
 
 
 ```java
@@ -27,8 +27,6 @@ class Solution {
         while (right < data.length) {
             // updating the number of 1's by adding the new element
             curOne += data[right];
-            
-            System.out.println(left + ":" + right + ":" + curOne);
             
             // 윈도우 사이즈가 총 1의 개수보다 크면 왼쪽 포인터를 이동하고 1의 개수를 감소시킨다.
             if (right - left + 1 > totalOne) {

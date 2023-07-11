@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "235. Lowest Common Ancestor of a Binary Search Tree"
 categories: interview
-tags: tree
+tags: medium tree
 ---
 
 > 이진 검색 트리(BST)에서 주어진 두 노드 중 가장 낮은 공통 조상(LCA) 노드를 검색  
