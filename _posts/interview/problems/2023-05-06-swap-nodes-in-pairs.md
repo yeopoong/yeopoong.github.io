@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "24. Swap Nodes in Pairs"
 categories: interview
-tags: linked-list recursion
+tags: medium linked-list
 ---
 
 > 연결 목록이 주어지면 인접한 두 노드마다 교환하고 헤드를 반환
 
-- [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ![](https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg)
 

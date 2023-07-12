@@ -140,7 +140,7 @@ public int getLength(ListNode head) {
 [Medium]
 - [2. Add Two Numbers](/interview/2023/04/09/add-two-numbers/)
 - [19. Remove Nth Node From End of List](/interview/2023/06/22/remove-nth-node-from-end-of-list/)
-- [24. Swap Nodes in Pairs](/interview/2023/04/26/swap-nodes-in-pairs/)
+- [24. Swap Nodes in Pairs](/interview/2023/05/06/swap-nodes-in-pairs/)
 - [61. Rotate List](/interview/2023/04/10/rotate-list/)
 - [82. Remove Duplicates from Sorted List II](/interview/2023/06/22/remove-duplicates-from-sorted-list-ii/)
 - [86. Partition List](/interview/2023/06/23//partition-list/)
