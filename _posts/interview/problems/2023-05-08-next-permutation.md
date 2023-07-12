@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "31. Next Permutation"
 categories: interview
-tags: array two-pointers
+tags: medium array two-pointers
 ---
 
 > 정수 nums의 배열이 주어지면 nums의 다음 순열을 찾습니다.

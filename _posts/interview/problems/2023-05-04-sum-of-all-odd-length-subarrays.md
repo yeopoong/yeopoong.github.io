@@ -3,13 +3,12 @@ layout: post
 published: true
 title: "239. Sliding Window Maximum"
 categories: interview
-tags: array prefix-sum
+tags: easy array prefix-sum
 ---
 
 > 양의 정수 배열이 주어지면 가능한 모든 홀수 길이 하위 배열의 합을 반환
 
-- [1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
-
+[1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
 
 ```java
 class Solution {

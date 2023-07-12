@@ -25,16 +25,16 @@ class Solution {
 
         int start, end; 
         
-        int firstEnd = points[0][1];
+        int curEnd = points[0][1];
         
         for (int[] p: points) {
             start = p[0];
             end = p[1];
             
             // 현재 풍선이 다른 풍선이 끝난 후 시작되면 화살이 하나 더 필요하다.
-            if (firstEnd < start) {
+            if (curEnd < start) {
                 arrows++;
-                firstEnd = end;
+                curEnd = end;
             }
         }
 
