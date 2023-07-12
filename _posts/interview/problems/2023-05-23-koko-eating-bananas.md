@@ -3,10 +3,10 @@ layout: post
 published: true
 title: "875. Koko Eating Bananas"
 categories: interview
-tags: array binary-search
+tags: medium array binary-search
 ---
 
-> h시간 내에 모든 바나나를 먹을 수 있는 최소 정수 k를 반환합니다.
+> h시간 내에 모든 바나나를 먹을 수 있는 최소 정수 k를 반환
 
 - [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 

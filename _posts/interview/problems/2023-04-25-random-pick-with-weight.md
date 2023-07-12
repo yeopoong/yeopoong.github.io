@@ -3,13 +3,13 @@ layout: post
 published: true
 title: "528. Random Pick with Weight"
 categories: interview
-tags: array binary-search prefix-sum
+tags: medium array binary-search prefix-sum
 ---
 
 > [0, w.length - 1] 범위의 인덱스를 임의로 선택하여 반환하는 pickIndex() 함수를 구현
 > - 인덱스 i를 선택할 확률은 w[i] / sum(w)
 
-- [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
+[528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
 
 ```java
 class Solution {
