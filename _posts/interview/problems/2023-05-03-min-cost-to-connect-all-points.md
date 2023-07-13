@@ -3,14 +3,15 @@ layout: post
 published: true
 title: "1584. Min Cost to Connect All Points"
 categories: interview
-tags: union-find graph array
+tags: medium union-find graph array
 ---
 
-> 모든 포인트를 연결하기 위한 최소 비용을 반환, 두 점 사이에 단순 경로가 정확히 하나만 있으면 모든 점이 연결됨  
+> 모든 포인트를 연결하기 위한 최소 비용을 반환  
+> 두 점 사이에 단순 경로가 정확히 하나만 있으면 모든 점이 연결됨  
 
-- [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+[1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 
-- manhattan distance = |xi - xj| + |yi - yj|  
+manhattan distance = |xi - xj| + |yi - yj|  
 ![](https://assets.leetcode.com/uploads/2020/08/26/d.png) ![](https://assets.leetcode.com/uploads/2020/08/26/c.png)
 
 ```java
