@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: "Intervals"
+title: "Interval"
 categories: interview
 tags: topics interval
 ---
@@ -19,3 +19,4 @@ tags: topics interval
 - [452. Minimum Number of Arrows to Burst Balloons](/interview/2023/05/30/minimum-number-of-arrows-to-burst-balloons/)
 - [729. My Calendar I](/interview/2023/04/30/my-calendar-i/)
 - [1229. Meeting Scheduler](/interview/2023/05/21/meeting-scheduler/)
+- [1272. Remove Interval](/interview/2023/07/13/remove-interval/)
