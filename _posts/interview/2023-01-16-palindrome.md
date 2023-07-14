@@ -56,7 +56,7 @@ public void getPalindrome(String s, int left, int right) {
 - [9. Palindrome Number](/interview/2023/04/11/palindrome-number/)
 - [125. Valid Palindrome](/interview/2023/02/20/valid-palindrome/)
 - [266. Palindrome Permutation](/interview/2023/06/26/palindrome-permutation/)
-- [409. Longest Palindrome](/interview/2023/04/09/longest-palindrome/)
+- [409. Longest Palindrome](/interview/2023/04/10/longest-palindrome/)
 
 [Medium]
 - [5. Longest Palindromic Substring](/interview/2023/04/06/longest-palindromic-substring)

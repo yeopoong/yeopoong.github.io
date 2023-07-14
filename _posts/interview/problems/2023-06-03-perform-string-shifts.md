@@ -3,13 +3,13 @@ layout: post
 published: true
 title: "1427. Perform String Shifts"
 categories: interview
-tags: string
+tags: easy string
 ---
 
 > 다음 연산의 리스트에 따라서 문자열 이동한 결과를 리턴  
 > - shift[i] = [direction, amount]
 
-- [1427. Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)
+[1427. Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)
 
 ```java
 class Solution {
