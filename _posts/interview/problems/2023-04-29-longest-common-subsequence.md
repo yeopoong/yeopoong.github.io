@@ -9,7 +9,7 @@ tags: string dynamic-programming
 > 두 개의 문자열 text1과 text2가 주어지면 가장 긴 공통 하위 시퀀스의 길이를 반환   
 > 공통 하위 시퀀스가 ​​없으면 0을 반환
 
-- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 ```java
 class Solution {
