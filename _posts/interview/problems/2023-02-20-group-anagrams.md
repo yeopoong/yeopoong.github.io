@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "49. Group Anagrams"
 categories: interview
-tags: hashmap string
+tags: medium hashmap string anagram
 ---
 
 > 문자열의 배열이 주어지면 아나그램을 함께 그룹화

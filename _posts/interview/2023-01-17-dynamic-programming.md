@@ -85,6 +85,7 @@ Bottom-Up 방식으로 반복을 이용해서 구현
 - [673. Number of Longest Increasing Subsequence](/interview/2023/05/21/number-of-longest-increasing-subsequence/)
 - [740. Delete and Earn](/interview/2023/05/31/delete-and-earn/)
 - [918. Maximum Sum Circular Subarray](/interview/2023/06/10/maximum-sum-circular-subarray/)
+- [1014. Best Sightseeing Pair](/interview/2023/07/14/best-sightseeing-pair/)
 - [1143. Longest Common Subsequence](/interview/2023/05/21/longest-common-subsequence/)
 
 [Hard]

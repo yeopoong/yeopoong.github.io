@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "187. Repeated DNA Sequences"
 categories: interview
-tags: string sliding-window hashmap
+tags: medium string sliding-window hashmap
 ---
 
 > 두 번 이상 발생하는 모든 10자 길이의 시퀀스(하위 문자열)를 반환
 
-- [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
+[187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 
 ```java
 class Solution {
@@ -25,7 +25,9 @@ class Solution {
             String ten = s.substring(i, i + 10);
             
             // 중복이면(두번 이상 발생) 결과집합에 저장
-            if (!seen.add(ten)) {
+            // true if this set did not already contain the specified element
+            if (!seen.add(ten) && !repeated.contains(ten)) {
+                // Adds the specified element to this set if it is not already present.
                 repeated.add(ten);
             }
         }
