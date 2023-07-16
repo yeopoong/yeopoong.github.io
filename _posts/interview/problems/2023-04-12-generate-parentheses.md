@@ -3,12 +3,16 @@ layout: post
 published: true
 title: "22. Generate Parentheses"
 categories: interview
-tags: backtracking
+tags: medium backtracking
 ---
 
 > n 쌍의 괄호가 주어지면 올바른 형식의 괄호 조합을 모두 생성하는 함수를 작성
 
 - [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+
+열린괄호와 닫힌괄효의 개수를 카운트하면서 백트랙킹으로 조합을 만든다.
+- 관호의 개수: n open, n close
+- 괄호의 순서: close < open
 
 ```java
 class Solution {
