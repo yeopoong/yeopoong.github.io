@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "1584. Min Cost to Connect All Points"
 categories: interview
-tags: medium union-find graph array
+tags: medium union-find graph
 ---
 
 > 모든 포인트를 연결하기 위한 최소 비용을 반환  

@@ -156,4 +156,4 @@ public int getLength(ListNode head) {
 - [2130. Maximum Twin Sum of a Linked List](/interview/2023/06/11/maximum-twin-sum-of-a-linked-list/)
 
 [Hard]
-- [23. Merge k Sorted Lists](/interview/2023/04/26/merge-k-sorted-lists/)
+- [23. Merge k Sorted Lists](/interview/2023/04/09/merge-k-sorted-lists/)

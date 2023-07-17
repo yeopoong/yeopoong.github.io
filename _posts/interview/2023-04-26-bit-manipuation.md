@@ -21,6 +21,7 @@ for (int num : nums) bitmask ^= num;
 [Easy]
 - [136. Single Number](/interview/2023/04/26/single-number/)
 - [190. Reverse Bits](/interview/2023/07/04//reverse-bits/)
+- [191. Number of 1 Bits](/interview/2023/07/17/number-of-1-bits/)
 
 [Medium]
 - [260. Single Number III](/interview/2023/05/21/single-number-iii/)

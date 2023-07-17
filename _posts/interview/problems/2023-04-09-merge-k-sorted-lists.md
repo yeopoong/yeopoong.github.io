@@ -3,12 +3,10 @@ layout: post
 published: true
 title: "23. Merge k Sorted Lists"
 categories: interview
-tags: linked-list
+tags: hard linked-list
 ---
 
-[Easy]
-
-- [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ```java
 /**
