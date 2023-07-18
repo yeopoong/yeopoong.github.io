@@ -10,6 +10,8 @@ tags: medium linked-list
 
 [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)
 
+![](https://leetcode.com/problems/plus-one-linked-list/Figures/369/diff.png)
+
 ```java
 /**
  * Definition for singly-linked list.

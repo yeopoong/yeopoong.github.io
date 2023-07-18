@@ -147,7 +147,7 @@ public int getLength(ListNode head) {
 - [92. Reverse Linked List II](/interview/2023/05/20/reverse-linked-list-ii.md)
 - [138. Copy List with Random Pointer](/interview/2023/04/13/copy-list-with-random-pointer/)
 - [146. LRU Cache](/interview/2023/04/26/lru-cache/)
-- [148. Sort List](/interview/2023/04/26/sort-list/)
+- [148. Sort List](/interview/2023/04/19/sort-list/)
 - [328. Odd Even Linked List](/interview/2023/04/26/odd-even-linked-list/)
 - [369. Plus One Linked List](/interview/2023/05/08/plus-one-linked-list/)
 - [430. Flatten a Multilevel Doubly Linked List](/interview/2023/04/26/flatten-a-multilevel-doubly-linked-list/)
