@@ -157,3 +157,4 @@ public int getLength(ListNode head) {
 
 [Hard]
 - [23. Merge k Sorted Lists](/interview/2023/04/09/merge-k-sorted-lists/)
+- [25. Reverse Nodes in k-Group](/interview/2023/07/17/reverse-nodes-in-k-group/)

@@ -3,13 +3,12 @@ layout: post
 published: true
 title: "369. Plus One Linked List"
 categories: interview
-tags: linked-list
+tags: medium linked-list
 ---
 
 > 연결된 숫자 목록으로 표시되는 음이 아닌 정수에 1을 더하기
 
-- [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)
-
+[369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)
 
 ```java
 /**
