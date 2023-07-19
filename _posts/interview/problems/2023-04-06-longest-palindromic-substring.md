@@ -10,6 +10,8 @@ tags: medium two-pointers palindrome longest
 
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
+문자열의 길이가 홀수일 경우와 짝수일 경우에 대해서 문자열을 좌우로 확장하면서 팰린드롬을 
+
 ```java
 class Solution {
     
