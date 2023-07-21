@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "230. Kth Smallest Element in a BST"
 categories: interview
-tags: binary-search-tree
+tags: medium binary-search-tree
 ---
 
 > 이진 검색 트리의 루트와 정수 k가 주어지면 트리의 모든 노드 값 중 k번째로 작은 값을 반환

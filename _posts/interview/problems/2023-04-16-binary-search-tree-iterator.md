@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "173. Binary Search Tree Iterator"
 categories: interview
-tags: tree binary-search-tree design
+tags: medium tree binary-search-tree design
 ---
 
 > BST(이진 검색 트리)의 중위순회에 대한 반복자를 나타내는 BSTIterator 클래스를 구현
@@ -12,7 +12,7 @@ tags: tree binary-search-tree design
 
 [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
-이진검색트리를 중위순회하면 오름차순으로 정렬된 데이터를 얻을 수 있다.
+이진검색트리를 중위순회하면 오름차순으로 정렬된 데이터를 구해서 스택에 저장한다.
 
 ```java
 /**

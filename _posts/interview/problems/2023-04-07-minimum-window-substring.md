@@ -3,12 +3,12 @@ layout: post
 published: false
 title: "76. Minimum Window Substring"
 categories: interview
-tags: string sliding-window
+tags: hard string sliding-window
 ---
 
 > 각각 길이가 m과 n인 두 개의 문자열 s와 t가 주어지면 t의 모든 문자(중복 포함)가 포함되도록 s의 최소 하위 문자열을 반환
 
-- [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 ```java
 class Solution {

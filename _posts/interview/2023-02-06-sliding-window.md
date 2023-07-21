@@ -33,5 +33,5 @@ tags: topics sliding-window
 - [1456. Maximum Number of Vowels in a Substring of Given Length](/interview/2023/06/05/maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 [Hard]
-- [76. Minimum Window Substring](/interview/2023/05/21/minimum-window-substring/)
+- [76. Minimum Window Substring](/interview/2023/04/07/minimum-window-substring/)
 - [239. Sliding Window Maximum](/interview/2023/05/21/sliding-window-maximum/)

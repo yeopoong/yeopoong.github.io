@@ -6,6 +6,7 @@ categories: interview
 tags: binary-search-tree
 ---
 
+이진검색트리의 순서에 관련된 문제는 먼저 중위순회로 해결할 수 있는지 쳌크한다.
 
 ```java
 List<Integer> inorderNodes = new ArrayList<>();
@@ -21,6 +22,7 @@ void inorderTraversal(TreeNode node) {
 ```
 
 [Easy]
+- [108. Convert Sorted Array to Binary Search Tree](/interview/2023/07/21/convert-sorted-array-to-binary-search-tree/)
 - [530. Minimum Absolute Difference in BST](/interview/2023/05/29/minimum-absolute-difference-in-bst/)
 - [700. Search in a Binary Search Tree](/interview/2023/07/09/search-in-a-binary-search-tree/)
 
