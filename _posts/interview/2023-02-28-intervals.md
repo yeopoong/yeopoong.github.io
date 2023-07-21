@@ -14,6 +14,7 @@ tags: topics interval
 
 [Medium]
 - [56. Merge Intervals](/interview/2023/04/16/merge-intervals/)
+- [57. Insert Interval](/interview/2023/07/21/insert-interval/)
 - [253. Meeting Rooms II](/interview/2023/04/18/meeting-rooms-ii/)
 - [435. Non-overlapping Intervals](/interview/2023/06/20/non-overlapping-intervals/)
 - [452. Minimum Number of Arrows to Burst Balloons](/interview/2023/05/30/minimum-number-of-arrows-to-burst-balloons/)

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "57. Insert Interval"
 categories: interview
-tags: medium array 
+tags: medium interval 
 ---
 
 > 새로운 간격을 삽입하고 필요하면 머지
