@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "1469. Find All The Lonely Nodes"
 categories: interview
-tags: tree recursion
+tags: easy tree recursion
 ---
 
 > 이진트리에서 부모 노드의 유일한 자식 노드 찾기
 
-- [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)
+[1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)
 
 ![](https://assets.leetcode.com/uploads/2020/06/03/e2.png)
 
