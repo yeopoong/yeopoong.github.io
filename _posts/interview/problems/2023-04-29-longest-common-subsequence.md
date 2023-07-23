@@ -3,13 +3,15 @@ layout: post
 published: true
 title: "1143. Longest Common Subsequence"
 categories: interview
-tags: string dynamic-programming
+tags: medium string dynamic-programming
 ---
 
 > 두 개의 문자열 text1과 text2가 주어지면 가장 긴 공통 하위 시퀀스의 길이를 반환   
 > 공통 하위 시퀀스가 ​​없으면 0을 반환
 
 [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
+상향식 2차원 동적 프로그래밍 방식으로 서브스트링을 비교하는 서브문제로 나누어서 해결한다.
 
 ```java
 class Solution {
