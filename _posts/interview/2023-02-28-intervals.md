@@ -18,6 +18,7 @@ tags: topics interval
 - [253. Meeting Rooms II](/interview/2023/04/18/meeting-rooms-ii/)
 - [435. Non-overlapping Intervals](/interview/2023/06/20/non-overlapping-intervals/)
 - [452. Minimum Number of Arrows to Burst Balloons](/interview/2023/05/30/minimum-number-of-arrows-to-burst-balloons/)
+- [616. Add Bold Tag in String]/interview/2023/07/24/add-bold-tag-in-string/)
 - [729. My Calendar I](/interview/2023/04/30/my-calendar-i/)
 - [1229. Meeting Scheduler](/interview/2023/05/21/meeting-scheduler/)
 - [1272. Remove Interval](/interview/2023/07/13/remove-interval/)
