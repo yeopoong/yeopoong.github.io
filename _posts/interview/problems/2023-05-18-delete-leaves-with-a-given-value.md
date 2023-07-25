@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "1325. Delete Leaves With a Given Value"
 categories: interview
-tags: tree dfs
+tags: medium tree dfs
 ---
 
 > 이진 트리 루트와 정수 대상이 주어지면 대상 값이 있는 모든 리프 노드를 삭제
 
-- [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
+[1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
 
 ![](https://assets.leetcode.com/uploads/2020/01/09/sample_2_1684.png)
 

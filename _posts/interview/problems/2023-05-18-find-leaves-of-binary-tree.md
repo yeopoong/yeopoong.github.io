@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "366. Find Leaves of Binary Tree"
 categories: interview
-tags: tree dfs
+tags: medium tree dfs
 ---
 
 > 이진 트리의 루트가 주어지면 다음을 수행하는 것처럼 트리의 노드를 수집
