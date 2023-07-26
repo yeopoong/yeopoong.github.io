@@ -41,6 +41,7 @@ class Solution {
         
         while (left < right) {
             int mid = right - (right - left) / 2;
+            // 누락된 숫자의 개수
             if (nums[mid] - nums[0] - mid < k) {
                 left = mid;
             } else{
@@ -48,6 +49,7 @@ class Solution {
             }
         }
         
+        // 최종결과는 처음값 + k + left(존재하는 숫자 만큼 더해줘야 함)
         return nums[0] + k + left;
     }
 }
