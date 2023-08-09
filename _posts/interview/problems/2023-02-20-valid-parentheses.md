@@ -10,8 +10,10 @@ tags: easy stack
 
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
+괄호의 순서의 쌍을 체크해야 하므로 스택을 이용한다.
+
 Edge Case  
-닫힌 괄호를 만났을때 
+닫힌 괄호를 만났을때 만약,
 1. 스택이 공백이거나 
 2. 최상위값이 문자와 매치되지 않으면  
 유효하지 않은거다.
