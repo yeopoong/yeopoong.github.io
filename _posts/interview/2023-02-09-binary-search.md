@@ -37,6 +37,7 @@ public int search(int[] nums, int target) {
 - [268. Missing Number](/interview/2023/05/23/missing-number/)
 - [278. First Bad Version](/interview/2023/06/21/first-bad-version/)
 - [704. Binary Search](/interview/2023/05/23/binary-search/)
+- [744. Find Smallest Letter Greater Than Target](/interview/2023/08/10/find-smallest-letter-greater-than-target/)
 - [1060. Missing Element in Sorted Array](/interview/2023/05/23/missing-element-in-sorted-array/)
 - [1539. Kth Missing Positive Number](/interview/2023/06/11/kth-missing-positive-number/)
 
