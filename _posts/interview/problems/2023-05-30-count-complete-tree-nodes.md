@@ -6,7 +6,7 @@ categories: interview
 tags: medium tree binary-search
 ---
 
-> 완전한 이진 트리의 루트가 주어지면 트리의 노드 수를 반환합니다.
+> 완전한 이진 트리의 루트가 주어지면 트리의 노드 수를 반환
 
 [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 
@@ -74,8 +74,6 @@ class Solution {
         if (left == null) return (1 << height) - 1;
         
         return 1 + countNodes(root.left) + countNodes(root.right);
-        
-        //return root != null ? 1 + countNodes(root.right) + countNodes(root.left) : 0;
     }
 }
 ```

@@ -7,6 +7,7 @@ tags: simulation
 ---
 
 [Easy]
+- [67. Add Binary](/interview/2023/04/29/add-binary/)
 - [1603. Design Parking System](/interview/2023/06/01/design-parking-system/)
 
 [Medium]

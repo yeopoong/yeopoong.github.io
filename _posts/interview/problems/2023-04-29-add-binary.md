@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "67. Add Binary"
 categories: interview
-tags: string
+tags: easy simulation
 ---
 
 > 두 개의 이진 문자열 a와 b가 주어지면 합계를 이진 문자열로 반환
 
-- [67. Add Binary](https://leetcode.com/problems/add-binary/)
+[67. Add Binary](https://leetcode.com/problems/add-binary/)
 
 ```java
 class Solution {
