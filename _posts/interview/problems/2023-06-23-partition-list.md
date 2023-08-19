@@ -25,7 +25,7 @@ tags: medium linked-list two-pointers
  */
 class Solution {
     
-    // 리스트 분한
+    // 리스트 분할
     // T: O(n)
     public ListNode partition(ListNode head, int x) {
         ListNode smallerHead = new ListNode(0);

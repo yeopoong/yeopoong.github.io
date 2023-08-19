@@ -23,6 +23,7 @@ void inorderTraversal(TreeNode node) {
 
 [Easy]
 - [108. Convert Sorted Array to Binary Search Tree](/interview/2023/07/21/convert-sorted-array-to-binary-search-tree/)
+- [270. Closest Binary Search Tree Value](/interview/2023/08/15/closest-binary-search-tree-value/)
 - [530. Minimum Absolute Difference in BST](/interview/2023/05/29/minimum-absolute-difference-in-bst/)
 - [700. Search in a Binary Search Tree](/interview/2023/07/09/search-in-a-binary-search-tree/)
 
