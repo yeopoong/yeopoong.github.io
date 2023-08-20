@@ -3,15 +3,16 @@ layout: post
 published: true
 title: "97. Interleaving String"
 categories: interview
-tags: dynamic-programming string
+tags: medium dynamic-programming string
 ---
 
-> 문자열 s1, s2 및 s3이 주어지면 s3이 s1 및 s2의 인터리빙에 의해 형성되는지 확인
-> An interleaving of two strings s and t is a configuration where s and t are divided into n and m substrings respectively, such that:
+> 문자열 s1, s2 및 s3이 주어지면 s3이 s1 및 s2의 인터리빙에 의해 형성되는지 확인  
+> An interleaving of two strings s and t is a configuration where s and t are divided into n and m substrings respectively
+
+[97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
 
 ![](https://assets.leetcode.com/uploads/2020/09/02/interleave.jpg)
 
-- [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
 
 ```java
 class Solution {
