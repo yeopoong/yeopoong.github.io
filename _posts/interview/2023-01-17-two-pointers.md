@@ -1,14 +1,14 @@
 ---
 layout: post
 published: false
-title: "Two Pointer"
+title: "Two Pointers"
 categories: interview
 tags: topics two-pointers
 ---
 
-## Two Pointer
+## Two Pointers
 
-배열이 정렬되어 있으면 고려한다.
+배열이 정렬되어 있으면 Two Pointer 를 사용할 수 있는지 생각해 본다.
 
 reverse array
 ```java
