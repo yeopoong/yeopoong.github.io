@@ -14,6 +14,8 @@ tags: easy linked-list
 
 [1474. Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)
 
+![](https://assets.leetcode.com/uploads/2020/06/06/sample_1_1848.png)
+
 ```java
 /**
  * Definition for singly-linked list.

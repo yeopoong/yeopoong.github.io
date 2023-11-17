@@ -73,6 +73,7 @@ public void reverse(int[] nums, int start, int end) {
 - [1229. Meeting Scheduler](/interview/2023/05/21/meeting-scheduler/)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](/interview/2023/05/21/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [1868. Product of Two Run-Length Encoded Arrays](/interview/2023/05/29/product-of-two-run-length-encoded-arrays/)
+- [1877. Minimize Maximum Pair Sum in Array](/interview/2023/11/17/minimize-maximum-pair-sum-in-array/)
 - [2095. Delete the Middle Node of a Linked List](/interview/2023/05/27/linked-list-cycle/)
 - [2130. Maximum Twin Sum of a Linked List](/interview/2023/06/11/maximum-twin-sum-of-a-linked-list/)
 - [2422. Merge Operations to Turn Array Into a Palindrome](/interview/2023/07/16/merge-operations-to-turn-array-into-a-palindrome/)
