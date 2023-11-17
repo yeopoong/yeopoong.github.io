@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "75. Sort Colors"
 categories: interview
-tags: maximum array two-pointers
+tags: medium maximum two-pointers
 ---
 
 > 빨간색, 흰색 또는 파란색으로 칠해진 n개의 객체가 있는 배열 nums가 주어지면 동일한 색상의 객체가 인접하도록 빨간색, 흰색, 파란색 순서로 색상을 정렬  
