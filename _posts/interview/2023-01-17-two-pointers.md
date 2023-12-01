@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Two Pointers"
 categories: interview
 tags: topics two-pointers

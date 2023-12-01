@@ -6,9 +6,9 @@ categories: interview
 tags: string sliding-window hashmap longest
 ---
 
-> 문자열 s가 주어지면 반복되는 문자가 없는 가장 긴 하위 문자열의 길이
+> 문자열 s가 주어지면 반복되는 문자가 없는 가장 긴 하위 문자열의 길이를 구하라.
 
-- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ```java
 class Solution {
