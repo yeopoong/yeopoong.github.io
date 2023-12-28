@@ -48,6 +48,41 @@ class Solution {
 }
 ```
 
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+class Solution {
+    // 이진 탐색 트리의 최하위(값이 가장 작은) 공통 조상: 중간값인 조상노드를 찾는 문제이다.
+    // O(lon n), O(1)
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        
+        TreeNode cur = root;
+        
+        while (cur != null) {
+            // right subtree
+            if (p.val > cur.val && q.val > cur.val) {
+                cur = cur.right;
+            // left subtree    
+            } else if (p.val < cur.val && q.val < cur.val) {
+                cur = cur.left;
+            } else {
+                return cur;
+            }
+        }
+        
+        return null;
+    }
+}
+```
+
 Recursive Solution
 ```java
 class Solution {
