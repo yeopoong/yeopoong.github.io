@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "3. Longest Substring Without Repeating Characters"
 categories: interview
-tags: string sliding-window hashmap longest
+tags: medium string sliding-window hashmap longest
 ---
 
 > 문자열 s가 주어지면 반복되는 문자가 없는 가장 긴 하위 문자열의 길이를 구하라.
