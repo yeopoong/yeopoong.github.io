@@ -22,16 +22,14 @@ class Solution {
         while (first < last) {
             int sum = numbers[first] + numbers[last];
             
-            if (sum == target) {
+            if (sum < target) {
+                first += 1;
+            } else if (sum > target) {
+                last -= 1;
+            } else {
                 result[0] = first + 1;
                 result[1] = last + 1;
                 break;
-            }
-            
-            if (sum < target) {
-                first += 1;
-            } else {
-                last -= 1;
             }
         }
         
