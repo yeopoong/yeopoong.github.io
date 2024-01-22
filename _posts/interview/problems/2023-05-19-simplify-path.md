@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "71. Simplify Path"
 categories: interview
-tags: string stack
+tags: medium string stack
 ---
 
 > Unix 스타일 파일 시스템의 파일 또는 디렉터리에 대한 절대 경로(슬래시 '/'로 시작)인 문자열 경로가 주어지면 이를 단순화된 표준 경로로 변환
