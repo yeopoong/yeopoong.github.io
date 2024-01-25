@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "98. Validate Binary Search Tree"
 categories: interview
-tags: tree binary-search-tree recursion
+tags: medium tree binary-search-tree recursion
 ---
 
 > 이진 트리의 루트가 주어지면 유효한 이진 검색 트리(BST)인지 확인
@@ -78,6 +78,7 @@ class Solution {
         
         TreeNode pre = null;
         while (root != null || !stack.isEmpty()) {
+            // 중위순회: Left -> Root -> Right
             while (root != null) {
                 stack.push(root);
                 root = root.left;
@@ -89,6 +90,7 @@ class Solution {
             if (pre != null && root.val <= pre.val) return false;
             pre = root;
             
+            // 중위순회: Left -> Root -> Right
             root = root.right;
         }
         

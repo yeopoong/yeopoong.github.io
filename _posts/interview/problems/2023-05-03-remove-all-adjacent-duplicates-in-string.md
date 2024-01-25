@@ -14,9 +14,11 @@ tags: easy string stack
 class Solution {
     
     // 문자열에서 인접한 모든 중복 항목 제거
+    // 
     public String removeDuplicates(String s) {
         StringBuilder result = new StringBuilder();
         
+        // 마지막 문자 인덱스
         int index = 0;
         for (char c : s.toCharArray()) {
             // 앞에 문자와 같으면 앞문자 삭제

@@ -18,11 +18,13 @@ class Solution {
         int left = nums[0], right = nums[n - 1];
         
         for (int i = 0, j = n - 1; i < j;) {
+            // 양쪽끝의 두값이 동일할 경우
             if (left == right) {
                 i++;
                 j--;
                 left = nums[i];
                 right = nums[j];
+            // 값이 다를경우 작은쪽을 머지한다.
             } else if (left < right) {
                 i++;
                 left += nums[i];

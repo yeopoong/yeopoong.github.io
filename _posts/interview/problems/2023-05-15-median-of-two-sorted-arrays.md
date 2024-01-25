@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "4. Median of Two Sorted Arrays"
 categories: interview
-tags: array
+tags: hard array
 ---
 
 > 크기가 각각 m과 n인 두 개의 정렬된 배열 nums1과 nums2가 주어지면 두 개의 정렬된 배열의 중앙값을 반환

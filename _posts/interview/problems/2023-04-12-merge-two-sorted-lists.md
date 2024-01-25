@@ -10,6 +10,8 @@ tags: easy linked-list
 
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
+![](https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg)
+
 ```java
 /**
  * Definition for singly-linked list.

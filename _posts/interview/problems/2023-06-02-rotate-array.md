@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "189. Rotate Array"
 categories: interview
-tags: array
+tags: medium array
 ---
 
 > 정수 배열 nums가 주어지면 배열을 k 단계만큼 오른쪽으로 회전
@@ -13,6 +13,7 @@ tags: array
 ```java
 class Solution {
     // 전체를 뒤집고, 경계 앞뒤로 각각 뒤집는다.
+    // T: O(n), S: O(1)
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         k = k % n;

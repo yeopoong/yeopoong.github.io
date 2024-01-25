@@ -25,11 +25,11 @@ class Solution {
         
         int[] last = null;
         for (int[] interval : intervals) {
-            // 종료값이 시작값보다 크면 오버랩
+            // 오버랩인 경우: 종료값이 시작값보다 크면 (end > start)
             if (last != null && last[1] >= interval[0]) {  
-                // 종료지점을 큰 값으로 갱신한다.
+                // 종료지점을 큰 값으로 갱신
                 last[1] = Math.max(last[1], interval[1]);
-            // 오버랩되지 않으면 마지막 셀을 갱신하고 현재 셀을 병합리스트에 추가한다.
+            // 오버랩 아닌 경우: 마지막 셀을 갱신하고 현재 셀을 병합리스트에 추가
             } else { 
                 last = interval;
                 merged.add(interval);
