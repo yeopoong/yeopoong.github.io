@@ -17,7 +17,7 @@ class Solution {
     // 주식을 사고 팔기 가장 좋은 시기: the maximum profit
     // Two Pointer: Buy, Sell
     // 이익 = 현재가격 - 최소가격
-    // O(n)
+    // T: O(n), S: O(1)
     public int maxProfit(int[] prices) {
         int maxProfit = 0;        // 최대이익
         

@@ -70,6 +70,26 @@ ListNode reverse(ListNode prev, ListNode node) {
 
     return reverse(node, next);
 }
+
+```java
+ListNode reverse(ListNode head) {
+    ListNode node = head;
+    ListNode prev = null;
+    ListNode next = null;
+    
+    while (node != null) {
+        // 다음노드를 저장하고
+        next = node.next;
+        // 현재노드의 포인터를 이전노드로 만들고
+        node.next = prev;
+        // 이전노드는 현재노드로
+        prev = node;
+        // 현재노드는 다음노드로 진행한다.
+        node = next;
+    }
+
+    return prev;
+}
 ```
 
 
@@ -146,6 +166,7 @@ public int getLength(ListNode head) {
 - [86. Partition List](/interview/2023/06/23//partition-list/)
 - [92. Reverse Linked List II](/interview/2023/05/20/reverse-linked-list-ii.md)
 - [138. Copy List with Random Pointer](/interview/2023/04/13/copy-list-with-random-pointer/)
+- [143. Reorder List](/interview/2024/02/05//reorder-list/)
 - [146. LRU Cache](/interview/2023/04/26/lru-cache/)
 - [148. Sort List](/interview/2023/04/19/sort-list/)
 - [328. Odd Even Linked List](/interview/2023/04/26/odd-even-linked-list/)

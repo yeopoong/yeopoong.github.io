@@ -21,10 +21,10 @@ class Solution {
         while (left < right) {
             int mid = left + (right - left) / 2;
 
-            // 오른쪽 값이 크면 최소값은 왼쪽에 있다.
+            // 증가구간(오른쪽 값이 크면): 최소값은 왼쪽에 있다.
             if (nums[mid] < nums[right]) {
                 right = mid;
-            // 오른쪽 값이 작으면 최소값은 오른쪽에 있다.
+            // 감소구간(오른쪽 값이 작으면): 최소값은 오른쪽에 있다.
             } else {
                 left = mid + 1;
             }
