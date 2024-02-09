@@ -59,7 +59,8 @@ private ListNode merge(ListNode l1, ListNode l2) {
 }
 ```
 
-Swap List
+Reverse List
+![](https://hackernoon.imgix.net/images/1tBcsPoSmIdANyhj9hBevnrjFuJ2-0u93xwe.jpeg?w=1200&q=75&auto=format)
 ```java
 ListNode reverse(ListNode prev, ListNode node) {
     // 더 이상 다음노드가 없으면 종료(헤드노드가 된다.)
@@ -73,19 +74,19 @@ ListNode reverse(ListNode prev, ListNode node) {
 
 ```java
 ListNode reverse(ListNode head) {
-    ListNode node = head;
+    ListNode curr = head;
     ListNode prev = null;
     ListNode next = null;
     
-    while (node != null) {
+    while (curr != null) {
         // 다음노드를 저장하고
-        next = node.next;
+        next = curr.next;
         // 현재노드의 포인터를 이전노드로 만들고
-        node.next = prev;
+        curr.next = prev;
         // 이전노드는 현재노드로
-        prev = node;
+        prev = curr;
         // 현재노드는 다음노드로 진행한다.
-        node = next;
+        curr = next;
     }
 
     return prev;
