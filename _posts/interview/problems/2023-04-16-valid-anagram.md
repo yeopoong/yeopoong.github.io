@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "242. Valid Anagram"
 categories: interview
-tags: string 
+tags: easy string hashmap
 ---
 
 > 두 문자열 s와 t가 주어지면 t가 s의 애너그램이면 true를 반환하고 그렇지 않으면 false를 반환
@@ -14,6 +14,8 @@ tags: string
 ```java
 class Solution {
     // 각 문자의 횟수를 카운트해서 0이 아니면 아나그램이 아니다.
+    // T: O(n)
+    // S: O(1)
     public boolean isAnagram(String s, String t) {
         int[] ascii = new int[128];
         

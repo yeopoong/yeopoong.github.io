@@ -3,12 +3,12 @@ layout: post
 published: true
 title: "17. Letter Combinations of a Phone Number"
 categories: interview
-tags: backtracking
+tags: medium backtracking
 ---
 
 > 2-9까지의 숫자를 포함하는 문자열이 주어지면 숫자가 나타낼 수 있는 모든 가능한 문자 조합을 반환
 
-- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
 ![](https://assets.leetcode.com/uploads/2022/03/15/1200px-telephone-keypad2svg.png)
 
