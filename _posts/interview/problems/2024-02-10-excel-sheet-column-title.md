@@ -6,7 +6,7 @@ categories: interview
 tags: easy math
 ---
 
-> 두 개의 정수 n과 k가 주어지면 [1, n] 범위에서 선택한 k 숫자의 가능한 모든 조합을 반환합니다.
+> 정수 columnNumber가 주어지면 Excel 시트에 나타나는 해당 열 제목을 반환합니다.
 
 [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 
