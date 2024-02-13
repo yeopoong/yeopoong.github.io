@@ -6,6 +6,9 @@ categories: interview
 tags: hard linked-list
 ---
 
+> k개의 연결 목록 목록이 제공되며 각 연결 목록은 오름차순으로 정렬됩니다. 
+> 모든 연결 목록을 하나의 정렬된 연결 목록으로 병합하고 반환합니다.
+
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ```java
